@@ -1,0 +1,2968 @@
+{
+ "captured_at": "2026-10-02T21:59:12.873Z",
+ "location": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "static": {
+  "venue": {
+   "id": "633978370960f71a1b1b9434",
+   "slug": "vong-midtown-tel-aviv",
+   "name": "Vong | TLV",
+   "description": "Authentic and contemporary Vietnamese experience.\nWe blend the strong and sensational tastes and aromas of the Vietnamese markets and serve them in a Modern way.\nOur menu is based on the most Exotic, Fresh and Aromatic Vietnamese Herbs & Spices.",
+   "image_url": "https://imageproxy.wolt.com/mes-image/948c9711-b7fe-424f-b143-060bde438254/57827500-f0c1-423e-8732-33c39ade2712",
+   "image_blurhash": "j4CnpAXYbm4O5:jkjtNjcIR3cPiS",
+   "brand_logo_image_url": "https://imageproxy.wolt.com/mes-image/948c9711-b7fe-424f-b143-060bde438254/eb6f7f90-02ea-447e-9ea5-70d8c43c6f4a",
+   "address": "Derech Menachem Begin 150, Tel Aviv-Yafo",
+   "rating": {
+    "rating": 3,
+    "score": "8.2",
+    "score_raw": 8.2,
+    "volume": 200
+   },
+   "share_url": "https://wolt.com/he/isr/tel-aviv/restaurant/vong-midtown-tel-aviv",
+   "currency": "ILS",
+   "country": "ISR",
+   "delivery_methods": [
+    "homedelivery",
+    "takeaway"
+   ],
+   "timezone": "Asia/Jerusalem",
+   "product_line": "restaurant",
+   "delivery_base_price": 1000,
+   "service_fee_estimate": {
+    "min": 100,
+    "max": 590,
+    "percentage": 5
+   },
+   "zero_distance_fees": {
+    "delivery_price": 1200
+   },
+   "opening_times_schedule": [
+    {
+     "day": "Monday",
+     "formatted_times": "11:00–23:00"
+    },
+    {
+     "day": "Tuesday",
+     "formatted_times": "11:00–23:00"
+    },
+    {
+     "day": "Wednesday",
+     "formatted_times": "11:00–23:00"
+    },
+    {
+     "day": "Thursday",
+     "formatted_times": "11:00–23:00"
+    },
+    {
+     "day": "Friday",
+     "formatted_times": "16:00–23:00"
+    },
+    {
+     "day": "Saturday",
+     "formatted_times": "11:30–23:00"
+    },
+    {
+     "day": "Sunday",
+     "formatted_times": "11:00–23:00"
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "633978370960f71a1b1b9434",
+   "location": {
+    "bbox": null,
+    "type": "Point",
+    "coordinates": [
+     34.79482,
+     32.079059
+    ]
+   },
+   "price_range": 2,
+   "food_tags": [
+    "vietnamese",
+    "asian",
+    "Central Asian",
+    "noodles",
+    "street food",
+    "gluten free",
+    "recovery_3",
+    "ThemedNight_asian24"
+   ],
+   "short_description": "Wok & Asian Street Bowls"
+  },
+  "order_minimum": 5000
+ },
+ "dynamic": {
+  "venue": {
+   "id": "633978370960f71a1b1b9434",
+   "online": true,
+   "open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:12.751104+03:00",
+    "previous_open": "2026-10-02T16:00:00+03:00",
+    "next_open": "2026-10-03T11:30:00+03:00",
+    "next_close": "2026-10-03T23:00:00+03:00",
+    "next_close_time_localized": "23:00"
+   },
+   "delivery_open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:12.751104+03:00",
+    "previous_open": "2026-10-02T16:00:00+03:00",
+    "next_open": "2026-10-03T11:30:00+03:00",
+    "next_close": "2026-10-03T23:00:00+03:00",
+    "next_close_time_localized": "23:00"
+   },
+   "delivery_configs": [
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "homedelivery",
+     "schedule": "standard",
+     "estimate": {
+      "label": "30-40 min",
+      "min": 30,
+      "mean": 35,
+      "max": 40
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    },
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "takeaway",
+     "schedule": "standard",
+     "estimate": {
+      "label": "10-20 min",
+      "min": 10,
+      "mean": 15,
+      "max": 20
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "633978370960f71a1b1b9434",
+   "alive": true,
+   "preestimate_total": {
+    "min": 30,
+    "max": 40,
+    "mean": 35
+   },
+   "discounts": [
+    {
+     "id": "venue_campaign:6a7c2457b94bcc6db711da4c",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee"
+     }
+    },
+    {
+     "id": "venue_campaign:6ab9173b72080584a4b9468a",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": {
+       "fraction": 0.1,
+       "max_amount": null,
+       "min_amount": null,
+       "max_amount_per_item": null,
+       "min_amount_per_item": null,
+       "amount_per_item": null,
+       "include": {
+        "categories": null,
+        "items": [
+         "64aeb1f02e26314275e348d4",
+         "64aeb1f02e26314275e348f2",
+         "6584604acedb150a481656f9",
+         "64dc815e9a843ec74f238153",
+         "64aeb1f02e26314275e348f4",
+         "64aeb1f02e26314275e34900",
+         "64aeb1f02e26314275e348d7",
+         "64aeb1f02e26314275e348e0",
+         "64aeb1f02e26314275e348f5",
+         "64aeb1f02e26314275e348f1",
+         "64aeb1f02e26314275e348f8",
+         "64aeb1f02e26314275e348e5",
+         "64eb19b7f93592f589db43d0",
+         "1dd84b4a14adfe28114abf14"
+        ],
+        "cheapest_items": null
+       },
+       "exclude": null,
+       "exclude_options": false
+      }
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": null,
+        "max_amount": null,
+        "any_of_items": [
+         "64aeb1f02e26314275e348d4",
+         "64aeb1f02e26314275e348f2",
+         "6584604acedb150a481656f9",
+         "64dc815e9a843ec74f238153",
+         "64aeb1f02e26314275e348f4",
+         "64aeb1f02e26314275e34900",
+         "64aeb1f02e26314275e348d7",
+         "64aeb1f02e26314275e348e0",
+         "64aeb1f02e26314275e348f5",
+         "64aeb1f02e26314275e348f1",
+         "64aeb1f02e26314275e348f8",
+         "64aeb1f02e26314275e348e5",
+         "64eb19b7f93592f589db43d0",
+         "1dd84b4a14adfe28114abf14"
+        ],
+        "items_from_categories": null,
+        "min_quantity": 2,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery",
+       "takeaway",
+       "eatin"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "Buy 2, get 10% off for selected items"
+     }
+    }
+   ],
+   "delivery_specs": {
+    "delivery_enabled": true,
+    "original_delivery_price": 1400,
+    "order_minimum_no_surcharge": 5000,
+    "delivery_pricing": {
+     "base_price": 1000,
+     "price_ranges": [
+      {
+       "min": 0,
+       "max": 5000,
+       "a": 5100,
+       "b": -1,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 5000,
+       "max": 6000,
+       "a": 100,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 6000,
+       "max": 11800,
+       "a": 0,
+       "b": 0.05,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 11800,
+       "max": 0,
+       "a": 590,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      }
+     ]
+    }
+   }
+  },
+  "order_minimum": 5000
+ },
+ "assortment": {
+  "assortment_id": "63397969803ddab39c511045",
+  "loading_strategy": "full",
+  "primary_language": "he",
+  "selected_language": "en",
+  "categories": [
+   {
+    "id": "8b5ce814873a88a05eb27532",
+    "name": " ❕❔Surprise dish ❔❕",
+    "description": "🔮 Surprise Surprise Surprise 🔮 ✨ Changes every week ✨",
+    "slug": "surprise-dish-1",
+    "item_ids": [
+     "666051f72a36264bcd19f1a8",
+     "666051f9f8b285dd8880d01a"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "8dc06f93fdfc8aac56249604",
+    "name": "Number of diners 🍴",
+    "slug": "number-of-diners-3",
+    "item_ids": [
+     "64aeb1f02e26314275e348d6"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "caa7f618f0a7204a64c708c2",
+    "name": "🍜 SOUPS",
+    "description": "✨ It is recommended to heat the soup stock ✨",
+    "slug": "soups-4",
+    "item_ids": [
+     "64aeb1f02e26314275e348d4",
+     "64aeb1f02e26314275e348f2"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "8150d074a04cb775cd072452",
+    "name": "Specials 🌟",
+    "slug": "specials-5",
+    "item_ids": [
+     "6584604acedb150a481656f9",
+     "64dc815e9a843ec74f238153"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "7181093b7978fcde5c0bc1b6",
+    "name": "WOK",
+    "slug": "wok-6",
+    "item_ids": [
+     "64aeb1f02e26314275e348f4",
+     "64aeb1f02e26314275e34900",
+     "64aeb1f02e26314275e348d7",
+     "64aeb1f02e26314275e348e0",
+     "64aeb1f02e26314275e348f5",
+     "64aeb1f02e26314275e348f1"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "2496914039650fc03101511c",
+    "name": "RICE DISHES",
+    "slug": "rice-dishes-7",
+    "item_ids": [
+     "64aeb1f02e26314275e348f8",
+     "64aeb1f02e26314275e348e5",
+     "64eb19b7f93592f589db43d0"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "6ce6ade042c6e23dadb8f88a",
+    "name": "APPETIZERS & SALADS",
+    "slug": "appetizers-salads-8",
+    "item_ids": [
+     "1dd84b4a14adfe28114abf14",
+     "64aeb1f02e26314275e348fc",
+     "669517b49f9e0a7d06585aab",
+     "6695176e5d183a6c277430cf",
+     "64aeb1f02e26314275e348f0"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "3d5b37ba7d8f11d50736ae21",
+    "name": "FIRST",
+    "slug": "first-9",
+    "item_ids": [
+     "64aeb1f02e26314275e348e2",
+     "64aeb1f02e26314275e348fe",
+     "635a3c3b885a334e9a5f1747",
+     "64aeb1f02e26314275e34912"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "3a0db0ebb7cd1d6ec2cbafb9",
+    "name": "VONG'S STEAMED",
+    "slug": "vongs-steamed-10",
+    "item_ids": [
+     "64aeb1f02e26314275e348d8",
+     "64aeb1f02e26314275e348d5",
+     "06860010f9763b0576a86545",
+     "64aeb1f02e26314275e3490d",
+     "64d1eee9ec56442f00a82666",
+     "92a83312d5c1be345953c7c4",
+     "06a5ae240b8eee9cc6286066",
+     "e7c172900364c0977d6a99b6"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "0502fe2c80e51672529ad0d8",
+    "name": "DESSERTS",
+    "slug": "desserts-11",
+    "item_ids": [
+     "64aeb1f02e26314275e34913",
+     "64aeb1f02e26314275e34914",
+     "64aeb1f02e26314275e3490f",
+     "65acbf2d2ad645b0d8b19d93"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "89ec75e1f9a0cbc7d1183b91",
+    "name": "SOFT DRINK",
+    "slug": "soft-drink-12",
+    "item_ids": [
+     "1e0c4dd142f0361f73a01006",
+     "623bed7d5f2a1e851e82335d",
+     "bba307f8b64bcb900ecf50be",
+     "8086252af18ebd1684f1219d",
+     "6dee501e6adb2c771eae8189",
+     "64aeb1f02e26314275e348eb",
+     "eb9772f97a8d68a8b6ab1ff6",
+     "1fcf91850b93eb1e3fa4d240",
+     "ec682084ccc2d8fb87dfe310"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "9d4400ab9312d4c62b0b0b4c",
+    "name": "BEER",
+    "slug": "beer-13",
+    "item_ids": [
+     "4d3ce0c0aa14ed52d65a0334"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "e70e9e6a2868f0a7c94daca1",
+    "name": "WINE",
+    "slug": "wine-14",
+    "item_ids": [
+     "06d787354e551bf5987026b6",
+     "33b2ede0bbbe667a9316e0c5",
+     "29b840e7919ae0aeb845cb9f",
+     "2d091d337b2eee59661f06b5",
+     "3239ef39a05b8773532cf200"
+    ],
+    "subcategories": []
+   }
+  ],
+  "items": [
+   {
+    "id": "06860010f9763b0576a86545",
+    "name": "New Tofu Bun",
+    "description": "2 pcs | Tofu slices in tempura, Japanese aioli and saltine with carrots, cucumber, white cabbage, red onion, jalapeño, chili and cilantro in a ginger-garlic marinade.",
+    "price": 6100,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/69400e33412f4b47cf4c3bcb",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "459d4ca223d9f3eca627a8ac82abe9b0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "06a5ae240b8eee9cc6286066",
+    "name": "Namus tofu",
+    "description": "Crispy rice rolls filled with tofu, vegetables, garlic and ginger with a velvety texture, contains peanuts, 3 pcs.",
+    "price": 5100,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a2ea71066e45fdf0b6e6861",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "77115c5045df0a7b8e4d68aacddeda0e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "06d787354e551bf5987026b6",
+    "name": "Sauvignon Blanc | Famil Beaugrier",
+    "description": "Dry White | France",
+    "price": 12800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6ab4f8543faa2f43d8eab698",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ead896bfef754c252d6402f566984347",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1dd84b4a14adfe28114abf14",
+    "name": "Bangkok Salad",
+    "description": "Choose from chicken stewed in ginger-garlic seasoning / stir-fried fish pieces / fried tofu cubes on a bed of mixed lettuce, bean noodles, carrots, cucumber, green and purple onions, cilantro, mint, chili, sweet potato fries and fried shallots served with nam top and your choice of spicy Thai or soy-ginger sauce ** Thai sauce is not vegetarian and contains coriander that cannot be removed",
+    "price": 8100,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a099e1c90aada8d92164f29",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "b733ef13d020bcda5e270ae0",
+      "option_id": "ccc5a501c965d06afc454f9e",
+      "name": "Choose Bangkok salad dressing",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "40badb417a66a232bb3c5327",
+      "option_id": "5ea4c8c6e063337fb5b24cdf",
+      "name": "Choose Bangkok Salad Protein",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4e6546d0ebf8e1b9e82fd271",
+      "option_id": "26bb7fca32c27e19e2799223",
+      "name": "Possible changes | Bangkok salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b6e02115d665fd2e8060538b284fc6c7",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1e0c4dd142f0361f73a01006",
+    "name": "Coca-Cola can",
+    "description": "",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68176a3082f00f6d6fdb5f1b?overlay=isr-sugar",
+      "blurhash": "LWSiQ.j[?^j[oefQW;jtx]fQMxjt"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "65867a43218d88a9c629641264f26c92",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1fcf91850b93eb1e3fa4d240",
+    "name": "Ferrera 750 ml",
+    "description": "",
+    "price": 2400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a8bff13ce8f9e033b6c1e4e",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bff5def750404cfc913aabf3f7843aca",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "29b840e7919ae0aeb845cb9f",
+    "name": "Assyrtiko Kiriani",
+    "description": "Dry White | Greece",
+    "price": 14600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6ab4f88c3faa2f43d8eab6b7",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f86803f65bd01df0c5ed311b4e77274e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "2d091d337b2eee59661f06b5",
+    "name": "Rosa | Famil Bouguerie",
+    "description": "Rosa | France",
+    "price": 14900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6ab4f8c027d6dfbebf013ead",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fd449502546a07979f48baadb2f02f08",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3239ef39a05b8773532cf200",
+    "name": "Pinot Noir | Famil Bouguereau",
+    "description": "Dry red | France",
+    "price": 13400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6ab4f8f63faa2f43d8eab6d0",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3b371dca117339dc24e07f164356faed",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "33b2ede0bbbe667a9316e0c5",
+    "name": "Chenin Blanc | Famil Bouguereau",
+    "description": "Semi-dry white | France",
+    "price": 12800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6ab4f8683faa2f43d8eab6a7",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4842812e1893311eb77a9b2f4fe0813e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "4d3ce0c0aa14ed52d65a0334",
+    "name": "The capital of Austria is Dam",
+    "description": "",
+    "price": 3200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6697a3a283329c56575976ee?overlay=isr-softalcohol",
+      "blurhash": "LTSr_vj[?wkCxvfQM{fQozfQV@fQ"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 46,
+    "restrictions": [
+     {
+      "type": "alcohol",
+      "age_limit": 18
+     }
+    ],
+    "checksum": "e580fbf352f58e66b3f2793bc0453f8d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "623bed7d5f2a1e851e82335d",
+    "name": "Can of Zero Coke",
+    "description": "",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a8bfcea9055ee415dfab0cd",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d28259a2ce0c5b2654978be06d2e261e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "635a3c3b885a334e9a5f1747",
+    "name": "Crispy Chicken",
+    "description": "Chicken breasts sticks coated with crispy panco",
+    "price": 5400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/606d5b228ae7c7c7a379f67c/b4d5b9a6-332a-11ed-a094-f2031e479d86_204.jpeg",
+      "blurhash": "j4mjMv8R0kXs;rd599Xa0juG;IFl"
+     }
+    ],
+    "options": [
+     {
+      "id": "065db9a9e7503f45472e27c9",
+      "option_id": "635a3c3b885a334e9a5f1701",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9c76ea60699ee59066977e2a",
+      "option_id": "6571812a39a276a5cbdb0540",
+      "name": "Choose sauce 1 for crispy chicken",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b20c6d46647018a4cda6f581",
+      "option_id": "657181648aeb275cccd1f8b3",
+      "name": "Choose sauce 2 for crispy chicken",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ba29e96ef60e5470ffeccda1",
+      "option_id": "64be87332d3f5c290b1e8c30",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c079a31c4ece9f0ad86005d7600ce83d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348d4",
+    "name": "Pho Bo",
+    "description": "Traditional Aromatic Vietnamese Soup. Thin Ramp Steak slices, Rice Noodles, Bean Sprouts, White Onion. Served with Herbs: Bean Sprouts, White onion, Spring onion, Coriander, Mint, Thai Basil, Lemon, and Fresh Chili.",
+    "price": 7800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/632bf72cec26853c2a7604e2/3a517ae6-3fc6-11ed-be02-76f7dc76680b__________.jpeg",
+      "blurhash": "j2lQoN8A0j8ATk8VTrOW02d5;JXI"
+     }
+    ],
+    "options": [
+     {
+      "id": "d0848736a47a77b52b8f165f",
+      "option_id": "64b4c8f446f6131cff9e9a74",
+      "name": "Possible changes - Fu Bo",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "95fc2e96a8f67703cca46ede",
+      "option_id": "64b4c8f446f6131cff9e9a78",
+      "name": "Addition of beef to the dish",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "422bb51b47337d8a58d626bd37fbf6f4",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348d5",
+    "name": "Fish Bun",
+    "description": "2 Steamed Buns, filled with Crispy-fried Whitefish, Asian Aioli, lettuce, and scallions. Served with pickled onion salad.",
+    "price": 6400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/606d5b228ae7c7c7a379f67c/1f58bab0-332d-11ed-907b-2e5ccfc02350_191.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5a88ecf3d721ef879d00c2a0e2496110",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348d6",
+    "name": "Disposable Cutlery 🍴",
+    "description": "Please choose this item as many times as there are diners in need of disposable cutlery",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ce7d19fe48da83010022327/24a3017a-2f0f-11eb-bc53-fedda11353e4__________.jpeg",
+      "blurhash": "j2;fPYll;;TtTttTcPCpTuKXcPl4"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a0c16d08a0284ea8d70efa36419650a3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348d7",
+    "name": "Bok Choy Beef",
+    "description": "Homemade Noodles with Beef, Bok Choy, and Leeks. Served in a Hoi-Sin and Chili Paste Sauce with Mint \n",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/632bf72cec26853c2a7604e2/b47c33aa-3fcc-11ed-a2c0-fa1ae5313036_vong_wolt_20_sep14735.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "281e5465792e71385f97eb5c",
+      "option_id": "64aeb1f02e26314275e348c7",
+      "name": "Addition of beef to the dish",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9c217ac4f264a79a0dbc662d4d47d84c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348d8",
+    "name": "Beef Bun",
+    "description": "2 Steamed Buns, filled with long-cooked beef. served with Spring onion, Chilli, and Coriander in an Asian Aioli.",
+    "price": 6600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/3f949e8a-6103-11ed-a6e2-6a6c84344a3d_____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d534c7ba9eb09fac0fb33b32f97fe764",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348e0",
+    "name": "Vietnamese Koko 🌶",
+    "description": "Egg Noodles in a rich Coconut cream, Spicy Red, onion Curry and Chicken \\ Seafood \\ tofu. Served with Cucumber, Lemon and Toasted Peanuts",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/6657d776-53f5-11ef-a3c2-96d11f438d2e______________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "40702be9130af0c198a1f14d",
+      "option_id": "64b4c8f446f6131cff9e9a66",
+      "name": "Noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f7e86b092b82f1950f325a38",
+      "option_id": "64b4c8f446f6131cff9e9a67",
+      "name": "Choose",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "649772e131c2385ac44fa1bf",
+      "option_id": "64aeb1f02e26314275e348bc",
+      "name": "Possible changes - Koko",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d3ec381b3e7cbcef6f77d5ae",
+      "option_id": "64da6d04db1b8812fe4759a3",
+      "name": "Possible additions",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fda6e4b5bb643c66a5708f3793c55020",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348e2",
+    "name": "Chicken gyoza",
+    "description": "4 pcs Burnt wheat dough pockets, filled with chicken, shiitake and soy",
+    "price": 5900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/4db86ea6-6027-11ed-a1cd-921c3e5ede8f_e7b9520a_332b_11ed_8487_a6dc324b4872_212.jpeg",
+      "blurhash": "j4nB4QH502cRPrhkgRSY02Kr;ILa"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "224783f7ce695b89199b7794f30a4762",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348e5",
+    "name": "* Bo Rice 🌶🌶",
+    "description": "Spicy - Seared Beef fillet slices, Onions, dry red pepper, green Chilli, fresh Coriander and spices in a Soy-Oyster sauce. served with White rice",
+    "price": 8600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/632bf72cec26853c2a7604e2/8372134e-5046-11ed-b3a4-d2cb836f2314_vong_wolt_20_sep14743.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "79f5f4e6341f971d4b879b839c8f72fc",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348eb",
+    "name": "No soda",
+    "description": "0.325",
+    "price": 1100,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/81bc6b12-4245-11ed-917d-0a1cf878c703_3ae356d8_78e2_11ec_b93d_f291bd7bfaaa___________.jpeg",
+      "blurhash": "j5:;HWKX;;llTKpCcyGXPttCgPGG"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a98a74478bdbd8688ceae765fd6c4b7c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348f0",
+    "name": "Gui Ga",
+    "description": "Chicken Slices in a Ginger-Garlic marinade, on thin strips of Cabbage, Mint, Red onion, Coriander, Thai Basil, Sesame, and Chilli. in a Lime-Garlic-Ginger sauce. Served with homemade shrimps cracker",
+    "price": 5100,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/632bf72cec26853c2a7604e2/b062b89a-3fc5-11ed-8e4e-dad834b67eed_______.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "15e1548c7d86af221bf0fd8e",
+      "option_id": "64b4c8f446f6131cff9e9a77",
+      "name": "Possible changes - Goi Ga",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a20e9c0dad1f5a0d43254d9718c9cd06",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348f1",
+    "name": "Tofu Bok Choy",
+    "description": "Homemade Noodles with Tofu, Bok Choy, and Leeks. Served in a Hoi-Sin and Chili Paste Sauce with Mint \n",
+    "price": 7800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/e61595b2-c439-11ee-a1a7-6a1ba3ef18ca______________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "406bd1b86ded77405b03bc11",
+      "option_id": "64da1b5eb3fc22289249a040",
+      "name": "Tofu topping",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c69b7005a4faecb37efb5ad856753b82",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348f2",
+    "name": "Pho Ga",
+    "description": "Traditional Aromatic Vietnamese Soup. Chicken slices, Rice Noodles, Bean Sprouts, White Onion. Served with Herbs: Bean Sprouts, White onion, Spring onion, Coriander, Mint, Thai Basil, Lemon, and Fresh Chili.",
+    "price": 7800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/632bf72cec26853c2a7604e2/4a591386-3fc6-11ed-bef9-fe246972d7ea___________.jpeg",
+      "blurhash": "j3mQQU8z02lcP5dbTbgQ02lq;:L5"
+     }
+    ],
+    "options": [
+     {
+      "id": "b5dad0d2b5d9716123d05729",
+      "option_id": "64b4c8f446f6131cff9e9a74",
+      "name": "Possible changes - Fu Bo",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a20512113369741c4a946512",
+      "option_id": "64b4c8f446f6131cff9e9a79",
+      "name": "Addition of chicken to the dish",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8ae23be906a470bb870c9d40dd8ebe69",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348f4",
+    "name": "Green Garden Chicken  🌶",
+    "description": "Fresh Egg Noodles, Chicken, Broccoli, Zucchini, Baby Spinach, Green Chili Pepper. Served in a red Curry Sauce (contains coriander) and Coconut Cream, White Onion, Sprouts, and Peanuts ",
+    "price": 7700,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/a2ee256e-c43a-11ee-a902-f2361465c6a3___________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a7b8cd94be28f96722228cae",
+      "option_id": "64b4c8f446f6131cff9e9a64",
+      "name": "Choose",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2403d809369daca1526bcc5c",
+      "option_id": "64b4c8f446f6131cff9e9a66",
+      "name": "Noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "daaf61737534d69b695c60bc",
+      "option_id": "64b4c8f446f6131cff9e9a70",
+      "name": "Possible changes - Garden",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5ba0810fb946779e147f99e8",
+      "option_id": "64da6d04db1b8812fe4759a3",
+      "name": "Possible additions",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "32b5f2f00c40a4ce78080f4b38deff38",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348f5",
+    "name": "Tofu Vietnamese Pad-Thai",
+    "description": "Thin Rice Noodles, Fish sauce, Seared Tofu Slices, Spring onion, Egg, Carrot, Sprouts and Cabbage, glazes with Black. served with Lettuce, Coriander, and Lemon",
+    "price": 7700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/69400e1832c5f705060ff200",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a6d3a837ecaa2b03b46d759b",
+      "option_id": "64b4c8f446f6131cff9e9a6d",
+      "name": "Possible changes - Vietnamese Pad Thai",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a95754bac12cfc0cf92b89ce",
+      "option_id": "64aeb1f02e26314275e348ca",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "74a06d5a986d2ec47d0aa4bb",
+      "option_id": "64b69398576088cb6f729c73",
+      "name": "Choose - Pad Thai",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cb36cd5c8b323dfa388fb0a0",
+      "option_id": "64b693f1753e587cb236a14d",
+      "name": "Addition of chicken Tofu Shrimp",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "747a108385e3abf5898661fdbda7274f",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348f8",
+    "name": "* Ga Wi Gao 🌶",
+    "description": "Grilled Chicken slices, Broccoli, Baby spinach, onion, Spring onion, Zucchini and Garlic in a Spicy Coconut milk sauce, Kaffir lime and Black soy. served with White rice",
+    "price": 7700,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/632bf72cec26853c2a7604e2/14727212-5047-11ed-ba92-169e6269bed8__________.jpeg",
+      "blurhash": "j1nQMOTJ030h;;;:l30204Xs;WER"
+     }
+    ],
+    "options": [
+     {
+      "id": "9b9abb751ce5fedd5fc5f938",
+      "option_id": "667bbc6e0daf040cb0a73134",
+      "name": "Choose Ga Wei Gao changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0ad4755cd2c8556b829e8688be1b6151",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348fc",
+    "name": "Cha Ka La Vong",
+    "description": "Grilled Soft Fish fillet, seasoned with fresh Turmeric and Yogurt, on Vermicelli, Carrot, Cucumber, Bean sprouts, Mint, Coriander, Chilli and Peanuts. garnished with Dill, red onion and Spring Onion. in a Nem Sauce (Lime, Garlic and Fish Sauce)",
+    "price": 7100,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/632bf72cec26853c2a7604e2/c31632a4-3fc6-11ed-803f-7aabce4c8652___________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "c699a599ec767987d8413f40",
+      "option_id": "64e6e7882a256bb175948ba6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c32491a61db90b9cc0574f5a",
+      "option_id": "64e6e74475214c6da43e7166",
+      "name": "Possible additions",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "41cb49925fcc94a2539792d6d7b3de76",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e348fe",
+    "name": "Vegetarian gyoza",
+    "description": "Baked wheat dough pockets filled with spinach, carrots and mushrooms. May contain peanuts. 4 pcs",
+    "price": 5500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/577c7996-6027-11ed-8bff-9e2f503385b4_e7b9520a_332b_11ed_8487_a6dc324b4872_212.jpeg",
+      "blurhash": "j4nB4QH502cRPrhkgRSY02Kr;ILa"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b7f8ba8e575ba4e3620025c7882bb6d3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e34900",
+    "name": "Yellow Sea 🌶",
+    "description": "Fresh Egg Noodles with all the Best of the Sea: Shrimps, Scallop, and Whitefish pieces. Stir-fried with a yellow curry sauce with Kaffir lime, Leaks, Spring onion, Chilli flakes, Ginger, and Crispy Garlic.",
+    "price": 7700,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/632bf72cec26853c2a7604e2/0224e69e-3fc6-11ed-bb1d-86b63d2aa219____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "9dfd36eeda1d304614a3bd84",
+      "option_id": "64b4c8f446f6131cff9e9a6e",
+      "name": "Possible changes - Yellow Sea",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c8f8a087d3f7227b387d7800",
+      "option_id": "64b4c8f446f6131cff9e9a66",
+      "name": "Noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c5a2817923ac1c26ea1db0ed",
+      "option_id": "64b4c8f446f6131cff9e9a7b",
+      "name": "Addition of seafood to the dish",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "622a6ecddffca168d817890667d1bcf5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e3490d",
+    "name": "Dim Sum Shrimp",
+    "description": "Steamed rice and tapioca dough pockets filled with shrimp 4 units",
+    "price": 5600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/719736f0-6026-11ed-8b15-3a9e7acd4c8c_fb685b6e_3fc6_11ed_8e1c_7aabce4c8652_vong_wolt_20_sep14652.jpeg",
+      "blurhash": "j4o5h6lX01l3daFSOSlF00h4;:Tt"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "54e0be3c6f6901b1ea3230e49678e5ca",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e3490f",
+    "name": "Bamba Miso Chocolate Mousse",
+    "description": "Rich chocolate mousse & peanut Miso crumble base",
+    "price": 3800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/bc5802a0-095c-11f0-993b-cab655c02aca_________________.jpeg",
+      "blurhash": "j3wCZM0hfLTaPcTb8PhGbfTcWPh4"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "62ec1b31d3ef166ebf7bcde54b04f235",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e34912",
+    "name": "Agadashi tofu",
+    "description": "Lightly fried tofu cubes, shimeji mushrooms, green onions and crushed radish. Served with hot tanzuyo sauce",
+    "price": 4800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/401f7786-6026-11ed-a255-4a4890b559a4_d9fa3d10_9e15_11ec_bb31_6ef9ee132bd0_206.jpeg",
+      "blurhash": "j4kjECKF02lpXrGFd5lD0jtD;Jqn"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "194cdeacb5a8dfe8e8877d49ccbfdd63",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e34913",
+    "name": "Macha Tiramisu ",
+    "description": "Tart Tiramisu soaked with Macha syrup, rich Tiramisu cream, and green Macha-Macaron powder",
+    "price": 3800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/a3dafa02-095c-11f0-b40b-cab655c02aca______________2_.jpeg",
+      "blurhash": "j3ynxR4y5foQ;;Tc4id55eXtXlLb"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "397dceda628da5145b0bc3e34636fffd",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64aeb1f02e26314275e34914",
+    "name": "Spices Panacotta",
+    "description": "Panacotta Cream flavored with anis, cardamom & cinnamon spices Coated with crispy crumble",
+    "price": 3800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/b1a32574-095c-11f0-ab37-222639f09ffe_______________.jpeg",
+      "blurhash": "j3y7dL0h7vGB;JTb4ydb5vTs;4l6"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "392c3b3fe6c6a9aebec57579e0a27a5b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64d1eee9ec56442f00a82666",
+    "name": "BAHN BOX",
+    "description": "3 fish bun, 3 beef bun and 3 portobello mushrooms bun",
+    "price": 26500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5dfb3d0ce2bfeab587725e40/ee20e904-3291-11ed-841e-ae30e9935bee_30c9117e_9e0d_11ec_babc_02846dfc463d_ze_sushi_071.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fd721fb61a384a5006c68702ef0289b0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64dc815e9a843ec74f238153",
+    "name": "🌶️ Red Sun | Red Sun",
+    "description": "Crispy roasted chicken pieces, egg noodles, zucchini, green onion, white onion, dried shallots. Served in a spicy miso sauce.",
+    "price": 7700,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/62d8197c-6052-11ee-85a7-9ed4b10327b1__________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "3db67bdfbc39e5af178da9ce",
+      "option_id": "64dc8173e8af9a897e6300ab",
+      "name": "Changes - Red Sun",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "947c6c536e94efc4a214cf48",
+      "option_id": "64dc8188db0dc6fee943e940",
+      "name": "Protein supplement",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d88730fbefe989a3380712c64a8243aa",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "64eb19b7f93592f589db43d0",
+    "name": "Ga Wei Gao Tofu 🌶",
+    "description": "Pieces of tofu, broccoli, baby spinach, green onions, zucchini, and garlic in a coconut milk sauce, kefir lime and black soy served with white rice",
+    "price": 7600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/fb356f76-c439-11ee-b1fb-668439a250c7________________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "871224af110ffeb98447c407",
+      "option_id": "667bbc6e0daf040cb0a73134",
+      "name": "Choose Ga Wei Gao changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "dc4f7f77426ab1e8b058fed4f6f5cf91",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6584604acedb150a481656f9",
+    "name": "Umami Beef 🌶️",
+    "description": "Juicy pieces of beef, green and white onion strips, mushroom mix, Thai basil, egg noodles in an aromatic sauce, coriander and chili. A spicy dish",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/b84c8d2e-e514-11ee-9554-82225b354ca3_shi_ki_yu.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "3c5bb47bf502e1b3d67bed3e",
+      "option_id": "658460aefba718f58bc209fc",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ba32e197dba756a5020bd4df242e6d6e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "65acbf2d2ad645b0d8b19d93",
+    "name": "Vegan chocolate bar",
+    "description": "Chocolate bar coated with Rocha and roasted hazelnuts served with vegan toffee sauce contains peanuts",
+    "price": 4900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/518084ce-ba08-11ee-883b-2ee7505fcb59_1c3c59f2_4739_11ed_a5ea_82047b182927____________1_.jpeg",
+      "blurhash": "j1mB5cOW00mIlB4ycP;J0All;4Tt"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "12dca377fc702af88f12edc67d866fcb",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "666051f72a36264bcd19f1a8",
+    "name": "A surprise dish",
+    "description": "Order and you will be surprised 🤭",
+    "price": 2700,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/fc12cddc-2657-11ef-9b91-52c104230ef9_surprise_pink.jpg",
+      "blurhash": "jh:JPCGXP;CFtltTCGCGP;tCkPtC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cbc249d94da155aa4f5ade81e407020e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "666051f9f8b285dd8880d01a",
+    "name": "A vegetarian surprise dish",
+    "description": "Order and you will be surprised 🤭 but in a vegetarian section 🌴",
+    "price": 2700,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/cfa5580a-2657-11ef-a186-4a4b261c1104_surprise_veggie.jpg",
+      "blurhash": "jf:vfDGXTLuGGGCntTtTTLpBgOFR"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c4e9afaf4022176ee8700c9a929579a5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6695176e5d183a6c277430cf",
+    "name": "New Kinoko",
+    "description": "Wakame seaweed, zucchini crescents, bean noodles, purple onion, green onion, red chili and toasted sesame in rice vinegar sauce - black and sesame oil.",
+    "price": 4900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/87f03620-4a91-11ef-944d-8e93a0f7d7cb_wazu_w.jpg",
+      "blurhash": "j2n5Jhdq03Xs8zgPgPHc00XJ;Y8Q"
+     }
+    ],
+    "options": [
+     {
+      "id": "dee816e978aed1d0b28427d3",
+      "option_id": "6695179998037861ea581340",
+      "name": "Choose changes in WaZu",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bcb9c1cdcddfe8e6f87f8699f122a176",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "669517b49f9e0a7d06585aab",
+    "name": "Shu-Ra-Shim",
+    "description": "Mix crispy root strips, cilantro, red chili, mint and roasted almonds in lemon card sauce and fresh chili.",
+    "price": 4700,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63397969803ddab39c511045/94acd4cc-4a91-11ef-9ef4-1aebd4431910_shurashim_w.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "fc8f596b52f72e3a302ead6c",
+      "option_id": "669517de72ea37c41338702f",
+      "name": "Select root changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "eac04e550f3ddc2161fe8e58993e84a4",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6dee501e6adb2c771eae8189",
+    "name": "Fuse Tea Peach 330 ml",
+    "description": "",
+    "price": 1400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68176aa482f00f6d6fdb5f1e?overlay=isr-sugar",
+      "blurhash": "LOS$fWoe?wj[t7fQWBfQx^fQMwfQ"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f4d6bb3d8c13206eaf6551e3754a2083",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8086252af18ebd1684f1219d",
+    "name": "Can of Sprite Zero",
+    "description": "",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a8bfd01ce8f9e033b6c1b06",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "69a08fc472a7b63fed4f9b5e295488b1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "92a83312d5c1be345953c7c4",
+    "name": "דאמפלינג בקר",
+    "description": "כיסוני בצק אורז עדינים במילוי בקר בציר ירקות עסיסי, ג'ינג'ר ושום\nעלול להכיל בוטנים\n4 יח'",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a2ea61867828dd81b744232",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4fb9fa5029337615bcc2b7dfe8b28c84",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "bba307f8b64bcb900ecf50be",
+    "name": "Sprite can 330 ml",
+    "description": "",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68176b4e82f00f6d6fdb5f24?overlay=isr-sugar",
+      "blurhash": "LPSPe9bF~Xs;fkfPofa}%3j[Inay"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3c870a74ed69afcbf1d7bcc323d6f80e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e7c172900364c0977d6a99b6",
+    "name": "Chicken Namas",
+    "description": "Crispy rice rolls filled with chicken, bean noodles, and vegetables, garlic and ginger. Contains peanuts 2 pcs.",
+    "price": 5100,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a2ea77266e45fdf0b6e6875",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7ceb5cd77e78690e20092351141607e3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "eb9772f97a8d68a8b6ab1ff6",
+    "name": "Ferrera 250 ml",
+    "description": "",
+    "price": 1400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a8bfecece8f9e033b6c1e0f",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "75abeef91d9ec333b294b3ad6b65d7bb",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ec682084ccc2d8fb87dfe310",
+    "name": "0.5 liter glass bottles",
+    "description": "",
+    "price": 1400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/667951628353ae60784df4a5",
+      "blurhash": "L5T9L#t7_Mt7-;fQM{fQ%MfQIUf6"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "00c548b59976486a860874269c56e5f0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   }
+  ],
+  "options": [
+   {
+    "id": "26bb7fca32c27e19e2799223",
+    "name": "Possible changes | Bangkok salad",
+    "type": "multi_choice",
+    "default_value": "47a40b09ac1192120a7121cd",
+    "values": [
+     {
+      "id": "47a40b09ac1192120a7121cd",
+      "name": "Without mint",
+      "price": 0
+     },
+     {
+      "id": "8dc7e3b48c3a16a49d0ba615",
+      "name": "Without chili",
+      "price": 0
+     },
+     {
+      "id": "12d2a17b1477bb4c48dc69d7",
+      "name": "Without coriander",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5ea4c8c6e063337fb5b24cdf",
+    "name": "Choose Bangkok Salad Protein",
+    "type": "multi_choice",
+    "default_value": "682b9800e3b25adb08acf929",
+    "values": [
+     {
+      "id": "682b9800e3b25adb08acf929",
+      "name": "chicken",
+      "price": 0
+     },
+     {
+      "id": "719ff7fe8ec34f467500d386",
+      "name": "White fish",
+      "price": 0
+     },
+     {
+      "id": "ccc47cf68699a2d6788a7012",
+      "name": "Tofu",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "635a3c3b885a334e9a5f1701",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "ad5f57fcf83cf35de700c285",
+    "values": [
+     {
+      "id": "ad5f57fcf83cf35de700c285",
+      "name": "Without sesame seeds",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64aeb1f02e26314275e348bc",
+    "name": "Possible changes - Koko",
+    "type": "multi_choice",
+    "default_value": "297f4a7aad4fef467615b631",
+    "values": [
+     {
+      "id": "297f4a7aad4fef467615b631",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "329013a3b6661f5d552ff9e1",
+      "name": "No peanuts",
+      "price": 0
+     },
+     {
+      "id": "526d55b409820e99d136b487",
+      "name": "Without lemon",
+      "price": 0
+     },
+     {
+      "id": "043fb8e82433d08279046a83",
+      "name": "Without cucumber",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64aeb1f02e26314275e348c7",
+    "name": "Addition of beef to the dish",
+    "type": "multi_choice",
+    "default_value": "d6d1789dc3d444e2afd58aaf",
+    "values": [
+     {
+      "id": "d6d1789dc3d444e2afd58aaf",
+      "name": "Extra cattle",
+      "price": 2200
+     }
+    ]
+   },
+   {
+    "id": "64aeb1f02e26314275e348ca",
+    "name": "Choose a sauce",
+    "type": "multi_choice",
+    "default_value": "6f9e70515a3e130bdc28c993",
+    "values": [
+     {
+      "id": "6f9e70515a3e130bdc28c993",
+      "name": "Oyster sauce",
+      "price": 0
+     },
+     {
+      "id": "6d25e1dcede9111b36469606",
+      "name": "Mushroom sauce",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64b4c8f446f6131cff9e9a64",
+    "name": "Choose",
+    "type": "choice",
+    "default_value": "7648be40d5add490b88b18e3",
+    "values": [
+     {
+      "id": "7648be40d5add490b88b18e3",
+      "name": "Chicken",
+      "price": 0
+     },
+     {
+      "id": "5b2ff57b7eef19efc6a0f34e",
+      "name": "Tofu",
+      "price": 0
+     },
+     {
+      "id": "6ced4e4e77931f49f2d8f2f3",
+      "name": "Shrimp",
+      "price": 1400
+     }
+    ]
+   },
+   {
+    "id": "64b4c8f446f6131cff9e9a66",
+    "name": "Noodles",
+    "type": "choice",
+    "default_value": "9a2009d1e99e11fd2534abae",
+    "values": [
+     {
+      "id": "9a2009d1e99e11fd2534abae",
+      "name": "Egg Noodles",
+      "price": 0
+     },
+     {
+      "id": "0f4d7c2f9d820b6741c55ad6",
+      "name": "Rice Noodles",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64b4c8f446f6131cff9e9a67",
+    "name": "Choose",
+    "type": "multi_choice",
+    "default_value": "083b92cae44deb6518e502e6",
+    "values": [
+     {
+      "id": "a377df768c4f596f6de6ba92",
+      "name": "Chicken",
+      "price": 0
+     },
+     {
+      "id": "557780fd5f82f704b3226e6b",
+      "name": "Tofu",
+      "price": 0
+     },
+     {
+      "id": "083b92cae44deb6518e502e6",
+      "name": "Shrimps",
+      "price": 1400
+     }
+    ]
+   },
+   {
+    "id": "64b4c8f446f6131cff9e9a6d",
+    "name": "Possible changes - Vietnamese Pad Thai",
+    "type": "multi_choice",
+    "default_value": "83046eaf6182d163bd59c8c9",
+    "values": [
+     {
+      "id": "83046eaf6182d163bd59c8c9",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "3e0780107ed07d2d52b6de44",
+      "name": "Without lemon",
+      "price": 0
+     },
+     {
+      "id": "e4d30ac7c8ac1fd8807cde48",
+      "name": "Without coriander",
+      "price": 0
+     },
+     {
+      "id": "3f6d5eaa219ae2e6433449c2",
+      "name": "Without carrots",
+      "price": 0
+     },
+     {
+      "id": "ad25350b8a45ec374ae56b99",
+      "name": "Without egg",
+      "price": 0
+     },
+     {
+      "id": "2594d9c0ab1f68615aa1971d",
+      "name": "Without sprouts",
+      "price": 0
+     },
+     {
+      "id": "bd55b8247989d79b3cd5f7f0",
+      "name": "Without cabbage",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64b4c8f446f6131cff9e9a6e",
+    "name": "Possible changes - Yellow Sea",
+    "type": "multi_choice",
+    "default_value": "de9170d74fd17b3848379a30",
+    "values": [
+     {
+      "id": "de9170d74fd17b3848379a30",
+      "name": "No shrimp",
+      "price": 0
+     },
+     {
+      "id": "c6d1c01d283a507658af50eb",
+      "name": "Without white fish",
+      "price": 0
+     },
+     {
+      "id": "8efedfc2ec4538912e1435b0",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "83dd1ad343a3d21ea6c178af",
+      "name": "Without leek",
+      "price": 0
+     },
+     {
+      "id": "4c3de047a2063ac87581c097",
+      "name": "Without white onion",
+      "price": 0
+     },
+     {
+      "id": "eed11ffdfb7588a5e9cf0322",
+      "name": "Without coriander",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64b4c8f446f6131cff9e9a70",
+    "name": "Possible changes - Garden",
+    "type": "multi_choice",
+    "default_value": "b5b57c65f173fba573a462cd",
+    "values": [
+     {
+      "id": "b5b57c65f173fba573a462cd",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "34fd76d576dea189803b16ab",
+      "name": "Without broccoli",
+      "price": 0
+     },
+     {
+      "id": "b1df8d25cffb239b822e0f49",
+      "name": "Without zucchini",
+      "price": 0
+     },
+     {
+      "id": "638d8118d8a5149eca1d6961",
+      "name": "Without sprouts",
+      "price": 0
+     },
+     {
+      "id": "e8777b60497f79ee3ae687d4",
+      "name": "Without coriander",
+      "price": 0
+     },
+     {
+      "id": "f2089ac566d120b1ab68404a",
+      "name": "No peanuts",
+      "price": 0
+     },
+     {
+      "id": "c396fd18bfdb6b753fa1f679",
+      "name": "No cellular basil",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64b4c8f446f6131cff9e9a74",
+    "name": "Possible changes - Fu Bo",
+    "type": "multi_choice",
+    "default_value": "f9c4dd6cb188b5761afe0167",
+    "values": [
+     {
+      "id": "f9c4dd6cb188b5761afe0167",
+      "name": "Without Thai basil",
+      "price": 0
+     },
+     {
+      "id": "f53e98622951c53a8c2a3303",
+      "name": "Without white onion",
+      "price": 0
+     },
+     {
+      "id": "3e4aa1975e0f8edb8c46fe12",
+      "name": "Without sprouts",
+      "price": 0
+     },
+     {
+      "id": "b5dc64de48624149bd399d7d",
+      "name": "Without mint",
+      "price": 0
+     },
+     {
+      "id": "f7a6b15ef8d347a81cc33fcc",
+      "name": "Without chili",
+      "price": 0
+     },
+     {
+      "id": "05e6b7ff26a3f7041ee09da8",
+      "name": "Without coriander",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64b4c8f446f6131cff9e9a77",
+    "name": "Possible changes - Goi Ga",
+    "type": "multi_choice",
+    "default_value": "08fc86dceef0249cd73f0ae8",
+    "values": [
+     {
+      "id": "08fc86dceef0249cd73f0ae8",
+      "name": "Without chili",
+      "price": 0
+     },
+     {
+      "id": "e8797cffcff56f5a5b3142b6",
+      "name": "Without sesame seeds",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64b4c8f446f6131cff9e9a79",
+    "name": "Addition of chicken to the dish",
+    "type": "multi_choice",
+    "default_value": "cf52e9055f521294297278cf",
+    "values": [
+     {
+      "id": "cf52e9055f521294297278cf",
+      "name": "תוספת עוף ",
+      "price": 1200
+     }
+    ]
+   },
+   {
+    "id": "64b4c8f446f6131cff9e9a7b",
+    "name": "Addition of seafood to the dish",
+    "type": "multi_choice",
+    "default_value": "5dd591c6bc68eaabd9f7282b",
+    "values": [
+     {
+      "id": "5dd591c6bc68eaabd9f7282b",
+      "name": "Extra seafood",
+      "price": 1600
+     }
+    ]
+   },
+   {
+    "id": "64b69398576088cb6f729c73",
+    "name": "Choose - Pad Thai",
+    "type": "choice",
+    "default_value": "4e832117df6810d35838b915",
+    "values": [
+     {
+      "id": "4e832117df6810d35838b915",
+      "name": "chicken",
+      "price": 0
+     },
+     {
+      "id": "edbfdc68a8328d81dc7d8ca6",
+      "name": "Tofu",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64b693f1753e587cb236a14d",
+    "name": "Addition of chicken Tofu Shrimp",
+    "type": "multi_choice",
+    "default_value": "5345c881f65f6f08dcc6e761",
+    "values": [
+     {
+      "id": "5345c881f65f6f08dcc6e761",
+      "name": "Extra chicken",
+      "price": 1200
+     },
+     {
+      "id": "206e911bdf9e2aebc4e0dc58",
+      "name": "Extra tofu",
+      "price": 1000
+     }
+    ]
+   },
+   {
+    "id": "64be87332d3f5c290b1e8c30",
+    "name": "Paid sauces",
+    "type": "multi_choice",
+    "default_value": "5e8e2bf27231930d412cfb3e",
+    "values": [
+     {
+      "id": "5e8e2bf27231930d412cfb3e",
+      "name": "Spicy mayonnaise",
+      "price": 200
+     },
+     {
+      "id": "2ddf71c4eb2e79822b7e9c25",
+      "name": "Teriyaki",
+      "price": 200
+     },
+     {
+      "id": "9520acc142db208f609d2d18",
+      "name": "sweet chilli",
+      "price": 500
+     },
+     {
+      "id": "f0101c6e6df68d286cc0bd4e",
+      "name": "Big Eve",
+      "price": 500
+     },
+     {
+      "id": "7c34dc76c6e90660e3b8c68c",
+      "name": "spicy chilli",
+      "price": 500
+     }
+    ]
+   },
+   {
+    "id": "64da1b5eb3fc22289249a040",
+    "name": "Tofu topping",
+    "type": "multi_choice",
+    "default_value": "e9df12c4281f4a5fdd2a8642",
+    "values": [
+     {
+      "id": "e9df12c4281f4a5fdd2a8642",
+      "name": "Tofu topping",
+      "price": 1000
+     }
+    ]
+   },
+   {
+    "id": "64da6d04db1b8812fe4759a3",
+    "name": "Possible additions",
+    "type": "multi_choice",
+    "default_value": "19272b645f9ccae338c2f6be",
+    "values": [
+     {
+      "id": "19272b645f9ccae338c2f6be",
+      "name": "Extra chicken",
+      "price": 1200
+     },
+     {
+      "id": "267639f491bd1648d753ea2f",
+      "name": "Tofu topping",
+      "price": 1000
+     },
+     {
+      "id": "59ec9cd3ed159359fec30c86",
+      "name": "Extra shrimp",
+      "price": 1400
+     }
+    ]
+   },
+   {
+    "id": "64dc8173e8af9a897e6300ab",
+    "name": "Changes - Red Sun",
+    "type": "multi_choice",
+    "default_value": "1fa5aa1e82bb361a5c3f7131",
+    "values": [
+     {
+      "id": "1fa5aa1e82bb361a5c3f7131",
+      "name": "Without shallots",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64dc8188db0dc6fee943e940",
+    "name": "Protein supplement",
+    "type": "multi_choice",
+    "default_value": "1deeaf7835a2bc52da6b1dbf",
+    "values": [
+     {
+      "id": "1deeaf7835a2bc52da6b1dbf",
+      "name": "תוספת בקר",
+      "price": 2200
+     },
+     {
+      "id": "24b7b4c219b8cb09a1e36f23",
+      "name": "Extra chicken",
+      "price": 1200
+     }
+    ]
+   },
+   {
+    "id": "64e6e74475214c6da43e7166",
+    "name": "Possible additions",
+    "type": "multi_choice",
+    "default_value": "30a38118542a321733495148",
+    "values": [
+     {
+      "id": "30a38118542a321733495148",
+      "name": "Extra fish",
+      "price": 1600
+     }
+    ]
+   },
+   {
+    "id": "64e6e7882a256bb175948ba6",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "f4358ff3927b61d6f1d71fed",
+    "values": [
+     {
+      "id": "f4358ff3927b61d6f1d71fed",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "53b5c3259de03e7b577a4e7a",
+      "name": "Without coriander",
+      "price": 0
+     },
+     {
+      "id": "c7c279f307e6e1263f1c0a27",
+      "name": "Without carrots",
+      "price": 0
+     },
+     {
+      "id": "fd9f8b2e53d0aa4126218ea8",
+      "name": "Without mint",
+      "price": 0
+     },
+     {
+      "id": "45af0be527b25c35ea1918c8",
+      "name": "No peanuts",
+      "price": 0
+     },
+     {
+      "id": "518e26d5cca11b48ffb343d9",
+      "name": "Without red onion",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "6571812a39a276a5cbdb0540",
+    "name": "Choose sauce 1 for crispy chicken",
+    "type": "choice",
+    "default_value": "748535752c456fdf08e4b9e5",
+    "values": [
+     {
+      "id": "748535752c456fdf08e4b9e5",
+      "name": "Spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "292e4ceaa4f3b7860b048f51",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "8d1a0f43a05d6a99961e8547",
+      "name": "No sauces",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "657181648aeb275cccd1f8b3",
+    "name": "Choose sauce 2 for crispy chicken",
+    "type": "choice",
+    "default_value": "41d1a4860d4f4c828fa4f935",
+    "values": [
+     {
+      "id": "41d1a4860d4f4c828fa4f935",
+      "name": "Spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "fd86761bf62fc8c1f1768ea8",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "58aec2c432b218bba330e90a",
+      "name": "No sauces",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "658460aefba718f58bc209fc",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "a1480f200922b5f575924dca",
+    "values": [
+     {
+      "id": "a1480f200922b5f575924dca",
+      "name": "Without onion",
+      "price": 0
+     },
+     {
+      "id": "e51093352179076988931213",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "9a7995271e9366ab36abc9b3",
+      "name": "Without chili",
+      "price": 0
+     },
+     {
+      "id": "6bf11d0391084448c3d13056",
+      "name": "Without Thai basil",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "667bbc6e0daf040cb0a73134",
+    "name": "Choose Ga Wei Gao changes",
+    "type": "multi_choice",
+    "default_value": "b0d5667882ee8e2c0738685d",
+    "values": [
+     {
+      "id": "b0d5667882ee8e2c0738685d",
+      "name": "Without onion",
+      "price": 0
+     },
+     {
+      "id": "f1a3c5fd4b5044e679647278",
+      "name": "Without purple onion",
+      "price": 0
+     },
+     {
+      "id": "62ecc33606d675ebc75e2348",
+      "name": "Without broccoli",
+      "price": 0
+     },
+     {
+      "id": "4a8ab50496ef919c3e38dc69",
+      "name": "Without zucchini",
+      "price": 0
+     },
+     {
+      "id": "b01e16a7bf656578f7ffa10c",
+      "name": "Without kefir leaves",
+      "price": 0
+     },
+     {
+      "id": "0f8ea0c3c84ef588c1c83ee6",
+      "name": "Without baby spinach",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "6695179998037861ea581340",
+    "name": "Choose changes in WaZu",
+    "type": "multi_choice",
+    "default_value": "cdc493761cd6a13f42a6536a",
+    "values": [
+     {
+      "id": "cdc493761cd6a13f42a6536a",
+      "name": "Without chili",
+      "price": 0
+     },
+     {
+      "id": "0fb7022c79f1ad43f4b08359",
+      "name": "Without purple onion",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "669517de72ea37c41338702f",
+    "name": "Select root changes",
+    "type": "multi_choice",
+    "default_value": "1d0eebfa111d0ae4beabbfe9",
+    "values": [
+     {
+      "id": "1d0eebfa111d0ae4beabbfe9",
+      "name": "Without chili",
+      "price": 0
+     },
+     {
+      "id": "aac1f8430e73a66df414c6c5",
+      "name": "No peanuts",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "ccc5a501c965d06afc454f9e",
+    "name": "Choose Bangkok salad dressing",
+    "type": "multi_choice",
+    "default_value": "91246d4040c7b6122f8e1205",
+    "values": [
+     {
+      "id": "91246d4040c7b6122f8e1205",
+      "name": "Spicy Thai sauce",
+      "price": 0
+     },
+     {
+      "id": "429d1fe4ca6bca3340bba4eb",
+      "name": "Ginger soy sauce",
+      "price": 0
+     }
+    ]
+   }
+  ]
+ }
+}

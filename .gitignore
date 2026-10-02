@@ -10,3 +10,4 @@ release/
 .woltron/
 coverage/
 .vite/
+.claude/worktrees/

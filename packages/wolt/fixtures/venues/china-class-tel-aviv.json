@@ -1,0 +1,6052 @@
+{
+ "captured_at": "2026-10-02T21:59:11.620Z",
+ "location": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "static": {
+  "venue": {
+   "id": "63f5ee31834966ddc66bf104",
+   "slug": "china-class-tel-aviv",
+   "name": "China Class | Tel Aviv",
+   "description": "Classic Chinese and Asian Kitchen\nBangkok Kitchen X China Class",
+   "image_url": "https://imageproxy.wolt.com/assets/6732079a3023fb35876a5e1b",
+   "image_blurhash": "j5FoVN;YTbn64yhsjcOBnumRl4OF",
+   "brand_logo_image_url": "https://imageproxy.wolt.com/assets/6732079a3023fb35876a5e1c",
+   "address": "משה סנה 54, תל אביב ",
+   "rating": {
+    "rating": 4,
+    "score": "9.0",
+    "score_raw": 9,
+    "volume": 500
+   },
+   "share_url": "https://wolt.com/he/isr/tel-aviv/restaurant/china-class-tel-aviv",
+   "currency": "ILS",
+   "country": "ISR",
+   "delivery_methods": [
+    "takeaway",
+    "homedelivery"
+   ],
+   "timezone": "Asia/Jerusalem",
+   "product_line": "restaurant",
+   "delivery_base_price": 1000,
+   "service_fee_estimate": {
+    "min": 100,
+    "max": 590,
+    "percentage": 5
+   },
+   "zero_distance_fees": {
+    "delivery_price": 1200
+   },
+   "opening_times_schedule": [
+    {
+     "day": "Monday",
+     "formatted_times": "11:30–22:30"
+    },
+    {
+     "day": "Tuesday",
+     "formatted_times": "11:30–22:30"
+    },
+    {
+     "day": "Wednesday",
+     "formatted_times": "11:30–22:30"
+    },
+    {
+     "day": "Thursday",
+     "formatted_times": "11:30–22:30"
+    },
+    {
+     "day": "Friday",
+     "formatted_times": "12:00–22:30"
+    },
+    {
+     "day": "Saturday",
+     "formatted_times": "12:00–22:30"
+    },
+    {
+     "day": "Sunday",
+     "formatted_times": "11:30–22:30"
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "63f5ee31834966ddc66bf104",
+   "location": {
+    "bbox": null,
+    "type": "Point",
+    "coordinates": [
+     34.8252295,
+     32.1243866
+    ]
+   },
+   "price_range": 2,
+   "food_tags": [
+    "asian",
+    "chinese",
+    "fish",
+    "thai",
+    "sushi",
+    "noodles",
+    "Wolt Benefits"
+   ],
+   "short_description": "Classic Chinese and Asian Kitchen\nBangkok Kitchen X China Class\n"
+  },
+  "order_minimum": 5000
+ },
+ "dynamic": {
+  "venue": {
+   "id": "63f5ee31834966ddc66bf104",
+   "online": true,
+   "open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:11.500519+03:00",
+    "previous_open": "2026-10-02T12:00:00+03:00",
+    "next_open": "2026-10-03T12:00:00+03:00",
+    "next_close": "2026-10-03T22:30:00+03:00",
+    "next_close_time_localized": "22:30"
+   },
+   "delivery_open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:11.500519+03:00",
+    "previous_open": "2026-10-02T12:00:00+03:00",
+    "next_open": "2026-10-03T12:00:00+03:00",
+    "next_close": "2026-10-03T22:30:00+03:00",
+    "next_close_time_localized": "22:30"
+   },
+   "delivery_configs": [
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "homedelivery",
+     "schedule": "standard",
+     "estimate": {
+      "label": "50-60 min",
+      "min": 50,
+      "mean": 55,
+      "max": 60
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    },
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "takeaway",
+     "schedule": "standard",
+     "estimate": {
+      "label": "10-15 min",
+      "min": 10,
+      "mean": 10,
+      "max": 15
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "63f5ee31834966ddc66bf104",
+   "alive": true,
+   "preestimate_total": {
+    "min": 50,
+    "max": 60,
+    "mean": 55
+   },
+   "discounts": [
+    {
+     "id": "venue_campaign:6a7c2457b94bcc6db711da4c",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee"
+     }
+    }
+   ],
+   "delivery_specs": {
+    "delivery_enabled": true,
+    "original_delivery_price": 2600,
+    "order_minimum_no_surcharge": 5000,
+    "delivery_pricing": {
+     "base_price": 1000,
+     "price_ranges": [
+      {
+       "min": 0,
+       "max": 5000,
+       "a": 5100,
+       "b": -1,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 5000,
+       "max": 6000,
+       "a": 100,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 6000,
+       "max": 11800,
+       "a": 0,
+       "b": 0.05,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 11800,
+       "max": 0,
+       "a": 590,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      }
+     ]
+    }
+   }
+  },
+  "order_minimum": 5000
+ },
+ "assortment": {
+  "assortment_id": "63f5efe0344bf97674eedfbf",
+  "loading_strategy": "full",
+  "primary_language": "he",
+  "selected_language": "en",
+  "categories": [
+   {
+    "id": "79bdc996521fb9e8420bfa46",
+    "name": "NUMBER OF DINERS",
+    "description": "We want to keep our environment clean. Please choose the items as the number of diners",
+    "slug": "number-of-diners-7",
+    "item_ids": [
+     "63fb51e179765043b461544c",
+     "63fb51e179765043b461544d",
+     "63fb51e179765043b461544e"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "00cdd34c62ad46f8ae21b925",
+    "name": "🍞 Firsts",
+    "slug": "firsts-8",
+    "item_ids": [
+     "63f5f26f9f9bb47e789c3afa"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "baf43721e3ae7e9e61e41874",
+    "name": "SOUP",
+    "slug": "soup-9",
+    "item_ids": [
+     "63f5f26f9f9bb47e789c3af9",
+     "63f5f26f9f9bb47e789c3af6"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "743a2ba630e8e6deeed79283",
+    "name": "SALADS",
+    "slug": "salads-10",
+    "item_ids": [
+     "63f5f26f9f9bb47e789c3aff",
+     "63f5f2709f9bb47e789c3b37"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "7ec1bb496766931d23a4db8f",
+    "name": "VEGETARIAN",
+    "slug": "vegetarian-11",
+    "item_ids": [
+     "63f5f2709f9bb47e789c3b3b",
+     "63f5f2709f9bb47e789c3b05",
+     "63f5f2709f9bb47e789c3b21",
+     "63f5f2709f9bb47e789c3b13",
+     "63f5f2709f9bb47e789c3b07",
+     "63f5f2709f9bb47e789c3b22"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "50c8e30eded01027e66666bf",
+    "name": "NOODLES | RICE ",
+    "description": "Important! The noodles and rice dishes are not served with main. If you would like to add chicken / beef / tofu / shrimp, you have an option at the bottom of the dish ",
+    "slug": "noodles-rice-12",
+    "item_ids": [
+     "30b7930bfc76ffebdffa5101",
+     "63f5f2709f9bb47e789c3b18",
+     "63f5f2709f9bb47e789c3b20",
+     "63f5f2709f9bb47e789c3b08",
+     "63f5f2709f9bb47e789c3b15",
+     "63f5f2709f9bb47e789c3b0e",
+     "63f5f2709f9bb47e789c3b28"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "947c21ac1f5e88178f35cf98",
+    "name": "🍛 Curry dishes",
+    "slug": "curry-dishes-13",
+    "item_ids": [
+     "25ffeb374869732ead43d1c8"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "844a9b137ec6b6771ff1eb22",
+    "name": "🍱 Sushi in assembly",
+    "slug": "sushi-in-assembly-14",
+    "item_ids": [
+     "63f5f2709f9bb47e789c3b60",
+     "63f5f2709f9bb47e789c3b5f",
+     "63f5f2709f9bb47e789c3b62",
+     "63f5f2709f9bb47e789c3b61",
+     "63f5f2709f9bb47e789c3b64",
+     "63f5f2709f9bb47e789c3b63"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "fafeab652941e075dc4e35ca",
+    "name": "SPECIAL ROLLS ",
+    "slug": "special-rolls-15",
+    "item_ids": [
+     "63f5f2709f9bb47e789c3b2e",
+     "63f5f2709f9bb47e789c3b2b",
+     "63f5f2709f9bb47e789c3b30",
+     "63f5f2709f9bb47e789c3b12",
+     "63f5f2709f9bb47e789c3b4f",
+     "63f5f2709f9bb47e789c3b0b",
+     "63f5f2709f9bb47e789c3b09",
+     "63f5f2709f9bb47e789c3b2a",
+     "63f5f2709f9bb47e789c3b25",
+     "63f5f2709f9bb47e789c3b2f",
+     "63f5f2709f9bb47e789c3b4c",
+     "63f5f2709f9bb47e789c3b50",
+     "63f5f2709f9bb47e789c3b4d",
+     "388af93b66bdd19472c87da1",
+     "0de7b011c7bed467549db86e"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "e8d58f38c8a3855f59b5759a",
+    "name": "🍣 Nigiri",
+    "slug": "nigiri-16",
+    "item_ids": [
+     "50b0d865d6f9969751ed7328"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "7d2cd8ee1b9ce0421306ae3e",
+    "name": "Sushi sandwich",
+    "slug": "sushi-sandwich-17",
+    "item_ids": [
+     "3c4c36caf4f8a6d83a776c9a"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "c33037d08e41fa2fa7af0c96",
+    "name": "COMBIMATIONS ",
+    "slug": "combimations-18",
+    "item_ids": [
+     "63f5f2709f9bb47e789c3b2d",
+     "63f5f2709f9bb47e789c3b24",
+     "63f5f2709f9bb47e789c3b0a"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "aeb25ffab4a42d96cf07b6b4",
+    "name": "Pokey",
+    "slug": "pokey-19",
+    "item_ids": [
+     "1fd661e8d5e626e5488b108b"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "31cd05e63b51af7e2c787289",
+    "name": "🍯 Sauces",
+    "description": "Would you like additional sauces to order?",
+    "slug": "sauces-20",
+    "item_ids": [
+     "6460b5d92b6cb5decb85a8c8",
+     "6460b5ddac368f125bd03bb1",
+     "6460b5db94bbf70a80437406"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "388f13ee5578415b7a94f6be",
+    "name": "DESSERTS ",
+    "slug": "desserts-21",
+    "item_ids": [
+     "63f5f2709f9bb47e789c3b31"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "9c916c3a599a77fb075ecd5b",
+    "name": "White wine",
+    "slug": "white-wine-25",
+    "item_ids": [
+     "1dcd6e3ba69ba93693320e89"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "48f92c70d6ead58a662baa61",
+    "name": "Red wine",
+    "slug": "red-wine-26",
+    "item_ids": [
+     "3548ca68c19f17327a866c18"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "af7cb3f801e115ff665e1cb1",
+    "name": "A sparkling wine",
+    "slug": "a-sparkling-wine-27",
+    "item_ids": [
+     "14885c05c9adb24c1e65de6d"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "9842e743c3ca345c1c98adb1",
+    "name": "Special drink",
+    "slug": "special-drink-29",
+    "item_ids": [
+     "3f18bf3d54137de9c8353a81"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "f03888b3ee6a354a5bc0fd3e",
+    "name": "SOFT DRINKS",
+    "slug": "soft-drinks-30",
+    "item_ids": [
+     "63f5f2709f9bb47e789c3b1b",
+     "63f5f2709f9bb47e789c3b0f",
+     "63f5f2709f9bb47e789c3b1f",
+     "63f5f2709f9bb47e789c3b16",
+     "63f5f2709f9bb47e789c3b0c",
+     "63f5f2709f9bb47e789c3b17",
+     "63f5f2709f9bb47e789c3b26",
+     "63f5f2709f9bb47e789c3b1d",
+     "63f5f2709f9bb47e789c3b23",
+     "63f5f2709f9bb47e789c3b0d",
+     "63f5f2709f9bb47e789c3b10",
+     "63f5f2709f9bb47e789c3b27",
+     "63f5f2709f9bb47e789c3b14"
+    ],
+    "subcategories": []
+   }
+  ],
+  "items": [
+   {
+    "id": "0de7b011c7bed467549db86e",
+    "name": "Crispy Nagi Roll",
+    "description": "Sea bream fillet in tempura and panko, avocado and asparagus in an avocado shell with crispy beets, sesame seeds and mayonnaise sauce on top",
+    "price": 6600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6970d7e67e4bbb92a268a7d3",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "67f8fe44fba7ce4baa6cc70b",
+      "option_id": "4657ed6d4a4d522b61dde087",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bcd734e1091902a221fbc01c",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6d600c191adcf8552b68ca8986847401",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "14885c05c9adb24c1e65de6d",
+    "name": "Prosecco Brut Mignonette",
+    "description": "200 ml",
+    "price": 3000,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [
+     {
+      "type": "age_restricted",
+      "age_limit": 18
+     }
+    ],
+    "checksum": "f99777c068fd2ee0880b67cc7fe7efa3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1dcd6e3ba69ba93693320e89",
+    "name": "Chablis white wine",
+    "description": "",
+    "price": 13500,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 60,
+    "restrictions": [
+     {
+      "type": "alcohol",
+      "age_limit": 18
+     }
+    ],
+    "checksum": "3c14681ae2ad008e6d25264107d12514",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1fd661e8d5e626e5488b108b",
+    "name": "Fish pokey",
+    "description": "Salmon skin, seaweed, avocado, cucumber, asparagus, campio, green onion, crispy sweet potato, sesame seeds and red tobiko in ponzu sauce",
+    "price": 8000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/695294022ad35e89cadc0f80",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2447b6d156f37d1fc6731452",
+      "option_id": "b5df141de6bfc999a46facc4",
+      "name": "Choose a fish for Poke",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "89ae788013f48bee475c4b92",
+      "option_id": "14c81fa8cf8072c9e1630f0f",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f6b66f5ec56896d86d5a9a3f",
+      "option_id": "fa8b2613ed9ec443340571ad",
+      "name": "Choose sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b4e6382847e4419dbe93bce3665c5a10",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "25ffeb374869732ead43d1c8",
+    "name": "Khao Soi 🌶️🌶️",
+    "description": "Coconut milk and yellow curry stew from Chiang Mai, egg noodles, pickled mustard leaves, shallots, cilantro, green onions, crispy noodles and lemon | Spicy * The egg noodles can be replaced with steamed rice",
+    "price": 8000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/694c332a88a4d8a18718b462",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ad24aceedb795db5634bc378",
+      "option_id": "28ee5f9dae6e7c1c36b2661b",
+      "name": "Choose a protein",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "197d957bbd15bcbe82c985e4",
+      "option_id": "bdbc44e27dd030339446ffef",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6c97d5057825e059dbed3169",
+      "option_id": "8a6dd9ff48eca7bbce6482ac",
+      "name": "Choose rice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "699444c717c501fd34f0f10c01e074e0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "30b7930bfc76ffebdffa5101",
+    "name": "Noodles with a Topping of Choice",
+    "description": "Egg noodles sauteed with chicken \\ beef \\ tofu \\ shrimp of choice, omelet, sprouts, cabbage, carrot, scallions and soy\n",
+    "price": 7000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/5a894a70-ce3a-11ed-805c-aefedd2c8a32____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "6be5ef0093735a57f89687ad",
+      "option_id": "659467761c95ba6346f7c8e9",
+      "name": "Choice of protein - noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7b29c57e5e67c5cf35acc9d4",
+      "option_id": "63f5f26f9f9bb47e789c3af2",
+      "name": "Extra protein for noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "64af61e3dc269c65d51c911c",
+      "option_id": "63f5f26f9f9bb47e789c3aa7",
+      "name": "Changes are possible for vegetable noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "36ff949eedb75869c4c2961a5bf0c54a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3548ca68c19f17327a866c18",
+    "name": "Alon bottle from the Galilee Hills Winery",
+    "description": "",
+    "price": 13500,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [
+     {
+      "type": "age_restricted",
+      "age_limit": 18
+     }
+    ],
+    "checksum": "8f34f30014ea8d1d543efd9625680124",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "388af93b66bdd19472c87da1",
+    "name": "Special Ponzo Roll (4 pcs.)",
+    "description": "Salmon, tuna, bream, avocado, campio, coriander and mint wrapped in cucumber, sesame and chopped oshinko with spicy mayonnaise sauce and ponzu sauce on top.",
+    "price": 5000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6970d792388fa1a7db7774d2",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "5e509d01303db6240d3a923e",
+      "option_id": "5dc7e7c6c2de36e2b6e70232",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 11
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d7d35ca26d966476c25b3ecb",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 3
+      }
+     },
+     {
+      "id": "a32de43df70e800ce8fe6bd9",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f6d6539f668648dbf5e20aa79cb6946a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3c4c36caf4f8a6d83a776c9a",
+    "name": "Vegetarian sandwich",
+    "description": "4 units | Rice, seaweed, tempura chips and 4 vegetables of your choice",
+    "price": 5400,
+    "images": [],
+    "options": [
+     {
+      "id": "c45c3aa4b5af331beb3aee64",
+      "option_id": "8f202f4c4f1b5f00bf048ab8",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0bfc24f5d24c0ebbc59c900a",
+      "option_id": "f057c654dd733a88c9431540",
+      "name": "Choose vegetables",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "44db5698fc1f040cc7c2fac9",
+      "option_id": "2862c8818eebbc4583c11ebe",
+      "name": "Choose a shell",
+      "prerequisite_values": [
+       "7caf6e207f0c177b3c73bdab"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "274ea29a2f0aa5267ca0f9b5",
+      "option_id": "0c2022a79db956276a3f2b62",
+      "name": "Gluten free roll",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "367bd8250b91c47339961c5d",
+      "option_id": "fa698803530b73e60bc25ff7",
+      "name": "Paid extras",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "dcb64e45fbff3a636c56d63b",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "0cccccb678dd7c291750ddfd",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 7,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b97faea4f5918daf4ddea8986f131f63",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3f18bf3d54137de9c8353a81",
+    "name": "Mango drink can",
+    "description": "",
+    "price": 1500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/692c33b71f847ea89874fd4c",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "14105c40afa1b9c54915187c6bfa1f52",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "50b0d865d6f9969751ed7328",
+    "name": "Roasted salmon nigiri",
+    "description": "2 units",
+    "price": 3800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6970d8517e4bbb92a268a7d4",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "950fb74c387830990b02a12d",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f8bbf423be7cbd519b024af2",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fde0ab1846a08fef44c7f60ce1ff0e7d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f26f9f9bb47e789c3af6",
+    "name": "Won Ton Soup",
+    "description": "Chicken, carrot, cabbage, zucchini, radish and two won ton filled with chicken\nServed with lettuce and lentils ",
+    "price": 3800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/5d3a7fb0-ce39-11ed-b4b5-e2c6525dcdfd____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "cbe463d9e167013f3f06b08d",
+      "option_id": "63fca837c9756b28b749cf4d",
+      "name": "Marc Van Ton - Changes are possible",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "677cde316f85fc1c675b5477",
+      "option_id": "63f5f26f9f9bb47e789c3aac",
+      "name": "Extra Waone Ton",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5e264ee8d0502d2dfd58c5a1f0544d93",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f26f9f9bb47e789c3af9",
+    "name": "Corn Soup",
+    "description": "Sweet soup with corn and egg",
+    "price": 3800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/391c1d96-ce39-11ed-ab18-62c2c3661dd7_________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a00abf4bdd93bd90a5cfa3b9e0cafb83",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f26f9f9bb47e789c3afa",
+    "name": "Veggie Egg Roll",
+    "description": "2 Crispy egg rolls filled with sprouts, carrot, cabbage and a sauce of choice\n",
+    "price": 3800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/b840cf5e-ce39-11ed-85c0-8e3faa429596____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "40dd81791e4b1bf5c8690583",
+      "option_id": "177adfa1f1e501a487eba2b2",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a6857401301d0ae221f49e6fda36d49e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f26f9f9bb47e789c3aff",
+    "name": "Small Chinese Salad",
+    "description": "Carrot, cabbage, red bell pepper. cucumber and radish pickled in sweet and sour sauce with black and white sesame",
+    "price": 3400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/4411ef54-ce3a-11ed-bc4d-6a358f1e59ac_________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "1f0bc2dacb4bbc4fa1bff10c",
+      "option_id": "63fcb4fa617b24ebb74bed42",
+      "name": "Chinese salad changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f3ad16fc7b9dd7002774e63175b4fb14",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b05",
+    "name": "Sichuan Chicken 🌶",
+    "description": "Chicken sauteed with carrot, broccoli, bell peppers and red onion in Sichuan sauce",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/e6cb0e2e-ce3a-11ed-8d27-c66c72703326_______________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "eabcb5f1a1b52c3aeb820e9f",
+      "option_id": "48ca33b009cd4882d4b46f8d",
+      "name": "Choose a protein",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2b59a5fea558ca64f4ba142c",
+      "option_id": "63fcb4fa617b24ebb74bed3b",
+      "name": "Szechuan wok changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d9960ab74f95b6bea35eb9ef",
+      "option_id": "641aeea3dce36eb11f3df68a",
+      "name": "Choose personal rice - China Class",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "06d5ec81faefbcdf00a1e883",
+      "option_id": "64c0cb9ab76020a7a59a3c55",
+      "name": "A gluten free dish? 🌾",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "354427b4420c078901778d2914a8b5fe",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b07",
+    "name": "Chicken and Sesame ",
+    "description": "10 Chicken pcs with crispy cover and sesame",
+    "price": 8400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/2a541208-ce3b-11ed-b8ca-be07f40df7ab________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "51902547cf56b9017d3c2504",
+      "option_id": "641aeea3dce36eb11f3df68a",
+      "name": "Choose personal rice - China Class",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c81088374be5b123bb639c03",
+      "option_id": "122da91f37453b6e72f88a2a",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "795c4445491eb2905439529ad18d3709",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b08",
+    "name": "The Spicy 🌶",
+    "description": "Egg noodles sauteed with chicken \\ beef \\ tofu \\ shrimp of choice, egg noodles, omelet, broccoli, bok choy, carrot, spring onion, red onion, dry chilli cashew and chopped peanuts",
+    "price": 7000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/b6c68d8e-ce3a-11ed-9857-6a358f1e59ac__________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "989aa70bc961e0fdc0a29998",
+      "option_id": "659467761c95ba6346f7c8e9",
+      "name": "Choice of protein - noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bfee7df065867d8d149e6e30",
+      "option_id": "63f5f26f9f9bb47e789c3af2",
+      "name": "Extra protein for noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ea59207be9fc5d5c0b82ede0",
+      "option_id": "63fcb4fa617b24ebb74bed33",
+      "name": "Changes to the spicy dish",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 11
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6f3b1b5c00852de4add8b114",
+      "option_id": "b00839e7cef21b55f1cc8731",
+      "name": "Possible changes to noodle type",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ef7b2ef991e20b5ed0000dd82a70ddde",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b09",
+    "name": "Futo Crispy Salmon Roll",
+    "description": "Futomaki roll with salmon, avocado, asparagus and cucumber fried with tempura",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/dc304bde-6437-11ea-acc8-0a58647cdb06__________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ae2df6b70ce873511747da74",
+      "option_id": "64636ee1cec904cf055434b8",
+      "name": "Changes - Photo Crispy Salmon",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1005f1ef17299238caec565a",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "764e07526ebbc261e2f05a4f",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bd60ccc34356a126c8a58698833905ef",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b0a",
+    "name": "Special Combo (16 pcs)",
+    "description": "I\\O 4 tempura shrimp, tempura asparagus, kanpyo and avocado, covered with green and orange tobiko \n\nI\\O 4 salmon, avocado, cucumber and scallions covered with avocado\n\nI\\O 4 salmon, salmon skin, avocado, cucumber and kanpyo, covered with tempura chips and black sesame\n\nI\\O 4 sea brim, oshinko, avocado, cucumber and asparagus covered with sesame and scallions",
+    "price": 10600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/e2e5278e-6436-11ea-ad3c-0a58647cdb06_____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a8c716bc8b686a8960370473",
+      "option_id": "64636ee1cec904cf055434c2",
+      "name": "Changes - Special Combo",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "da5d8d0158451bd1701909a5",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 8,
+       "free_selections": 8
+      }
+     },
+     {
+      "id": "938d0dafc13db4f36c540a55",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 20
+       },
+       "max_single_selections": 20,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "41f654b1d68ed7086a5f50d0e6c8edc5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b0b",
+    "name": "Well Done Sake Roll",
+    "description": "Roasted salmon, avocado and cucumber covered with avocado, sweet potato chips and teriyaki",
+    "price": 6400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/38852040-6437-11ea-8f57-0a58646007c2_____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "505d60862b3fccf913888e42",
+      "option_id": "64636ee1cec904cf055434b4",
+      "name": "Changes - Wall Dan Sake",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "65f5b83868a67ed9a6978274",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "4ce30634f27ba7354ca846cc",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d7af44425e744c4cb912dc6566f9cde7",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b0c",
+    "name": "Sprite Can",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/bd895750-f2da-11ec-99a4-423b736afe0a_____________330.jpeg",
+      "blurhash": "jhXLfKFW;;qSGXGntlpFtDupCFBD"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "330793f465575390743fda1090a9d793",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b0d",
+    "name": "Grape Juice",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/e739cd96-f2da-11ec-b033-6ac9f08c6791___________________.jpeg",
+      "blurhash": "jeYvbNCp;;GGGHBTpSupPctTh4Cp"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8621513e6c50aaf398d12abc06480f51",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b0e",
+    "name": "Fried Rice",
+    "description": "With peas, carrot and omelet ",
+    "price": 2200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/9ce8036a-6435-11ea-ab8b-0a58647cdb05___________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b953fc14b0dac87892dab5701e1cddea",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b0f",
+    "name": "Diet Coke Can",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/9f7f0a3e-f2da-11ec-aa9e-e6d339d1184d_coca_cola_diet_can_330ml_.jpeg",
+      "blurhash": "jeZL7NpS;;KXHcCpp4pCLtCpkPpC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7ff6b4f6b84c85335699720047879057",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b10",
+    "name": "Fuze Tea",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/ca76ee96-f2da-11ec-a921-8e215b61e8f7_______________350.jpeg",
+      "blurhash": "jd:LjOBTX;GXPtupkPFCLdCpl3pD"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "16bf5b1cf0b95d001c2a6c27e006441c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b12",
+    "name": "Rinai Roll",
+    "description": "Spicy salmon, cucumber and avocado covered with seared salmon, spicy mayonnaise, teriyaki, tempura chips and sweet potato chips",
+    "price": 6600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/94227e7a-6437-11ea-9801-0a586469744f_________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "10bfeb6a5f34487dd5527375",
+      "option_id": "64636ee1cec904cf055434b9",
+      "name": "Changes - Rinay Roll",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f25eb59fbd0153c5e4741c27",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "6c061b8c0f14fecae4048166",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "21d686f5438f997b50dc75575ef87f53",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b13",
+    "name": "Chicken and Cashew",
+    "description": "Chicken cuts sauteed with carrot, broccoli, bell peppers, red onion and mushrooms in soy sauce and cashew",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/f1a42cb8-ce3a-11ed-8810-be07f40df7ab_________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "c72c46fcbe0cc13e6fc042b9",
+      "option_id": "48ca33b009cd4882d4b46f8d",
+      "name": "Choose a protein",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "85b20b4eb863ffb65c5ace6a",
+      "option_id": "63fcb4fa617b24ebb74bed38",
+      "name": "Changes are possible for wok vegetables and cashews",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a083572a65f6b9cc310e8ce9",
+      "option_id": "641aeea3dce36eb11f3df68a",
+      "name": "Choose personal rice - China Class",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5d92ab1282d229c875030dd8",
+      "option_id": "64c0cb9ab76020a7a59a3c55",
+      "name": "A gluten free dish? 🌾",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f9a143afd008a64e370dc36de0eb228a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b14",
+    "name": "Soda",
+    "description": "0,25",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f5efe0344bf97674eedfbf/fda93592-01fd-11ef-a075-7eb9bb38192e_____.jpg",
+      "blurhash": "j0rT1R0000;;00PckPh44hX;TcKX"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "898d994c936d16320be8b22957c097fb",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b15",
+    "name": "Sauteed Rice a Topping of Choice",
+    "description": "Thai rice sauteed with chicken \\ beef \\ tofu \\ shrimp of choice, omelet, carrot, scallions, red onion, mushrooms, broccoli and crispy garlic\nYou can add a topping at a charge \n",
+    "price": 7000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/ca3ffb7a-ce3a-11ed-aa1b-6a358f1e59ac___________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "5b21c467c5f209fc47ce8288",
+      "option_id": "659467761c95ba6346f7c8e9",
+      "name": "Choice of protein - noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f3aefa9955194eed172deb32",
+      "option_id": "63fcb4fa617b24ebb74bed30",
+      "name": "Changes are possible Cow Pad Pak",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6e82cc6d4e5147259a7b1e0f",
+      "option_id": "64c0cb9ab76020a7a59a3c55",
+      "name": "A gluten free dish? 🌾",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "527557bea3928a01b9ad1491",
+      "option_id": "63f5f26f9f9bb47e789c3af2",
+      "name": "Extra protein for noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ea88658023dc79cbd8ac3259",
+      "option_id": "99d3f686c27b465cc31ab8b7",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f2fc9db51e416f8983aa5df535ce2509",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b16",
+    "name": "Sprite Zero Can",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/b592439a-f2da-11ec-a845-0afc713bd704__________________330.jpeg",
+      "blurhash": "jfX;fMBD;;GXmBGGJHlBGruopRFE"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3d96112f262e9c280a14bfb2b491f288",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b17",
+    "name": "Orange Juice",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/0fe25a2e-f2db-11ec-854a-3a344a069a51____________________.jpeg",
+      "blurhash": "je:frNCoX;GGPcxTh5uFKYCplktT"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6b743e65d4d21b3da538e473baccd274",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b18",
+    "name": "Pad Thai with a Topping of Choice",
+    "description": "Egg noodles sauteed with chicken \\ beef \\ tofu \\ shrimp of choice, omelet, sprouts, cabbage, carrot, scallions and chopped peanuts",
+    "price": 7000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/8ba97f94-ce3a-11ed-bc5e-8e0a5698dce2________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a289f0a7064e791b4c76a361",
+      "option_id": "659467761c95ba6346f7c8e9",
+      "name": "Choice of protein - noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "14521ecaeede655c0903acb2",
+      "option_id": "63f5f26f9f9bb47e789c3af2",
+      "name": "Extra protein for noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "20e71e95e9ec9963373b6f98",
+      "option_id": "63fcb4fa617b24ebb74bed31",
+      "name": "Pad Thai changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "049f8eaf12dec847002be1ed",
+      "option_id": "64c0cb9ab76020a7a59a3c55",
+      "name": "A gluten free dish? 🌾",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8162f920c7300f63f79045173c0fc040",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b1b",
+    "name": "Coca Cola Can",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/9388e7fe-f2da-11ec-a315-8e215b61e8f7_coca_cola_can_330ml.jpeg",
+      "blurhash": "jgZK;LBS;;CXOXupllBTPcuph4BT"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7cc1564a8f91f75e56e313491b0a419e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b1d",
+    "name": "Grapefruit Juice",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/fcecd0c0-f2da-11ec-85c5-a6b609e8b560______________________.jpeg",
+      "blurhash": "ja:fzRGF;;GHPttTgPCGKXu9llCm"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "61d0846ea86d185b4a62d8d5b9d6c081",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b1f",
+    "name": "Cola Zero Can",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/a7fcf9e6-f2da-11ec-bd14-9a45565e8458_coca_cola_zero_can_330ml_.jpeg",
+      "blurhash": "jgZu;LxT;;GXqXupFlBTLcupl4BT"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cb3f78f2dd04197a2d354650f951ab2e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b20",
+    "name": "The Thai with a Topping of Choice 🌶",
+    "description": "Egg noodles in green curry sauce and coconut milk, chicken \\ beef \\ tofu \\ shrimp of choice, sprouts, cabbage, carrot, scallions, basil and chopped peanuts",
+    "price": 7000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/a274175c-ce3a-11ed-a31f-62c2c3661dd7_____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "528585d743dec6d0bdf580f7",
+      "option_id": "659467761c95ba6346f7c8e9",
+      "name": "Choice of protein - noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9343c1abc20c62772fa081f9",
+      "option_id": "63f5f26f9f9bb47e789c3af2",
+      "name": "Extra protein for noodles",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bbd47d0512737a66b561e92f",
+      "option_id": "63fcb4fa617b24ebb74bed32",
+      "name": "Changes to the Thai dish",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c8946e3c2b16aa063212e032",
+      "option_id": "6460b3afbb56b6b32b101caf",
+      "name": "Would you like to switch to rice noodles?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3e33837902116726966adafd",
+      "option_id": "63f5f26f9f9bb47e789c3ab6",
+      "name": "Gluten-free dish",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "66ad70e699867f03d3c9115c991b488a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b21",
+    "name": "Sauteed Eggplants and Chicken",
+    "description": "Chicken sauteed with eggplants, sweet peppers and scallions ",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/a2b38d64-ce3b-11ed-aa9f-7a1fa0fd1b1e___________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "4b47e8996ec5c974465485d9",
+      "option_id": "48ca33b009cd4882d4b46f8d",
+      "name": "Choose a protein",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a93450f2ee55a10426284600",
+      "option_id": "64636ee0cec904cf055434ad",
+      "name": "Changes - Wok Cheza",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1d715112e9d219066171b902",
+      "option_id": "641aeea3dce36eb11f3df68a",
+      "name": "Choose personal rice - China Class",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ef8e7cfb100653faac0abf625dda86e6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b22",
+    "name": "Pullet Chicken in Lemon",
+    "description": "Chicken pullet marinated in garlic and herbs with crispy cover\nServed with sweet lemon garlic sauce",
+    "price": 8600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/92c36456-ce3b-11ed-9e10-26a1a22d2152___________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "00040daf713f9fe2be8985e9",
+      "option_id": "641aeea3dce36eb11f3df68a",
+      "name": "Choose personal rice - China Class",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "fde6fcb0bcca943d8c5de7cd",
+      "option_id": "940a5bd0d14af5550f367ba6",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "94306961e34827fa99d82766a71f3589",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b23",
+    "name": "Apple Juice",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/f30335a4-f2da-11ec-bfdf-8a3ee025c627____________________.jpeg",
+      "blurhash": "jdZ;jOCG;;GGOWxThpCFLdu9l4Cn"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "83ade2397bd6e0213ba47f2421f6eb78",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b24",
+    "name": "Combo Mix (16 pcs)",
+    "description": "4 Maki red tuna and kanpyo\n\n4 Maki salmon, avocado and cucumber\n\nI\\O 4 spicy tuna, scallions, asparagus and avocado",
+    "price": 9200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/d7b5d278-6436-11ea-9d62-0a58646007c2___________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "b9d95530d62eb9f2f7168831",
+      "option_id": "64636ee1cec904cf055434c1",
+      "name": "Changes - Mix Combo",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "57d744d3b7f5a2c44877ea97",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 8,
+       "free_selections": 8
+      }
+     },
+     {
+      "id": "12680d6b6ea5085acdff2d69",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "68243a0b1d33b92e76cc4a717ea81075",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b25",
+    "name": "Ebi Tan Roll",
+    "description": "Tempura shrimp, tempura asparagus, kanpyo and avocado covered with green and orange tobiko ",
+    "price": 6400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/2b2f2e90-6437-11ea-9246-0a586460059a___________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "b79dbc3be0d5328628a71608",
+      "option_id": "64636ee1cec904cf055434b3",
+      "name": "Changes - Avi Ten Roll",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e7d47ee0c7471b7ebbefd47c",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "764e07526ebbc261e2f05a4f",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "70a9c54dd8d5c402c0d40f4aa9a803fd",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b26",
+    "name": "Lemonmint Juice",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/02b6b9bc-f2db-11ec-9dec-8e215b61e8f7_____________________.jpeg",
+      "blurhash": "ja:fzRCD;;GHTtBTgQuFKYu9lkC6"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "147ffe4435d570b414486b76d0d0989b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b27",
+    "name": "Mineral Water",
+    "description": "0,5",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/d719d014-f2da-11ec-85aa-0afc713bd704________________________.jpeg",
+      "blurhash": "j3;fLXGG;;KXTttTgPCFPcGGh4pC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ec570e5661cc3bd33362cdf335a5b541",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b28",
+    "name": "Steamed Rice",
+    "description": "Steamed jasmine rice",
+    "price": 1800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/7c52911a-6435-11ea-8bb4-0a58647cdb06___________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "61862fd9ef6bd16b2be2b7fb54baeea2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b2a",
+    "name": "Spicy Tuna Roll",
+    "description": "Spicy tuna, scallions, asparagus and avocado covered with orange tobiko",
+    "price": 6400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/52460e36-6437-11ea-84b3-0a58647cdb06____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "160d349d68664c1a854b5e1e",
+      "option_id": "64636ee1cec904cf055434b6",
+      "name": "Changes - Spicy Tuna Roll",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d85069ab92174ab248a27f38",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "9657aded9f407461ae06eab0",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c2c38ed5e22eb7fb2a230949066ba7d8",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b2b",
+    "name": "Crispy Shiitake Roll",
+    "description": "Tempura sweet potato, shiitake, carrot and tamago covered with avocado and sweet potato chips",
+    "price": 5600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/f5cb274a-6436-11ea-be8c-0a58647b7e4a_________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ba4827249cbbc90b15fc70ed",
+      "option_id": "64636ee1cec904cf055434b1",
+      "name": "Changes - Crispy Shiitake",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d984eae6bd6c3766b8a50aee",
+      "option_id": "63f5f26f9f9bb47e789c3aa5",
+      "name": "Extra cream cheese",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "175a12fdc87fdc08f5f129e1",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 5,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "de63a4430ce417d6d6752fb6",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "345417fadf55ec978209348c2e3f5e98",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b2d",
+    "name": "Vegetarian Combination (16 pcs)",
+    "description": "I\\O 8 kanpyo, tamago, sweet potato\n\nI\\O 8 Yasai avocado, cucumber, kanpyo, tamago, oshinko and tempura asparagus, covered with tempura chips",
+    "price": 8600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/b12ea12a-6436-11ea-804a-0a586460059a______________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "6e5e6cb65a7c012aa74a6df1",
+      "option_id": "64636ee1cec904cf055434c0",
+      "name": "Changes - a vegetarian combination",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 6,
+       "free_selections": 8
+      }
+     },
+     {
+      "id": "1e8d1600462bdccae9e94c32",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 8,
+       "free_selections": 8
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "96a20c2f093c10f95a44807fb9d72f21",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b2e",
+    "name": "Yasai Roll",
+    "description": "Avocado, cucumber, kanpyo, tamago, oshinko and tempura asparagus, covered with tempura chips",
+    "price": 5400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/ebeb7e78-6436-11ea-bcb4-0a586460059a_________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "0c693d4126c169077a5484cf",
+      "option_id": "64636ee1cec904cf055434b0",
+      "name": "Changes - Yasei Roll",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "db3cde4ea8584dcc6d990ce8",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "37e592cb9b0ad9238d76279f",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0071e6b4fb84441cc9209160fbc98efa",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b2f",
+    "name": "Ebi Sake Roll",
+    "description": "Tempura shrimp, salmon, kanpyo, carrot, orange tobiko and spicy mayonnaise covered with avocado and tempura chips",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/44dea46a-6437-11ea-9142-0a58647cdb05_____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "0688765a156aa40403cfba1f",
+      "option_id": "64636ee1cec904cf055434b5",
+      "name": "Changes - Abi Sake Roll",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e7d47ee0c7471b7ebbefd47c",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "70b65207b6c62ba24eabaffe",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7a3d6fb553fb9585ccb27672966590f8",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b30",
+    "name": "California Roll",
+    "description": "Salmon, avocado, cucumber and scallions covered with salmon and avocado",
+    "price": 6200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/008e1cdc-6437-11ea-a285-0a58647b7e4a__________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "7bcf6bd748de46ba75ea4835",
+      "option_id": "64636ee1cec904cf055434b2",
+      "name": "Changes - California Roll",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8ab6383761ea61d458e409cd",
+      "option_id": "63f5f26f9f9bb47e789c3aa5",
+      "name": "Extra cream cheese",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0bf02cbbc74f6452a2321ae5",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "abd2b559d3674b2c7933053c",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6e714f5546233e75c7350b01a152846b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b31",
+    "name": "Fudge Cake",
+    "description": "With white chocolate twil and nuri\nServed with ginger sauce",
+    "price": 4000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/6a9f919a-50d2-11eb-af84-9e02f51e1574___________________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ce653d77a286fc7f0703ffa548dd3519",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b37",
+    "name": "Large Chinese Salad",
+    "description": "Carrot, cabbage, red bell pepper. cucumber and radish pickled in sweet and sour sauce with black and white sesame",
+    "price": 4200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/519a4f36-ce3a-11ed-a6ed-ba2b51018778_________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "9017604a53b7ecc16d26633a",
+      "option_id": "63fcb4fa617b24ebb74bed42",
+      "name": "Chinese salad changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7960865f71c1610d22fb511c56e2895b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b3b",
+    "name": "Chef's Dish - Sweet & Sour Chicken",
+    "description": "Chicken in crispy cover, sauteed with pineapple, bell peppers, red onion, broccoli, carrot and sweet and sour sauce ",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/d8faad54-ce3a-11ed-a40a-a6815904a5f5________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "14259b221a2ecca8a6170574",
+      "option_id": "33d4096d173b40cacb48fd30",
+      "name": "Choose a protein",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3d9de8a67c2e9ddf4aeeca94",
+      "option_id": "63fcb4fa617b24ebb74bed3f",
+      "name": "Changes are possible in the wok chef",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "dd52b89af12696fc12d78aa1",
+      "option_id": "641aeea3dce36eb11f3df68a",
+      "name": "Choose personal rice - China Class",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0f71240e465956164e96dd216f34f639",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b4c",
+    "name": "Tataki Rainbow Roll",
+    "description": "Tuna, salmon, avocado and chives, in a grilled Dennis and teriyaki shell, with roasted seaweed chips and roasted sesame seeds",
+    "price": 7000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/dcf64b0e-50d1-11eb-98dd-727c72c8e691___________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "10ea033b5bf1462b5c95833e",
+      "option_id": "64636ee1cec904cf055434bb",
+      "name": "Changes - Tataki Rainbow",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "81c748f199d33f7a49d8ea3e",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "54b2eb2a10792544379b475b",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "83a432a12d9795bc4c7e73c20532143d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b4d",
+    "name": "Onagi Roll",
+    "description": "Eel in teriyaki, tempura shrimp and avocado, wrapped in avocado and orange tobiko",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/fd9f350e-fa3a-11ed-af2b-ae8971a6d664__________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "9ae0b174be425366001303f0",
+      "option_id": "64636ee1cec904cf055434bf",
+      "name": "Changes - Ungi Wabi Roll",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "897b48c72b9200e15f722a07",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "eb89da3367e92377c63c1639e409977a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b4f",
+    "name": "Mix Salmon Roll",
+    "description": "Raw salmon, salmon skin, avocado, cucumber, chives and spicy mayonnaise, in a roasted salmon shell, teriyaki and green onions",
+    "price": 6400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/d10f1ba4-50d1-11eb-9c77-bea13b6a1404_______________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ee0a551e872173924f082134",
+      "option_id": "64636ee1cec904cf055434ba",
+      "name": "Changes - salmon mix",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "65f5b83868a67ed9a6978274",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "f747b71aff9238f4f458c103",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "42380e5a9f77897e0a2ed1326afaa375",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b50",
+    "name": "Kaizen Roll",
+    "description": "Salmon, dennis, shrimp, tempura and avocado , wrapped in tuna sashimi, salmon and avocado",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/00439dcc-fa3b-11ed-8b6b-fe43052d2815__________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ae51b1d0d0209e8a2b694964",
+      "option_id": "64636ee1cec904cf055434be",
+      "name": "Changes - Kizen Roll",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "45fc3c347fe1f6175afb1ddb",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "764e07526ebbc261e2f05a4f",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "04fdfe170c8ce12926d1069a20281506",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b5f",
+    "name": "Fish Maki",
+    "description": "Maki roll assembled with fish and a vegetable of your choice. 8 units of tsek roll wrapped in Nori cheese.",
+    "price": 4000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/e208b8a6-fa3a-11ed-bd09-fa7d35cc0bc8___________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "6efe99e8b101f8f3f19e8211",
+      "option_id": "64636ee0cec904cf055434a6",
+      "name": "Choose fish for sushi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "afdcbd855b8af964d0ce8624",
+      "option_id": "63f5f26f9f9bb47e789c3aa9",
+      "name": "Choose a vegetable for sushi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "eb227fb1b917e1bf8955abc1",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "c78782ef4369211a9d23060e",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "99ca0044f6e002435cba4c1351771b26",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b60",
+    "name": "A vegetarian maki",
+    "description": "Maki roll assembled with 2 vegetables to choose from. 8 units of a narrow roll wrapped in Nori cheese.",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/e3d10c10-fa3a-11ed-bd51-8e7cb8941d83____________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ac801f7f79652f604d5f34b4",
+      "option_id": "63f5f26f9f9bb47e789c3aa9",
+      "name": "Choose a vegetable for sushi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ef1b31db0b6a78bb4fb9ea54",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "0bbbb57edd0e3d9acba1b03a",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b7fb27de7081945a188954fd4e3e4f0a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b61",
+    "name": "Ormaki fish",
+    "description": "Roll assembled with fish and 3 vegetables to choose from. 8 i\\o roll units in a toasted sesame shell",
+    "price": 5000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/de5eab02-fa3a-11ed-a1e9-5a773912e48c_io___________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "84d199554a6cc098a242cf2e",
+      "option_id": "64636ee0cec904cf055434a6",
+      "name": "Choose fish for sushi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "73f245b2fde0bfe17977816d",
+      "option_id": "63f5f26f9f9bb47e789c3aa9",
+      "name": "Choose a vegetable for sushi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "50cf55eace2bad291a28185d",
+      "option_id": "aa5c23958c280902986be46c",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7492a122736890abbd29ebf4",
+      "option_id": "6683c64cd9e43235f90c17b7",
+      "name": "Changing the shell",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f40f984bfa9c6d97cedf6377",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "6d27be9371e8bfd0333f0815",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a4da5c434d982e19ce587d7df82f5f3a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b62",
+    "name": "Vegetarian oramaki",
+    "description": "Roll assembled with 4 vegetables to choose from. 8 i\\o roll units in a toasted sesame shell",
+    "price": 4800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/dbcf7a4c-fa3a-11ed-acaa-8e7cb8941d83_io_______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "af42770417809f701d19b740",
+      "option_id": "d5425d5e54f1bc4ca1d61310",
+      "name": "Choose a vegetable for sushi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c9d4f17236bd7d274af51167",
+      "option_id": "aa5c23958c280902986be46c",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5f078e99df98b3f21a219c90",
+      "option_id": "6683c64cd9e43235f90c17b7",
+      "name": "Choose a shell",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c506d5701aad4a8acdaa9c36",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "55c6e1878298b7ff36a3a19d",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "29c411364bf871f4cf40583fab853a53",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b63",
+    "name": "Vegetarian photomaki",
+    "description": "Roll assembled with 4 vegetables to choose from. 8 units, a wide roll wrapped in Nori cheese",
+    "price": 5400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/e9973020-fa3a-11ed-9a98-027dd9af5ca0________________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "bfc0376ead394fc54f22dd22",
+      "option_id": "63f5f26f9f9bb47e789c3aa9",
+      "name": "Choose a vegetable for sushi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c092ece05736a86f37f0f2f2",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "4d573a7116ee26b5c9cecd94",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "714932976370ec2db5315597955c3b14",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f5f2709f9bb47e789c3b64",
+    "name": "Fish Potomaki",
+    "description": "Roll assembled with fish and 3 vegetables to choose from. 8 units, a wide roll wrapped in Nori cheese",
+    "price": 6000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/e8151640-fa3a-11ed-8090-364d7b34461e____________________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "836889882c6d6014254e695e",
+      "option_id": "64636ee0cec904cf055434a6",
+      "name": "Choose fish for sushi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c77cdb3330fcba481177f0bd",
+      "option_id": "63f5f26f9f9bb47e789c3aa9",
+      "name": "Choose a vegetable for sushi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7228ec0e7b1823c6649f97a2",
+      "option_id": "64636ee1cec904cf055434af",
+      "name": "Choose sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 4
+       },
+       "max_single_selections": 4,
+       "free_selections": 4
+      }
+     },
+     {
+      "id": "f8b34930ad5039e9c8137e2f",
+      "option_id": "660a66411291d2c6f357a51e",
+      "name": "Paid sushi sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3dc0d77a2e09ebb7e65e97fa28e8dd48",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63fb51e179765043b461544c",
+    "name": "Disposable Cutlery 🍴",
+    "description": "Please choose this item as many times as there are diners in need of disposable cutlery\n-- In case this item won't be chosen, cutlery will not be sent --",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/da120134-9600-11eb-9f53-1a3e6a9beaa2_cutlery___wolt.jpeg",
+      "blurhash": "j2;fPYll;;TtTttTcPCpTuGXcPl4"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c0e884c2a711405cbe29626c5a22fcec",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63fb51e179765043b461544d",
+    "name": "Chinese Dishes Chopsticks 🥢",
+    "description": "Please choose this item as many times as there are diners in need of Chopsticks\n-- in case this item won't be chosen, chopsticks will not be sent --",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/ec5afeea-9600-11eb-9d7c-f67ccfaa7345_chopsticks___wolt.jpeg",
+      "blurhash": "j1;LTZGG;;PcTKpCcPGXTtGGcPll"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9b2530594476715e9fdf729ffb586de8",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63fb51e179765043b461544e",
+    "name": "Sushi Dishes Chopsticks 🥢",
+    "description": "Please choose this item as many times as there are diners in need of Chopsticks\n-- in case this item won't be chosen, chopsticks will not be sent --",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e60fb712b7b5a92cc2ef8a7/f43e5832-9600-11eb-b389-f67ccfaa7345_chopsticks___wolt.jpeg",
+      "blurhash": "j1;LTZGG;;PcTKpCcPGXTtGGcPll"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "2add9050c9e19f97624ce2bf3a98bc4b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6460b5d92b6cb5decb85a8c8",
+    "name": "Soy",
+    "description": "",
+    "price": 200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/600977e48bd6b957fa3a59f5/a1c0b358-fdce-11eb-8de8-fe87bce11d77_____.jpeg",
+      "blurhash": "j9ZvnRGp;;GGPbtTllGp;;Cp4hpC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4dfef898e74d40a2352feb62d91c82ca",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6460b5db94bbf70a80437406",
+    "name": "Spicy chili soy 🌶️",
+    "description": "",
+    "price": 200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f5efe0344bf97674eedfbf/b33bee64-eabf-11ee-8c7c-323b1e7905a4___________.jpg",
+      "blurhash": "j3HVJ;;;WPh4Ttlmh5Ts;Zh58AGG"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "58f133e8b9cf2fb1405b55b67217d8f0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6460b5ddac368f125bd03bb1",
+    "name": "Gluten free soy 🌾",
+    "description": "",
+    "price": 200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/600977e48bd6b957fa3a59f5/a1c0b358-fdce-11eb-8de8-fe87bce11d77_____.jpeg",
+      "blurhash": "j9ZvnRGp;;GGPbtTllGp;;Cp4hpC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f7cef94c979e9843b7364eaa636dafc4",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   }
+  ],
+  "options": [
+   {
+    "id": "122da91f37453b6e72f88a2a",
+    "name": "Choose a sauce",
+    "type": "choice",
+    "default_value": "9aaafd0df1f93d192a0d97c6",
+    "values": [
+     {
+      "id": "9aaafd0df1f93d192a0d97c6",
+      "name": "Sweet and sour sauce",
+      "price": 0
+     },
+     {
+      "id": "43a7ad645c257e93cb48aa26",
+      "name": "Without sauce",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "14c81fa8cf8072c9e1630f0f",
+    "name": "Possible changes in fish pokies",
+    "type": "multi_choice",
+    "default_value": "12c31ebd9977d329d3219765",
+    "values": [
+     {
+      "id": "12c31ebd9977d329d3219765",
+      "name": "No algae",
+      "price": 0
+     },
+     {
+      "id": "7d6c29257eb0bf91a3e7349b",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "21019d4706de10009448dc39",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "8930bbf1a7c42752279538ed",
+      "name": "Without asparagus",
+      "price": 0
+     },
+     {
+      "id": "767a0aa19f049d6c002a3ee1",
+      "name": "Without Campio",
+      "price": 0
+     },
+     {
+      "id": "ddc9fa2a598c1bc09cf523da",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "6fcefce6273ac510f2445652",
+      "name": "No crispy sweet potatoes",
+      "price": 0
+     },
+     {
+      "id": "b08f94e48e1d63ad9128d844",
+      "name": "Without sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "c8f7f616adf69a12f35dc98f",
+      "name": "Without red tobiko",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "177adfa1f1e501a487eba2b2",
+    "name": "Choose a sauce",
+    "type": "choice",
+    "default_value": "1600c243b33f2e2870a93402",
+    "values": [
+     {
+      "id": "1600c243b33f2e2870a93402",
+      "name": "Sweet and sour sauce",
+      "price": 0
+     },
+     {
+      "id": "6f539b67f1ed4d7da72979a0",
+      "name": "No sauce on the side",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "2862c8818eebbc4583c11ebe",
+    "name": "Choose a shell",
+    "type": "multi_choice",
+    "default_value": "c26879208ceef59f747cf098",
+    "values": [
+     {
+      "id": "c26879208ceef59f747cf098",
+      "name": "Sweet potato chips shell",
+      "price": 0
+     },
+     {
+      "id": "77d691beea6ca4e1ccce9d1b",
+      "name": "Sesame shell",
+      "price": 0
+     },
+     {
+      "id": "cc5f2cbdae1feb5af16e136f",
+      "name": "Without shell",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "28ee5f9dae6e7c1c36b2661b",
+    "name": "Choose protein in Khao Soi",
+    "type": "choice",
+    "default_value": "d1f614a6087a692152cfe60c",
+    "values": [
+     {
+      "id": "d1f614a6087a692152cfe60c",
+      "name": "Without addition",
+      "price": 0
+     },
+     {
+      "id": "9d92eac276ba634dbca26116",
+      "name": "Tofu",
+      "price": 0
+     },
+     {
+      "id": "84a82b07ebb7446a4b94dfc6",
+      "name": "chicken",
+      "price": 200
+     },
+     {
+      "id": "6eb899e91beb6c796dd12080",
+      "name": "Beef",
+      "price": 600
+     },
+     {
+      "id": "2f8e53e0e461f007975b794a",
+      "name": "Shrimp",
+      "price": 1800
+     },
+     {
+      "id": "7dc9659d49cfc703539b358b",
+      "name": "Steamed bream",
+      "price": 1800
+     },
+     {
+      "id": "306ba036e39ee6504e3d2c41",
+      "name": "Dennis Crispy",
+      "price": 1800
+     }
+    ]
+   },
+   {
+    "id": "33d4096d173b40cacb48fd30",
+    "name": "Choose a protein in the Chef's Wok",
+    "type": "choice",
+    "default_value": "b101e8acfb19ad344de5ddb5",
+    "values": [
+     {
+      "id": "b101e8acfb19ad344de5ddb5",
+      "name": "Crispy tofu",
+      "price": 0
+     },
+     {
+      "id": "1595365e588bae5f286f13e9",
+      "name": "Crispy chicken",
+      "price": 400
+     },
+     {
+      "id": "55edefab11a647880d2d3c1a",
+      "name": "Crispy beef",
+      "price": 800
+     },
+     {
+      "id": "a3bacb51195237bade6168f9",
+      "name": "Crispy shrimp",
+      "price": 3200
+     }
+    ]
+   },
+   {
+    "id": "4657ed6d4a4d522b61dde087",
+    "name": "Possible changes Negi Roll",
+    "type": "multi_choice",
+    "default_value": "fdf43609c56c3719cee6642e",
+    "values": [
+     {
+      "id": "fdf43609c56c3719cee6642e",
+      "name": "without bream",
+      "price": 0
+     },
+     {
+      "id": "7850ad2319522ccd7c117a44",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "b35be6e2bf2aed467f1251ce",
+      "name": "Without asparagus",
+      "price": 0
+     },
+     {
+      "id": "8362781ae064318772e57d86",
+      "name": "Without avocado shell",
+      "price": 0
+     },
+     {
+      "id": "1861c087349380a87df4be59",
+      "name": "Without sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "46e3b168d5d41f9a554c41a6",
+      "name": "Without Kewpie mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "1b87f163c0bfe56b636ef3b6",
+      "name": "No beetroot crisps",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "48ca33b009cd4882d4b46f8d",
+    "name": "Protein selection - Chinese cuisine",
+    "type": "multi_choice",
+    "default_value": "289b052d429f584b1b08627e",
+    "values": [
+     {
+      "id": "289b052d429f584b1b08627e",
+      "name": "Tofu",
+      "price": 0
+     },
+     {
+      "id": "e053a7273bb1fb2c9b5b5f4d",
+      "name": "chicken",
+      "price": 400
+     },
+     {
+      "id": "4aa2a0742d8a5568077117c6",
+      "name": "Beef",
+      "price": 800
+     },
+     {
+      "id": "44152cac2dd15e53318e0546",
+      "name": "Shrimp",
+      "price": 3200
+     }
+    ]
+   },
+   {
+    "id": "5dc7e7c6c2de36e2b6e70232",
+    "name": "Possible changes to the Ponzo Roll",
+    "type": "multi_choice",
+    "default_value": "85c12b69fd8a830785993d81",
+    "values": [
+     {
+      "id": "85c12b69fd8a830785993d81",
+      "name": "Without salmon",
+      "price": 0
+     },
+     {
+      "id": "f530fb4902db902e9031e616",
+      "name": "Without red tuna",
+      "price": 0
+     },
+     {
+      "id": "f6867550747556689f115dc9",
+      "name": "without bream",
+      "price": 0
+     },
+     {
+      "id": "bbd94db39ca76ae7ebccffe0",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "63dbd549ff330fd78f4a50de",
+      "name": "Without Campio",
+      "price": 0
+     },
+     {
+      "id": "1b4cffcdf1bfdd742895a85d",
+      "name": "Without coriander",
+      "price": 0
+     },
+     {
+      "id": "6c1966c1d0e7f24598042985",
+      "name": "Without mint",
+      "price": 0
+     },
+     {
+      "id": "5a21c170fc64b87151f0a924",
+      "name": "Without sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "692dcff7e6ad89f7b1fc44cd",
+      "name": "Without Oshinko",
+      "price": 0
+     },
+     {
+      "id": "a5ad829ba900ffc28d6c4e85",
+      "name": "Without spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "f1b8f3860ac547ed8add6408",
+      "name": "No ponzo sauce",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63f5f26f9f9bb47e789c3aa5",
+    "name": "Extra cream cheese",
+    "type": "multi_choice",
+    "default_value": "5208e3a6997ca7a54fec472c",
+    "values": [
+     {
+      "id": "5208e3a6997ca7a54fec472c",
+      "name": "Extra Cream Cheese",
+      "price": 600
+     }
+    ]
+   },
+   {
+    "id": "63f5f26f9f9bb47e789c3aa7",
+    "name": "Changes are possible for vegetable noodles",
+    "type": "multi_choice",
+    "default_value": "87922745ae8a2463513ca137",
+    "values": [
+     {
+      "id": "87922745ae8a2463513ca137",
+      "name": "Extra Spicy 🌶",
+      "price": 0
+     },
+     {
+      "id": "62ba7b85e636c265124ff41f",
+      "name": "No Sprouts",
+      "price": 0
+     },
+     {
+      "id": "3415e8dc994133a0191eab9f",
+      "name": "No Cabbage",
+      "price": 0
+     },
+     {
+      "id": "cf26ef616ec08a71d9e76453",
+      "name": "No Carrot",
+      "price": 0
+     },
+     {
+      "id": "c694965d81c9427846841ac3",
+      "name": "No Spring Onion",
+      "price": 0
+     },
+     {
+      "id": "ff1803a599cedd50510faa2e",
+      "name": "Extra Broccoli ",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63f5f26f9f9bb47e789c3aa9",
+    "name": "Choose a vegetable for sushi",
+    "type": "multi_choice",
+    "default_value": "3408db050bd01ba1cc97c71b",
+    "values": [
+     {
+      "id": "3408db050bd01ba1cc97c71b",
+      "name": "Avocado",
+      "price": 0
+     },
+     {
+      "id": "76cbfa41b0568da6017df382",
+      "name": "cucumber",
+      "price": 0
+     },
+     {
+      "id": "5aad5f1846c1a016e507d15d",
+      "name": "Carrot",
+      "price": 0
+     },
+     {
+      "id": "e69423a6a4ce151066753c1b",
+      "name": "asparagus",
+      "price": 0
+     },
+     {
+      "id": "0fec7aec712ee2c3c253a738",
+      "name": "Green onions",
+      "price": 0
+     },
+     {
+      "id": "65e2b65a17cde9460b2fcd7c",
+      "name": "Tamago (Japanese omelet)",
+      "price": 0
+     },
+     {
+      "id": "9e5dcf657b1b5040afdfc628",
+      "name": "Oshinko (Japanese radish)",
+      "price": 0
+     },
+     {
+      "id": "f916ee1e7af80b30044eae15",
+      "name": "Hemp (Japanese pumpkin)",
+      "price": 0
+     },
+     {
+      "id": "6a25554fd462cafb9ffdf3a5",
+      "name": "Shiitake mushrooms",
+      "price": 400
+     },
+     {
+      "id": "8a57a3511010c0edcfe2df88",
+      "name": "Sweet potato tempura",
+      "price": 400
+     },
+     {
+      "id": "8702d38c482c658eb6cd60c3",
+      "name": "Cream cheese",
+      "price": 600
+     }
+    ]
+   },
+   {
+    "id": "63f5f26f9f9bb47e789c3aac",
+    "name": "Extra Waone Ton",
+    "type": "multi_choice",
+    "default_value": "522985793189258864526b59",
+    "values": [
+     {
+      "id": "522985793189258864526b59",
+      "name": "Extra One Ton",
+      "price": 700
+     }
+    ]
+   },
+   {
+    "id": "63f5f26f9f9bb47e789c3ab6",
+    "name": "Gluten-free dish",
+    "type": "multi_choice",
+    "default_value": "beaa742d8e5dbe37fb3d6f55",
+    "values": [
+     {
+      "id": "beaa742d8e5dbe37fb3d6f55",
+      "name": "Gluten-free soy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63f5f26f9f9bb47e789c3af2",
+    "name": "Extra protein for noodles",
+    "type": "multi_choice",
+    "default_value": "d2c9eef0e4d9e0e475f2991d",
+    "values": [
+     {
+      "id": "ed112c2d17e70aa993b0a07b",
+      "name": "Extra tofu",
+      "price": 1600
+     },
+     {
+      "id": "d2c9eef0e4d9e0e475f2991d",
+      "name": "Extra chicken",
+      "price": 1600
+     },
+     {
+      "id": "288ea459c6f353458586bdac",
+      "name": "Extra cattle",
+      "price": 1600
+     }
+    ]
+   },
+   {
+    "id": "63fca837c9756b28b749cf4d",
+    "name": "Marc Van Ton - Changes are possible",
+    "type": "multi_choice",
+    "default_value": "08d049a94302ff96f32c037e",
+    "values": [
+     {
+      "id": "08d049a94302ff96f32c037e",
+      "name": "Without vegetables",
+      "price": 0
+     },
+     {
+      "id": "12023e8148d7c3fa207b6179",
+      "name": "No sprouts",
+      "price": 0
+     },
+     {
+      "id": "bc3d1112ee0711c807e47a2b",
+      "name": "Without lettuce",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63fcb4fa617b24ebb74bed30",
+    "name": "Changes are possible Cow Pad Pak",
+    "type": "multi_choice",
+    "default_value": "583f08276b4f980e817b7900",
+    "values": [
+     {
+      "id": "583f08276b4f980e817b7900",
+      "name": "Without broccoli",
+      "price": 0
+     },
+     {
+      "id": "84c889010789434b28fcb03f",
+      "name": "Without carrots",
+      "price": 0
+     },
+     {
+      "id": "55e3855664f6376cc1d5f032",
+      "name": "Without egg",
+      "price": 0
+     },
+     {
+      "id": "80c30ed5e5cec60d96a40fd8",
+      "name": "No vegetables",
+      "price": 0
+     },
+     {
+      "id": "c0cf89083832dbc1317f7da1",
+      "name": "No mushrooms",
+      "price": 0
+     },
+     {
+      "id": "e40c3237349a495eb03b6b30",
+      "name": "Without cabbage",
+      "price": 0
+     },
+     {
+      "id": "a1f445609e84dd08c06f2566",
+      "name": "Without purple onion",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63fcb4fa617b24ebb74bed31",
+    "name": "Pad Thai changes",
+    "type": "multi_choice",
+    "default_value": "09acb6d521b27965b7d146ba",
+    "values": [
+     {
+      "id": "912ff04a9b45734aeeae9b4c",
+      "name": "Without egg",
+      "price": 0
+     },
+     {
+      "id": "6746987b475d25e009ee988f",
+      "name": "No sprouts",
+      "price": 0
+     },
+     {
+      "id": "8bac0428b16a8d1710b3de57",
+      "name": "Without cabbage",
+      "price": 0
+     },
+     {
+      "id": "09acb6d521b27965b7d146ba",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "b5b620ad30562baa93b17470",
+      "name": "No peanuts",
+      "price": 0
+     },
+     {
+      "id": "8888188c95a1d9f61b66eb2a",
+      "name": "No vegetables",
+      "price": 0
+     },
+     {
+      "id": "d25680e85f3d4ab85602a5bc",
+      "name": "Without carrots",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63fcb4fa617b24ebb74bed32",
+    "name": "Changes to the Thai dish",
+    "type": "multi_choice",
+    "default_value": "2756df757e15c745f71eb2ed",
+    "values": [
+     {
+      "id": "a8834af8fe317d241b7959a2",
+      "name": "No sprouts",
+      "price": 0
+     },
+     {
+      "id": "11a7f4050d62067fcd5cc9d4",
+      "name": "Without cabbage",
+      "price": 0
+     },
+     {
+      "id": "c29622167c3f4311e749787c",
+      "name": "Without carrots",
+      "price": 0
+     },
+     {
+      "id": "2756df757e15c745f71eb2ed",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "af1d503b919b17561a886625",
+      "name": "Without basil",
+      "price": 0
+     },
+     {
+      "id": "424c375d7d5d4a32f61b3b78",
+      "name": "No peanuts",
+      "price": 0
+     },
+     {
+      "id": "130c2104417c79a9e023fb8f",
+      "name": "No vegetables",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63fcb4fa617b24ebb74bed33",
+    "name": "Changes to the spicy dish",
+    "type": "multi_choice",
+    "default_value": "6cc89758131bb57fd7de481f",
+    "values": [
+     {
+      "id": "9bc01fa19a885c5847e2fd22",
+      "name": "Without egg",
+      "price": 0
+     },
+     {
+      "id": "bcc8532c3a1c4f8e1811c0bd",
+      "name": "Without broccoli",
+      "price": 0
+     },
+     {
+      "id": "6cc89758131bb57fd7de481f",
+      "name": "Without bak choy",
+      "price": 0
+     },
+     {
+      "id": "5dd6eed0423f1c267ce79eca",
+      "name": "Without carrots",
+      "price": 0
+     },
+     {
+      "id": "34095f17e2b0bdec5e5332ac",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "0f1011ca3effcf13774a7c2b",
+      "name": "Without shallots",
+      "price": 0
+     },
+     {
+      "id": "a0041e0c5d9198dbf7c5d1bb",
+      "name": "Without cashews",
+      "price": 0
+     },
+     {
+      "id": "0fd7fa57a5b72e719ef9b8ec",
+      "name": "No peanuts",
+      "price": 0
+     },
+     {
+      "id": "7813180122c88b0a1c8a4758",
+      "name": "No vegetables",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63fcb4fa617b24ebb74bed38",
+    "name": "Changes are possible for wok vegetables and cashews",
+    "type": "multi_choice",
+    "default_value": "a983ec99c25197f2e25c350f",
+    "values": [
+     {
+      "id": "a983ec99c25197f2e25c350f",
+      "name": "Without vegetables",
+      "price": 0
+     },
+     {
+      "id": "fbd95b8064d490f9d97be7f5",
+      "name": "Without onion",
+      "price": 0
+     },
+     {
+      "id": "44259fd4fcb523d9e91b82d5",
+      "name": "Without broccoli",
+      "price": 0
+     },
+     {
+      "id": "c62eb8909b293709ec252f97",
+      "name": "Without carrots",
+      "price": 0
+     },
+     {
+      "id": "98d84cbc35435a34f4b47ea2",
+      "name": "No green pepper",
+      "price": 0
+     },
+     {
+      "id": "7a65ba4a9e4413e2885f3b0c",
+      "name": "No mushrooms",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63fcb4fa617b24ebb74bed3b",
+    "name": "Szechuan wok changes",
+    "type": "multi_choice",
+    "default_value": "ee70fefce42ee9b11595df33",
+    "values": [
+     {
+      "id": "ee70fefce42ee9b11595df33",
+      "name": "Without vegetables",
+      "price": 0
+     },
+     {
+      "id": "a3c014831b0513a38a047c58",
+      "name": "Without onion",
+      "price": 0
+     },
+     {
+      "id": "46ea18e40484fa64e09aa9b6",
+      "name": "Without broccoli",
+      "price": 0
+     },
+     {
+      "id": "9cb08e5018841a32d27a6861",
+      "name": "Without carrots",
+      "price": 0
+     },
+     {
+      "id": "875f2eea798ac3b5a3ab91d7",
+      "name": "No green pepper",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63fcb4fa617b24ebb74bed3f",
+    "name": "Changes are possible in the wok chef",
+    "type": "multi_choice",
+    "default_value": "9d510e073e40ad86f061b3a6",
+    "values": [
+     {
+      "id": "9d510e073e40ad86f061b3a6",
+      "name": "Without vegetables",
+      "price": 0
+     },
+     {
+      "id": "aff2cb81e7d0c448b12b49c2",
+      "name": "Without broccoli",
+      "price": 0
+     },
+     {
+      "id": "36dbbd0b7d17dfe8377061e8",
+      "name": "Without carrots",
+      "price": 0
+     },
+     {
+      "id": "93817cc01a3058d8b685662e",
+      "name": "Without onion",
+      "price": 0
+     },
+     {
+      "id": "2135a23799284c547889e61f",
+      "name": "No green pepper",
+      "price": 0
+     },
+     {
+      "id": "a9d61519c0c8592ca309497a",
+      "name": "Without pineapple",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63fcb4fa617b24ebb74bed42",
+    "name": "Chinese salad changes",
+    "type": "multi_choice",
+    "default_value": "458781daf529aa3d4e484b91",
+    "values": [
+     {
+      "id": "458781daf529aa3d4e484b91",
+      "name": "Without sesame seeds",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "641aeea3dce36eb11f3df68a",
+    "name": "Choose personal rice - China Class",
+    "type": "choice",
+    "default_value": "0064ebdea6fb2bed1b22f81b",
+    "values": [
+     {
+      "id": "0064ebdea6fb2bed1b22f81b",
+      "name": "Personal steamed rice",
+      "price": 0
+     },
+     {
+      "id": "7cc4e6ae4edd1cb9b84539af",
+      "name": "Personal fried rice",
+      "price": 400
+     },
+     {
+      "id": "5e39739cd4169dd2ce50f999",
+      "name": "Without rice",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "6460b3afbb56b6b32b101caf",
+    "name": "Would you like to switch to rice noodles?",
+    "type": "multi_choice",
+    "default_value": "cfe5211592bb86d321e4f3be",
+    "values": [
+     {
+      "id": "cfe5211592bb86d321e4f3be",
+      "name": "change to rice noodles",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee0cec904cf055434a6",
+    "name": "Choose fish for sushi",
+    "type": "multi_choice",
+    "default_value": "951c6bf2a2d49ac59e8f5ad4",
+    "values": [
+     {
+      "id": "951c6bf2a2d49ac59e8f5ad4",
+      "name": "salmon",
+      "price": 0
+     },
+     {
+      "id": "e4e99057d565692283c777f2",
+      "name": "Salmon Tempura",
+      "price": 0
+     },
+     {
+      "id": "5981673bd4898932accb68ff",
+      "name": "Spicy salmon",
+      "price": 0
+     },
+     {
+      "id": "0484fb2b3d5d9ca8790cf84a",
+      "name": "Salmon Skin",
+      "price": 0
+     },
+     {
+      "id": "98d3802c024842029edc1534",
+      "name": "Dennis",
+      "price": 0
+     },
+     {
+      "id": "32e34ea75a719de79214e6f1",
+      "name": "Red tuna",
+      "price": 200
+     },
+     {
+      "id": "16222a741a61f0bba23b09a1",
+      "name": "Spicy tuna",
+      "price": 200
+     },
+     {
+      "id": "3c777684da908072467bfa36",
+      "name": "Shrimp in tempura",
+      "price": 200
+     },
+     {
+      "id": "42f44b1bb02517d6bb32ca24",
+      "name": "Steamed shrimp",
+      "price": 200
+     },
+     {
+      "id": "cc5b91fd9cf0f567c10b0d80",
+      "name": "Smoked Salmon",
+      "price": 200
+     },
+     {
+      "id": "43569994fb58d1619b879ca7",
+      "name": "Baked salmon",
+      "price": 200
+     }
+    ]
+   },
+   {
+    "id": "64636ee0cec904cf055434ad",
+    "name": "Changes - Wok Cheza",
+    "type": "multi_choice",
+    "default_value": "92d0fe39a75e90a9cf4ff030",
+    "values": [
+     {
+      "id": "92d0fe39a75e90a9cf4ff030",
+      "name": "Without eggplant",
+      "price": 0
+     },
+     {
+      "id": "2feb8475bd8c3204c2cc0db5",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "0339e67fdd55f6b6dcf9741b",
+      "name": "Without vegetables",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434af",
+    "name": "Choose sushi sauces",
+    "type": "multi_choice",
+    "default_value": "625813f27cc910d4945a9f76",
+    "values": [
+     {
+      "id": "625813f27cc910d4945a9f76",
+      "name": "No sauces",
+      "price": 0
+     },
+     {
+      "id": "7e778c1001f4a0ba03db1990",
+      "name": "soya",
+      "price": 0
+     },
+     {
+      "id": "e29dca2baddd6345cb2ddcad",
+      "name": "Low sodium soy",
+      "price": 0
+     },
+     {
+      "id": "3ecb8e8ecc4aa6b1972c4dab",
+      "name": "Spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "5b7e53a91fe2b03f97c76c09",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "064f0b112775899f63a1780d",
+      "name": "Ginger",
+      "price": 0
+     },
+     {
+      "id": "8bd2025331a754e353d8185b",
+      "name": "Wasby",
+      "price": 0
+     },
+     {
+      "id": "bba9c59ac3253cf64251fee9",
+      "name": "Gluten-free soy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434b0",
+    "name": "Changes - Yasei Roll",
+    "type": "multi_choice",
+    "default_value": "c1c65da3876442a02913c800",
+    "values": [
+     {
+      "id": "c1c65da3876442a02913c800",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "177c2d1ad89a67481ff88b6b",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "882cc42feeb0250799843ae3",
+      "name": "Without Campio",
+      "price": 0
+     },
+     {
+      "id": "02e05f12b0555ae0e280d127",
+      "name": "Without Tamago",
+      "price": 0
+     },
+     {
+      "id": "c452beb5068a6004b99ddb5f",
+      "name": "Without Oshinko",
+      "price": 0
+     },
+     {
+      "id": "b54f2a0857fe68fedb97b9de",
+      "name": "Without asparagus tempura",
+      "price": 0
+     },
+     {
+      "id": "e82ad5ae9d290b0f5bcf581e",
+      "name": "Without tempura chips",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434b1",
+    "name": "Changes - Crispy Shiitake",
+    "type": "multi_choice",
+    "default_value": "a7f1abb89465fc03be030e8a",
+    "values": [
+     {
+      "id": "a7f1abb89465fc03be030e8a",
+      "name": "No sweet potatoes in tempura",
+      "price": 0
+     },
+     {
+      "id": "5e893e92e6ddaab6804a276a",
+      "name": "Without Shitaki",
+      "price": 0
+     },
+     {
+      "id": "775611133e09ed222ce54ba6",
+      "name": "Without carrots",
+      "price": 0
+     },
+     {
+      "id": "c362e3719c1e5f77621e03ff",
+      "name": "Without Tamago",
+      "price": 0
+     },
+     {
+      "id": "85acbd976dba7f8d024216ec",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "9106d516b8a387d162de9c4c",
+      "name": "Without avocado shell",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434b2",
+    "name": "Changes - California Roll",
+    "type": "multi_choice",
+    "default_value": "99ccda1be65cb91cac90be4e",
+    "values": [
+     {
+      "id": "99ccda1be65cb91cac90be4e",
+      "name": "Without salmon",
+      "price": 0
+     },
+     {
+      "id": "75c6b82cb5aafd85239d7eaa",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "387fc537e3b189ca7453e40d",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "176f37f06558ea56ff3bf5d9",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "2869d17a518e1b7c11d5a2cb",
+      "name": "Without avocado shell",
+      "price": 0
+     },
+     {
+      "id": "0c9ee81181224c808df9f13c",
+      "name": "Without salmon shell",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434b3",
+    "name": "Changes - Avi Ten Roll",
+    "type": "multi_choice",
+    "default_value": "df61703a868a68fb1df8653b",
+    "values": [
+     {
+      "id": "df61703a868a68fb1df8653b",
+      "name": "No Tempura Shrimp",
+      "price": 0
+     },
+     {
+      "id": "8ade836c52c3066353acdadd",
+      "name": "Without asparagus tempura",
+      "price": 0
+     },
+     {
+      "id": "7428d9942724bfc98d752030",
+      "name": "Without Campio",
+      "price": 0
+     },
+     {
+      "id": "bf19336472cab9f2a60792c7",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "995689d05876b795dba37b4e",
+      "name": "Without green tobiko",
+      "price": 0
+     },
+     {
+      "id": "2cae662819608b8b04ba4141",
+      "name": "Without orange tobiko",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434b4",
+    "name": "Changes - Wall Dan Sake",
+    "type": "multi_choice",
+    "default_value": "fceff8094faa258728af80d7",
+    "values": [
+     {
+      "id": "fceff8094faa258728af80d7",
+      "name": "No baked salmon",
+      "price": 0
+     },
+     {
+      "id": "83f4c0370d760d82c2b769a3",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "e4c7ec60ae6bf88aa6d8be88",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "d5e8e5c2afb6d258eace4e50",
+      "name": "Without avocado shell",
+      "price": 0
+     },
+     {
+      "id": "32556701993e93c0132e5a89",
+      "name": "Without tempura chips",
+      "price": 0
+     },
+     {
+      "id": "4aed96cf3a952f7765d9c8c3",
+      "name": "Without teriyaki",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434b5",
+    "name": "Changes - Abi Sake Roll",
+    "type": "multi_choice",
+    "default_value": "1f50100074ef0cc28b3c51fb",
+    "values": [
+     {
+      "id": "1f50100074ef0cc28b3c51fb",
+      "name": "No Tempura Shrimp",
+      "price": 0
+     },
+     {
+      "id": "fcdc91d1b8c9fc87f0dc4875",
+      "name": "Without salmon",
+      "price": 0
+     },
+     {
+      "id": "eb8d877e7955b05c5361f026",
+      "name": "Without Campio",
+      "price": 0
+     },
+     {
+      "id": "c3bbd315f57ac28f13ed783b",
+      "name": "Without carrots",
+      "price": 0
+     },
+     {
+      "id": "44db378479be373caa675c6b",
+      "name": "Without orange tobiko",
+      "price": 0
+     },
+     {
+      "id": "0754c12f2017ba566f9b5598",
+      "name": "Without avocado shell",
+      "price": 0
+     },
+     {
+      "id": "94ca1c2a60da15ed88a4cd0e",
+      "name": "Without tempura chips",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434b6",
+    "name": "Changes - Spicy Tuna Roll",
+    "type": "multi_choice",
+    "default_value": "46e741232d709d7b1146fb87",
+    "values": [
+     {
+      "id": "46e741232d709d7b1146fb87",
+      "name": "Without spicy tuna",
+      "price": 0
+     },
+     {
+      "id": "3a76e8be2cbd7ce1f4d60fb3",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "010d0060f7ebefe94d04b9d3",
+      "name": "Without asparagus",
+      "price": 0
+     },
+     {
+      "id": "585b2887534db0c71bbacad5",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "552c003222a37de78b85228f",
+      "name": "Without orange tobiko",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434b9",
+    "name": "Changes - Rinay Roll",
+    "type": "multi_choice",
+    "default_value": "4146ca41828488e802d9e404",
+    "values": [
+     {
+      "id": "4146ca41828488e802d9e404",
+      "name": "Without spicy salmon",
+      "price": 0
+     },
+     {
+      "id": "82c69a8b8edb14ba950da599",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "abc578211e9f3c1d316ee736",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "f6d17c0994c5967a2afc4cd5",
+      "name": "Without burnt salmon shell",
+      "price": 0
+     },
+     {
+      "id": "26c53a6be058eb1929b436f4",
+      "name": "Without spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "b2b9a2b8adb8ea774017af16",
+      "name": "Without teriyaki",
+      "price": 0
+     },
+     {
+      "id": "8815dbec7465ba0391f9ec26",
+      "name": "Without tempura chips",
+      "price": 0
+     },
+     {
+      "id": "74fa681562367d8932b0841f",
+      "name": "No sweet potato chips",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434ba",
+    "name": "Changes - salmon mix",
+    "type": "multi_choice",
+    "default_value": "8656a1717ad1b1e0b552df1f",
+    "values": [
+     {
+      "id": "8656a1717ad1b1e0b552df1f",
+      "name": "Without salmon",
+      "price": 0
+     },
+     {
+      "id": "559bee307590900f7f745271",
+      "name": "No salmon skin",
+      "price": 0
+     },
+     {
+      "id": "34f79c26f8d4b26ab37fae6b",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "78268c7ca5687b7b330d6da0",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "1eda6b44df7ea1e4534ebb51",
+      "name": "Without chives",
+      "price": 0
+     },
+     {
+      "id": "ec662d27f217a32ee3549c23",
+      "name": "Without spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "722b65cfca2442c009c44da5",
+      "name": "Without burnt salmon shell",
+      "price": 0
+     },
+     {
+      "id": "7b1529393c856c0754584245",
+      "name": "Without teriyaki",
+      "price": 0
+     },
+     {
+      "id": "3cb091c2fdfcbed5666e94e0",
+      "name": "Without green onions",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434bb",
+    "name": "Changes - Tataki Rainbow",
+    "type": "multi_choice",
+    "default_value": "f5bfc4ed5241151a901448f8",
+    "values": [
+     {
+      "id": "f5bfc4ed5241151a901448f8",
+      "name": "Without red tuna",
+      "price": 0
+     },
+     {
+      "id": "a7c34f0c8e0074bd0054fc94",
+      "name": "Without salmon",
+      "price": 0
+     },
+     {
+      "id": "aa302df651c0d5380f00ca4e",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "258b3776637fe91c38bd7d9b",
+      "name": "Without chives",
+      "price": 0
+     },
+     {
+      "id": "5e9c77a7126ad722827d992d",
+      "name": "Skinless sea bream",
+      "price": 0
+     },
+     {
+      "id": "44223c9870e23b32aa1a3830",
+      "name": "Without teriyaki",
+      "price": 0
+     },
+     {
+      "id": "f31e17ee2aa9a6baaadbcd0b",
+      "name": "Without sesame seeds",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434be",
+    "name": "Changes - Kizen Roll",
+    "type": "multi_choice",
+    "default_value": "667922984687f3f25cf06e4a",
+    "values": [
+     {
+      "id": "667922984687f3f25cf06e4a",
+      "name": "Without salmon",
+      "price": 0
+     },
+     {
+      "id": "b8648e030f72664690fc56ed",
+      "name": "without bream",
+      "price": 0
+     },
+     {
+      "id": "3e54359459257aa4bbc254fb",
+      "name": "No Tempura Shrimp",
+      "price": 0
+     },
+     {
+      "id": "8897a182a8a404899dffad49",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "342e915a7063aad7201db9fb",
+      "name": "Without tuna shell",
+      "price": 0
+     },
+     {
+      "id": "9cb5c4f723c1f2570d2b48ee",
+      "name": "Without salmon shell",
+      "price": 0
+     },
+     {
+      "id": "d11f476c6a09cf1afdfc18f2",
+      "name": "Without avocado shell",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434bf",
+    "name": "Changes - Ungi Wabi Roll",
+    "type": "multi_choice",
+    "default_value": "1792582f02740cca81ba25e5",
+    "values": [
+     {
+      "id": "1792582f02740cca81ba25e5",
+      "name": "No Tempura Shrimp",
+      "price": 0
+     },
+     {
+      "id": "b104c466b08c3835b11142f4",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "2e33e867e2d48024bc4ebdae",
+      "name": "Without avocado shell",
+      "price": 0
+     },
+     {
+      "id": "5d08f9a78c0cbe50816f9c76",
+      "name": "Without orange tobiko",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434c0",
+    "name": "Changes - a vegetarian combination",
+    "type": "multi_choice",
+    "default_value": "b922e8d8083124159d02aeb0",
+    "values": [
+     {
+      "id": "b922e8d8083124159d02aeb0",
+      "name": "Without Tamago",
+      "price": 0
+     },
+     {
+      "id": "f0973b7765c9bc5a0f1fc5cd",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "e72a30c905e2320553b54b4a",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "ccf9117f44bafbc677011a7b",
+      "name": "Without Campio",
+      "price": 0
+     },
+     {
+      "id": "9f6a944bae9a2ab752b77d06",
+      "name": "Without Oshinko",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434c1",
+    "name": "Changes - Mix Combo",
+    "type": "multi_choice",
+    "default_value": "9a0b4239eb92899a00603a76",
+    "values": [
+     {
+      "id": "9a0b4239eb92899a00603a76",
+      "name": "Without Campio",
+      "price": 0
+     },
+     {
+      "id": "b7984b9833ef117627e28d5f",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "f083bcba61bd86034116ada3",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "9e69fb14c8f1fc57f2f2117e",
+      "name": "Without green onions",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64636ee1cec904cf055434c2",
+    "name": "Changes - Special Combo",
+    "type": "multi_choice",
+    "default_value": "73c1c085b760ce4bdb971496",
+    "values": [
+     {
+      "id": "73c1c085b760ce4bdb971496",
+      "name": "Without Campio",
+      "price": 0
+     },
+     {
+      "id": "3691f9ee985c5db0c3fe42c1",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "f0d6c23298b1960c590a3d7e",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "e1fdafce1c642acd46af0abd",
+      "name": "Without Oshinko",
+      "price": 0
+     },
+     {
+      "id": "fa7148566e8aed0ff3053db8",
+      "name": "Without asparagus",
+      "price": 0
+     },
+     {
+      "id": "a58c3814716312d5d24db9b9",
+      "name": "Without cucumber",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64c0cb9ab76020a7a59a3c55",
+    "name": "A gluten free dish? 🌾",
+    "type": "choice",
+    "default_value": "2a969e9dffc415753e1224fb",
+    "values": [
+     {
+      "id": "2a969e9dffc415753e1224fb",
+      "name": "No thanks",
+      "price": 0
+     },
+     {
+      "id": "774b88f6654cef33c07f32c9",
+      "name": "Gluten-free dish, please 🌾",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "659467761c95ba6346f7c8e9",
+    "name": "Choice of protein - noodles",
+    "type": "choice",
+    "default_value": "5c23bea675ce1e99949173b7",
+    "values": [
+     {
+      "id": "5c23bea675ce1e99949173b7",
+      "name": "Without addition",
+      "price": 0
+     },
+     {
+      "id": "a696ef3d7f8ae6d1f2d7d030",
+      "name": "Tofu",
+      "price": 600
+     },
+     {
+      "id": "e57f2725946f20255bff2a17",
+      "name": "chicken",
+      "price": 600
+     },
+     {
+      "id": "1060f5f497e8854bb39e2d60",
+      "name": "Beef",
+      "price": 800
+     },
+     {
+      "id": "6cca0b8446a940dc6c6e831d",
+      "name": "Shrimp",
+      "price": 2300
+     }
+    ]
+   },
+   {
+    "id": "6683c64cd9e43235f90c17b7",
+    "name": "Choose a shell",
+    "type": "multi_choice",
+    "default_value": "a95cb074b6926e4c943ff048",
+    "values": [
+     {
+      "id": "a95cb074b6926e4c943ff048",
+      "name": "Avocado shell",
+      "price": 400
+     },
+     {
+      "id": "7b888626f3de19460c4b4d79",
+      "name": "Tempura chip shell",
+      "price": 400
+     },
+     {
+      "id": "2103a21dc1fa4ecbe85a1279",
+      "name": "Sweet potato chips shell",
+      "price": 400
+     },
+     {
+      "id": "2c746c80aa21936646d532f2",
+      "name": "Salmon shell",
+      "price": 1200
+     },
+     {
+      "id": "b17ff6390ec0406e67c9edc9",
+      "name": "Roasted salmon shell",
+      "price": 1200
+     },
+     {
+      "id": "b089fdca01d84473ec55867f",
+      "name": "bream shell",
+      "price": 1200
+     },
+     {
+      "id": "8fcf8e69af1cde43306a5c3a",
+      "name": "Seared sea bream shell",
+      "price": 1200
+     },
+     {
+      "id": "f0f4d71345edc1810cbcc635",
+      "name": "Tuna shell",
+      "price": 1600
+     },
+     {
+      "id": "ea58624dd5d11eb8b4cacd60",
+      "name": "seared tuna shell",
+      "price": 1600
+     },
+     {
+      "id": "4133115f901396fbdb555611",
+      "name": "Green tobiko shell",
+      "price": 800
+     },
+     {
+      "id": "4698065175b998f072e83c1b",
+      "name": "Orange tobiko wrapper",
+      "price": 800
+     },
+     {
+      "id": "c2464d028865624638cf4076",
+      "name": "Hot roll",
+      "price": 800
+     },
+     {
+      "id": "1aeb8716cfc28ae13510c4fb",
+      "name": "Smoked salmon shell",
+      "price": 1200
+     }
+    ]
+   },
+   {
+    "id": "8a6dd9ff48eca7bbce6482ac",
+    "name": "Choose a base for the dish",
+    "type": "multi_choice",
+    "default_value": "86662a4ce1d7226f07341a6b",
+    "values": [
+     {
+      "id": "86662a4ce1d7226f07341a6b",
+      "name": "Egg noodles",
+      "price": 0
+     },
+     {
+      "id": "b346cd9838111511130f68ef",
+      "name": "Jasmine rice",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "8f202f4c4f1b5f00bf048ab8",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "7caf6e207f0c177b3c73bdab",
+    "values": [
+     {
+      "id": "7caf6e207f0c177b3c73bdab",
+      "name": "Without tempura chips wrapper",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "940a5bd0d14af5550f367ba6",
+    "name": "Choose a sauce",
+    "type": "choice",
+    "default_value": "6e95fefc9759ea6456453c15",
+    "values": [
+     {
+      "id": "6e95fefc9759ea6456453c15",
+      "name": "Lemon sauce",
+      "price": 0
+     },
+     {
+      "id": "73f87948246a9a7e1a78e11a",
+      "name": "Without lemon sauce",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "99d3f686c27b465cc31ab8b7",
+    "name": "Choose a sauce",
+    "type": "multi_choice",
+    "default_value": "1906d73d23246a6ca25e53a9",
+    "values": [
+     {
+      "id": "1906d73d23246a6ca25e53a9",
+      "name": "Pickle Nam Pha sauce on the side",
+      "price": 0
+     },
+     {
+      "id": "fa7251aaf1a93a0d73719827",
+      "name": "No sauces",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "aa5c23958c280902986be46c",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "57bd2f96c73fc7680550e20e",
+    "values": [
+     {
+      "id": "57bd2f96c73fc7680550e20e",
+      "name": "without sesame cover",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "b00839e7cef21b55f1cc8731",
+    "name": "Possible changes to noodle type",
+    "type": "multi_choice",
+    "default_value": "fe155957753193ba80b9e52a",
+    "values": [
+     {
+      "id": "fe155957753193ba80b9e52a",
+      "name": "rice noodle",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "b5df141de6bfc999a46facc4",
+    "name": "Choose a fish for Poke",
+    "type": "choice",
+    "default_value": "01cae1d828b12a17ce6c8d66",
+    "values": [
+     {
+      "id": "01cae1d828b12a17ce6c8d66",
+      "name": "salmon",
+      "price": 0
+     },
+     {
+      "id": "5e4cb508d8bd3e6bd20646e6",
+      "name": "Dennis",
+      "price": 0
+     },
+     {
+      "id": "297848219b49b981c2cc7622",
+      "name": "Red tuna",
+      "price": 800
+     }
+    ]
+   },
+   {
+    "id": "bdbc44e27dd030339446ffef",
+    "name": "Possible changes in Khao Soi",
+    "type": "multi_choice",
+    "default_value": "28dc0f3e366e5f4e1cf51d4d",
+    "values": [
+     {
+      "id": "28dc0f3e366e5f4e1cf51d4d",
+      "name": "Without green onions",
+      "price": 0
+     },
+     {
+      "id": "9aa593f79c5003a8a4405194",
+      "name": "Without shallots",
+      "price": 0
+     },
+     {
+      "id": "8fa34f8374b70c23b70069e9",
+      "name": "Without pickled mustard leaves",
+      "price": 0
+     },
+     {
+      "id": "58a81828da1ca0583f6da5d8",
+      "name": "Without vegetables",
+      "price": 0
+     },
+     {
+      "id": "9f1cdee5a223ad4fae2e83a7",
+      "name": "Without crispy noodles",
+      "price": 0
+     },
+     {
+      "id": "50e2d9ea74dce8b134ce1aeb",
+      "name": "Without lemon",
+      "price": 0
+     },
+     {
+      "id": "1e8cc82e4a0804418c78e67d",
+      "name": "Without coriander",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "d5425d5e54f1bc4ca1d61310",
+    "name": "Choose a vegetable for sushi",
+    "type": "multi_choice",
+    "default_value": "39a823b98c789aed32465376",
+    "values": [
+     {
+      "id": "39a823b98c789aed32465376",
+      "name": "Avocado",
+      "price": 0
+     },
+     {
+      "id": "099f807e3f9d42c279a5e8c2",
+      "name": "cucumber",
+      "price": 0
+     },
+     {
+      "id": "76e595a784ed21ab397f26ea",
+      "name": "Carrot",
+      "price": 0
+     },
+     {
+      "id": "b8caec490e0dcb1acf6f6429",
+      "name": "asparagus",
+      "price": 0
+     },
+     {
+      "id": "40e8f86a7a21877f377224df",
+      "name": "Chives",
+      "price": 0
+     },
+     {
+      "id": "9f07f1fb2e5543ce1d7eb643",
+      "name": "Green onions",
+      "price": 0
+     },
+     {
+      "id": "8ea955cf3f74e0e165ad5f06",
+      "name": "Tamago (Japanese omelet)",
+      "price": 0
+     },
+     {
+      "id": "585e4850d198312e19918ea5",
+      "name": "Oshinko (Japanese radish)",
+      "price": 0
+     },
+     {
+      "id": "95910f0a33937d825f2775a4",
+      "name": "Kenpio (Japanese pumpkin)",
+      "price": 0
+     },
+     {
+      "id": "8742988a725b0829f4c47c50",
+      "name": "Shiitake mushrooms",
+      "price": 400
+     },
+     {
+      "id": "51d712b5d41ffd91dde6728c",
+      "name": "Sweet potato tempura",
+      "price": 400
+     },
+     {
+      "id": "1f33ac85a1b7aada43f5f5fd",
+      "name": "Cream cheese",
+      "price": 600
+     }
+    ]
+   },
+   {
+    "id": "f057c654dd733a88c9431540",
+    "name": "Choose vegetables",
+    "type": "multi_choice",
+    "default_value": "3ed8fee4cc19a20fa4d0e136",
+    "values": [
+     {
+      "id": "3ed8fee4cc19a20fa4d0e136",
+      "name": "Avocado",
+      "price": 0
+     },
+     {
+      "id": "6b73f527189e615e80a8f5f2",
+      "name": "cucumber",
+      "price": 0
+     },
+     {
+      "id": "e54c079007de5b1beb2a04cb",
+      "name": "Carrot",
+      "price": 0
+     },
+     {
+      "id": "3d0a667be6af8fb37bfc1d8d",
+      "name": "asparagus",
+      "price": 0
+     },
+     {
+      "id": "f8a69f4d12d2a8971f5dc417",
+      "name": "Chives",
+      "price": 0
+     },
+     {
+      "id": "a60a3ec98598024520530686",
+      "name": "Green onions",
+      "price": 0
+     },
+     {
+      "id": "0b41f53b4ed8e071c51ddb01",
+      "name": "Tamago (Japanese omelet)",
+      "price": 0
+     },
+     {
+      "id": "9bfba049732e893f1695f716",
+      "name": "Oshinko (Japanese radish)",
+      "price": 0
+     },
+     {
+      "id": "5e332ed459fc5f02289cb81a",
+      "name": "Kenpio (Japanese pumpkin)",
+      "price": 0
+     },
+     {
+      "id": "e5cc292477a55206dc215477",
+      "name": "Shiitake mushrooms",
+      "price": 400
+     },
+     {
+      "id": "0cb6976551447569a90cd6e9",
+      "name": "Sweet potato tempura",
+      "price": 400
+     },
+     {
+      "id": "5bd14f6bf38aaa57b87017c2",
+      "name": "Cream cheese",
+      "price": 600
+     }
+    ]
+   },
+   {
+    "id": "fa698803530b73e60bc25ff7",
+    "name": "Paid extras",
+    "type": "multi_choice",
+    "default_value": "4906b7a17b5fe587f2b2eeda",
+    "values": [
+     {
+      "id": "4906b7a17b5fe587f2b2eeda",
+      "name": "Hot roll",
+      "price": 800
+     }
+    ]
+   },
+   {
+    "id": "fa8b2613ed9ec443340571ad",
+    "name": "Choose sauces",
+    "type": "multi_choice",
+    "default_value": "eb93c83a05d858b8c77fb1a0",
+    "values": [
+     {
+      "id": "eb93c83a05d858b8c77fb1a0",
+      "name": "soy sauce ",
+      "price": 0
+     },
+     {
+      "id": "6463cc7adca9255f1d759692",
+      "name": "Spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "4cf183805ff708e53687352a",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "53d13a196c754f8461d303c5",
+      "name": "Ginger",
+      "price": 0
+     },
+     {
+      "id": "964b8d65b982d9347c0bafab",
+      "name": "Gluten-free soy",
+      "price": 0
+     },
+     {
+      "id": "96e4f590e3660b6d328ca11a",
+      "name": "Low sodium soy",
+      "price": 0
+     },
+     {
+      "id": "4b3fb3aea501de67aad9aece",
+      "name": "Wasby",
+      "price": 0
+     }
+    ]
+   }
+  ]
+ }
+}

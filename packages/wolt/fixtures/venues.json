@@ -1,0 +1,2366 @@
+{
+ "captured_at": "2026-10-02T21:59:14.561Z",
+ "city": "tel-aviv",
+ "filtering": {
+  "filters": [
+   {
+    "id": "primary",
+    "values": [
+     {
+      "id": "kosher",
+      "name": "Kosher"
+     },
+     {
+      "id": "street_food",
+      "name": "Street Food"
+     },
+     {
+      "id": "salad",
+      "name": "Salad"
+     },
+     {
+      "id": "sandwich",
+      "name": "Sandwich"
+     },
+     {
+      "id": "mediterranean",
+      "name": "Mediterranean"
+     },
+     {
+      "id": "italian",
+      "name": "Italian"
+     },
+     {
+      "id": "pizza",
+      "name": "Pizza"
+     },
+     {
+      "id": "dessert",
+      "name": "Dessert"
+     },
+     {
+      "id": "vegetarian",
+      "name": "Vegetarian"
+     },
+     {
+      "id": "pasta",
+      "name": "Pasta"
+     },
+     {
+      "id": "vegan",
+      "name": "Vegan"
+     },
+     {
+      "id": "breakfast",
+      "name": "Breakfast"
+     },
+     {
+      "id": "burgers",
+      "name": "Burger"
+     },
+     {
+      "id": "homemade",
+      "name": "Homemade"
+     },
+     {
+      "id": "asian",
+      "name": "Asian"
+     },
+     {
+      "id": "bbq",
+      "name": "BBQ"
+     },
+     {
+      "id": "steak",
+      "name": "Steak"
+     },
+     {
+      "id": "japanese",
+      "name": "Japanese"
+     },
+     {
+      "id": "kosher-lmehadrin",
+      "name": "Kosher L’mehadrin"
+     },
+     {
+      "id": "hummus",
+      "name": "Hummus"
+     },
+     {
+      "id": "sushi",
+      "name": "Sushi"
+     },
+     {
+      "id": "soup",
+      "name": "Soup"
+     },
+     {
+      "id": "kebab",
+      "name": "Kebab"
+     },
+     {
+      "id": "ice_cream",
+      "name": "Ice cream"
+     },
+     {
+      "id": "healthy",
+      "name": "Healthy"
+     },
+     {
+      "id": "noodles",
+      "name": "Noodles"
+     },
+     {
+      "id": "kids-meals",
+      "name": "Kids meals"
+     },
+     {
+      "id": "bakery",
+      "name": "Bakery"
+     },
+     {
+      "id": "fish",
+      "name": "Fish"
+     },
+     {
+      "id": "cafe",
+      "name": "Cafe"
+     },
+     {
+      "id": "american",
+      "name": "American"
+     },
+     {
+      "id": "chicken",
+      "name": "Chicken"
+     },
+     {
+      "id": "gluten-free",
+      "name": "Gluten-free"
+     },
+     {
+      "id": "lunch",
+      "name": "Lunch"
+     },
+     {
+      "id": "falafel",
+      "name": "Falafel"
+     },
+     {
+      "id": "smoothie",
+      "name": "Smoothie"
+     },
+     {
+      "id": "mexican",
+      "name": "Mexican"
+     },
+     {
+      "id": "thai",
+      "name": "Thai"
+     },
+     {
+      "id": "israeli",
+      "name": "Israeli"
+     },
+     {
+      "id": "bagel",
+      "name": "Bagel"
+     },
+     {
+      "id": "crepe",
+      "name": "Crepe"
+     },
+     {
+      "id": "bowl",
+      "name": "Bowl"
+     },
+     {
+      "id": "chinese",
+      "name": "Chinese"
+     },
+     {
+      "id": "indian",
+      "name": "Indian"
+     },
+     {
+      "id": "brunch",
+      "name": "Brunch"
+     },
+     {
+      "id": "central-asian",
+      "name": "Central Asian"
+     },
+     {
+      "id": "ramen",
+      "name": "Ramen"
+     },
+     {
+      "id": "tapioca",
+      "name": "Tapioca"
+     },
+     {
+      "id": "curry",
+      "name": "Curry"
+     },
+     {
+      "id": "georgian",
+      "name": "Georgian"
+     },
+     {
+      "id": "persian",
+      "name": "Persian"
+     },
+     {
+      "id": "vietnamese",
+      "name": "Vietnamese"
+     },
+     {
+      "id": "doner",
+      "name": "Doner"
+     },
+     {
+      "id": "waffles",
+      "name": "Waffles"
+     },
+     {
+      "id": "arabic",
+      "name": "Arabic"
+     },
+     {
+      "id": "cocktail",
+      "name": "Cocktail"
+     },
+     {
+      "id": "french",
+      "name": "French"
+     },
+     {
+      "id": "greek",
+      "name": "Greek"
+     },
+     {
+      "id": "korean",
+      "name": "Korean"
+     },
+     {
+      "id": "turkish",
+      "name": "Turkish"
+     },
+     {
+      "id": "wings",
+      "name": "Wings"
+     },
+     {
+      "id": "african",
+      "name": "African"
+     },
+     {
+      "id": "catering",
+      "name": "Catering"
+     },
+     {
+      "id": "czech",
+      "name": "Czech"
+     },
+     {
+      "id": "european",
+      "name": "European"
+     },
+     {
+      "id": "fine-dining",
+      "name": "Fine dining"
+     },
+     {
+      "id": "hungarian",
+      "name": "Hungarian"
+     },
+     {
+      "id": "latin-american",
+      "name": "Latin American"
+     },
+     {
+      "id": "russian",
+      "name": "Russian"
+     },
+     {
+      "id": "tapas",
+      "name": "Tapas"
+     },
+     {
+      "id": "ukrainian",
+      "name": "Ukrainian"
+     },
+     {
+      "id": "yakitori",
+      "name": "Yakitori"
+     }
+    ]
+   }
+  ]
+ },
+ "sections": [
+  {
+   "name": "restaurants-delivering-venues",
+   "items": [
+    {
+     "image": {
+      "blurhash": "j5vCFo8TPt4zIz8xjbdI;;cQTsiS",
+      "url": "https://imageproxy.wolt.com/assets/67332faf7296644b4f09768c"
+     },
+     "link": {},
+     "title": "Roll N Roll Sushi | Ramat Gan",
+     "venue": {
+      "id": "5d88cd349222b3ddd01eab57",
+      "slug": "roll-n-roll",
+      "name": "Roll N Roll Sushi | Ramat Gan",
+      "address": "This is a virtual venue",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 30,
+      "estimate_range": "25-35",
+      "location": [
+       34.80095665,
+       32.0862788
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8.8,
+       "volume": 1603
+      },
+      "short_description": "Asian | Sushi | Poke | Mochi",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Asian | Sushi | Poke | Mochi"
+      },
+      "tags": [
+       "sushi",
+       "asian"
+      ],
+      "brand_image": {
+       "blurhash": "UISigQj[x]ayf6fQj[ay~qj[M{ofofj[ayof",
+       "url": "https://imageproxy.wolt.com/mes-image/5d83c9bf-0a03-4e9f-b4e6-025683d74bf5/83a2db75-66fc-49bc-9105-24739cef62bf"
+      },
+      "venue_preview_items": [
+       {
+        "id": "29f639c6407cf0796f87bbba",
+        "name": "קומבינציית דגים זוגית",
+        "price": 12500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6805e57a89cb3aafde996d68"
+        }
+       },
+       {
+        "id": "3b2f09a4e371413d8d2c1421",
+        "name": "הרכבה עצמית - סושי אינסייד אאוט דג",
+        "price": 5200,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6805e71889cb3aafde996d77"
+        }
+       },
+       {
+        "id": "d4d952ab94ffe42dda6cc428",
+        "name": "סושי מטוגן הרכבה עצמית - דגים",
+        "price": 5700,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6805eb4a89cb3aafde996dac"
+        }
+       },
+       {
+        "id": "d639f97cd21314675c455eed",
+        "name": "סנדוויץ' סלמון ואבוקדו בציפוי שומשום",
+        "price": 5700,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6805e9dea22b3052ff34aa1d"
+        }
+       },
+       {
+        "id": "af2056a03a064586c5640157",
+        "name": "סלמון ואבוקדו בציפוי סלמון",
+        "price": 7300,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6805e72b89cb3aafde996d7a"
+        }
+       },
+       {
+        "id": "eceb5d89dfc08a7fede8a48c",
+        "name": "קומבינציית מטוגנים",
+        "price": 10000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a4f97f1036cbdf8f0b79096"
+        }
+       },
+       {
+        "id": "b6aec4da2c0bec422c888379",
+        "name": "אבוקדו ופילדלפיה בציפוי סלמון",
+        "price": 5500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a4f97dd13b9d669673f2ee9"
+        }
+       },
+       {
+        "id": "0e35a025e4740e60fab1105a",
+        "name": "קומבינציה צמחונית זוגית",
+        "price": 10900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6805e568ad8c24afb1ee7564"
+        }
+       },
+       {
+        "id": "50340b683db7ba84f155c315",
+        "name": "סלמון ואבוקדו בציפוי פיקנטי, טריאקי ושבבי בטטה",
+        "price": 5200,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6805e779ad8c24afb1ee757f"
+        }
+       }
+      ]
+     },
+     "mock_category": "sushi"
+    },
+    {
+     "image": {
+      "blurhash": "j4Op5S00;;RamBX;X:4z;sXtWYhl",
+      "url": "https://imageproxy.wolt.com/assets/699ae683172015cdb069fc64"
+     },
+     "link": {},
+     "title": "Mententen",
+     "venue": {
+      "id": "5ea560e240310c80dd5302cc",
+      "slug": "mententen",
+      "name": "Mententen",
+      "address": "נחלת בנימין 57",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 45,
+      "estimate_range": "40-50",
+      "location": [
+       34.77142391,
+       32.06410381
+      ],
+      "price_range": 3,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8.4,
+       "volume": 1107
+      },
+      "short_description": "Japanese Izakaya & Ramen Bar",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Japanese Izakaya & Ramen Bar"
+      },
+      "tags": [
+       "soup",
+       "sushi",
+       "asian"
+      ],
+      "venue_preview_items": [
+       {
+        "id": "846a3c2e974c0c6a4bdb5a9d",
+        "name": "צ׳יראשי",
+        "price": 8400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699ad7ce172015cdb069f905"
+        }
+       },
+       {
+        "id": "47ca1f20fc6dd7ff2cbf7775",
+        "name": "טורי ראמן עוף",
+        "price": 6800,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699add60172015cdb069fa4a"
+        }
+       },
+       {
+        "id": "7550bf7613aa565fb544f0d4",
+        "name": "קאצוקארה",
+        "price": 7400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699add263eb3341f036ebbc2"
+        }
+       },
+       {
+        "id": "bc69474219602555cf246e7a",
+        "name": "גיוזה עוף",
+        "price": 5400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699adc2d017a1a25739f9d58"
+        }
+       },
+       {
+        "id": "b30bd419474a0b771e18457f",
+        "name": "טונגרה ראמן חזיר",
+        "price": 6800,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699add45017a1a25739f9e13"
+        }
+       },
+       {
+        "id": "1e9b9600172ef85d233250f6",
+        "name": "סושי סאנדו",
+        "price": 7200,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699ad7e3172015cdb069f906"
+        }
+       },
+       {
+        "id": "c251b48096b96635db585e6d",
+        "name": "מאגורו אורמאקי",
+        "price": 7400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699ad9b43eb3341f036ebb3a"
+        }
+       },
+       {
+        "id": "bdb5ea1dfea7be4213cdb556",
+        "name": "מאגורו פוטומאקי",
+        "price": 7200,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699ad9f53eb3341f036ebb46"
+        }
+       },
+       {
+        "id": "a675a68b973fe5d8718b6c44",
+        "name": "🌱 אגאדשי טופו ראמן",
+        "price": 6800,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699add9c017a1a25739f9e5d"
+        }
+       }
+      ]
+     },
+     "mock_category": "sushi"
+    },
+    {
+     "image": {
+      "blurhash": "j3HplY;tX:9400;u;:XLiK8z;Jh5",
+      "url": "https://imageproxy.wolt.com/assets/6773e64792572573a3273305"
+     },
+     "link": {},
+     "title": "Koko Neko",
+     "venue": {
+      "id": "670ce672c2a0ca72720cd841",
+      "slug": "koko-neko",
+      "name": "Koko Neko",
+      "address": "פלורנטין 5, תל אביב",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 50,
+      "location": [
+       34.767565,
+       32.056249
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 4,
+       "score": 9.2,
+       "volume": 1656
+      },
+      "short_description": "The Ramen in Florentin",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "The Ramen in Florentin"
+      },
+      "tags": [
+       "asian",
+       "ramen",
+       "japanese"
+      ],
+      "brand_image": {
+       "blurhash": "jg:eDFGGT;GGLcCGplpCPKtCkPGX",
+       "url": "https://imageproxy.wolt.com/assets/6947b5c988a4d8a18717d729"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "ramen"
+    },
+    {
+     "image": {
+      "blurhash": "j3KFC8XuHK;rbtTscyKKciwO54h5",
+      "url": "https://imageproxy.wolt.com/assets/67332fb518f45c3236a65da0"
+     },
+     "link": {},
+     "title": "Yokozuna - Shuk Hapishpeshim",
+     "venue": {
+      "id": "5caf320f61ee1d000dfe6d9b",
+      "slug": "yokozuna",
+      "name": "Yokozuna - Shuk Hapishpeshim",
+      "address": "עולי ציון 22",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 55,
+      "estimate_range": "50-60",
+      "location": [
+       34.7573787,
+       32.05233863
+      ],
+      "price_range": 1,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 7.8,
+       "volume": 350
+      },
+      "short_description": "Asian Food in Jaffa's Flea- Market",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Asian Food in Jaffa's Flea- Market"
+      },
+      "tags": [
+       "japanese",
+       "noodles",
+       "ramen"
+      ],
+      "brand_image": {
+       "blurhash": "jlOcj2tC;;CqGFCppDtT;;CGBlGG",
+       "url": "https://imageproxy.wolt.com/assets/6a8407e0050d7935298079a0"
+      },
+      "venue_preview_items": [
+       {
+        "id": "5caf42232a97b4000d60b4fa",
+        "name": "Yokozuna",
+        "price": 7900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "joNrCVl4T;KXTtPcFBlljellNQKY",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/9e5e25c4-61ae-11e9-9f3b-0a5864624c0d_yaelitz-41.jpeg"
+        }
+       },
+       {
+        "id": "5caf454574439c000cfa1a2f",
+        "name": "Spicy Curry🌶🌶",
+        "price": 4500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/bdeb1ad8-61ad-11e9-a20a-0a5864611251_yaelitz-34.jpeg"
+        }
+       },
+       {
+        "id": "5caf3b680624ab000c534b39",
+        "name": "Chicken Nuggets",
+        "price": 4500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/01714068-61ac-11e9-ae10-0a5864623b08_yaelitz-22.jpeg"
+        }
+       },
+       {
+        "id": "5caf5d2862bdfe0010d12a14",
+        "name": "I/O Spicy Tuna",
+        "price": 4700,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "jhJa:QcQ;;OWXJJkh4LdX;PclklD",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/7c54baf8-61b1-11e9-a0c3-0a5864614437_yaelitz-7.jpeg"
+        }
+       },
+       {
+        "id": "5caf5ed40624ab000d5413c8",
+        "name": "Veggie Sandwich",
+        "price": 4500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/b8651a2e-61b1-11e9-8b05-0a5864623c08_yaelitz-31.jpeg"
+        }
+       },
+       {
+        "id": "5caf59f07a0ec6000cd637fe",
+        "name": "1 Sashimi",
+        "price": 5000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "jlLaOIh4X;KWXtKChmLcLLKXJBlG",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/adbc1bb4-61b0-11e9-93a2-0a5864620f20_yaelitz-45.jpeg"
+        }
+       },
+       {
+        "id": "5caf3ea0f0fd7c000d97c2f5",
+        "name": "Ramen Soup",
+        "price": 4500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "jmKaOOO6X;dmXsPcqGhkrehlKSPc",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/77778fe2-61ac-11e9-95de-0a5864625705_yaelitz-9.jpeg"
+        }
+       },
+       {
+        "id": "5caf434df0fd7c000d97dc51",
+        "name": "Yokozuna Chicken Wings",
+        "price": 4500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "jnJaKLl4X;PdTtPblllCTKpll4Lc",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/85730f08-61ad-11e9-a3a0-0a586460e23f_yaelitz-33.jpeg"
+        }
+       }
+      ]
+     },
+     "mock_category": "ramen"
+    },
+    {
+     "image": {
+      "blurhash": "j3xD9k;;15TtT5czP6TsTbd44y8y",
+      "url": "https://imageproxy.wolt.com/assets/6a16f4ebbc58fc8ba2f571f4"
+     },
+     "link": {},
+     "title": "Nam | King George",
+     "venue": {
+      "id": "5ce7cf37d7afbb58cce11041",
+      "slug": "nam-king-george",
+      "name": "Nam | King George",
+      "address": "King George 84",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 30,
+      "location": [
+       34.77768302,
+       32.07720107
+      ],
+      "price_range": 3,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8.8,
+       "volume": 2010
+      },
+      "short_description": "Thai Cook House 🇹🇭 Sawadika",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Thai Cook House 🇹🇭 Sawadika"
+      },
+      "tags": [
+       "asian",
+       "noodles",
+       "thai"
+      ],
+      "brand_image": {
+       "blurhash": "jhJZyUKX;;KXOYGqpCCp;LGGTdpC",
+       "url": "https://imageproxy.wolt.com/assets/694a360eba77b0b8b3a1835c"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "thai"
+    },
+    {
+     "image": {
+      "blurhash": "j1uCJqT;;Y000hQP0gPKXd;;fvRb",
+      "url": "https://imageproxy.wolt.com/assets/684fdaca8baf0fa6c399cb90"
+     },
+     "link": {},
+     "title": "Asia-T",
+     "venue": {
+      "id": "61d566aed4d873a3d14ab210",
+      "slug": "asia-t",
+      "name": "Asia-T",
+      "address": "דרך שלמה 11",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 50,
+      "location": [
+       34.7612645,
+       32.054853
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 9,
+       "volume": 703
+      },
+      "short_description": "Authentic Thai",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Authentic Thai"
+      },
+      "tags": [
+       "asian",
+       "noodles",
+       "thai"
+      ],
+      "venue_preview_items": []
+     },
+     "mock_category": "thai"
+    },
+    {
+     "image": {
+      "blurhash": "j2FoVN04;sNc;;duQPSBjLJrgPdG",
+      "url": "https://imageproxy.wolt.com/assets/6732079a3023fb35876a5e1e"
+     },
+     "link": {},
+     "title": "China Class | Tel Aviv",
+     "venue": {
+      "id": "63f5ee31834966ddc66bf104",
+      "slug": "china-class-tel-aviv",
+      "name": "China Class | Tel Aviv",
+      "address": "משה סנה 54, תל אביב ",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 55,
+      "location": [
+       34.8252295,
+       32.1243866
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 4,
+       "score": 9,
+       "volume": 1349
+      },
+      "short_description": "Classic Chinese and Asian Kitchen\nBangkok Kitchen X China Class",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Classic Chinese and Asian Kitchen\nBangkok Kitchen X China Class"
+      },
+      "tags": [
+       "asian",
+       "chinese",
+       "fish"
+      ],
+      "brand_image": {
+       "blurhash": "j6;fnRFCpCKXGGCGupCpX;GGxCtU",
+       "url": "https://imageproxy.wolt.com/assets/6732079a3023fb35876a5e1c"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "chinese"
+    },
+    {
+     "image": {
+      "blurhash": "j3JWi3;k;:93bvXv4PLcjuXb8xgR",
+      "url": "https://imageproxy.wolt.com/assets/67a7abdec037a945ba6ee3f3"
+     },
+     "link": {},
+     "title": "Yama To Go | Tel Aviv",
+     "venue": {
+      "id": "67a7ab8dc1c34301add76989",
+      "slug": "yama-to-go",
+      "name": "Yama To Go | Tel Aviv",
+      "address": "מעון 3, תל אביב",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 55,
+      "location": [
+       34.766353,
+       32.0557072
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 4,
+       "score": 9,
+       "volume": 48
+      },
+      "short_description": "Fresh Fish Kitchen | Chef Yuval Ben Neriah",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Fresh Fish Kitchen | Chef Yuval Ben Neriah"
+      },
+      "tags": [
+       "fish",
+       "chinese",
+       "thai"
+      ],
+      "venue_preview_items": []
+     },
+     "mock_category": "chinese"
+    },
+    {
+     "image": {
+      "blurhash": "j7CES9;25d8h;:OBcPgQdHNRlsRz",
+      "url": "https://imageproxy.wolt.com/assets/67332fa5f80c1126648b70f9"
+     },
+     "link": {},
+     "title": "Ma Pau | Indian Food",
+     "venue": {
+      "id": "5ceab75c38452a099128c560",
+      "slug": "ma-pau-nachlat-binyamin",
+      "name": "Ma Pau | Indian Food",
+      "address": "זבולון 7 ",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 45,
+      "location": [
+       34.77306998,
+       32.06010031
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8.8,
+       "volume": 745
+      },
+      "short_description": "Traditional Classic Food From India",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Traditional Classic Food From India"
+      },
+      "tags": [
+       "indian",
+       "vegetarian",
+       "vegan"
+      ],
+      "brand_image": {
+       "blurhash": "jdX;rZGGKWpEhmtTpDpD;YCnlCGF",
+       "url": "https://imageproxy.wolt.com/assets/6798cb5f69d4c47b6d167ed9"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "indian"
+    },
+    {
+     "image": {
+      "blurhash": "j0z7RG4L0g;;00000HZI00fLf;00",
+      "url": "https://imageproxy.wolt.com/assets/6a60905aee5e87d181b83279"
+     },
+     "link": {},
+     "title": "CAFE TAIZU | Chef Yuval Ben-Neriah",
+     "venue": {
+      "id": "5ef98a7d81212f58438ca95e",
+      "slug": "cafe-taizu",
+      "name": "CAFE TAIZU | Chef Yuval Ben-Neriah",
+      "address": "This is a virtual venue",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 40,
+      "location": [
+       34.7794111,
+       32.0636296
+      ],
+      "price_range": 3,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8.4,
+       "volume": 525
+      },
+      "short_description": "ASIATERRANEAN DELIVERIES",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "ASIATERRANEAN DELIVERIES"
+      },
+      "tags": [
+       "asian",
+       "chinese",
+       "indian"
+      ],
+      "brand_image": {
+       "blurhash": "j0:W7NPcElPsPcABpmvaE2t6rXB6",
+       "url": "https://imageproxy.wolt.com/assets/67332f9f355e20019c75a62f"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "indian"
+    },
+    {
+     "image": {
+      "blurhash": "j7OHKiTLdchbhr;;h6XJTJh441GR",
+      "url": "https://imageproxy.wolt.com/assets/69561dc55d2b0d2b7187c712"
+     },
+     "link": {},
+     "title": "The Poke | Ramat Gan",
+     "venue": {
+      "id": "69427d91000dd35283ccdaa4",
+      "slug": "the-poke-ramat-gan",
+      "name": "The Poke | Ramat Gan",
+      "address": "מנחם בגין 22, רמת גן",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 30,
+      "estimate_range": "25-35",
+      "location": [
+       34.800877219994334,
+       32.086144378963766
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8.4,
+       "volume": 522
+      },
+      "short_description": "Asian | Poke | Sushi | Rice Burger",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Asian | Poke | Sushi | Rice Burger"
+      },
+      "tags": [
+       "asian",
+       "fish",
+       "poke"
+      ],
+      "brand_image": {
+       "blurhash": "j1;IR0OWMgPbNzCGuItBQ0tBj;pB",
+       "url": "https://imageproxy.wolt.com/assets/69561d7b23b40dc5d0462ee3"
+      },
+      "venue_preview_items": [
+       {
+        "id": "16ceefaa12bc95c5aa56d065",
+        "name": "סאקורה בול",
+        "price": 7500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a46315bdbbb66c8e4079f86"
+        }
+       },
+       {
+        "id": "9a7eb8ad567d8a10e01d7c5c",
+        "name": "פוקה בהרכבה עצמית",
+        "price": 9100,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/698852413f2baa47350d70ac"
+        }
+       },
+       {
+        "id": "73a3bbd354d8b7f03e7dcfe1",
+        "name": "סאקורה בול",
+        "price": 7500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a46315bdbbb66c8e4079f86"
+        }
+       },
+       {
+        "id": "8a8f4b08d69a519908a8fc01",
+        "name": "אלוהה בול",
+        "price": 7900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a46314c6d36cf43d976b1a9"
+        }
+       },
+       {
+        "id": "0d33d160dcaca0e9eef4e318",
+        "name": "אלוהה בול",
+        "price": 7900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a4631446d36cf43d976b1a4"
+        }
+       },
+       {
+        "id": "30417f643852e5337a22c160",
+        "name": "פוקה סלמון פונזו",
+        "price": 7900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/698852513f2baa47350d70ae"
+        }
+       },
+       {
+        "id": "d2a1058e8b0128c2cbc00b52",
+        "name": "פיאסטה בול",
+        "price": 6800,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a2d5064e517e6ef66d3a7db"
+        }
+       },
+       {
+        "id": "8037572c9dce79020f1bd307",
+        "name": "פוקה ירקות בהרכבה עצמית",
+        "price": 5600,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/698852493f2baa47350d70ad"
+        }
+       }
+      ]
+     },
+     "mock_category": "poke"
+    },
+    {
+     "image": {
+      "blurhash": "j3C7BzPY2z4z0ZbkeSgyduVAprXu",
+      "url": "https://imageproxy.wolt.com/mes-image/948c9711-b7fe-424f-b143-060bde438254/531133f6-3160-4648-8f88-ad3a9b01c096"
+     },
+     "link": {},
+     "title": "Vong | TLV",
+     "venue": {
+      "id": "633978370960f71a1b1b9434",
+      "slug": "vong-midtown-tel-aviv",
+      "name": "Vong | TLV",
+      "address": "Derech Menachem Begin 150, Tel Aviv-Yafo",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 35,
+      "location": [
+       34.79482,
+       32.079059
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8.2,
+       "volume": 421
+      },
+      "short_description": "Wok & Asian Street Bowls",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Wok & Asian Street Bowls"
+      },
+      "tags": [
+       "vietnamese",
+       "asian",
+       "Central Asian"
+      ],
+      "brand_image": {
+       "blurhash": "UJRp8-t7~qRjM{oft7WB~qayD%ofofRjWBt7",
+       "url": "https://imageproxy.wolt.com/mes-image/948c9711-b7fe-424f-b143-060bde438254/eb6f7f90-02ea-447e-9ea5-70d8c43c6f4a"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "vietnamese"
+    },
+    {
+     "image": {
+      "blurhash": "j3BTli8z02;I4OJJXHeI4RNH;Z0z",
+      "url": "https://imageproxy.wolt.com/assets/6a143aa9e1d6e1ece8713455"
+     },
+     "link": {},
+     "title": "Extreme Pizza | Tel Aviv ",
+     "venue": {
+      "id": "69a58ef92513450169a6aa0b",
+      "slug": "extreme-pizza-tel-aviv",
+      "name": "Extreme Pizza | Tel Aviv ",
+      "address": "דרך שלמה 71, תל אביב",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 45,
+      "estimate_range": "40-50",
+      "location": [
+       34.7691061,
+       32.0549647
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 9,
+       "volume": 901
+      },
+      "short_description": "Hot Pizza & Great Pastries",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Hot Pizza & Great Pastries"
+      },
+      "tags": [
+       "pizza",
+       "street food"
+      ],
+      "brand_image": {
+       "blurhash": "jdTdLsTs;;llcNpDlItVXJd4TtTs",
+       "url": "https://imageproxy.wolt.com/assets/69ad4faccbc8f577235b9deb"
+      },
+      "venue_preview_items": [
+       {
+        "id": "1ad2b73e7f87095481cfa188",
+        "name": "‫פיצה L",
+        "price": 5500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f17"
+        }
+       },
+       {
+        "id": "61e01d13ce0f06dc5d59fba1",
+        "name": "שתי פיצות בגודל L",
+        "price": 9500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f27"
+        }
+       },
+       {
+        "id": "752c49bf512391a32ae4dc4e",
+        "name": "‫פיצה M",
+        "price": 4500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f18"
+        }
+       },
+       {
+        "id": "1bc4835e497322cf0865d34c",
+        "name": "Cross Extreme",
+        "price": 8000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f01"
+        }
+       },
+       {
+        "id": "761095a32a0ab7df788aede5",
+        "name": "שתי פיצות בגודל M",
+        "price": 8500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f27"
+        }
+       },
+       {
+        "id": "ee2dd87226abd932d2f93d7e",
+        "name": "שלוש פיצות בגודל L",
+        "price": 13500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f24"
+        }
+       },
+       {
+        "id": "b34bb55fc3cc988b2e999c23",
+        "name": "סלט קפרזה",
+        "price": 5000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f16"
+        }
+       },
+       {
+        "id": "5160efa0761c55c3c04abc65",
+        "name": "סלט יווני",
+        "price": 4800,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138c9"
+        }
+       },
+       {
+        "id": "a359dd2a41b61cce7c4dc833",
+        "name": "Drift Extreme 🌶",
+        "price": 8000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f03"
+        }
+       },
+       {
+        "id": "48e29b6ff962506a0da1b446",
+        "name": "Dream Extreme 🌶",
+        "price": 8000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f02"
+        }
+       }
+      ]
+     },
+     "mock_category": "pizza"
+    },
+    {
+     "image": {
+      "blurhash": "j2Cnlh010yLdWW55;J0zszla;JXb",
+      "url": "https://imageproxy.wolt.com/assets/690a0d49af8add0cc384d37d"
+     },
+     "link": {},
+     "title": "Pizza. Allenby | Crust Corner",
+     "venue": {
+      "id": "68c2bfaae562679030006378",
+      "slug": "pizza-tel-aviv",
+      "name": "Pizza. Allenby | Crust Corner",
+      "address": "אלנבי 55, תל אביב",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 30,
+      "estimate_range": "25-35",
+      "location": [
+       34.770731,
+       32.0693647
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 9,
+       "volume": 855
+      },
+      "short_description": "Fresh Pizza",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Fresh Pizza"
+      },
+      "tags": [
+       "italian",
+       "pizza",
+       "vegetarian"
+      ],
+      "brand_image": {
+       "blurhash": "j0d2E:I;0gPxgZFJKSmz00ng;;gL",
+       "url": "https://imageproxy.wolt.com/assets/6ab9511527d6dfbebf01f8f9"
+      },
+      "venue_preview_items": [
+       {
+        "id": "1851c5364d1b7a66c2c11f9c",
+        "name": "פיצה בהרכבה",
+        "price": 7400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/688b41778272b33a30250d13"
+        }
+       },
+       {
+        "id": "c5d22ecb411bc11170682230",
+        "name": "🍯 פיצה פפרוני דבש חריף (Hot Honey)",
+        "price": 9300,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/693045d438b3239ead8f20e4"
+        }
+       },
+       {
+        "id": "95fa1218f050f15150e9a52b",
+        "name": "🍕 פיצה מרגריטה קלאסית",
+        "price": 7400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/688b418a8272b33a30250d1a"
+        }
+       },
+       {
+        "id": "372675129cbb8a08e7268780",
+        "name": "👯 דיל דאבל: 2 פיצות משפחתיות ושתייה גדולה",
+        "price": 14580,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a87fddc0a874c6d81f5a37a"
+        }
+       },
+       {
+        "id": "ebf1e0390e41ce7041077b4c",
+        "name": "🍕 פיצה סיציליאנית: קלמטה ובזיליקום",
+        "price": 8800,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/688b41a18272b33a30250d1d"
+        }
+       },
+       {
+        "id": "6f62337e52c140a85ad1ba83",
+        "name": "👯 דיל דאבל פיצות ספיישל",
+        "price": 17010,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a87fdefc824ea75d21f0bb3"
+        }
+       },
+       {
+        "id": "e307416621d54e8d82b55b23",
+        "name": "🧅 פיצה בצלים: בצל מקורמל וטימין",
+        "price": 8600,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/688b41abea62287bd602b64e"
+        }
+       },
+       {
+        "id": "a5f02f42d503ef41f10af1a6",
+        "name": "🥩 פיצה פפרוני קלאסית",
+        "price": 9100,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6930458138b3239ead8f20c3"
+        }
+       },
+       {
+        "id": "780550fd684c4cf684d025c0",
+        "name": "🥟 קלצונה רוסו: מאפה איטלקי סגור",
+        "price": 5400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/688b414a8b27c6a56731333f"
+        }
+       },
+       {
+        "id": "eb3e56dec1a1fdefd4622487",
+        "name": "🇮🇹 פיצה איטלקית: ארטישוק ותרד רענן",
+        "price": 9100,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/688b41938272b33a30250d1c"
+        }
+       }
+      ]
+     },
+     "mock_category": "pizza"
+    },
+    {
+     "image": {
+      "blurhash": "j1vmlrJd055m1v4P0hgP0;Xs;H:S",
+      "url": "https://imageproxy.wolt.com/assets/67332fbdc59f3326de543351"
+     },
+     "link": {},
+     "title": "Burger Station 23",
+     "venue": {
+      "id": "5e25c88c4d1fb8984cc10a7c",
+      "slug": "burger-station-23",
+      "name": "Burger Station 23",
+      "address": "שארית ישראל 23",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 50,
+      "estimate_range": "45-55",
+      "location": [
+       34.7626177,
+       32.0523968
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 4,
+       "score": 9,
+       "volume": 2872
+      },
+      "short_description": "100% Fresh selected Meat By Burger Station 23 Tel Aviv",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "100% Fresh selected Meat By Burger Station 23 Tel Aviv"
+      },
+      "tags": [
+       "burger",
+       "sandwich",
+       "street food"
+      ],
+      "venue_preview_items": [
+       {
+        "id": "62a720884459c31f2a81ec88",
+        "name": "צ׳יזבורגר בקר אנטריקוט עסיסי",
+        "price": 7400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/a3c7b79c-eb0c-11ec-bb3a-22191b13a58a_87d1f71a_5706_473e_be2f_57e9c73dd110.jpeg"
+        }
+       },
+       {
+        "id": "60211857b1fc7c472f6cddad",
+        "name": "ארוחת המבורגר בקר",
+        "price": 10000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/4a561086-2998-11ec-8cb8-ee4efad77ffa_image__7_.jpeg"
+        }
+       },
+       {
+        "id": "5e25cceb312d3640e1a16491",
+        "name": "Beef Burger ",
+        "price": 6800,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/391a247e-4114-11ea-acb6-0a586472f08a_burger4155.jpeg"
+        }
+       },
+       {
+        "id": "ceae43dbfef166dda7905087",
+        "name": "Crispy Chicken Nuggets",
+        "price": 5000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/68a40ce1f52a4fe9d4d1a7bc"
+        }
+       },
+       {
+        "id": "5e26b7aebb4e77f90f90e1ca",
+        "name": "Double Beef Burger ",
+        "price": 7900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/1357bffa-15b2-11ee-8167-96edb4638eca_img_5355.jpeg"
+        }
+       },
+       {
+        "id": "5e26b7e0000baeaeced7eab7",
+        "name": "Lamb Burger ",
+        "price": 7200,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/329e3688-0535-11ee-b183-d2fdbedf0ee2_image0.jpeg"
+        }
+       },
+       {
+        "id": "87273580bf088edec7489766",
+        "name": "Black Angus שווארמה עגל פרימיום (טרי)",
+        "price": 6500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6955b0e25d2b0d2b7187c6b8"
+        }
+       },
+       {
+        "id": "5eddfc3b8e43e8a6c3db8a96",
+        "name": "Juicy Sirloin Burger 220 g",
+        "price": 7800,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/34dd75d4-2a72-11ec-ab93-766205340ba6_b1333521_75ff_4b55_aa9a_da442e10b81a.jpeg"
+        }
+       },
+       {
+        "id": "5f8e95d2196318c3920ad8c1",
+        "name": "320 gr - Burger 70 ",
+        "price": 7900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/a4b85ab6-2998-11ec-aaf4-a681591be374_image__13_.jpeg"
+        }
+       },
+       {
+        "id": "49c58bbfb5a1d83acfd4e820",
+        "name": "Beef Burger ",
+        "price": 7200,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/689de8123b13bfd3a588a501"
+        }
+       }
+      ]
+     },
+     "mock_category": "burger"
+    },
+    {
+     "image": {
+      "blurhash": "j0yCJi;A0O01004TbJ;:007vZd4i",
+      "url": "https://imageproxy.wolt.com/assets/67332f944d6df41fd7658666"
+     },
+     "link": {},
+     "title": "HaMosad",
+     "venue": {
+      "id": "5bf185777d99cb000b2a85b3",
+      "slug": "hamosad",
+      "name": "HaMosad",
+      "address": "אבן גבירול 67, תל אביב",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 25,
+      "estimate_range": "20-30",
+      "location": [
+       34.7811299,
+       32.0792696
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8,
+       "volume": 3324
+      },
+      "short_description": "HaMosad Burgers by Chefs",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "HaMosad Burgers by Chefs"
+      },
+      "tags": [
+       "burger",
+       "kids",
+       "street food"
+      ],
+      "brand_image": {
+       "blurhash": "ja:;3HGGT;GXPKCpp4CpPLCGkPtT",
+       "url": "https://imageproxy.wolt.com/assets/6a5882e5f8dc64db2c298876"
+      },
+      "venue_preview_items": [
+       {
+        "id": "633018a57a8eedd9b1dc428e",
+        "name": "ארוחת המבורגר",
+        "price": 6700,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5bf18ad4e88d79000a325668/6bbbed56-3f48-11ed-8f5c-625b0b191de2_hamosad_18.9.2219961.jpeg"
+        }
+       },
+       {
+        "id": "f8f3f63e7d7c1505dafac3f1",
+        "name": "צ׳יזבורגר המוסד,  תוספת ושתייה",
+        "price": 7900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a7468eb284ac410bdde211b"
+        }
+       },
+       {
+        "id": "65894be146b5bdfe017eb91c",
+        "name": "Hamburger",
+        "price": 4900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5bf18ad4e88d79000a325668/5e873676-5fdb-11ef-9844-e61b0095230b_hamosad_18.9.2219962.jpg"
+        }
+       },
+       {
+        "id": "d52acdb09af2f3b18ea995a2",
+        "name": "צ׳יזבורגר המוסד",
+        "price": 5700,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a72010ce1134e6ea2218002"
+        }
+       },
+       {
+        "id": "86d535be8bd049294ee6c986",
+        "name": "ארוחת צ׳יזבורגר המוסד",
+        "price": 7500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a72d7ba8dc9cf0931efa7cd"
+        }
+       },
+       {
+        "id": "61ecfdac853cef6ba4d5e3ef",
+        "name": "Vegan Cheeseburger Meal 🌱",
+        "price": 7700,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "j5tloZ;Z024Ap4T6Tcda0j4A;sXq",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5bf18ad4e88d79000a325668/f8c85f1e-39b6-11ed-b9c1-3a19dbed3fad_hamosad_18.9.2220109.jpeg"
+        }
+       },
+       {
+        "id": "61ecfdac853cef6ba4d5e415",
+        "name": "‫ארוחת ארץ הפלאות",
+        "price": 7900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5bf18ad4e88d79000a325668/32e921ec-39b7-11ed-afb5-baf4f2b6c599_hamosad_18.9.2220009.jpeg"
+        }
+       },
+       {
+        "id": "61ecfdac853cef6ba4d5e3f7",
+        "name": "Trump Burger Meal",
+        "price": 7900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5bf18ad4e88d79000a325668/1aea28e8-39b7-11ed-8bab-ba1c5f7ed606_hamosad_18.9.2220062.jpeg"
+        }
+       },
+       {
+        "id": "61ecfdac853cef6ba4d5e3fe",
+        "name": "El Chapo Meal 🌶",
+        "price": 7900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5bf18ad4e88d79000a325668/56795a14-39b7-11ed-a36f-8e4fbe3155bb_hamosad_18.9.2220075.jpeg"
+        }
+       }
+      ]
+     },
+     "mock_category": "burger"
+    },
+    {
+     "image": {
+      "blurhash": "j6Ja6dXLX;TtJjrddruCPuIPndLt",
+      "url": "https://imageproxy.wolt.com/assets/6a29697511515485c953571d"
+     },
+     "link": {},
+     "title": "Cafe Nona",
+     "venue": {
+      "id": "5cb851762d820c000d66ca9d",
+      "slug": "nona-cafe",
+      "name": "Cafe Nona",
+      "address": "אבן גבירול 44",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 30,
+      "estimate_range": "25-35",
+      "location": [
+       34.78155613,
+       32.07698289
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8.4,
+       "volume": 1051
+      },
+      "short_description": "A Well Known Coffee House in Tel Aviv",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "A Well Known Coffee House in Tel Aviv"
+      },
+      "tags": [
+       "salad",
+       "vegetarian",
+       "schnitzel"
+      ],
+      "venue_preview_items": [
+       {
+        "id": "41601fe40c1d7af1149f7c9f",
+        "name": "כריך חביתה שלם",
+        "price": 5000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a977"
+        }
+       },
+       {
+        "id": "7097651cc810afa728e818a1",
+        "name": "עוגת ביסקוויטים",
+        "price": 4600,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a992"
+        }
+       },
+       {
+        "id": "fac9745e1536b3145b0176a4",
+        "name": "שניצל נונה",
+        "price": 7800,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a96bd0f6d77354c0b2a00f1"
+        }
+       },
+       {
+        "id": "c65bb5a916235dcf8da0124c",
+        "name": "טוסט גבינה",
+        "price": 5400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cd1"
+        }
+       },
+       {
+        "id": "d8b32a1de228be25f0fd4d46",
+        "name": "פופקורן עוף",
+        "price": 5200,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534ce6"
+        }
+       },
+       {
+        "id": "cd06d06005f6c2abcde13ccf",
+        "name": "חזה עוף בצ׳יפוטלה",
+        "price": 7600,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a96bbdfd702608a9624aaaf"
+        }
+       },
+       {
+        "id": "cdfd2ddb771bd990b293ecf6",
+        "name": "סלט יווני גס",
+        "price": 6400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a96bb493a9b0b41a1d29d7c"
+        }
+       },
+       {
+        "id": "74aecb8125b4cd67c6f66e8c",
+        "name": "בייגל סלמון",
+        "price": 6400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a960"
+        }
+       }
+      ]
+     },
+     "mock_category": "salad"
+    },
+    {
+     "image": {
+      "blurhash": "j6QXCFT;;KR4SSGA8QkyN4pH8ySX",
+      "url": "https://imageproxy.wolt.com/assets/67332faf8e594205e101156a"
+     },
+     "link": {},
+     "title": "JUSA COLD PRESSED",
+     "venue": {
+      "id": "5c445d9a26102e000c3825e9",
+      "slug": "jusa",
+      "name": "JUSA COLD PRESSED",
+      "address": "דיזנגוף 101, תל אביב",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 20,
+      "location": [
+       34.7736785,
+       32.0794782
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 4,
+       "score": 9.4,
+       "volume": 407
+      },
+      "short_description": "Smoothies, Juices, Sandwiches, Salads & Healthy Snacks",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Smoothies, Juices, Sandwiches, Salads & Healthy Snacks"
+      },
+      "tags": [
+       "salad",
+       "smoothie",
+       "vegan"
+      ],
+      "brand_image": {
+       "blurhash": "j1BaizXK00cP;;KX8yh400h4;;Pc",
+       "url": "https://imageproxy.wolt.com/assets/6989e5de4fe07fe9e189e1c6"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "salad"
+    },
+    {
+     "image": {
+      "blurhash": "j2DV1PixT;Lkgj01jd5i019dXbiZ",
+      "url": "https://imageproxy.wolt.com/assets/67332fbec59f3326de54336a"
+     },
+     "link": {},
+     "title": "Taqueria",
+     "venue": {
+      "id": "5c0d5fa272f68a000b041dbc",
+      "slug": "taqueria-1",
+      "name": "Taqueria",
+      "address": "This is a virtual venue",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 30,
+      "location": [
+       34.79052171,
+       32.06242193
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8.6,
+       "volume": 6697
+      },
+      "short_description": "‫Slow food, fast service\nThe restaurant at 3 Nirim Street, Tel Aviv.",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "‫Slow food, fast service\nThe restaurant at 3 Nirim Street, Tel Aviv."
+      },
+      "tags": [
+       "mexican",
+       "salad",
+       "street food"
+      ],
+      "brand_image": {
+       "blurhash": "j7ZLrSGGGGKXlltStTtT;;GGpCpC",
+       "url": "https://imageproxy.wolt.com/assets/694a35a8ba77b0b8b3a18359"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "mexican"
+    },
+    {
+     "image": {
+      "blurhash": "j7EE9I4iT;MynuL6NH4PjcPbNGd4",
+      "url": "https://imageproxy.wolt.com/assets/673206cd2d3e61400737f402"
+     },
+     "link": {},
+     "title": "Amore Mio",
+     "venue": {
+      "id": "6224779e04ad3c418ba6ba41",
+      "slug": "amore-mio",
+      "name": "Amore Mio",
+      "address": "אבן גבירול 100, תל אביב",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 25,
+      "location": [
+       34.7815637,
+       32.0835373
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 9,
+       "volume": 1879
+      },
+      "short_description": "Italian restaurant in Tel Aviv City Center",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Italian restaurant in Tel Aviv City Center"
+      },
+      "tags": [
+       "italian",
+       "pasta",
+       "vegan"
+      ],
+      "brand_image": {
+       "blurhash": "j4:LLXllKXPcPcpCpCCp;;KXllh4",
+       "url": "https://imageproxy.wolt.com/assets/673206cd2d3e61400737f400"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "vegan"
+    },
+    {
+     "image": {
+      "blurhash": "j6KGOtgRP;hmT;PcEPiDnLTcTcPb",
+      "url": "https://imageproxy.wolt.com/assets/6732079f55bbaf14ece7ffd3"
+     },
+     "link": {},
+     "title": "Hummus Eliyahu Kosher | Sarona",
+     "venue": {
+      "id": "60e42737391e974c9957a76e",
+      "slug": "hummus-eliyahu-sarona",
+      "name": "Hummus Eliyahu Kosher | Sarona",
+      "address": "אלוף קלמן מגן 5, תל אביב",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 30,
+      "location": [
+       34.78716,
+       32.071573
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 4,
+       "score": 9.2,
+       "volume": 402
+      },
+      "short_description": "Unique Israeli Hummus | Kosher",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Unique Israeli Hummus | Kosher"
+      },
+      "tags": [
+       "falafel",
+       "kosher",
+       "mediterranean"
+      ],
+      "brand_image": {
+       "blurhash": "UlM@+May~qofj[j[ayay_3j[t7ayWBayj[j[",
+       "url": "https://imageproxy.wolt.com/mes-image/fa0b3256-fcd5-448c-b9e5-ff213ecbfe9f/d23e8d15-1630-4d8e-ae5d-d7472ef0feac"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "hummus"
+    },
+    {
+     "image": {
+      "blurhash": "j3JopwLJ0tTI:P;J5u;k0dgRXKhs",
+      "url": "https://imageproxy.wolt.com/assets/69a81ead7d25f60394a13843"
+     },
+     "link": {},
+     "title": "Vachach Shawarma",
+     "venue": {
+      "id": "69008ecb4b67e785ef4745ec",
+      "slug": "woltopia",
+      "name": "Vachach Shawarma",
+      "address": "היצירה 1, רמת גן",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": false,
+      "online": false,
+      "estimate": 40,
+      "location": [
+       34.8032132,
+       32.0845964
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 4,
+       "score": 9.2,
+       "volume": 747
+      },
+      "short_description": "Samarkand shawarma near that vachach sushi and schnitzel company",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Samarkand shawarma near that vachach sushi and schnitzel company"
+      },
+      "tags": [
+       "shawarma",
+       "schnitzel",
+       "tortilla"
+      ],
+      "brand_image": {
+       "blurhash": "j0y7tLch007t00Ts0zkP00WX3cmX",
+       "url": "https://imageproxy.wolt.com/assets/69c13197282473d42b9d5ae5"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "shawarma"
+    },
+    {
+     "image": {
+      "blurhash": "jeNqKjXKT;KXcPFAhklqOBmsmrOV",
+      "url": "https://imageproxy.wolt.com/assets/6a410325cdc8c6bbaf6dd11a"
+     },
+     "link": {},
+     "title": "May Coffee",
+     "venue": {
+      "id": "682cb9962177facda28182a4",
+      "slug": "my-coffee-1",
+      "name": "May Coffee",
+      "address": "זבוטינסקי 23, רמת גן",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 35,
+      "location": [
+       34.804623,
+       32.0832692
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 4,
+       "score": 9.8,
+       "volume": 14
+      },
+      "short_description": "Bakery | Lunch | Coffee",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Bakery | Lunch | Coffee"
+      },
+      "tags": [
+       "pasta",
+       "salad",
+       "sandwich"
+      ],
+      "brand_image": {
+       "blurhash": "j1Z;vRPc;;PcPbBDTuCG;;FDNbGG",
+       "url": "https://imageproxy.wolt.com/assets/6a4104b8fbfd310fa6fc2d9d"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "italian"
+    },
+    {
+     "image": {
+      "blurhash": "j3GUJB;C4G;KLdvdeH;:vt954AXJ",
+      "url": "https://imageproxy.wolt.com/assets/67332fbec59f3326de543375"
+     },
+     "link": {},
+     "title": "Night Cookie 🍪 | Tel Aviv",
+     "venue": {
+      "id": "5c9752df94580d000c1f8539",
+      "slug": "night-cookie",
+      "name": "Night Cookie 🍪 | Tel Aviv",
+      "address": "קרליבך 23 תל אביב",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": true,
+      "online": true,
+      "estimate": 35,
+      "estimate_range": "30-40",
+      "location": [
+       34.7829817,
+       32.0683226
+      ],
+      "price_range": 2,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 3,
+       "score": 8.8,
+       "volume": 1351
+      },
+      "short_description": "Sweet and Hot Cookies | Desserts",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "Sweet and Hot Cookies | Desserts"
+      },
+      "tags": [
+       "dessert",
+       "ice cream"
+      ],
+      "brand_image": {
+       "blurhash": "UQRp8:of?aayWBt7j[WB~pj@Ioj[t7M{ayof",
+       "url": "https://imageproxy.wolt.com/mes-image/367715a9-ba86-45aa-ae57-5ded3a003232/7abb1588-5174-494b-90cd-6bf26d86b323"
+      },
+      "venue_preview_items": [
+       {
+        "id": "d47bbda4d1880842b22d2daa",
+        "name": "שישייה בהרכבה עצמית",
+        "price": 9900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/68208b8c2d144b8e648f79c2"
+        }
+       },
+       {
+        "id": "37f38f7000d8a6e48d3cec18",
+        "name": "שמינייה בהרכבה עצמית",
+        "price": 11500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/68208bc58bc5b7e4da1c7c07"
+        }
+       },
+       {
+        "id": "cd101986e8989b2dba84dedc",
+        "name": "12 עוגיות לבחירתכם או לבחירתינו",
+        "price": 16500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6820884b8bc5b7e4da1c7bbb"
+        }
+       },
+       {
+        "id": "e2e148f2d30e568ff879f550",
+        "name": "שישייה עם גלידה 🍦",
+        "price": 13400,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/68208a4c2d144b8e648f79aa"
+        }
+       },
+       {
+        "id": "4744faadf1b24b2ef8df9def",
+        "name": "The Top Eight",
+        "price": 11500,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/68208bda2d144b8e648f79c6"
+        }
+       },
+       {
+        "id": "88157382176ff59df373a10d",
+        "name": "The Top Eight",
+        "price": 14900,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/68208bda2d144b8e648f79c6"
+        }
+       },
+       {
+        "id": "206316f200c9c7ad5b529265",
+        "name": "מארז 12 עוגיות לאפייה ביתית",
+        "price": 12000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6820899b2d144b8e648f799d"
+        }
+       },
+       {
+        "id": "773be095d29860c0071ed3a8",
+        "name": "‫השישייה הטבעונית 🌱",
+        "price": 9000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6820894a8bc5b7e4da1c7bd2"
+        }
+       },
+       {
+        "id": "28deba3664c3f93d6c0ed0cb",
+        "name": "מארז 12 עוגיות ו-6 קרוקי - מתאים ל- 10-15 אנשים",
+        "price": 26000,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6820883d8bc5b7e4da1c7bb9"
+        }
+       },
+       {
+        "id": "2b19420e485875ced544ae0e",
+        "name": "מארז 15 עוגיות ו-3 גלידות - מתאים ל- 10-15 אנשים",
+        "price": 30600,
+        "currency": "ILS",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/682088528bc5b7e4da1c7bbc"
+        }
+       }
+      ]
+     },
+     "mock_category": "dessert"
+    },
+    {
+     "image": {
+      "blurhash": "j3IWCq;c9JQxZ3YxV2PK7;SRIyYO",
+      "url": "https://imageproxy.wolt.com/assets/673207a19eaa2e574dd749a9"
+     },
+     "link": {},
+     "title": "Abulafia | Allenby",
+     "venue": {
+      "id": "621f58e04fc8fe50d7932478",
+      "slug": "abulafia-allenby",
+      "name": "Abulafia | Allenby",
+      "address": "אלנבי 45, תל אביב",
+      "country": "ISR",
+      "currency": "ILS",
+      "delivers": false,
+      "online": false,
+      "estimate": 30,
+      "estimate_range": "25-35",
+      "location": [
+       34.7703548,
+       32.0703621
+      ],
+      "price_range": 1,
+      "product_line": "restaurant",
+      "rating": {
+       "rating": 4,
+       "score": 9.2,
+       "volume": 2136
+      },
+      "short_description": "The TLV branch of the Jaffa mythologic bakery",
+      "short_description_v2": {
+       "lang": "en",
+       "value": "The TLV branch of the Jaffa mythologic bakery"
+      },
+      "tags": [
+       "bagel",
+       "bakery",
+       "breakfast"
+      ],
+      "brand_image": {
+       "blurhash": "j5VdHkKX;;pCd4Cp8PGGXtGGcPpC",
+       "url": "https://imageproxy.wolt.com/assets/69ef5eaefe9dd4335f73af11"
+      },
+      "venue_preview_items": []
+     },
+     "mock_category": "bakery"
+    }
+   ]
+  }
+ ]
+}

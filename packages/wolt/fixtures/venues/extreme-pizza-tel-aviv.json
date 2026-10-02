@@ -1,0 +1,6808 @@
+{
+ "captured_at": "2026-10-02T21:59:13.254Z",
+ "location": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "static": {
+  "venue": {
+   "id": "69a58ef92513450169a6aa0b",
+   "slug": "extreme-pizza-tel-aviv",
+   "name": "Extreme Pizza | Tel Aviv ",
+   "description": "Hot Pizza & Great Pastries",
+   "image_url": "https://imageproxy.wolt.com/assets/6a143ab3a15f76a9aa337ef5",
+   "image_blurhash": "j4zSNe01;IkQ02;ZcQ8Q4QXbKWGW",
+   "brand_logo_image_url": "https://imageproxy.wolt.com/assets/69ad4faccbc8f577235b9deb",
+   "address": "דרך שלמה 71, תל אביב",
+   "rating": {
+    "rating": 3,
+    "score": "9.0",
+    "score_raw": 9,
+    "volume": 500
+   },
+   "share_url": "https://wolt.com/he/isr/tel-aviv/restaurant/extreme-pizza-tel-aviv",
+   "currency": "ILS",
+   "country": "ISR",
+   "delivery_methods": [
+    "homedelivery",
+    "takeaway"
+   ],
+   "timezone": "Asia/Jerusalem",
+   "product_line": "restaurant",
+   "delivery_base_price": 1000,
+   "service_fee_estimate": {
+    "min": 100,
+    "max": 590,
+    "percentage": 5
+   },
+   "zero_distance_fees": {
+    "delivery_price": 1200
+   },
+   "opening_times_schedule": [
+    {
+     "day": "Monday",
+     "formatted_times": "12:00–03:30"
+    },
+    {
+     "day": "Tuesday",
+     "formatted_times": "12:00–03:30"
+    },
+    {
+     "day": "Wednesday",
+     "formatted_times": "12:00–03:30"
+    },
+    {
+     "day": "Thursday",
+     "formatted_times": "12:00–03:30"
+    },
+    {
+     "day": "Friday",
+     "formatted_times": "16:00–03:30"
+    },
+    {
+     "day": "Saturday",
+     "formatted_times": "12:00–03:30"
+    },
+    {
+     "day": "Sunday",
+     "formatted_times": "12:00–03:30"
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "69a58ef92513450169a6aa0b",
+   "location": {
+    "bbox": null,
+    "type": "Point",
+    "coordinates": [
+     34.7691061,
+     32.0549647
+    ]
+   },
+   "price_range": 2,
+   "food_tags": [
+    "pizza",
+    "street food"
+   ],
+   "short_description": "Hot Pizza & Great Pastries"
+  },
+  "order_minimum": 5000
+ },
+ "dynamic": {
+  "venue": {
+   "id": "69a58ef92513450169a6aa0b",
+   "online": true,
+   "open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:13.037575+03:00",
+    "previous_open": "2026-10-02T16:00:00+03:00",
+    "next_open": "2026-10-03T12:00:00+03:00",
+    "next_close": "2026-10-03T03:30:00+03:00",
+    "next_close_time_localized": "03:30"
+   },
+   "delivery_open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:13.037575+03:00",
+    "previous_open": "2026-10-02T16:00:00+03:00",
+    "next_open": "2026-10-03T12:00:00+03:00",
+    "next_close": "2026-10-03T03:30:00+03:00",
+    "next_close_time_localized": "03:30"
+   },
+   "delivery_configs": [
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "homedelivery",
+     "schedule": "standard",
+     "estimate": {
+      "label": "50-60 min",
+      "min": 50,
+      "mean": 55,
+      "max": 60
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    },
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "takeaway",
+     "schedule": "standard",
+     "estimate": {
+      "label": "10-30 min",
+      "min": 10,
+      "mean": 20,
+      "max": 30
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "69a58ef92513450169a6aa0b",
+   "alive": true,
+   "preestimate_total": {
+    "min": 50,
+    "max": 60,
+    "mean": 55
+   },
+   "discounts": [
+    {
+     "id": "venue_campaign:6a7c2457b94bcc6db711da4c",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee"
+     }
+    }
+   ],
+   "delivery_specs": {
+    "delivery_enabled": true,
+    "original_delivery_price": 1800,
+    "order_minimum_no_surcharge": 5000,
+    "delivery_pricing": {
+     "base_price": 1000,
+     "price_ranges": [
+      {
+       "min": 0,
+       "max": 5000,
+       "a": 5100,
+       "b": -1,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 5000,
+       "max": 6000,
+       "a": 100,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 6000,
+       "max": 11800,
+       "a": 0,
+       "b": 0.05,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 11800,
+       "max": 0,
+       "a": 590,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      }
+     ]
+    }
+   }
+  },
+  "order_minimum": 5000
+ },
+ "assortment": {
+  "assortment_id": "69ad4ff796067bf41b95a5e6",
+  "loading_strategy": "full",
+  "primary_language": "he",
+  "selected_language": "en",
+  "categories": [
+   {
+    "id": "95883693f69cf0c5ab1b6934",
+    "name": "Important message 💙",
+    "slug": "important-message-2",
+    "item_ids": [
+     "97903e394a4a804a538245e3"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "c20b08e8719427e44faec9ac",
+    "name": "Combos",
+    "slug": "combos-3",
+    "item_ids": [
+     "37410371bdcacf79ebd07d22",
+     "2f3a2d3a31d412e714355f2e"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "26f878bea3ad8f538924cbd9",
+    "name": "Specials 🎉",
+    "slug": "specials-4",
+    "item_ids": [
+     "761095a32a0ab7df788aede5",
+     "61e01d13ce0f06dc5d59fba1",
+     "ee2dd87226abd932d2f93d7e"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "4c03f311436ce52f8bebd049",
+    "name": "Pizzas 🍕",
+    "slug": "pizzas-5",
+    "item_ids": [
+     "8e9c36d6d3ffdfefdde826a2",
+     "752c49bf512391a32ae4dc4e",
+     "1ad2b73e7f87095481cfa188",
+     "22837c6c3bc7d74641cfe723",
+     "c2a9fd4fcd6bcf00ef375e95",
+     "38b1d98dfe07b473dd516c9a",
+     "13878c4128f2d2b54a74ee26",
+     "8672cec19829b136d15da649"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "5470b876fd74235fb3051c87",
+    "name": "Chef pizzas 👨🏽‍🍳",
+    "slug": "chef-pizzas-6",
+    "item_ids": [
+     "814723824467e3eff4890ed1",
+     "011c139d08e17630fea09672",
+     "48e29b6ff962506a0da1b446",
+     "a359dd2a41b61cce7c4dc833",
+     "b68938432d2b19997ab2c169",
+     "1bc4835e497322cf0865d34c"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "888f9aa7bcf346b42a178ecf",
+    "name": "From the streets 🥯",
+    "slug": "from-the-streets-7",
+    "item_ids": [
+     "76ecb74807c912728f473d73",
+     "d124e5c47ddb28728b05b272",
+     "3716290793ab14df024f8a10",
+     "e0dd9e25d23eb1e1c68159c6",
+     "ed2574617336c0afbae9a50a"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "6ba5c520ebebd169068744e6",
+    "name": "Sandwiches",
+    "slug": "sandwiches-8",
+    "item_ids": [
+     "db232abc1aa0bd12e19a80a1"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "30bb504d6157b27047e6fb28",
+    "name": "Salads 🥗",
+    "description": "Our salads are served with one dressing of your choice on the side",
+    "slug": "salads-9",
+    "item_ids": [
+     "5160efa0761c55c3c04abc65",
+     "b34bb55fc3cc988b2e999c23",
+     "9d130aef2b3fbf7d46185372",
+     "e2c9c95a273777319d061df3"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "596d0c6fed6d42b1f51a1482",
+    "name": "Snacks 🍗",
+    "slug": "snacks-10",
+    "item_ids": [
+     "51c43e5e53dfa443d3c03be5",
+     "490bf81968178af1c5bd993f",
+     "f4b57f4f56e7712acb47f304",
+     "0c942faa971fbdede45e1fd8",
+     "b132cf1fbb22fe4ab9d4adcc",
+     "41ca91f3d6d954fcc61bb70f"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "db896ccf999e4325651cf7fb",
+    "name": "Sauces 🥫",
+    "slug": "sauces-11",
+    "item_ids": [
+     "560544fc136bacdfc9317ae6",
+     "2221675d0e107a069ca4d499",
+     "2bb3eeaf6a28b06775cb7ea8",
+     "99ed9d7c988b8f521bce9da6",
+     "4c74e8b56456b9bf0817cf58",
+     "57723c82540fb56f03409758",
+     "62c2bf6ce088e6d415872e60",
+     "6398bb790dc705e920514077",
+     "c7929405fcbf74ae9d23553e",
+     "9bea600d2f2fbe3dd57f8473",
+     "da88ee4c3bc34057e1fb68f1",
+     "1b5733ac362d6d76c665e917",
+     "34bdc8072c34a48742c8cef9",
+     "ec6dd863832f76cb6d4d2c47"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "6d44b518ad19c9d0b96c91e8",
+    "name": "Desserts 🍧",
+    "slug": "desserts-12",
+    "item_ids": [
+     "1b887a586f61188897ca7422"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "f7e49b6f3eb9b5e056e9bfa3",
+    "name": "Soft drink 🥤",
+    "slug": "soft-drink-14",
+    "item_ids": [
+     "196ac1ec050ad8aef2435bad",
+     "cdcd48742eeb653eb52bb300",
+     "12dc6502186bd078a7f95796",
+     "b3b6fb6cb50b2fec80b1f908",
+     "65edba9db9c4b64249dffa0a",
+     "a832c762f5b508c9ebcc4ae4",
+     "66fd82a475196a1cd1426bc7",
+     "8d4c75c7505481cdef4b3436",
+     "0b4a6c6911152548ae1975f6",
+     "e4bf0e24bf6be58d790d7316"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "b68fced87d1728d6b6710fad",
+    "name": "Great drink 🥤",
+    "slug": "great-drink-15",
+    "item_ids": [
+     "89798b728590dcc7433a4bde",
+     "0a0925235aee0753919df824",
+     "2513f8bdcdc7d4e4c9b83f24",
+     "d295822f717a64ae299285f5",
+     "00cf044097b54e892743087b",
+     "7d3a050a63cafe00c9b58f73",
+     "500e2fbd9d2717ea6ab6666c",
+     "5c7b7fdd948a9e7315486463",
+     "2f78741e4deddcd3f77a35d0"
+    ],
+    "subcategories": []
+   }
+  ],
+  "items": [
+   {
+    "id": "00cf044097b54e892743087b",
+    "name": "Fanta Orange - Large",
+    "description": "1,5",
+    "price": 1700,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/37cf2c7e-f8ef-11eb-b9e5-e242befbd933_fanta_orenge_1.5l.jpeg",
+      "blurhash": "ja;fvRGGT;plPtpCkPGGLdCpl3pC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "2084c548fccdb91a96eff9fecdca8772",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "011c139d08e17630fea09672",
+    "name": "White Label",
+    "description": "Cream sauce, mozzarella cheese, mushrooms, black olives and onions",
+    "price": 8000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f05",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a9b3c520ea86694a0c13d4b3",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose a type of dough",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d847fce0e9d3c5aa70d3a4fd",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f80af74e0979f04117f18563",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e2c752dc7136e4d78c9e4a10",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d50e61d04bbf107825dcf057251199df",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0a0925235aee0753919df824",
+    "name": "Cola Zero - Large bottle",
+    "description": "1,5",
+    "price": 1700,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/0291dd04-f8ef-11eb-ac5f-e242befbd933_______________.jpeg",
+      "blurhash": "jcZvjPpC;;KXPtupgPBCPtCpgPpC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c9ce09b5eac00b8c36f04bb3afa821b6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0b4a6c6911152548ae1975f6",
+    "name": "Cola Zero (glass bottle)",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/5246f32c-f8e8-11eb-a39c-467f67de554e_coca_cola_zero_350ml.jpeg",
+      "blurhash": "jcZvfPCq;;GGPtCpgPpTPtu7gPCp"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e0cc399e219fa38530f8ae0a571b30cf",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0c942faa971fbdede45e1fd8",
+    "name": "Mashed potatoes",
+    "description": "Served with a sauce of your choice",
+    "price": 2200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138b3",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "855bd0511ef5fdfed2d04798",
+      "option_id": "d53a9c242cefca074c879609",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 6
+       },
+       "max_single_selections": 6,
+       "free_selections": 1
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "87d8423ee844f3cc5545d72e26791ec1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "12dc6502186bd078a7f95796",
+    "name": "Ginger beer",
+    "description": "",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a16f5f2bc58fc8ba2f57251",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7f4ace8db92b904346e39714137efcc1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "13878c4128f2d2b54a74ee26",
+    "name": "Vegan L pizza 🌱",
+    "description": "Diameter 38 cm, 8 triangles tomato sauce and vegan cheese Choose toppings",
+    "price": 6000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138cf",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "71f171fe2a75c92820d3d45e",
+      "option_id": "5ebac1f608d6513a215f5059",
+      "name": "Choose a pizza sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "061628acccbb89ef8b35cb25",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Extra sesame on the edges?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1c848547a00852dbaf63661d",
+      "option_id": "3ca71175530ee942b374a1d0",
+      "name": "Want toppings on the pizza?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3fbe09b4c668efda43f00c75",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - a whole tray L",
+      "prerequisite_values": [
+       "5c8ae53986648889397de7ed"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6996322f533374dc8b7d9840",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - half 1#",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "78f066d061c3e7eb97e4439f",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c87bb1fa91339c2acde6e128",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "48f201e0b60d3f57964909f5",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c6116521bc4a8ce30dbd2802e88c7de8",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "196ac1ec050ad8aef2435bad",
+    "name": "Malty bottle",
+    "description": "330 ml",
+    "price": 1400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a16f565bc58fc8ba2f57221?overlay=isr-sugar",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "32d2c1643e8b7842701518b1d9be16d7",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1ad2b73e7f87095481cfa188",
+    "name": "Pizza L",
+    "description": "Diameter 38 cm, 8 triangles of tomato sauce and mozzarella cheese Choose toppings",
+    "price": 5500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f17",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "eaf59d4cb55754a04ef01add",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Extra sesame on the edges?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ac467fa3334c2dd2514e85dd",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "70b92b051f45e6a73bd6e37e",
+      "option_id": "3ca71175530ee942b374a1d0",
+      "name": "Want toppings on the pizza?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "114f9a8781547b53a881221d",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - a whole tray L",
+      "prerequisite_values": [
+       "5c8ae53986648889397de7ed"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "eadaacc558cf02065018a8f9",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - half 1#",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ecc774cc3fee13688f8aa48a",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "75943d78dbd30a0a3f13e15a",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8db5aa978d8cdbabe0157cf2",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "03986aeb45d245c191180853d51329bd",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1b5733ac362d6d76c665e917",
+    "name": "No confit",
+    "description": "",
+    "price": 600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138e1",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "988ca01370a9449439de9f3d5c659206",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1b887a586f61188897ca7422",
+    "name": "Homemade Rogelach Bowl",
+    "description": "Our pizza dough with rolled chocolate filling",
+    "price": 3800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a16e971e1d6e1ece87282e3",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7a136b4f5917a03b6f1c8b641e96651a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1bc4835e497322cf0865d34c",
+    "name": "Cross Extreme",
+    "description": "Pepperoni, extra mozzarella and pineapple",
+    "price": 8000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f01",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "015ea3e898755799d16f69e6",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose a type of dough",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9fd73012d88aec28f408fd46",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5f704373a14cbf2ae18e4c52",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1c9a55b75cdf4f2dd2e9d70b656849c8",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "2221675d0e107a069ca4d499",
+    "name": "Garlic mayonnaise",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138ba",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "adf0f6b4b7286ca8cb75de7542017390",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "22837c6c3bc7d74641cfe723",
+    "name": "Pizza S without gluten 🌾",
+    "description": "Personal tray Tomato sauce and Mozzarella cheese Ged choose toppings",
+    "price": 3500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f19",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a698340fbb125d53622825d1",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Extra sesame on the edges?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "fdcb141159c15211bb300d3b",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "966ea75d59a5a320110fe041",
+      "option_id": "39c5a65920e555a733a3b281",
+      "name": "Want toppings on the pizza?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d050c80c0fa186d346aceaff",
+      "option_id": "fd2e779b8beba091b3d7001f",
+      "name": "Choose toppings - personal tray ",
+      "prerequisite_values": [
+       "71bcaf3d4a012178b36fa730"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "09c62f5d88b675842999503a",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8693dd51180882087b36b317",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6a25d4d61f19d34ae32e9411f3f5fce1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "2513f8bdcdc7d4e4c9b83f24",
+    "name": "Sprite - Large bottle",
+    "description": "1,5",
+    "price": 1700,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/1d85cdd2-f8ef-11eb-ac5f-e242befbd933_53003_sprite_lime_1.5l_wolt_1440x810.jpeg",
+      "blurhash": "j7:fLVup;;KXPcCphkpTTdCpd3pC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fd855eb9b7d70a2e30a49cf69cdfabf5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "2bb3eeaf6a28b06775cb7ea8",
+    "name": "The Thousand Islands",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138a3",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cbe00aded976c8ecaf2855644a949448",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "2f3a2d3a31d412e714355f2e",
+    "name": "Combo friends",
+    "description": "2 family meals + extra for the tray + 2 side dishes",
+    "price": 14000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6aaa7c193dafd31f4e87fee2",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "b6ac3a9a61c4f583a03550a8",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Sesame seeds on the edges for pizza #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "aacc47280f559c5cd73503d0",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose pizza dough 1#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ee4f2162157bfa212aad5a70",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce 1#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "723f5881a8318cbd5f78cf65",
+      "option_id": "3ca71175530ee942b374a1d0",
+      "name": "Would you like extras on the first tray?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f328e3112fb0244f62c84131",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - tray #1",
+      "prerequisite_values": [
+       "5c8ae53986648889397de7ed"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "f613b642acb741b13e0d244b",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - tray 1# half 1#",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "74981b3b83e24c809391d519",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "48147351e30f1543b0b252a3",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Pizza Changes #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7c6c59816b3705b4646dfe83",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan? Pizza #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "07d371ff54a1321beb6d65cf",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Sesame seeds on the edges for pizza #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3f5719c5553534f967905d7f",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose pizza dough #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8902ad0ca962b148a75b42b5",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce 2#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cfc3fa6191815fe033cf692d",
+      "option_id": "2554833fa3b5f46e41eb46ec",
+      "name": "Would you like extras on the second tray?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8f0ef7fba39737df3d2b36d3",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - tray #2",
+      "prerequisite_values": [
+       "bc8f71bae452125e151d3e89"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "582cc839649e46f5f1573490",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - tray 2# half 1#",
+      "prerequisite_values": [
+       "d836055c0cb8f2df2b021b8e"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "991b6fb13fbb4df64972182d",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "d836055c0cb8f2df2b021b8e"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "0ba42e0813ae64180444af87",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Pizza Changes #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a6a1f333f30a3ceea25e5752",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan? Pizza #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0adff06c0005e1402ad51c21",
+      "option_id": "be9d8d513f8541acdedd0899",
+      "name": "Choose companions",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 2,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8073f2506407882cd1345bfc",
+      "option_id": "5f1ddc5e2a7515a51cd11379",
+      "name": "Extra Rosalach?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "caba80398a8ce4cbbf49b752",
+      "option_id": "07393a31d8cbd843c00ef3cc",
+      "name": "Drinks at an additional cost?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "11182db12f2606d8eb13e025f6995c48",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "2f78741e4deddcd3f77a35d0",
+    "name": "Prigat Lemon-mint - Large bottle",
+    "description": "1,5",
+    "price": 1700,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/78def324-f8f0-11eb-b96d-e242befbd933_52887_mashkal_limonana_1.5l_wolt_1440x810.jpeg",
+      "blurhash": "j9:LHSCnXLGHPcCpl4tTPdtTh3CF"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9476d6d77ed1b4582c2df90ea5e77204",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "34bdc8072c34a48742c8cef9",
+    "name": "mayonnaise",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637b89c760f9e4750a7f911f/fc4a0f5a-6b09-11ed-9a6c-825b6fed1940_c45b9a1c_f856_11ec_b688_9a01940cc35b______.jpeg",
+      "blurhash": "j4;fLWKX;;llPcpCh4GGX;pC8hKX"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c4c826605f08f47fb109d5c5c97b2972",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3716290793ab14df024f8a10",
+    "name": "Malawah rolled",
+    "description": "Hummus, tomato paste, egg and spicy can be added extras for a fee",
+    "price": 2800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138bd",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e4ffe38e70872d036e3fa5c0",
+      "option_id": "e9dfdac4eacbcf0ac175ebc2",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cf08e758af56f765f6f787c4",
+      "option_id": "fd2e779b8beba091b3d7001f",
+      "name": "Choose toppings - personal tray ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "71478eb56626c0f1c257ce5fa9857a4b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "37410371bdcacf79ebd07d22",
+    "name": "Combo treats",
+    "description": "Family + extra on the tray + 2 side dishes to choose from",
+    "price": 10000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6aaa7c0c3dafd31f4e87fede",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "eaf59d4cb55754a04ef01add",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Extra sesame on the edges?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8db5aa978d8cdbabe0157cf2",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ac467fa3334c2dd2514e85dd",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "70b92b051f45e6a73bd6e37e",
+      "option_id": "3ca71175530ee942b374a1d0",
+      "name": "Want toppings on the pizza?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "114f9a8781547b53a881221d",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - a whole tray L",
+      "prerequisite_values": [
+       "5c8ae53986648889397de7ed"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "eadaacc558cf02065018a8f9",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - half 1#",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "ecc774cc3fee13688f8aa48a",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "75943d78dbd30a0a3f13e15a",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "25bfb463eb71f6c260ace2ba",
+      "option_id": "be9d8d513f8541acdedd0899",
+      "name": "Choose companions",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 2,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "24993c124c4a64f3e1976dac",
+      "option_id": "07393a31d8cbd843c00ef3cc",
+      "name": "Drinks at an additional cost?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0faa06cb320cd6a04fe3079201f9a1e0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "38b1d98dfe07b473dd516c9a",
+    "name": "M vegan pizza 🌱",
+    "description": "Diameter 32 cm, 6 triangles tomato sauce and vegan cheese Choose toppings",
+    "price": 4000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138d0",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a532f78aab482f7a3aa4fef7",
+      "option_id": "5ebac1f608d6513a215f5059",
+      "name": "Choose a pizza sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ec5ecde5b603feaa52d0e6b9",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Extra sesame on the edges?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "042209a30ef6ac1bcc9d7f28",
+      "option_id": "3ca71175530ee942b374a1d0",
+      "name": "Want toppings on the pizza?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "48e6cc7dc9dc517f29d892cc",
+      "option_id": "0ce39459e42118cde89c43d9",
+      "name": "Choose toppings - a whole tray M",
+      "prerequisite_values": [
+       "5c8ae53986648889397de7ed"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "30ad375c1e0d5e78eef4e98c",
+      "option_id": "0721a4d00516197e3cf60ffb",
+      "name": "Choose toppings - half 1#",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ace213cd33a888876962097b",
+      "option_id": "6a4b7a78c99491494de63293",
+      "name": "Choose toppings - half tray M",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a64e582895b11e22f8a5e1b4",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ef608eae466eefe8f7979653",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "18ba5bb71945188a96693f1944fadaca",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "41ca91f3d6d954fcc61bb70f",
+    "name": "Sausages snack",
+    "description": "Served with a sauce of your choice",
+    "price": 2200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138c1",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "31c9841f4f5ea182daba044e",
+      "option_id": "224343b622f44cd09282e8bd",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 6
+       },
+       "max_single_selections": 6,
+       "free_selections": 1
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f7210ec18e40afd36102197a64553a6d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "48e29b6ff962506a0da1b446",
+    "name": "Dream Extreme 🌶",
+    "description": "Mozzarella cheese, goose breast, Bulgarian and hot pepper",
+    "price": 8000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f02",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "f72e938689eebb2b5b15f78a",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose a type of dough",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "882bceb97441ebf4d518e17b",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "dd9baedab9c92cbbf3460b47",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "20cc2edd3ac320708cb427e4db6780da",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "490bf81968178af1c5bd993f",
+    "name": "Earth",
+    "description": "Served with lemon and Atlantic salt",
+    "price": 2200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138a0",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "aef639ea194bcf95dc8cbbbcc0e9b46c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "4c74e8b56456b9bf0817cf58",
+    "name": "sweet chilli",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138d7",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c7d86bcede5a0d619cb545469a5aa1b7",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "500e2fbd9d2717ea6ab6666c",
+    "name": "Neviot Mineral Water Apple Flavored - Large Bottle",
+    "description": "1,5",
+    "price": 1700,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/b758266a-e176-11ec-b3e5-c6d1580650f0_7290110114787.jpeg",
+      "blurhash": "j4:;LWGG;;KXPdCnhkpVGHCppBpD"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "14f0176c89184c7f1b6f91699479b12f",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5160efa0761c55c3c04abc65",
+    "name": "Greek salad",
+    "description": "Lettuce, tomato, cucumber, shrimp, onion, marinated black olives and Bulgarian cheese, in olive oil and lemon sauce and an additional sauce of your choice",
+    "price": 4800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138c9",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "fb9585c8c58537e1d0692cc1",
+      "option_id": "931fc892b0f45bdfa00e3930",
+      "name": "Choose a salad dressing",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "8d8e065f156aded6985caa03",
+      "option_id": "c693d82f1612f97fa72ef85a",
+      "name": "Paid toppings for salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 11
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "41b02851785753bd8c9aaeee145855ae",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "51c43e5e53dfa443d3c03be5",
+    "name": "Garlic bread",
+    "description": "",
+    "price": 1800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138b6",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "0271adac77bcc50833e0f54b",
+      "option_id": "fd49e847e49d49aefcec759f",
+      "name": "Extras over paid",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fa872581ab4fd3e0e64fc285dcd1f5bd",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "560544fc136bacdfc9317ae6",
+    "name": "Home grown garlic",
+    "description": "",
+    "price": 500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138e0",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "31ae1a1a1ef84789567e79d44fc45c99",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "57723c82540fb56f03409758",
+    "name": "Hot Chili 🌶",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138d6",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f14ec6294f6239c1ce8f6da18eb48b22",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5c7b7fdd948a9e7315486463",
+    "name": "Prigat Grapes - Large bottle",
+    "description": "1,5",
+    "price": 1700,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/71fb5278-f8f0-11eb-90dd-dee9e2704e20_52887_mashkal_grape_1.5l_wolt_1440x810.jpeg",
+      "blurhash": "jcY;jPCp;;GGPctTh4CpPcCph4tT"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8cec4096d405045f6a260126de997cae",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "61e01d13ce0f06dc5d59fba1",
+    "name": "Two L size pizzas",
+    "description": "Diameter 38 cm, 8 triangles, extras can be added for a fee",
+    "price": 9500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f27",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "b6ac3a9a61c4f583a03550a8",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Sesame seeds on the edges for pizza #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "aacc47280f559c5cd73503d0",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose pizza dough 1#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ee4f2162157bfa212aad5a70",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce 1#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "723f5881a8318cbd5f78cf65",
+      "option_id": "3ca71175530ee942b374a1d0",
+      "name": "Would you like extras on the first tray?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f328e3112fb0244f62c84131",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - tray #1",
+      "prerequisite_values": [
+       "5c8ae53986648889397de7ed"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f613b642acb741b13e0d244b",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - tray 1# half 1#",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "74981b3b83e24c809391d519",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "48147351e30f1543b0b252a3",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Pizza Changes #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7c6c59816b3705b4646dfe83",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan? Pizza #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "07d371ff54a1321beb6d65cf",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Sesame seeds on the edges for pizza #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3f5719c5553534f967905d7f",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose pizza dough #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8902ad0ca962b148a75b42b5",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce 2#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cfc3fa6191815fe033cf692d",
+      "option_id": "2554833fa3b5f46e41eb46ec",
+      "name": "Would you like extras on the second tray?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8f0ef7fba39737df3d2b36d3",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - tray #2",
+      "prerequisite_values": [
+       "bc8f71bae452125e151d3e89"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "582cc839649e46f5f1573490",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - tray 2# half 1#",
+      "prerequisite_values": [
+       "d836055c0cb8f2df2b021b8e"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "991b6fb13fbb4df64972182d",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "d836055c0cb8f2df2b021b8e"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0ba42e0813ae64180444af87",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Pizza Changes #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a6a1f333f30a3ceea25e5752",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan? Pizza #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9bf8426454a7e6c5b4af4166712b37fb",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62c2bf6ce088e6d415872e60",
+    "name": "ketchup",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138dc",
+      "blurhash": "j1fOQK8y14iV4yTtKGll1lqG:HNl"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5890073c7dc9d5af86df19176b8d8a5d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6398bb790dc705e920514077",
+    "name": "Olive oil and lemon",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138e2",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "51a8a15c1092ae6ddb18031ca91dddba",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "65edba9db9c4b64249dffa0a",
+    "name": "XL Energy Drink",
+    "description": "0,25",
+    "price": 1000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6114fb02ea87c316d2357897/a38df136-066c-11ec-ba35-cec8337e4d01_h8090195_1440x81012xl.jpeg",
+      "blurhash": "jdYvbPCn;;GHPcC7llu9TsCpcQtC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8412165dec19cdf990470bf03740145e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "66fd82a475196a1cd1426bc7",
+    "name": "Mineral Water (Neviot)",
+    "description": "0,5",
+    "price": 1000,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/7da3790a-e29a-11eb-b3c3-22915ab626ac________________________.jpeg",
+      "blurhash": "j3;fLXGG;;KXTttTgPCFPcGGh4pC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "411f90a5540df06e84233950a33c0577",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "752c49bf512391a32ae4dc4e",
+    "name": "Pizza M",
+    "description": "Diameter 32 cm, 6 triangles of tomato sauce and mozzarella cheese Choose toppings",
+    "price": 4500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f18",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "31a90abbfdcf5b4452a669b4",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Extra sesame on the edges?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8fcbf4b7f331a2562f809819",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7a48869c1606e3e818f24699",
+      "option_id": "3ca71175530ee942b374a1d0",
+      "name": "Want toppings on the pizza?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1c7f85a9543e069f07532179",
+      "option_id": "0ce39459e42118cde89c43d9",
+      "name": "Choose toppings - a whole tray M",
+      "prerequisite_values": [
+       "5c8ae53986648889397de7ed"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6fe825555c28decdc9f7a0f1",
+      "option_id": "0721a4d00516197e3cf60ffb",
+      "name": "Choose toppings - half 1#",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3f0af45f2fb6fcf155366594",
+      "option_id": "6a4b7a78c99491494de63293",
+      "name": "Choose toppings - half tray M",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3fd85a8e6586751bb2820dae",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ba7f0f106ab1e5e1006d7604",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b43a16970655cd9157c1134ea3a56142",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "761095a32a0ab7df788aede5",
+    "name": "Two M size pizzas",
+    "description": "Diameter 32 cm, 6 triangles, extras can be added for a fee",
+    "price": 8500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f27",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e1a116c85d4fde281a214a14",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Sesame seeds on the edges for pizza #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4d93ba0d753ef76ca996715c",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose a type of pizza dough 1#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e767d8755999c5a68725c4cb",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Pizza Changes #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "844f593b7bb7ea782fee86e4",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan? Pizza #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bb6bd7698b59710fbafa9d07",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose pizza sauce #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "048ff2bde9eae3249d402a81",
+      "option_id": "3ca71175530ee942b374a1d0",
+      "name": "Would you like toppings for #1 pizza?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ec543eeab91d9a8f966eae1a",
+      "option_id": "0ce39459e42118cde89c43d9",
+      "name": "Pizza toppings 1 #",
+      "prerequisite_values": [
+       "5c8ae53986648889397de7ed"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c646adaf6969a670e19b4826",
+      "option_id": "0721a4d00516197e3cf60ffb",
+      "name": "Choose toppings - tray 1# half 1#",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d4115b9ee308bf1559c8fde1",
+      "option_id": "6a4b7a78c99491494de63293",
+      "name": "Choose toppings - half tray M",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "154c3c30723408e29cb20c8c",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Sesame seeds on the edges for pizza #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e311d2551cf589c69ac08ea8",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose a type of pizza dough 2#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3a7ba87af1056882a425062f",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan? Pizza #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d5344813807d1135c46092ef",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose pizza sauce #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ae9da32c3700b49ff6e1a76a",
+      "option_id": "2554833fa3b5f46e41eb46ec",
+      "name": "Would you like extras on the second tray?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "10a1fcd3cba6f2621d811ca7",
+      "option_id": "0ce39459e42118cde89c43d9",
+      "name": "Pizza toppings 2 #",
+      "prerequisite_values": [
+       "bc8f71bae452125e151d3e89"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "291217005dd5f276fb13c882",
+      "option_id": "0721a4d00516197e3cf60ffb",
+      "name": "Choose toppings - tray 2# half 1#",
+      "prerequisite_values": [
+       "d836055c0cb8f2df2b021b8e"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "015e92da69c983599927fda3",
+      "option_id": "6a4b7a78c99491494de63293",
+      "name": "Choose toppings - half tray M",
+      "prerequisite_values": [
+       "d836055c0cb8f2df2b021b8e"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1bd2e26191e6cad69e178284",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Pizza Changes #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7d8edbcf872481115db0c118a0f83b87",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "76ecb74807c912728f473d73",
+    "name": "Baked geranium",
+    "description": "Served with hard-boiled egg and tomato paste",
+    "price": 2800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138a9",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "f64328c66b9cebb539253448",
+      "option_id": "ccfa9a09dd323fd5d734031a",
+      "name": "Paid extras",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "00e627f57256b10b2edc6d6d09f64a9b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7d3a050a63cafe00c9b58f73",
+    "name": "Fuze Tea Peach - Large bottle",
+    "description": "1,5",
+    "price": 1700,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/d4250642-f8f0-11eb-9857-dee9e2704e20__________________.jpeg",
+      "blurhash": "jc:LnPCpX;GGDcCpF4tSLcBTl4up"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7900bc351cbd68d09ffc5e038783276d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "814723824467e3eff4890ed1",
+    "name": "Black Label",
+    "description": "Mozzarella cheese, Bulgarian, pineapple and black olives",
+    "price": 8000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f00",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "3ff258cb1302ae283cdabcfd",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose a type of dough",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6ead82f126429cb36636e2e7",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "aa677c9792f65ed8b76e785c",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "43f8d336f7bee3c705f78f65",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cad16c52820376baaa2383a40e6a4f6a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8672cec19829b136d15da649",
+    "name": "‫פיצה מחמצת כוסמין L",
+    "description": "קוטר 38 ס״מ, ‫8 משולשים \nרוטב עגבניות וגבינת מוצרלה גד | בחרו תוספות",
+    "price": 6000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138d3",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "3774d65345bed652b0474c57",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Extra sesame on the edges?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4bb3991a1905bd2038c776e7",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6c63a0933a83b9cd44b3a78d",
+      "option_id": "3ca71175530ee942b374a1d0",
+      "name": "Want toppings on the pizza?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "53484d6c7a6f4df22ac8ab77",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - a whole tray L",
+      "prerequisite_values": [
+       "5c8ae53986648889397de7ed"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c94ec948b2f2bdff732c6d23",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "03fc628faa14cc4cfa7f33bb",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a42ca3f28058d168c81f2117",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cecb0ab8cc1a6d2747fccdb8",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "90743a57c3f9ff5aa19327e559c4f81d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "89798b728590dcc7433a4bde",
+    "name": "Coca Cola - Large bottle",
+    "description": "1,5",
+    "price": 1700,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/eed2797c-f8ee-11eb-b0d4-dee9e2704e20_______________.jpeg",
+      "blurhash": "jcZLfPtC;;KXTtupgPBCPtCpgPtC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c63aa2a2eec7adb891f9041a7a9e1a28",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8d4c75c7505481cdef4b3436",
+    "name": "Coca-Cola (glass bottle)",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/e6b51f6c-42c6-11eb-9073-3a87a4ff4ab7_coca_cola_350ml.jpeg",
+      "blurhash": "jbZLnQCG;;GFTty9h4unPtu7gPCp"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4ace2845557dd3d66f2540196328a112",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8e9c36d6d3ffdfefdde826a2",
+    "name": "Pizza S",
+    "description": "Personal tray Tomato sauce and Mozzarella cheese Ged choose toppings",
+    "price": 2500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138d2",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "267e422171a6b4b6789b4721",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Extra sesame on the edges?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "51162ea269521199576e7bb9",
+      "option_id": "1ec8cba2805773cde87c716d",
+      "name": " Choose a pizza sauce - personal",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2eba8f3fca7af989cdc0ad4a",
+      "option_id": "39c5a65920e555a733a3b281",
+      "name": "Want toppings on the pizza?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b88e41eaee5cfe83d8089d21",
+      "option_id": "fd2e779b8beba091b3d7001f",
+      "name": "Choose toppings - personal tray ",
+      "prerequisite_values": [
+       "71bcaf3d4a012178b36fa730"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a4f46103d0fd108c00149acf",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d6b920183393085c949c1b6a",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "698d3016a05a8f21e294576912c51a2c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "97903e394a4a804a538245e3",
+    "name": "Dear customers",
+    "description": "All our pizzas are served with high-quality Gad mozzarella cheese 🤩",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/82dbafae-5e04-11ee-ab40-5e708cd3b520_1.jpeg",
+      "blurhash": "j1fInEPc0s8R1KOS;4970jd6;I;s"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "766ba90efd2f90401da7838de818b494",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "99ed9d7c988b8f521bce9da6",
+    "name": "Citrus vinaigrette",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138ad",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cebe5d2bf0b58d365eec6ffcf6d634c3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9bea600d2f2fbe3dd57f8473",
+    "name": "The home schog 🌶",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138c3",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0b0167bb03e931f6a78873f9275aa928",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9d130aef2b3fbf7d46185372",
+    "name": "Tuna salad",
+    "description": "Lettuce, tomato, cucumber, shrimp, onion, corn, hard-boiled egg and tuna",
+    "price": 4800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138c8",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "5f3ebb9d7695a8c7160e1c21",
+      "option_id": "931fc892b0f45bdfa00e3930",
+      "name": "Choose a salad dressing",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "d1cb63eff0354afbd24f03cb",
+      "option_id": "c693d82f1612f97fa72ef85a",
+      "name": "Paid toppings for salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 11
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c659c18dd34a6572cec093f26d1bb919",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "a359dd2a41b61cce7c4dc833",
+    "name": "Drift Extreme 🌶",
+    "description": "Mozzarella cheese, pepperoni, hot pepper and onion",
+    "price": 8000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f03",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "d9016237544dc819871eca80",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose a type of dough",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6b8ef0f7799e0e4c6c72513c",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "35e4537cb9ddea0f13da622e",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a46a3fda8d63811da29f9c717e280b30",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "a832c762f5b508c9ebcc4ae4",
+    "name": "Kinley Soda",
+    "description": "0,25",
+    "price": 1000,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/440d3d98-f8e8-11eb-86bb-c268f97193e5_kinley_soda_250_ml.jpeg",
+      "blurhash": "j5:vDWu9;;KXTttTcPCplDtUKFCp"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a0b3b3f5f6775eb63164b252c64c8042",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b132cf1fbb22fe4ab9d4adcc",
+    "name": "Pottos",
+    "description": "Served with a sauce of your choice",
+    "price": 2200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138cd",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "114304df3742ce89b0711356",
+      "option_id": "d53a9c242cefca074c879609",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 6
+       },
+       "max_single_selections": 6,
+       "free_selections": 1
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4bb4487e717f4b9f1939860900e01aa5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b34bb55fc3cc988b2e999c23",
+    "name": "Caprese salad",
+    "description": "Cherry tomatoes, basil, mozzarella fresca and touches of olive oil and reduced balsamic vinegar",
+    "price": 5000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f16",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "389b64cca8e678d382dafce2",
+      "option_id": "931fc892b0f45bdfa00e3930",
+      "name": "Choose a salad dressing",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "50246fb1061fc4c5645c5ee7",
+      "option_id": "c693d82f1612f97fa72ef85a",
+      "name": "Paid toppings for salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 11
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1ccdc960f9010a582fa94d061fb22e7d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b3b6fb6cb50b2fec80b1f908",
+    "name": "Fanta (can)",
+    "description": "0,33",
+    "price": 1000,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/77103092-42c7-11eb-9443-92ca09493036_52272_wolt_8500x4800_sleek_can_orenge.jpeg",
+      "blurhash": "jh:f7KCHX;FlCGCnGntWNBCpiHpT"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "17fe697aa17431595bf058f0d9bc2422",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b68938432d2b19997ab2c169",
+    "name": "Surf Extreme",
+    "description": "Mozzarella cheese, tuna, tomatoes and onions",
+    "price": 8000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f04",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "c3c6b9f8a84cbdc6a6b3a06d",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose a type of dough",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6f6872d0d5e1fa4495a1a2f9",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3666e4cad7ed006a5c8e58a2",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cd865e5a25bfe6d8c9d76e8a3b141e3f",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c2a9fd4fcd6bcf00ef375e95",
+    "name": "Vegan S pizza 🌱",
+    "description": "Personal tray Tomato sauce and vegan cheese choose toppings",
+    "price": 2500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138d1",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ecb10862640f3ca42e6a6bb8",
+      "option_id": "5ebac1f608d6513a215f5059",
+      "name": "Choose a pizza sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e5a45764dab07343d5b520ce",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Extra sesame on the edges?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e4562478709762ad11973b81",
+      "option_id": "39c5a65920e555a733a3b281",
+      "name": "Want toppings on the pizza?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "255867e3ad7e935bd74aa237",
+      "option_id": "fd2e779b8beba091b3d7001f",
+      "name": "Choose toppings - personal tray ",
+      "prerequisite_values": [
+       "71bcaf3d4a012178b36fa730"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b81b719c97f7f0089213750a",
+      "option_id": "77b90c917e29cdd652fcb5da",
+      "name": "Would you like extra charge sauces?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 13
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1fe717f604a4999afa217454",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Modifications",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1d2f953357c79eaa689c8399fcb736f3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c7929405fcbf74ae9d23553e",
+    "name": "Philadelphia Aioli",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138a1",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "12d0d32a35a9231533b929cc486d35d7",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "cdcd48742eeb653eb52bb300",
+    "name": "Water tonic",
+    "description": "",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a16f5adc6e0b274549a7952",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d735bc4423a57eb57f6b339537b9a0ec",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d124e5c47ddb28728b05b272",
+    "name": "Mlawa is open",
+    "description": "Served with hard-boiled egg and tomato paste",
+    "price": 2800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138bf",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "96fe2a2dc652d34e5f6f5633",
+      "option_id": "ccfa9a09dd323fd5d734031a",
+      "name": "Paid extras",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7b250b853e3f76f6ce39f5ffcdc52966",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d295822f717a64ae299285f5",
+    "name": "Sprite Zero - Large bottle",
+    "description": "1,5",
+    "price": 1700,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/21f54654-f8ef-11eb-808a-e242befbd933_53003_sprite_zero_1.5l_wolt_1440x810.jpeg",
+      "blurhash": "j6:fLVCp;;KXTcCph4tTTdCpd3pC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e059a678a9623ee812776ecd06880c3c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "da88ee4c3bc34057e1fb68f1",
+    "name": "Homemade halpinio 🌶",
+    "description": "",
+    "price": 600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138af",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f25f445433df0d8ee764ff5087f7942e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "db232abc1aa0bd12e19a80a1",
+    "name": "garlic sandwich",
+    "description": "Garlic bread sandwich Gad mozzarella pizza sauce and toppings to choose from",
+    "price": 3500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138b5",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "f0350560e76d11ee07b87f2f",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5361b512edde390752e1c121",
+      "option_id": "87d77c4e6f3abff3580bc99f",
+      "name": "Select Extras",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "33b717cf1a6babc6c107ad80",
+      "option_id": "78e0f864adc12876c7be42bf",
+      "name": "Select Extras",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 27
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "2d01a4df481460682d850af82d9ab0a9",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e0dd9e25d23eb1e1c68159c6",
+    "name": "Mlawa Pizza",
+    "description": "Extras can be added for a fee",
+    "price": 3000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138be",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "0c6f4814196710a1f33c51e8",
+      "option_id": "daaeafd0f7310ef3c9483fb7",
+      "name": "Would you like the vegan meal?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c0762522ed16d35d38139572",
+      "option_id": "fd2e779b8beba091b3d7001f",
+      "name": "Choose toppings - personal tray ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3aaf1b0603b3cd6828d4341a525338d6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e2c9c95a273777319d061df3",
+    "name": "Survival salad",
+    "description": "Lettuce, tomato, cucumber, shrimp, radish, onion and schnitzels",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a144238a15f76a9aa3383ec",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "f2995ca57dfef9f6683381b4",
+      "option_id": "931fc892b0f45bdfa00e3930",
+      "name": "Choose a salad dressing",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 1
+      }
+     },
+     {
+      "id": "9a10ede6b40f51cd022d366d",
+      "option_id": "c693d82f1612f97fa72ef85a",
+      "name": "Paid toppings for salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 11
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "56b1be62734be178e6fac7271d6bdb73",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e4bf0e24bf6be58d790d7316",
+    "name": "Fuze Tea - Peach",
+    "description": "0,5",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/dc602cbc-f8e9-11eb-a705-c268f97193e5_fuze_tea_peach_500ml.jpeg",
+      "blurhash": "ja:;vRGGX;GoLttTp4CpPtxTgPCp"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8cdac3ce06fb2487cdcaef3f9347da47",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ec6dd863832f76cb6d4d2c47",
+    "name": "Aioli Curry",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138a2",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8489b0a94a3e028701d6c34a3734d3f4",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ed2574617336c0afbae9a50a",
+    "name": "Ziva",
+    "description": "Pizza sauce, mozzarella and two toppings to choose from Served with a hard-boiled egg and tomato paste",
+    "price": 3500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143fe9e1d6e1ece87138ae",
+      "blurhash": "j3w5V44z0jXHWQTc95dm01Pb;H8Q"
+     }
+    ],
+    "options": [
+     {
+      "id": "6d10128924acdbd903ad4570",
+      "option_id": "2efac866af2214674dfc9c8f",
+      "name": "Ziva changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "16eea76810ac64183b9305d3",
+      "option_id": "78e0f864adc12876c7be42bf",
+      "name": "Select Extras",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 27
+       },
+       "max_single_selections": 1,
+       "free_selections": 2
+      }
+     },
+     {
+      "id": "63b54f4d566db4351e5b67e8",
+      "option_id": "30fc59f9771e4f316618198d",
+      "name": "Would you like the egg in the ziva?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e8d2134bf334379942980bd1",
+      "option_id": "823408d02e742db0bc091a88",
+      "name": "Paid extras",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e9b1544b95d36c048b99d403e2f2ed67",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ee2dd87226abd932d2f93d7e",
+    "name": "Three L size pizzas",
+    "description": "Diameter 38 cm, 8 triangles, extras can be added for a fee",
+    "price": 13500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f24",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "cd1de0fe043880641eb1d5ec",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Pizza Changes #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ea5b967cad02a85d5f1196af",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Sesame seeds on the edges for pizza #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0c2cf65d3e64d0fa1fe182a9",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose pizza dough 1#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b7fdede34a8ce1f4afd77499",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce 1#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6f39d364d2d6daa5b1134d0d",
+      "option_id": "3ca71175530ee942b374a1d0",
+      "name": "Would you like extras on the first tray?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "dce6b390ebf26aa564daab5f",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - tray #1",
+      "prerequisite_values": [
+       "5c8ae53986648889397de7ed"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "aca20ca059a50859fe37768b",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - tray 1# half 1#",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "05d080f2b32cf146ec4ec5e7",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "4de7ecb507d26ef741cace94"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "177c32662a111cca50da8dae",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan? Pizza #1",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5884c39cb101bfae51ce995c",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Sesame seeds on the edges for pizza #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "adc66bf2e0b6f8668eda0d68",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose pizza dough #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a416ccc8dc77f0ebb59643b1",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose a pizza sauce 2#",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "fc9334cb32ad5de07d922ad7",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Pizza Changes #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f768b7e5255d94f914288035",
+      "option_id": "2554833fa3b5f46e41eb46ec",
+      "name": "Would you like extras on the second tray?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2f06a315e712d1aba7919ced",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - tray #2",
+      "prerequisite_values": [
+       "bc8f71bae452125e151d3e89"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ed9c0f467e43cdac521280d2",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - tray 2# half 1#",
+      "prerequisite_values": [
+       "d836055c0cb8f2df2b021b8e"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "39445db0df20f6a437940aff",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "d836055c0cb8f2df2b021b8e"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e1d7b429d788dcd8863992f7",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan? Pizza #2",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8a850d4b6e27d2d6d2c47b42",
+      "option_id": "8c7e3cd7ddfd175ade11689a",
+      "name": "Sesame seeds on the edges for pizza #3",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "80712b60e4023c923d2f21d1",
+      "option_id": "077e7088a343673310ac0081",
+      "name": "Choose pizza dough #3",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7bdacedf95644d8e1a94ad10",
+      "option_id": "03c2b1b96a00f75916f49c26",
+      "name": "Choose pizza sauce #3",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c636918d01ab6f599d667521",
+      "option_id": "5cf9b4a0b3e633e5acf99695",
+      "name": "Would you like extras on the third tray?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2ed857b733ba3d59cc4dd9d2",
+      "option_id": "ef131dd8ae5935012a33be02",
+      "name": "Choose toppings - tray #3",
+      "prerequisite_values": [
+       "39ec07ad77a1786fdc439d3e"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2f916907835dbccab8afcd04",
+      "option_id": "4f643be5a3098fb92d6f536e",
+      "name": "Choose toppings - tray 3# half 1#",
+      "prerequisite_values": [
+       "ed8b206c8ec9e4f91776329a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "53850f0c45e76494ca98d08a",
+      "option_id": "4726062d90bc1f5f1ea5b2a8",
+      "name": "Choose toppings - half tray L",
+      "prerequisite_values": [
+       "ed8b206c8ec9e4f91776329a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 28
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3015299fd2457fbc7a84fa2e",
+      "option_id": "42886db23f5f5c71b22c10f5",
+      "name": "Pizza Changes #3",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "21254efc405552536a83d204",
+      "option_id": "173fdd51fcf33635f96fe6e8",
+      "name": "Would you like to become vegan?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9813c31c875b2b67acc84c2b494083f3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "f4b57f4f56e7712acb47f304",
+    "name": "Survivors",
+    "description": "Baked chicken breast coated with breadcrumbs and sesame Served with a sauce of your choice. Choose a size",
+    "price": 3000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a143af1a15f76a9aa337f26",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "6e97f81a035b65f00361077b",
+      "option_id": "3af1029b7ca44a0ce4ae4008",
+      "name": "Choose a size",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "694f7af4820bfaa28943739c",
+      "option_id": "d53a9c242cefca074c879609",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 6
+       },
+       "max_single_selections": 6,
+       "free_selections": 1
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4be700c4b134c380775c49c4fd1b3645",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   }
+  ],
+  "options": [
+   {
+    "id": "03c2b1b96a00f75916f49c26",
+    "name": "Choose a pizza sauce",
+    "type": "choice",
+    "default_value": "e3bbf69dd2df9a37e7ea1867",
+    "values": [
+     {
+      "id": "e3bbf69dd2df9a37e7ea1867",
+      "name": "Italian tomato sauce",
+      "price": 0
+     },
+     {
+      "id": "0da662ed5516bfba7daef187",
+      "name": "Cream sauce",
+      "price": 1000
+     },
+     {
+      "id": "22d837f83ac413387f97e709",
+      "name": "Garlic butter 🌱",
+      "price": 1000
+     }
+    ]
+   },
+   {
+    "id": "0721a4d00516197e3cf60ffb",
+    "name": "Choose toppings - half tray M",
+    "type": "multi_choice",
+    "default_value": "5f7d687218786a3b7b428c77",
+    "values": [
+     {
+      "id": "5f7d687218786a3b7b428c77",
+      "name": "Green olives - first half",
+      "price": 400
+     },
+     {
+      "id": "a8731ace645979fe089263de",
+      "name": "Onion - first half",
+      "price": 400
+     },
+     {
+      "id": "7a428bd4e9d22a4f0ed501ee",
+      "name": "Corn - first half",
+      "price": 400
+     },
+     {
+      "id": "5cc252efddd711e439d25b07",
+      "name": "Pineapple - first half",
+      "price": 400
+     },
+     {
+      "id": "e446061cdf824c628d5557b7",
+      "name": "Tomato - first half",
+      "price": 400
+     },
+     {
+      "id": "01617b7ec366c191e9011faa",
+      "name": "Mushrooms - first half",
+      "price": 400
+     },
+     {
+      "id": "2fa45492af1bb645740a81c2",
+      "name": "Hot pepper - first half",
+      "price": 400
+     },
+     {
+      "id": "46aead21d2b4f823aa25c846",
+      "name": "Shipka - First Half",
+      "price": 400
+     },
+     {
+      "id": "029aa7b4e8ecb2031a4ccc51",
+      "name": "Roasted pepper - first half",
+      "price": 400
+     },
+     {
+      "id": "d65ae4f3a4884d9106e6928f",
+      "name": "Extra mozzarella - first half",
+      "price": 500
+     },
+     {
+      "id": "6024cef1eb646de668e2a2d0",
+      "name": "Bulgarian - First half",
+      "price": 500
+     },
+     {
+      "id": "ca7248e8bfc6342124eeba7a",
+      "name": "Pepperoni - first half",
+      "price": 500
+     },
+     {
+      "id": "445a5b7057ecfaac3937a877",
+      "name": "Goose breast - first half",
+      "price": 500
+     },
+     {
+      "id": "9f7770a85dc6359d21174717",
+      "name": "Entrecote - first half",
+      "price": 500
+     },
+     {
+      "id": "510fb9a28cd261c5f7dca1f4",
+      "name": "קבנוס - חצי ראשון",
+      "price": 500
+     },
+     {
+      "id": "bc70b82fca423c7759643843",
+      "name": "Tuna - first half",
+      "price": 500
+     },
+     {
+      "id": "1a54e045ca8b4b1cf9f868aa",
+      "name": "Kalamata olives - first half",
+      "price": 500
+     },
+     {
+      "id": "7b659bd95051a137dae48c6c",
+      "name": "Hard-boiled egg - first half",
+      "price": 500
+     },
+     {
+      "id": "091bc268a0069a02495a2838",
+      "name": "Anchovies - first half",
+      "price": 700
+     },
+     {
+      "id": "68f1d9466e33449e3a018528",
+      "name": "Jalapeño - First Half",
+      "price": 600
+     },
+     {
+      "id": "fe95f8cf3163cf76967cbe2a",
+      "name": "4 cheese mixture - first half",
+      "price": 700
+     },
+     {
+      "id": "c765b03bfe028edf0c6c31c2",
+      "name": "Goat Feta - First Half",
+      "price": 700
+     },
+     {
+      "id": "75ab5186dfdf27f043e9ff69",
+      "name": "Garlic confit - first half",
+      "price": 700
+     },
+     {
+      "id": "1b0152062759aab364d9c21b",
+      "name": "Basil - first half",
+      "price": 500
+     },
+     {
+      "id": "bd3a53b32018e474d81aadd5",
+      "name": "Artichoke - first half",
+      "price": 600
+     },
+     {
+      "id": "034b1884b10866384b4d894b",
+      "name": " Sun-dried tomatoes - first half",
+      "price": 600
+     }
+    ]
+   },
+   {
+    "id": "07393a31d8cbd843c00ef3cc",
+    "name": "Drinks at an additional cost?",
+    "type": "multi_choice",
+    "default_value": "e6df09938a150a564986cf35",
+    "values": [
+     {
+      "id": "e6df09938a150a564986cf35",
+      "name": "Coca-Cola - great",
+      "price": 1500
+     },
+     {
+      "id": "e452d95fc91ad2ff3b8c673c",
+      "name": "Cola Zero - great",
+      "price": 1500
+     },
+     {
+      "id": "25db126de4046044c5d98349",
+      "name": "Sprite - Great",
+      "price": 1500
+     },
+     {
+      "id": "ce2eaa2153e8be80e9d4fd9c",
+      "name": "Sprite Zero - Great",
+      "price": 1500
+     },
+     {
+      "id": "2dafd7c21b53ca07c793a6b8",
+      "name": "Orange Panta - Large",
+      "price": 1500
+     }
+    ]
+   },
+   {
+    "id": "077e7088a343673310ac0081",
+    "name": "Choose a type of dough",
+    "type": "choice",
+    "default_value": "f157edfde87c74328cf18504",
+    "values": [
+     {
+      "id": "f157edfde87c74328cf18504",
+      "name": "Plain dough",
+      "price": 0
+     },
+     {
+      "id": "b511f2459062839f87c1c4a1",
+      "name": "בצק מחמצת כוסמין",
+      "price": 1000
+     }
+    ]
+   },
+   {
+    "id": "0ce39459e42118cde89c43d9",
+    "name": "Choose toppings - a whole tray M",
+    "type": "multi_choice",
+    "default_value": "ad267ba57340a751bc7ace7f",
+    "values": [
+     {
+      "id": "ad267ba57340a751bc7ace7f",
+      "name": "green olives",
+      "price": 800
+     },
+     {
+      "id": "0d40fa93c3c4cb5b87fbbbe6",
+      "name": "Onion",
+      "price": 800
+     },
+     {
+      "id": "8c6ac784dee400cc37319d5b",
+      "name": "corn",
+      "price": 800
+     },
+     {
+      "id": "a4c116b2bbc5052eeef5bc14",
+      "name": "pineapple",
+      "price": 800
+     },
+     {
+      "id": "9d4feda760dbd21556075720",
+      "name": "Tomato",
+      "price": 800
+     },
+     {
+      "id": "d9622b9e33365475d3c84a89",
+      "name": "mushrooms",
+      "price": 800
+     },
+     {
+      "id": "f8f68807645f2faeb1fe3aea",
+      "name": "Hot Pepper",
+      "price": 800
+     },
+     {
+      "id": "c2ac02f403973660fa89e5e9",
+      "name": "Shifka",
+      "price": 800
+     },
+     {
+      "id": "feb8fe4e87d57d51ee9bc075",
+      "name": "Roasted pepper",
+      "price": 800
+     },
+     {
+      "id": "d95b2d25d8300c2bc01b4a6c",
+      "name": "Extra mozzarella",
+      "price": 1000
+     },
+     {
+      "id": "c41b3aeab59f313248c747cf",
+      "name": "Bulgarian",
+      "price": 1000
+     },
+     {
+      "id": "2e19fde9de2fe49af5616ea4",
+      "name": "pepperoni",
+      "price": 1000
+     },
+     {
+      "id": "00bf26de9e89dc6490f7a7a4",
+      "name": "chicken breast",
+      "price": 1000
+     },
+     {
+      "id": "b85aacb9637a81074a3778c4",
+      "name": "Entrecote",
+      "price": 1000
+     },
+     {
+      "id": "b7baffd35b7b892bcb0586f1",
+      "name": "קבנוס",
+      "price": 1000
+     },
+     {
+      "id": "18bf945fcc1ecde898fc0d7a",
+      "name": "tuna",
+      "price": 1000
+     },
+     {
+      "id": "d84ce325322b4bb5f12fed75",
+      "name": "Kalamata olives",
+      "price": 1000
+     },
+     {
+      "id": "5c48d13c80691294bff5e959",
+      "name": "Hard-boiled egg",
+      "price": 1000
+     },
+     {
+      "id": "c3ec5ffa2dd3d9aaa93c473f",
+      "name": "anchovy",
+      "price": 1400
+     },
+     {
+      "id": "7b7af680d915775e42cc1737",
+      "name": "His replacement",
+      "price": 1200
+     },
+     {
+      "id": "de82007ca9cb628d604a3e08",
+      "name": "A mixture of 4 cheeses",
+      "price": 1400
+     },
+     {
+      "id": "7cf4e185c9e4a1290f535931",
+      "name": "Goat feta",
+      "price": 1400
+     },
+     {
+      "id": "66b4773ca81082a4c86b28d0",
+      "name": "No confit",
+      "price": 1400
+     },
+     {
+      "id": "0ac0a0bced2c1c83a6d128d7",
+      "name": "basil",
+      "price": 1000
+     },
+     {
+      "id": "4bbeac92472a5e1461e41c66",
+      "name": "artichoke",
+      "price": 1200
+     },
+     {
+      "id": "dad7e97baae76b50a15b14a0",
+      "name": " Sun-dried tomatoes",
+      "price": 1200
+     }
+    ]
+   },
+   {
+    "id": "173fdd51fcf33635f96fe6e8",
+    "name": "Would you like to become vegan?",
+    "type": "choice",
+    "default_value": "3f4b6f2b16aa85c9fdd2e122",
+    "values": [
+     {
+      "id": "3f4b6f2b16aa85c9fdd2e122",
+      "name": "No thanks",
+      "price": 0
+     },
+     {
+      "id": "f6d8ed4e10412ace1f5adfbb",
+      "name": "Become vegan 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "1ec8cba2805773cde87c716d",
+    "name": " Choose a pizza sauce - personal",
+    "type": "multi_choice",
+    "default_value": "c5f1fdec0ae8548d3aa1e05b",
+    "values": [
+     {
+      "id": "c5f1fdec0ae8548d3aa1e05b",
+      "name": "Italian tomato sauce",
+      "price": 0
+     },
+     {
+      "id": "b143f3c2fbaa55ee340f072e",
+      "name": "Cream sauce",
+      "price": 600
+     },
+     {
+      "id": "b6c3b31bde1e7e5cfb31b4cc",
+      "name": "garlic butter",
+      "price": 600
+     }
+    ]
+   },
+   {
+    "id": "224343b622f44cd09282e8bd",
+    "name": "Choose a sauce",
+    "type": "multi_choice",
+    "default_value": "aa9ece4bf7d8e6e5e42d7095",
+    "values": [
+     {
+      "id": "aa9ece4bf7d8e6e5e42d7095",
+      "name": "The Thousand Islands",
+      "price": 300
+     },
+     {
+      "id": "a4605b139c1f70c555db7f50",
+      "name": "Garlic mayonnaise",
+      "price": 300
+     },
+     {
+      "id": "b768b9d483af965af2f3c487",
+      "name": "sweet chilli",
+      "price": 300
+     },
+     {
+      "id": "f683bda38e2b6cc7fcb9917a",
+      "name": "Hot Chili 🌶",
+      "price": 300
+     },
+     {
+      "id": "f49d9f4d46997e97e687ef23",
+      "name": "Philadelphia Aioli",
+      "price": 300
+     },
+     {
+      "id": "e350a6dc5e5cb11924b8f05a",
+      "name": "ketchup",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "2554833fa3b5f46e41eb46ec",
+    "name": "Would you like extras on the second tray?",
+    "type": "choice",
+    "default_value": "7b5318d61966638f3cf109b2",
+    "values": [
+     {
+      "id": "7b5318d61966638f3cf109b2",
+      "name": "No extras",
+      "price": 0
+     },
+     {
+      "id": "bc8f71bae452125e151d3e89",
+      "name": "Complete tray",
+      "price": 0
+     },
+     {
+      "id": "d836055c0cb8f2df2b021b8e",
+      "name": "Half and half",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "2efac866af2214674dfc9c8f",
+    "name": "Ziva changes",
+    "type": "multi_choice",
+    "default_value": "9315b37c163cf3a089bd9a26",
+    "values": [
+     {
+      "id": "9315b37c163cf3a089bd9a26",
+      "name": "Without sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "3ef36225c9d89ed8c5e94c61",
+      "name": "replace with vegan cheese",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "30fc59f9771e4f316618198d",
+    "name": "Would you like the egg in the ziva?",
+    "type": "choice",
+    "default_value": "a90f14bd644229f7e4abcdb4",
+    "values": [
+     {
+      "id": "a90f14bd644229f7e4abcdb4",
+      "name": "No thanks",
+      "price": 0
+     },
+     {
+      "id": "0d9c5e4c648a343bf2a763eb",
+      "name": "Yes please",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "39c5a65920e555a733a3b281",
+    "name": "Want toppings on the pizza?",
+    "type": "choice",
+    "default_value": "ec07153fb391a58f5ed610ce",
+    "values": [
+     {
+      "id": "ec07153fb391a58f5ed610ce",
+      "name": "No extras",
+      "price": 0
+     },
+     {
+      "id": "71bcaf3d4a012178b36fa730",
+      "name": "Toppings on the pizza",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "3af1029b7ca44a0ce4ae4008",
+    "name": "Choose a size",
+    "type": "choice",
+    "default_value": "edd1767f6d32ab2235ae2f4c",
+    "values": [
+     {
+      "id": "edd1767f6d32ab2235ae2f4c",
+      "name": "personal",
+      "price": 0
+     },
+     {
+      "id": "86b821d580c4227b2fc958ab",
+      "name": "double",
+      "price": 2500
+     }
+    ]
+   },
+   {
+    "id": "3ca71175530ee942b374a1d0",
+    "name": "Want toppings on the pizza?",
+    "type": "choice",
+    "default_value": "db51833e2496caf1b50f4e4a",
+    "values": [
+     {
+      "id": "db51833e2496caf1b50f4e4a",
+      "name": "No extras",
+      "price": 0
+     },
+     {
+      "id": "5c8ae53986648889397de7ed",
+      "name": "Complete tray",
+      "price": 0
+     },
+     {
+      "id": "4de7ecb507d26ef741cace94",
+      "name": "Half and half",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "42886db23f5f5c71b22c10f5",
+    "name": "Modifications",
+    "type": "multi_choice",
+    "default_value": "7e3d512ea79fd10335e54cf7",
+    "values": [
+     {
+      "id": "7e3d512ea79fd10335e54cf7",
+      "name": "No pizza sauce",
+      "price": 0
+     },
+     {
+      "id": "9845f5e764eba555a58f667d",
+      "name": "Without cheese",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "4726062d90bc1f5f1ea5b2a8",
+    "name": "Choose toppings - half tray L",
+    "type": "multi_choice",
+    "default_value": "cc02bf6c2980dbf3cd6bc309",
+    "values": [
+     {
+      "id": "cc02bf6c2980dbf3cd6bc309",
+      "name": "Green olives - half a second",
+      "price": 500
+     },
+     {
+      "id": "12730683de0edc25dbc2f6c6",
+      "name": "Onion - half a second",
+      "price": 500
+     },
+     {
+      "id": "2f3756710f48a4f52accab89",
+      "name": "Corn - half a second",
+      "price": 500
+     },
+     {
+      "id": "6034e91803b26d494fb4dd66",
+      "name": "Pineapple - half a second",
+      "price": 600
+     },
+     {
+      "id": "23bdff6b85ac90eaed3f2778",
+      "name": "Tomato - half a second",
+      "price": 500
+     },
+     {
+      "id": "2692398b4efb882d0ba1d0fb",
+      "name": "Fresh mushrooms - half a second",
+      "price": 600
+     },
+     {
+      "id": "b39dc384ce460bc98444bd59",
+      "name": "Hot pepper - half a second",
+      "price": 500
+     },
+     {
+      "id": "9be64193f5ef9977f599824b",
+      "name": "Shipka - Half a Second",
+      "price": 500
+     },
+     {
+      "id": "8bcc0d2259a6a01335a9c576",
+      "name": "Roasted pepper - half a second",
+      "price": 500
+     },
+     {
+      "id": "7c7959a8e66af481ccfadc9e",
+      "name": "Extra mozzarella - half a second",
+      "price": 600
+     },
+     {
+      "id": "0e1bf47d9a38abeda779886e",
+      "name": "Bulgarian - half a second",
+      "price": 700
+     },
+     {
+      "id": "88537640e8946d3c6f8c2471",
+      "name": "Pepperoni - half a second",
+      "price": 700
+     },
+     {
+      "id": "2687a4b4ac8e99af18cd03a3",
+      "name": "Goose breast - half a second",
+      "price": 700
+     },
+     {
+      "id": "c1fc4591beab0fb048347f65",
+      "name": "Entrecote - half a second",
+      "price": 700
+     },
+     {
+      "id": "06ce401338976310ca2da318",
+      "name": "קבנוס - חצי שני",
+      "price": 700
+     },
+     {
+      "id": "6c448f049f159f655af7d787",
+      "name": "Tuna - half a can",
+      "price": 700
+     },
+     {
+      "id": "1fc496b42d52d5a580782a30",
+      "name": "Kalamata olives - half a second",
+      "price": 600
+     },
+     {
+      "id": "e02e43863614869247fd7edd",
+      "name": "Hard-boiled egg - half a second",
+      "price": 700
+     },
+     {
+      "id": "ed71e6a4babb8ab594e4dfb5",
+      "name": "Anchovies - half a second",
+      "price": 700
+     },
+     {
+      "id": "331a015abaea65df1258d9b5",
+      "name": "Jalapeño - half a second",
+      "price": 700
+     },
+     {
+      "id": "b974fe5632be23c8138bbb66",
+      "name": "4 cheese mixture - half and half",
+      "price": 700
+     },
+     {
+      "id": "f22f0a941ecc6c315af754ca",
+      "name": "Goat Feta - Half a Second",
+      "price": 800
+     },
+     {
+      "id": "4112f2183c7b77940ae998a6",
+      "name": "Garlic confit - half a second",
+      "price": 800
+     },
+     {
+      "id": "790fb8f0d42a736ecd5d5d74",
+      "name": "Basil - half a bunch",
+      "price": 600
+     },
+     {
+      "id": "7564c1967849dfec56c1f01f",
+      "name": "Artichoke - half a second",
+      "price": 700
+     },
+     {
+      "id": "fe7125eec207f1b624fc3859",
+      "name": " Sun-dried tomatoes - half a second",
+      "price": 700
+     }
+    ]
+   },
+   {
+    "id": "4f643be5a3098fb92d6f536e",
+    "name": "Choose toppings - half tray L",
+    "type": "multi_choice",
+    "default_value": "a6ef1758c24cf2672a1c1b53",
+    "values": [
+     {
+      "id": "a6ef1758c24cf2672a1c1b53",
+      "name": "Green olives - first half",
+      "price": 500
+     },
+     {
+      "id": "2e33fd94ea2ce08aac8b0c28",
+      "name": "Onion - first half",
+      "price": 500
+     },
+     {
+      "id": "09ba1bd5c9811568d00408ca",
+      "name": "Corn - first half",
+      "price": 500
+     },
+     {
+      "id": "9b07e73f9ae7d35d6f9669f9",
+      "name": "Pineapple - first half",
+      "price": 600
+     },
+     {
+      "id": "a9a0821d890bd96e600f98e4",
+      "name": "Tomato - first half",
+      "price": 500
+     },
+     {
+      "id": "641147094317907efec5117c",
+      "name": "Fresh mushrooms - first half",
+      "price": 600
+     },
+     {
+      "id": "963447e9326bbf2fb0b96019",
+      "name": "Hot pepper - first half",
+      "price": 500
+     },
+     {
+      "id": "d77cb4b561a77ed41525ad79",
+      "name": "Shipka - First Half",
+      "price": 500
+     },
+     {
+      "id": "7cab4c419eb3cda89d41bbc8",
+      "name": "Roasted pepper - first half",
+      "price": 500
+     },
+     {
+      "id": "d88c66ad65b5cd49befa3d88",
+      "name": "Extra mozzarella - first half",
+      "price": 600
+     },
+     {
+      "id": "9b062fc3cb5b868cf9466fac",
+      "name": "Bulgarian - First half",
+      "price": 700
+     },
+     {
+      "id": "1eded52b8aaaa95815501bbb",
+      "name": "Pepperoni - first half",
+      "price": 700
+     },
+     {
+      "id": "97ac3fd9ffb3b06fa9ecd101",
+      "name": "Goose breast - first half",
+      "price": 700
+     },
+     {
+      "id": "6f503e0efdc40471f9c22cfb",
+      "name": "Entrecote - first half",
+      "price": 700
+     },
+     {
+      "id": "dcda06576b38807a0b4367ab",
+      "name": "קבנוס - חצי ראשון",
+      "price": 700
+     },
+     {
+      "id": "c631986ac5d34a89f0c3e2eb",
+      "name": "Tuna - first half",
+      "price": 700
+     },
+     {
+      "id": "d9d7564fa9d9b3e3cc8ccf23",
+      "name": "Kalamata olives - first half",
+      "price": 600
+     },
+     {
+      "id": "b0c572157607ed8531d4441b",
+      "name": "Hard-boiled egg - first half",
+      "price": 700
+     },
+     {
+      "id": "ef62dec64fa304b2f46d0348",
+      "name": "Anchovies - first half",
+      "price": 700
+     },
+     {
+      "id": "57bb8175785fbf89a7f44696",
+      "name": "Jalapeño - First Half",
+      "price": 700
+     },
+     {
+      "id": "28d127c51ab76b935a3265c9",
+      "name": "4 cheese mixture - first half",
+      "price": 700
+     },
+     {
+      "id": "896078c0167708c4d336ee18",
+      "name": "Goat Feta - First Half",
+      "price": 800
+     },
+     {
+      "id": "3e23f841fc2c79e8ed4d84f2",
+      "name": "Garlic confit - first half",
+      "price": 800
+     },
+     {
+      "id": "a8ffe82217ddd863a90c2aba",
+      "name": "Basil - first half",
+      "price": 600
+     },
+     {
+      "id": "c4c5b8d6640406f47e18617c",
+      "name": "Artichoke - first half",
+      "price": 700
+     },
+     {
+      "id": "671dfc5cd2fccdca9604d3e8",
+      "name": " Sun-dried tomatoes - first half",
+      "price": 700
+     }
+    ]
+   },
+   {
+    "id": "5cf9b4a0b3e633e5acf99695",
+    "name": "Would you like extras on the third tray?",
+    "type": "choice",
+    "default_value": "328f529708992cc1ed608572",
+    "values": [
+     {
+      "id": "328f529708992cc1ed608572",
+      "name": "No extras",
+      "price": 0
+     },
+     {
+      "id": "39ec07ad77a1786fdc439d3e",
+      "name": "Complete tray",
+      "price": 0
+     },
+     {
+      "id": "ed8b206c8ec9e4f91776329a",
+      "name": "Half and half",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5ebac1f608d6513a215f5059",
+    "name": "Choose a pizza sauce",
+    "type": "choice",
+    "default_value": "57e7735c88d5a30f89f2f6d0",
+    "values": [
+     {
+      "id": "57e7735c88d5a30f89f2f6d0",
+      "name": "Italian tomato sauce",
+      "price": 0
+     },
+     {
+      "id": "27dbb729cf0b0fa0459a58e8",
+      "name": "Garlic butter 🌱",
+      "price": 1000
+     }
+    ]
+   },
+   {
+    "id": "5f1ddc5e2a7515a51cd11379",
+    "name": "Extra Rosalach?",
+    "type": "choice",
+    "default_value": "e3b0c54b162239b31ce5c0c6",
+    "values": [
+     {
+      "id": "e3b0c54b162239b31ce5c0c6",
+      "name": "No thanks",
+      "price": 0
+     },
+     {
+      "id": "f7aa7fcad89bf35301f4a1b5",
+      "name": "Homemade roselle topping",
+      "price": 3500
+     }
+    ]
+   },
+   {
+    "id": "6a4b7a78c99491494de63293",
+    "name": "Choose toppings - half tray M",
+    "type": "multi_choice",
+    "default_value": "a0073ef32acdc587eda87472",
+    "values": [
+     {
+      "id": "a0073ef32acdc587eda87472",
+      "name": "Green olives - half a second",
+      "price": 400
+     },
+     {
+      "id": "819198086df76d9af2962287",
+      "name": "Onion - half a second",
+      "price": 400
+     },
+     {
+      "id": "f7d544124052ee073d1d6faa",
+      "name": "Corn - half a second",
+      "price": 400
+     },
+     {
+      "id": "b2aa71a16418682b11047bc5",
+      "name": "Pineapple - half a second",
+      "price": 400
+     },
+     {
+      "id": "ac7324dc16d498eeefb1f4b8",
+      "name": "Tomato - half a second",
+      "price": 400
+     },
+     {
+      "id": "97fe38cd9afd61db4df97f0b",
+      "name": "Mushrooms - half a second",
+      "price": 400
+     },
+     {
+      "id": "d3863cdd5a90665c74d8db58",
+      "name": "Hot pepper - half a second",
+      "price": 400
+     },
+     {
+      "id": "ca571ed62fad43d354b884ed",
+      "name": "Shipka - Half a Second",
+      "price": 400
+     },
+     {
+      "id": "789fb21b8eda80a9fce1de88",
+      "name": "Roasted pepper - half a second",
+      "price": 400
+     },
+     {
+      "id": "c27432bbaa54720efaf6619f",
+      "name": "Extra mozzarella - half a second",
+      "price": 500
+     },
+     {
+      "id": "3cb2161413c3b41e5ceb6ff5",
+      "name": "Bulgarian - half a second",
+      "price": 500
+     },
+     {
+      "id": "61b16b2be61e65b1e6490bb4",
+      "name": "Pepperoni - half a second",
+      "price": 500
+     },
+     {
+      "id": "3b4f92d516eb6958f9eaa887",
+      "name": "Goose breast - half a second",
+      "price": 500
+     },
+     {
+      "id": "b8b319700c5918ffafbdac05",
+      "name": "Entrecote - half a second",
+      "price": 500
+     },
+     {
+      "id": "73ed8c06826c8d9f8c581875",
+      "name": "קבנוס - חצי שני",
+      "price": 500
+     },
+     {
+      "id": "fa3580ec3b157aff10167670",
+      "name": "Tuna - half a can",
+      "price": 500
+     },
+     {
+      "id": "cde38b5225fb814fd0333d06",
+      "name": "Kalamata olives - half a second",
+      "price": 500
+     },
+     {
+      "id": "4a7a6419b83f799b2b8fab0a",
+      "name": "Hard-boiled egg - half a second",
+      "price": 500
+     },
+     {
+      "id": "4512e85d2a348340a8319653",
+      "name": "Anchovies - half a second",
+      "price": 700
+     },
+     {
+      "id": "9e4aa837826a36141e0dc918",
+      "name": "Jalapeño - half a second",
+      "price": 600
+     },
+     {
+      "id": "1869d42809feab2e75275d0e",
+      "name": "4 cheese mixture - half and half",
+      "price": 700
+     },
+     {
+      "id": "bcbc5d17df2e5db3451bb047",
+      "name": "Goat Feta - Half a Second",
+      "price": 700
+     },
+     {
+      "id": "774a3ac4266ccf94e3f7cb5a",
+      "name": "Garlic confit - half a second",
+      "price": 700
+     },
+     {
+      "id": "4666459a0fdf9e4cddf63605",
+      "name": "Basil - half a bunch",
+      "price": 500
+     },
+     {
+      "id": "9a0bef3eb494485c026b9433",
+      "name": "Artichoke - half a second",
+      "price": 600
+     },
+     {
+      "id": "4704e82b837c933d534a07a1",
+      "name": " Sun-dried tomatoes - half a second",
+      "price": 600
+     }
+    ]
+   },
+   {
+    "id": "77b90c917e29cdd652fcb5da",
+    "name": "Would you like extra charge sauces?",
+    "type": "multi_choice",
+    "default_value": "0930d34314591c2b678a7af2",
+    "values": [
+     {
+      "id": "0930d34314591c2b678a7af2",
+      "name": "Home grown garlic",
+      "price": 500
+     },
+     {
+      "id": "f0df835b5ba632c7b16a2780",
+      "name": "Garlic mayonnaise",
+      "price": 400
+     },
+     {
+      "id": "7598c9b1d25bf4b405c1bf79",
+      "name": "The Thousand Islands",
+      "price": 400
+     },
+     {
+      "id": "63b3ee6a306fc92fff60f130",
+      "name": "sweet chilli",
+      "price": 400
+     },
+     {
+      "id": "41cce99dd2287fa873c4a6c0",
+      "name": "spicy chilli",
+      "price": 400
+     },
+     {
+      "id": "58b36a8546dbfbcfcf366876",
+      "name": "Mini Tabasco red",
+      "price": 500
+     }
+    ]
+   },
+   {
+    "id": "78e0f864adc12876c7be42bf",
+    "name": "Select Extras",
+    "type": "multi_choice",
+    "default_value": "8487d9d09ca7d15ae39e2cb3",
+    "values": [
+     {
+      "id": "8487d9d09ca7d15ae39e2cb3",
+      "name": "green olives",
+      "price": 400
+     },
+     {
+      "id": "dea117b50cbc99b8ad8a8812",
+      "name": "Onion",
+      "price": 400
+     },
+     {
+      "id": "50631bd1c3d1046e1fc9c25a",
+      "name": "corn",
+      "price": 400
+     },
+     {
+      "id": "8a75260a0adeb3030fdc75ba",
+      "name": "pineapple",
+      "price": 400
+     },
+     {
+      "id": "151af41623ba594886bf075c",
+      "name": "Tomato",
+      "price": 400
+     },
+     {
+      "id": "973833c5056ff55ff2ad3331",
+      "name": "mushrooms",
+      "price": 400
+     },
+     {
+      "id": "c2f7f44b67a9e91d3c68646d",
+      "name": "Hot Pepper",
+      "price": 400
+     },
+     {
+      "id": "1aaaa6599d6ff67a0a63abac",
+      "name": "produced",
+      "price": 400
+     },
+     {
+      "id": "feb690bfd7b5396ce0a2e6ee",
+      "name": "Roasted pepper",
+      "price": 400
+     },
+     {
+      "id": "d5e204cd6dbd317b5ca25e36",
+      "name": "Extra mozzarella ",
+      "price": 500
+     },
+     {
+      "id": "5fb082ef19d1446e78d4a005",
+      "name": "Bulgarian",
+      "price": 500
+     },
+     {
+      "id": "b172c9565067910120c4325a",
+      "name": "pepperoni ",
+      "price": 500
+     },
+     {
+      "id": "54819b917ef8ad1c9904a86b",
+      "name": "chicken breast",
+      "price": 500
+     },
+     {
+      "id": "7d04990350b937781a5a333f",
+      "name": "Entrecote ",
+      "price": 500
+     },
+     {
+      "id": "c892c6fd92ff3d4a58d6be8b",
+      "name": "קבנוס ",
+      "price": 500
+     },
+     {
+      "id": "c5df7f60e0ff25c20e740b91",
+      "name": "tuna",
+      "price": 500
+     },
+     {
+      "id": "51ae1e407ace8f943f837165",
+      "name": "Kalamata olives",
+      "price": 500
+     },
+     {
+      "id": "9a8fd24e8d82c167f3d7b25a",
+      "name": "anchovy",
+      "price": 700
+     },
+     {
+      "id": "9db919174e9434a43ff24051",
+      "name": "his replacements",
+      "price": 600
+     },
+     {
+      "id": "284caa0e084d81faeba4f34f",
+      "name": "A mixture of 4 cheeses",
+      "price": 700
+     },
+     {
+      "id": "17a2cfcb64e9e768a63a8930",
+      "name": "Goat feta",
+      "price": 700
+     },
+     {
+      "id": "f4cffdda4bcac87b35a5fb3f",
+      "name": "Garlic confit ",
+      "price": 700
+     },
+     {
+      "id": "ffb7545e4c8c4aa9641441fa",
+      "name": "basil",
+      "price": 500
+     },
+     {
+      "id": "39da8fc9d3baed03af830a25",
+      "name": "artichoke",
+      "price": 600
+     },
+     {
+      "id": "d5602969411c30e8ed013f6a",
+      "name": " Sun-dried tomatoes",
+      "price": 600
+     }
+    ]
+   },
+   {
+    "id": "823408d02e742db0bc091a88",
+    "name": "Paid extras",
+    "type": "multi_choice",
+    "default_value": "5770749284b51b0d1ab52b72",
+    "values": [
+     {
+      "id": "5770749284b51b0d1ab52b72",
+      "name": "Tomato paste",
+      "price": 300
+     },
+     {
+      "id": "d3947904052599bffd262d90",
+      "name": "Sahug",
+      "price": 300
+     },
+     {
+      "id": "9bf5c871d0b93ecdfa5f7e93",
+      "name": "Hard-boiled egg",
+      "price": 500
+     }
+    ]
+   },
+   {
+    "id": "87d77c4e6f3abff3580bc99f",
+    "name": "Select Extras",
+    "type": "multi_choice",
+    "default_value": "fa2455da7fc970d9cd1e77e5",
+    "values": [
+     {
+      "id": "fa2455da7fc970d9cd1e77e5",
+      "name": "green olives",
+      "price": 0
+     },
+     {
+      "id": "c5a8843dd2203ae870b9f513",
+      "name": "Onion",
+      "price": 0
+     },
+     {
+      "id": "67c9a4ec518450fad6327e13",
+      "name": "corn",
+      "price": 0
+     },
+     {
+      "id": "f40db6ab1599a8294f1c9726",
+      "name": "pineapple",
+      "price": 0
+     },
+     {
+      "id": "9b65652ca48b8da6b41a4c9e",
+      "name": "Tomato",
+      "price": 0
+     },
+     {
+      "id": "fc7eee35899744858c7e0c8d",
+      "name": "mushrooms",
+      "price": 0
+     },
+     {
+      "id": "e09c5494b6ed218f433758f7",
+      "name": "Hot Pepper",
+      "price": 0
+     },
+     {
+      "id": "938c7e33735ff6ea77bb4967",
+      "name": "produced",
+      "price": 0
+     },
+     {
+      "id": "0236328fabbded0ae4aac92f",
+      "name": "Roasted pepper",
+      "price": 0
+     },
+     {
+      "id": "3d9fb7c4356fb5254955d07d",
+      "name": "Extra mozzarella ",
+      "price": 0
+     },
+     {
+      "id": "5ba0796f98a227e6f2adfb9a",
+      "name": "Bulgarian",
+      "price": 0
+     },
+     {
+      "id": "c8c8c37381a19a0310d5a2a8",
+      "name": "pepperoni ",
+      "price": 0
+     },
+     {
+      "id": "3e1fcb8f398d5704015bc897",
+      "name": "chicken breast",
+      "price": 0
+     },
+     {
+      "id": "de71db3f0eb5af1d4017a2d9",
+      "name": "Entrecote ",
+      "price": 0
+     },
+     {
+      "id": "aff1a38b6611ad2a28045316",
+      "name": "קבנוס ",
+      "price": 0
+     },
+     {
+      "id": "fe155950f4ba07deb326df32",
+      "name": "tuna",
+      "price": 0
+     },
+     {
+      "id": "a1b510a5b3c72a8cfe9db2e0",
+      "name": "Kalamata olives",
+      "price": 0
+     },
+     {
+      "id": "6574f36d4763ea4052c339d2",
+      "name": "his replacements",
+      "price": 0
+     },
+     {
+      "id": "a1474ffa9c8c867b48b1080c",
+      "name": "Garlic confit ",
+      "price": 0
+     },
+     {
+      "id": "2e69a0bc44cffa94826ea462",
+      "name": "basil",
+      "price": 0
+     },
+     {
+      "id": "c3240b436fc8efaa1e5873f1",
+      "name": "artichoke",
+      "price": 0
+     },
+     {
+      "id": "c550e505468a93f6b01ae02a",
+      "name": " Sun-dried tomatoes",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "8c7e3cd7ddfd175ade11689a",
+    "name": "Extra sesame on the edges?",
+    "type": "choice",
+    "default_value": "955e63f274dc9c65c01c22ea",
+    "values": [
+     {
+      "id": "955e63f274dc9c65c01c22ea",
+      "name": "No thanks!",
+      "price": 0
+     },
+     {
+      "id": "ef1e2ee1b49db21078acda17",
+      "name": "Sesame at the edges",
+      "price": 400
+     }
+    ]
+   },
+   {
+    "id": "931fc892b0f45bdfa00e3930",
+    "name": "Choose a salad dressing",
+    "type": "multi_choice",
+    "default_value": "58573c48bf82b7a106f62d4a",
+    "values": [
+     {
+      "id": "58573c48bf82b7a106f62d4a",
+      "name": "ויניגרט הדרים",
+      "price": 300
+     },
+     {
+      "id": "c0a0fc9918ce42a41e6e7ef6",
+      "name": "אלף האיים",
+      "price": 300
+     },
+     {
+      "id": "f0457e41f4d2ccc53e8c530c",
+      "name": "מיונז שום",
+      "price": 300
+     },
+     {
+      "id": "83e0e0d57f029eab83341d79",
+      "name": "צ׳ילי מתוק",
+      "price": 300
+     },
+     {
+      "id": "8337bdaa2fd6ca5840299964",
+      "name": "צ׳ילי חריף 🌶",
+      "price": 300
+     },
+     {
+      "id": "d98711ec02f10265ede5441a",
+      "name": "איולי פילדלפיה",
+      "price": 300
+     },
+     {
+      "id": "4645d914c4481eab5da9faf6",
+      "name": "שמן זית ולימון",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "be9d8d513f8541acdedd0899",
+    "name": "Choose companions",
+    "type": "multi_choice",
+    "default_value": "896ff55938abac0db348fc41",
+    "values": [
+     {
+      "id": "896ff55938abac0db348fc41",
+      "name": "Earth",
+      "price": 0
+     },
+     {
+      "id": "dd45f5af8ccaa67133a98f6e",
+      "name": "Mashed potatoes",
+      "price": 0
+     },
+     {
+      "id": "55d8c954c88ed8b9b81666c3",
+      "name": "Pottos",
+      "price": 0
+     },
+     {
+      "id": "07f86a90c1b829eec4a57e7d",
+      "name": "Sausages snack",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "c693d82f1612f97fa72ef85a",
+    "name": "Paid toppings for salad",
+    "type": "multi_choice",
+    "default_value": "db91e01ab43ebfb3be90ac48",
+    "values": [
+     {
+      "id": "db91e01ab43ebfb3be90ac48",
+      "name": "תירס",
+      "price": 300
+     },
+     {
+      "id": "0e2de445a332c95da551c196",
+      "name": "Gamba",
+      "price": 300
+     },
+     {
+      "id": "1febee8c621003f3dffb1ae0",
+      "name": "purple Onion",
+      "price": 300
+     },
+     {
+      "id": "e0f83349a0ed08c2df8d5477",
+      "name": "green olives",
+      "price": 300
+     },
+     {
+      "id": "1d6a4875fb5adbc1bda2d8f5",
+      "name": "black olives",
+      "price": 300
+     },
+     {
+      "id": "5a2774abbc19ddb04a1f1bf3",
+      "name": "Hot Pepper",
+      "price": 300
+     },
+     {
+      "id": "e3b5299d35b9d26c18a603a8",
+      "name": "mushrooms",
+      "price": 300
+     },
+     {
+      "id": "419cbe171ef1f85a77731c96",
+      "name": "Hard-boiled egg",
+      "price": 500
+     },
+     {
+      "id": "b856367df3e8c6da449180c0",
+      "name": "His replacement",
+      "price": 500
+     },
+     {
+      "id": "79b7ebd2d18bfbdc9f38f9b0",
+      "name": "Bulgarian",
+      "price": 600
+     },
+     {
+      "id": "d10e387078f3cb302c10e438",
+      "name": "tuna",
+      "price": 600
+     }
+    ]
+   },
+   {
+    "id": "ccfa9a09dd323fd5d734031a",
+    "name": "Paid extras",
+    "type": "multi_choice",
+    "default_value": "ba6be2a5152eae2700bffdcd",
+    "values": [
+     {
+      "id": "ba6be2a5152eae2700bffdcd",
+      "name": "Tomato paste",
+      "price": 300
+     },
+     {
+      "id": "823567c3caff76b67a67494e",
+      "name": "Hard-boiled egg",
+      "price": 500
+     },
+     {
+      "id": "7da15ebb4efba0b03301b6ab",
+      "name": "Sahug",
+      "price": 500
+     },
+     {
+      "id": "cf1d0a1361bfb27da0936461",
+      "name": "Hummus",
+      "price": 500
+     }
+    ]
+   },
+   {
+    "id": "d53a9c242cefca074c879609",
+    "name": "Choose a sauce",
+    "type": "multi_choice",
+    "default_value": "5785fb3fb011dcd14526d131",
+    "values": [
+     {
+      "id": "5785fb3fb011dcd14526d131",
+      "name": "The Thousand Islands",
+      "price": 300
+     },
+     {
+      "id": "b95be155926bf971636c6423",
+      "name": "Garlic mayonnaise",
+      "price": 300
+     },
+     {
+      "id": "0c16c29cf454167797c27631",
+      "name": "sweet chilli",
+      "price": 300
+     },
+     {
+      "id": "d29a1c28859697623ebe29d3",
+      "name": "Hot Chili 🌶",
+      "price": 300
+     },
+     {
+      "id": "a7e3096b32c788be8fa218cb",
+      "name": "Philadelphia Aioli",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "daaeafd0f7310ef3c9483fb7",
+    "name": "Would you like the vegan meal?",
+    "type": "choice",
+    "default_value": "bcf7af4c9e25f145fd633f47",
+    "values": [
+     {
+      "id": "bcf7af4c9e25f145fd633f47",
+      "name": "No thanks!",
+      "price": 0
+     },
+     {
+      "id": "e58d9813d508c919dc523317",
+      "name": "From a vegan menu 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "e9dfdac4eacbcf0ac175ebc2",
+    "name": "Modifications",
+    "type": "multi_choice",
+    "default_value": "8595c8d40afb9050c15326e4",
+    "values": [
+     {
+      "id": "8595c8d40afb9050c15326e4",
+      "name": "No chickpeas",
+      "price": 0
+     },
+     {
+      "id": "a7f027cb9db64e9487adf4d0",
+      "name": "Without paste",
+      "price": 0
+     },
+     {
+      "id": "3e1ced205d913f25e497356e",
+      "name": "Without egg",
+      "price": 0
+     },
+     {
+      "id": "60711e6ca0f2dfc84ce66892",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "ef131dd8ae5935012a33be02",
+    "name": "Choose toppings - a whole tray L",
+    "type": "multi_choice",
+    "default_value": "d7db5f4da1fd1bc29a4cd1a8",
+    "values": [
+     {
+      "id": "d7db5f4da1fd1bc29a4cd1a8",
+      "name": "green olives",
+      "price": 1000
+     },
+     {
+      "id": "03203e26e7dae7d1dd99b94e",
+      "name": "Onion",
+      "price": 1000
+     },
+     {
+      "id": "1bf33b327c9350d5d69412ab",
+      "name": "corn",
+      "price": 1000
+     },
+     {
+      "id": "edbc7ae0d403d113a75e0ce7",
+      "name": "pineapple",
+      "price": 1200
+     },
+     {
+      "id": "aaab65ee6546b6a1842ebe16",
+      "name": "Tomato",
+      "price": 1000
+     },
+     {
+      "id": "d0d5d79dec0efaae42459a17",
+      "name": "Fresh mushrooms",
+      "price": 1200
+     },
+     {
+      "id": "095d9d110d2701edab88a4a1",
+      "name": "Hot Pepper",
+      "price": 1000
+     },
+     {
+      "id": "f42960dc2af95fa8e13fcdb3",
+      "name": "Shifka",
+      "price": 1000
+     },
+     {
+      "id": "370aa9ce66494367957032ab",
+      "name": "Roasted pepper",
+      "price": 1000
+     },
+     {
+      "id": "b2deecd56db2a987744d2c0f",
+      "name": "Extra mozzarella",
+      "price": 1200
+     },
+     {
+      "id": "8b9442422328626221574a03",
+      "name": "Bulgarian",
+      "price": 1400
+     },
+     {
+      "id": "8f0b7d4c47bb1348b4e67c10",
+      "name": "pepperoni",
+      "price": 1400
+     },
+     {
+      "id": "847d93f968606c7c6d06fc3a",
+      "name": "chicken breast",
+      "price": 1400
+     },
+     {
+      "id": "36dd3bc3eb4eefaa74808835",
+      "name": "Entrecote",
+      "price": 1400
+     },
+     {
+      "id": "d2826092af3597f98b60514b",
+      "name": "קבנוס",
+      "price": 1400
+     },
+     {
+      "id": "ecda13008f460b25d6cf52db",
+      "name": "tuna",
+      "price": 1400
+     },
+     {
+      "id": "f64f73609721e612d95b8475",
+      "name": "Kalamata olives",
+      "price": 1200
+     },
+     {
+      "id": "2c43f3f319883eea0fd660b5",
+      "name": "Hard-boiled egg",
+      "price": 1400
+     },
+     {
+      "id": "4b89c8a97bc862f5badd3e35",
+      "name": "anchovy",
+      "price": 1400
+     },
+     {
+      "id": "d388b3f90db57ddb66e41265",
+      "name": "His replacement",
+      "price": 1400
+     },
+     {
+      "id": "1f8dd21e15d0c080bc392b3e",
+      "name": "A mixture of 4 cheeses",
+      "price": 1400
+     },
+     {
+      "id": "38399a99d67e7eb77adf9c3d",
+      "name": "Goat feta",
+      "price": 1500
+     },
+     {
+      "id": "66dd2841e2134f3f527fa2dc",
+      "name": "No confit",
+      "price": 1600
+     },
+     {
+      "id": "89073418f189cd5f18234ddf",
+      "name": "basil",
+      "price": 1200
+     },
+     {
+      "id": "4d6bb329de150c537d9d74a4",
+      "name": "artichoke",
+      "price": 1400
+     },
+     {
+      "id": "744d9d9cf0b4ab39f018ab84",
+      "name": " Sun-dried tomatoes",
+      "price": 1400
+     }
+    ]
+   },
+   {
+    "id": "fd2e779b8beba091b3d7001f",
+    "name": "Choose toppings - personal tray ",
+    "type": "multi_choice",
+    "default_value": "0cd4271a795bcf5b9e89efd0",
+    "values": [
+     {
+      "id": "0cd4271a795bcf5b9e89efd0",
+      "name": "green olives",
+      "price": 600
+     },
+     {
+      "id": "8ddc7c4500a1f07e69c3512f",
+      "name": "Onion",
+      "price": 500
+     },
+     {
+      "id": "fd6e2e983779215cd8a46580",
+      "name": "corn",
+      "price": 500
+     },
+     {
+      "id": "b233b373bbb78ed439ea16df",
+      "name": "pineapple",
+      "price": 700
+     },
+     {
+      "id": "64a7a9f0a3af2126c1a01419",
+      "name": "Tomato",
+      "price": 600
+     },
+     {
+      "id": "d9dbf7ddf98545477a44a283",
+      "name": "Fresh mushrooms",
+      "price": 700
+     },
+     {
+      "id": "48156a1e05f83800a58a7b38",
+      "name": "Hot Pepper",
+      "price": 500
+     },
+     {
+      "id": "567fdda35157f9ab8bcaa829",
+      "name": "Shifka",
+      "price": 600
+     },
+     {
+      "id": "fa51321bd30681074539f573",
+      "name": "Roasted pepper",
+      "price": 500
+     },
+     {
+      "id": "21602a4a10e5c71a77a6baf5",
+      "name": "Extra mozzarella",
+      "price": 700
+     },
+     {
+      "id": "b799aede45133c9a21b4fb67",
+      "name": "Bulgarian",
+      "price": 800
+     },
+     {
+      "id": "6a43305aabb6981f593c0971",
+      "name": "pepperoni",
+      "price": 800
+     },
+     {
+      "id": "29ab59ddb0fd99d626942e23",
+      "name": "chicken breast",
+      "price": 800
+     },
+     {
+      "id": "ea8e1b841a9a4613cfc74949",
+      "name": "Entrecote ",
+      "price": 800
+     },
+     {
+      "id": "776695b384fbc6707b8fc7c2",
+      "name": "קבנוס ",
+      "price": 800
+     },
+     {
+      "id": "1d9b8e938c4779464f6e95db",
+      "name": "tuna",
+      "price": 800
+     },
+     {
+      "id": "792635fcd18b3814caf6e2d2",
+      "name": "Kalamata olives",
+      "price": 600
+     },
+     {
+      "id": "0de2278effcfb0f3bae7cb3b",
+      "name": "Hard-boiled egg",
+      "price": 800
+     },
+     {
+      "id": "85790ca26ac6d1f81b46f389",
+      "name": "anchovy",
+      "price": 700
+     },
+     {
+      "id": "2195fc89ed63c08bc4ff66f5",
+      "name": "his replacements",
+      "price": 800
+     },
+     {
+      "id": "8e0f0f865da743a49ccc5448",
+      "name": "A mixture of 4 cheeses ",
+      "price": 800
+     },
+     {
+      "id": "47edf8727ab87f25f6bfdc6c",
+      "name": "Goat feta",
+      "price": 800
+     },
+     {
+      "id": "9fcf497c1d1446589a1b95c6",
+      "name": "No confit",
+      "price": 500
+     },
+     {
+      "id": "b4da7ee2172cfac56035f014",
+      "name": "basil",
+      "price": 600
+     },
+     {
+      "id": "66b5fc6edd4baf2cb784362d",
+      "name": "artichoke",
+      "price": 700
+     },
+     {
+      "id": "381602b6f5b8a9bf90da99ee",
+      "name": " Sun-dried tomatoes",
+      "price": 800
+     }
+    ]
+   },
+   {
+    "id": "fd49e847e49d49aefcec759f",
+    "name": "Extras over paid",
+    "type": "multi_choice",
+    "default_value": "392245c966432b9012b66630",
+    "values": [
+     {
+      "id": "392245c966432b9012b66630",
+      "name": "Mozzarella ",
+      "price": 1000
+     }
+    ]
+   }
+  ]
+ }
+}

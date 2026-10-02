@@ -1,0 +1,6734 @@
+{
+ "captured_at": "2026-10-02T21:59:09.497Z",
+ "location": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "static": {
+  "venue": {
+   "id": "5d88cd349222b3ddd01eab57",
+   "slug": "roll-n-roll",
+   "name": "Roll N Roll Sushi | Ramat Gan",
+   "description": "Sushi of all kinds, hot dishes and fresh fish",
+   "image_url": "https://imageproxy.wolt.com/assets/67332fae7296644b4f097686",
+   "image_blurhash": "j3vS56;A;K4jZr0ifd0y;;kP5b4A",
+   "brand_logo_image_url": "https://imageproxy.wolt.com/assets/67332faf7296644b4f09768a",
+   "address": "This is a virtual venue",
+   "rating": {
+    "rating": 3,
+    "score": "8.8",
+    "score_raw": 8.8,
+    "volume": 500
+   },
+   "share_url": "https://wolt.com/he/isr/tel-aviv/restaurant/roll-n-roll",
+   "currency": "ILS",
+   "country": "ISR",
+   "delivery_methods": [
+    "homedelivery",
+    "takeaway"
+   ],
+   "timezone": "Asia/Jerusalem",
+   "product_line": "restaurant",
+   "delivery_base_price": 1000,
+   "service_fee_estimate": {
+    "min": 100,
+    "max": 590,
+    "percentage": 5
+   },
+   "zero_distance_fees": {
+    "delivery_price": 1200
+   },
+   "opening_times_schedule": [
+    {
+     "day": "Monday",
+     "formatted_times": "11:00–01:00"
+    },
+    {
+     "day": "Tuesday",
+     "formatted_times": "11:00–01:00"
+    },
+    {
+     "day": "Wednesday",
+     "formatted_times": "11:00–01:00"
+    },
+    {
+     "day": "Thursday",
+     "formatted_times": "11:00–02:00"
+    },
+    {
+     "day": "Friday",
+     "formatted_times": "11:00–02:00"
+    },
+    {
+     "day": "Saturday",
+     "formatted_times": "11:00–02:00"
+    },
+    {
+     "day": "Sunday",
+     "formatted_times": "11:00–01:00"
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "5d88cd349222b3ddd01eab57",
+   "location": {
+    "bbox": null,
+    "type": "Point",
+    "coordinates": [
+     34.80095665,
+     32.0862788
+    ]
+   },
+   "price_range": 2,
+   "food_tags": [
+    "sushi",
+    "asian",
+    "lunch",
+    "isr_soup",
+    "recovery_3",
+    "Wolt Benefits"
+   ],
+   "short_description": "Asian | Sushi | Poke | Mochi"
+  },
+  "order_minimum": 5000
+ },
+ "dynamic": {
+  "venue": {
+   "id": "5d88cd349222b3ddd01eab57",
+   "online": true,
+   "open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:09.441427+03:00",
+    "previous_open": "2026-10-02T11:00:00+03:00",
+    "next_open": "2026-10-03T11:00:00+03:00",
+    "next_close": "2026-10-03T02:00:00+03:00",
+    "next_close_time_localized": "02:00"
+   },
+   "delivery_open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:09.441427+03:00",
+    "previous_open": "2026-10-02T11:00:00+03:00",
+    "next_open": "2026-10-03T11:00:00+03:00",
+    "next_close": "2026-10-03T02:00:00+03:00",
+    "next_close_time_localized": "02:00"
+   },
+   "delivery_configs": [
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "homedelivery",
+     "schedule": "standard",
+     "estimate": {
+      "label": "30-40 min",
+      "min": 30,
+      "mean": 35,
+      "max": 40
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    },
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "takeaway",
+     "schedule": "standard",
+     "estimate": {
+      "label": "10-15 min",
+      "min": 10,
+      "mean": 15,
+      "max": 15
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "5d88cd349222b3ddd01eab57",
+   "alive": true,
+   "preestimate_total": {
+    "min": 30,
+    "max": 40,
+    "mean": 35
+   },
+   "discounts": [
+    {
+     "id": "venue_campaign:6aa7be04af0092bb344d0256",
+     "effects": {
+      "basket_discount": {
+       "amount": 0,
+       "fraction": 0.1,
+       "min_amount": null,
+       "max_amount": 5000,
+       "include": null,
+       "exclude": null
+      },
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 690,
+        "end": 900
+       },
+       {
+        "start": 2130,
+        "end": 2340
+       },
+       {
+        "start": 3570,
+        "end": 3780
+       },
+       {
+        "start": 5010,
+        "end": 5220
+       },
+       {
+        "start": 9330,
+        "end": 9540
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": true,
+     "tap_to_apply": false,
+     "description": {
+      "title": "From 10% off your order ⬇️"
+     }
+    },
+    {
+     "id": "venue_campaign:6a9fb0ee7e0c38621cb8c73e",
+     "effects": {
+      "basket_discount": {
+       "amount": 0,
+       "fraction": 0.15,
+       "min_amount": null,
+       "max_amount": 5000,
+       "include": null,
+       "exclude": null
+      },
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": 9900,
+        "max_amount": null,
+        "any_of_items": null,
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 900,
+        "end": 1140
+       },
+       {
+        "start": 2340,
+        "end": 2580
+       },
+       {
+        "start": 3780,
+        "end": 4020
+       },
+       {
+        "start": 5220,
+        "end": 5460
+       },
+       {
+        "start": 9540,
+        "end": 9780
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": true,
+     "tap_to_apply": false,
+     "description": {
+      "title": "From 15% off your order ⬇️"
+     }
+    },
+    {
+     "id": "venue_campaign:6a7c2457b94bcc6db711da4c",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee"
+     }
+    },
+    {
+     "id": "venue_campaign:6aa7ebca2980331516dbd9a7",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": {
+       "fraction": 0.2,
+       "max_amount": null,
+       "min_amount": null,
+       "max_amount_per_item": null,
+       "min_amount_per_item": null,
+       "amount_per_item": null,
+       "include": {
+        "categories": null,
+        "items": [
+         "670f06d5b64fc8ee4efb68de"
+        ],
+        "cheapest_items": null
+       },
+       "exclude": null,
+       "exclude_options": true
+      }
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": null,
+        "max_amount": null,
+        "any_of_items": [
+         "670f06d5b64fc8ee4efb68de"
+        ],
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 1140,
+        "end": 1320
+       },
+       {
+        "start": 2580,
+        "end": 2760
+       },
+       {
+        "start": 4020,
+        "end": 4200
+       },
+       {
+        "start": 5460,
+        "end": 5640
+       },
+       {
+        "start": 9780,
+        "end": 9960
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "Discount On Selected Items"
+     }
+    },
+    {
+     "id": "venue_campaign:6aa7ec57b397ee3e9eabfb0f",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": {
+       "fraction": 0.15,
+       "max_amount": null,
+       "min_amount": null,
+       "max_amount_per_item": null,
+       "min_amount_per_item": null,
+       "amount_per_item": null,
+       "include": {
+        "categories": null,
+        "items": [
+         "42d3f6f994c86217ab380867"
+        ],
+        "cheapest_items": null
+       },
+       "exclude": null,
+       "exclude_options": true
+      }
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": null,
+        "max_amount": null,
+        "any_of_items": [
+         "42d3f6f994c86217ab380867"
+        ],
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 1140,
+        "end": 1320
+       },
+       {
+        "start": 2580,
+        "end": 2760
+       },
+       {
+        "start": 4020,
+        "end": 4200
+       },
+       {
+        "start": 5460,
+        "end": 5640
+       },
+       {
+        "start": 9780,
+        "end": 9960
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "Discount On Selected Items"
+     }
+    }
+   ],
+   "delivery_specs": {
+    "delivery_enabled": true,
+    "original_delivery_price": 1400,
+    "order_minimum_no_surcharge": 5000,
+    "delivery_pricing": {
+     "base_price": 1000,
+     "price_ranges": [
+      {
+       "min": 0,
+       "max": 5000,
+       "a": 5100,
+       "b": -1,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 5000,
+       "max": 6000,
+       "a": 100,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 6000,
+       "max": 11800,
+       "a": 0,
+       "b": 0.05,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 11800,
+       "max": 0,
+       "a": 590,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      }
+     ]
+    }
+   }
+  },
+  "order_minimum": 5000
+ },
+ "assortment": {
+  "assortment_id": "5d88ced2647ea4e8b74e5c08",
+  "loading_strategy": "full",
+  "primary_language": "he",
+  "selected_language": "en",
+  "categories": [
+   {
+    "id": "9988547ae501cfa6212864af",
+    "name": "NEW 🆕",
+    "slug": "new-2",
+    "item_ids": [
+     "da3d1fd06b401c6189799f55"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "661141244822c4e0dc9c27b0",
+    "name": "Combinations",
+    "slug": "combinations-4",
+    "item_ids": [
+     "29f639c6407cf0796f87bbba",
+     "0e35a025e4740e60fab1105a",
+     "eceb5d89dfc08a7fede8a48c"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "55fead73b95424caaa74456d",
+    "name": "Self assembly",
+    "slug": "self-assembly-5",
+    "item_ids": [
+     "3b2f09a4e371413d8d2c1421",
+     "e4887c0e407a3a85d9628dbe",
+     "57016e1afb95345336df481d",
+     "489e2cc76e68f77a51e399b9",
+     "d4d952ab94ffe42dda6cc428",
+     "dcc38a58b61acd9376046707"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "024ee45e187ce5e3099731ba",
+    "name": "Rollers",
+    "slug": "rollers-6",
+    "item_ids": [
+     "da3d1fd06b401c6189799f55",
+     "af2056a03a064586c5640157",
+     "b6aec4da2c0bec422c888379",
+     "0a556dc7b84095c34d0b3b17",
+     "7e7f6c1931c2a35d3f57ef45",
+     "50340b683db7ba84f155c315",
+     "7aea31c7da7d0914287d6c26",
+     "6bb20ca22e1cf11b9d0580a2",
+     "84e79b8224fb4da93dc81f44",
+     "36488d1040c055df5add7d3a",
+     "fa72948a8b439dfed84b97b1",
+     "7ce612fe1a311a4b1399045b",
+     "65740500fdce06beab467be7",
+     "4248d5397eb60114146784c1",
+     "29f7b708c8d4c170b93e037e",
+     "6f9cbcdb2da4d34a4ccc31d3",
+     "af19d02f6a83898a41d18fba",
+     "7f7f6ef62ced6bb5b9744a4f",
+     "4de83493d2cca47afb70e066",
+     "36d35cc57ef484f2ddada7f7",
+     "db628634d4c6edb48f842c0f",
+     "2cca6292dd02dc25afe34909",
+     "94fe77683f1d83b402a4dfab"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "63b8e3e7feb2ed194990f29f",
+    "name": "Maki and Potomaki",
+    "slug": "maki-and-potomaki-7",
+    "item_ids": [
+     "9d21f27e64e8513e3f9b8c8f",
+     "72e0572743db7649ba92a4ff",
+     "9e2fd4366ae723d6c6141d9c"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "93ff7cc9826a0bb95e4a80f2",
+    "name": "Cold starters",
+    "slug": "cold-starters-8",
+    "item_ids": [
+     "8e89f21a2ff979b0e121477d",
+     "e01867ae8a4b01309fd57a83",
+     "ac2c0ab1f1c4e47f50ff64c9",
+     "c43b7551a54e59a51273b885"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "f449c79de4893f0d0197cb29",
+    "name": "Hot starters",
+    "slug": "hot-starters-9",
+    "item_ids": [
+     "e5b33fcb88ab0b10b0621694",
+     "504d5012008272a7524ddf01",
+     "32c1bcd8e901ae4f78a99039",
+     "fe3918869a5e5b0e1af91841",
+     "82819a765d6d42a02c8e8e39",
+     "df44a5f5864b262f4a6ed4b4",
+     "ce84c17ed7445a8bc317edf5"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "328fe4eedd4a64245a042bd5",
+    "name": "sushi sandwich",
+    "slug": "sushi-sandwich-10",
+    "item_ids": [
+     "d639f97cd21314675c455eed",
+     "757798ece0ac7bc413ee4ae2",
+     "9ddf1025f24ba8f4a353aeed",
+     "54a1cf1892656ffae0e11b9a",
+     "5e56b4e0e3810d227f036349"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "abbd7f98e4601ccd67eac9cb",
+    "name": "Hospitality trays",
+    "slug": "hospitality-trays-11",
+    "item_ids": [
+     "385ecfb8c24aff3a8dfe2c18",
+     "04b41cae0954e12fcde45a28",
+     "a613864761dd23ce49cfd780",
+     "2c484b1eeb82ea839b6d61c0"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "3e862fd6229edc18a3d281c7",
+    "name": "Paid sauces",
+    "slug": "paid-sauces-13",
+    "item_ids": [
+     "874902ff774562eb4cf4153f",
+     "fe031e498b18788fdc4e7c39",
+     "3c577e49d412d311d0d86a65",
+     "9e175fc6fbed274c35c70d59",
+     "fdba34903db79727dfe7b8db",
+     "00ae8d202f4210ceda466ddf",
+     "9a1e52b57028b8a760dd9351"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "678c7684add383a0e7690c9b",
+    "name": "soft drinks",
+    "slug": "soft-drinks-14",
+    "item_ids": [
+     "21f6c7810b7740cddfdfd226",
+     "3025ecc5a47f27f016d79209",
+     "b3849902fb93f7333553217b",
+     "227d70e0789b30e753fd51a7",
+     "831cf3d037c5ac7073f28a4a"
+    ],
+    "subcategories": []
+   }
+  ],
+  "items": [
+   {
+    "id": "00ae8d202f4210ceda466ddf",
+    "name": "Low sodium soy",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4f6daaa8528f0c158f1197",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7345d71d34e4c4c45c5d23a07e8ee327",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "04b41cae0954e12fcde45a28",
+    "name": "Premium self-assembly tray",
+    "description": "The tray that allows you to choose your flavors! A variety of sushi options that will allow you to create the perfect combination, according to your preferences. Ideal for special occasions or as a pampering solution for a good day. | 57 pcs",
+    "price": 43900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e5c7ad8c24afb1ee756a",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "0f0700fd9542972ebf1b8f3f",
+      "option_id": "88e3428833feef704eda15d5",
+      "name": "Choose 2 rolls with a special coating",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 2,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "39dcfd22d57686c310624fd0",
+      "option_id": "a43625466531fef7aef0e4c1",
+      "name": "Choose 2 I/O rollers",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 2,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "93d078c09f26f8618f0b6c56",
+      "option_id": "8a7ef4653220f3d86b156306",
+      "name": "Choose 2 maki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 2,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "142949d14e7f9d1918e6d365",
+      "option_id": "5eda95930213d97b30d5195e",
+      "name": "Choose Photomaki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4fc793dc4f56eca62724f278",
+      "option_id": "604e7bfec0bffb172c8e48e4",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 15
+       },
+       "max_single_selections": 15,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b4de34c16f8d9979b070a7ac",
+      "option_id": "aa40c22d1a839921452799eb",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 25
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c5136872a77f089798066cff",
+      "option_id": "cf30b3896f7d13d207a1dee6",
+      "name": "Gunkan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "45a561092ed18dcfc59b8069",
+      "option_id": "45c792007f157d638027d5f4",
+      "name": "Nigerian",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "87369e5f7a5f2bf4662e41ef",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "19ff5d7a076f671e1cd2ef760e981cdb",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0a556dc7b84095c34d0b3b17",
+    "name": "Salmon, avocado and cucumber topped with green tobiko",
+    "description": "",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e764ad8c24afb1ee757d",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "72ded6ea24c1e48939367480",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "49afe8c9e7aa59c3734d1e8d",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b88c6b163ffeda92eca057fb",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a908e4aa14eacb85025102b9315773bc",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0e35a025e4740e60fab1105a",
+    "name": "A vegetarian combination for two",
+    "description": "",
+    "price": 10900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e568ad8c24afb1ee7564",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "12c7c13ef06206ba8d801d5a",
+      "option_id": "8883bf190a3ee44768c5b96a",
+      "name": "Choose 3 vegetarian rolls for a couple",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 3,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "855d3b6ada226ebdb5b0be5c",
+      "option_id": "5d8155937dd5c71cc8494d0e",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 6
+       },
+       "max_single_selections": 6,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "14819f1ad14c43a9dc1df34d",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a7beaae1f805c0f3e5a1bf2e",
+      "option_id": "c2922e8c7870bd46903dc83c",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 15
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cffe3a08f2be37311de623c38c695d8e",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "21f6c7810b7740cddfdfd226",
+    "name": "Coca Cola can",
+    "description": "330 ml",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805ec77a22b3052ff34aa32",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7d23be3e74d0134972d1736833a7cde8",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "227d70e0789b30e753fd51a7",
+    "name": "Soda glass",
+    "description": "250 ml",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805ec9089cb3aafde996db8",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "2fac81bf3391df64ea6c0507a6c671e7",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "29f639c6407cf0796f87bbba",
+    "name": "Double Pisces combination",
+    "description": "",
+    "price": 12500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e57a89cb3aafde996d68",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "1e5915b8774c81979c499a13",
+      "option_id": "f9a349c73a2ae03560975ba1",
+      "name": "Choose 3 fish rolls for a couple",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 3,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9aa163650200a3add8c92df7",
+      "option_id": "5d8155937dd5c71cc8494d0e",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 6
+       },
+       "max_single_selections": 6,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "93c1f3ded2f418b9e40a6218",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c522ec33245878ba7779000c",
+      "option_id": "c2922e8c7870bd46903dc83c",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 15
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "33aa9c208c6981017eef74e7ef8ba8a4",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "29f7b708c8d4c170b93e037e",
+    "name": "Salmon, avocado and cucumber topped with sesame seeds",
+    "description": "",
+    "price": 5100,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e7a989cb3aafde996d7e",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "082dbb11a0265c7706fce434",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7999f432282e188d39d6f541",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "fd74b919d6f69986bc545cde",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d4478a1dfd5502c65d7f3e48fe6bbfb3",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "2c484b1eeb82ea839b6d61c0",
+    "name": "Premium vegetarian platter",
+    "description": "A special vegetarian flavor experience! A platter that offers an excellent combination of vegetarian sushi, perfect for a daily treat or for entertaining your loved ones. | 60 pcs",
+    "price": 29900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e5d3ad8c24afb1ee756c",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "146e7fb65403f1e1c45e88ae",
+      "option_id": "9c047c237d22310b0ab7a3bb",
+      "name": "I / O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "99e7a966ea2ad7eaaf7ff175",
+      "option_id": "49a307950c9afdd81f1a5380",
+      "name": "Roll I/O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "da076167b52b0df180aa7de2",
+      "option_id": "fe2c80fc1eaec6d62a87cf9f",
+      "name": "Roll I/O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5e33767f72cfa98454c20877",
+      "option_id": "87b4c4df2a64f3c648996a25",
+      "name": "Roll I/O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f2c667776dedf018865ec006",
+      "option_id": "25ebad131aebe192ec947d2c",
+      "name": "Roll I/O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "fdc5c180f017dec4effe7c0f",
+      "option_id": "de7ab615c39c079d15368169",
+      "name": "Maki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e06a56cfe37874a44213b684",
+      "option_id": "1a48ae2da1e2487c5a6e0fc2",
+      "name": "Maki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5de057ec3d33358054979ae6",
+      "option_id": "dea5ca956d1813368819ee20",
+      "name": "Photomaki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2ca51173ed2dc3a85e92537d",
+      "option_id": "604e7bfec0bffb172c8e48e4",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 15
+       },
+       "max_single_selections": 15,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cb146ced23efb86193d197e9",
+      "option_id": "aa40c22d1a839921452799eb",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 25
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e306eab0262c0320c94804b9",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e1126cb48fa9dc1613eb29b92f8df0f8",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "2cca6292dd02dc25afe34909",
+    "name": "Tuna and cucumber topped with salmon",
+    "description": "",
+    "price": 7300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a9129a0e896c0fee8a09482",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "26fe6d0b0af4db8d504ef8ea",
+      "option_id": "ff2b29e349c15f2d7a55a196",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d8e309fda92f8b145f5cae0c",
+      "option_id": "86a0189d1d1769695574167b",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8d94290ba65ed0067e7cc6c85a16a17d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3025ecc5a47f27f016d79209",
+    "name": "Zero can",
+    "description": "330 ml",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805ec7ba22b3052ff34aa33",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "44093c7f437ed09298bd2d93a3e3b493",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "32c1bcd8e901ae4f78a99039",
+    "name": "Steamed mushroom gyoza",
+    "description": "Steamed mushroom gyoza 3 units",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68b9b03e3c27c30f791bf1f7",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a6d81802d7c212b5b5dd2475",
+      "option_id": "5d8155937dd5c71cc8494d0e",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0219a29b9f764a060a87fcd3",
+      "option_id": "c2922e8c7870bd46903dc83c",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9f91abf1ae59d68a9b990bb2",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 5,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bbb38e4c087cae67b33dee2c3ff163a4",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "36488d1040c055df5add7d3a",
+    "name": "Tempura-fried salmon, avocado and cucumber topped with green tobiko",
+    "description": "",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e7b489cb3aafde996d7f",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "14a605a6addb7b04566f45ac",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "89cda20e6ed93f293c279dbe",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9f6e8ed68d962cde8d872062",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "895965482c4c55bbb87c5fa3b008acca",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "36d35cc57ef484f2ddada7f7",
+    "name": "Spicy tuna, cucumber and green onion topped with sesame seeds",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4f97d413b9d669673f2ebd",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "c63f24b17906ead88051e277",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "59793c527e3ba526f89c8ead",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "73cfd5ea00ec8affb16fe930",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0e02b0b4fbfc5d38da8dce9a290a57c7",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "385ecfb8c24aff3a8dfe2c18",
+    "name": "Super Premium Tray",
+    "description": "A particularly indulgent platter, filled with unique combinations of sushi with fresh fish. The perfect dish for any celebration or romantic evening. | 57 pcs",
+    "price": 44500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e5c1ad8c24afb1ee7569",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "9a806751cb2ec31bdd6d82ea",
+      "option_id": "604e7bfec0bffb172c8e48e4",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 15
+       },
+       "max_single_selections": 15,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f0731ed2712fde98526651e5",
+      "option_id": "aa40c22d1a839921452799eb",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 25
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f595313c8c71670c9358c13d",
+      "option_id": "32c10fdd01f179210f7f4a16",
+      "name": "I / O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bd007e9143dbc36f1cc1112f",
+      "option_id": "6cd536ebb16172be41a8bf01",
+      "name": "I / O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "55770ae2a125ef9f78d38766",
+      "option_id": "7c6d58781274f3cf6ef0a693",
+      "name": "I / O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "edadf592705447d939145a4c",
+      "option_id": "d8ed20fb28332e25ab59f789",
+      "name": "Roll I/O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a8376020e4ee2290a259ba79",
+      "option_id": "12b6edfb6a79c6301f402be0",
+      "name": "Maki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5b957290d001d915a3141644",
+      "option_id": "bf6c2e9112d501d25c31364e",
+      "name": "Photomaki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e852dd9ed037d4cd7db18b8d",
+      "option_id": "cf30b3896f7d13d207a1dee6",
+      "name": "Gunkan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "32b39959a26c4ef312159aa0",
+      "option_id": "45c792007f157d638027d5f4",
+      "name": "Nigerian",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "06411085a82e900b9a885d48",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a8329df8d7f92b12d622080e3d2ebbe9",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3b2f09a4e371413d8d2c1421",
+    "name": "Self-assembly - Sushi Inside Out Fish",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e71889cb3aafde996d77",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e876660088a03c7c66032322",
+      "option_id": "335197b4e80dce24a3fd3459",
+      "name": "Would you like a coating?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cefec9c0bf53192e9454ee20",
+      "option_id": "de3cb3eb3c252e1935bbc11c",
+      "name": "Choose fish for sushi I/O fish",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5840f8c8cdb9a755539f3c58",
+      "option_id": "4a315ec5769a3f6cf594c639",
+      "name": "Choose 2 vegetables for sushi I/O fish",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 2,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bec2544e5e9acd517cf8046b",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9bce9a7fb4458a67d435f4ea",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ed96b30b065a26a2084887de",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d541d678fbab3a1ea933c28b636d9c8a",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3c577e49d412d311d0d86a65",
+    "name": "Homemade spicy mayonnaise",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4f6da9a8528f0c158f1196",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "48d279e82a6a4ea7e782d5a0d8a2563c",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "4248d5397eb60114146784c1",
+    "name": "Salmon, Philadelphia and sesame coated cucumber",
+    "description": "",
+    "price": 5100,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e7a489cb3aafde996d7d",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ce02687b4ff9ff992ef370d2",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1073de6e835676a8347bb900",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f1d10bff9ef8bede22d2f1b7",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "324227cf487ab152e3a106cf5e70bdb0",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "489e2cc76e68f77a51e399b9",
+    "name": "A vegetarian maki in the assembly",
+    "description": "",
+    "price": 3000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805ea7389cb3aafde996da0",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "71d02dd8598182c8366bb8fa",
+      "option_id": "fb9a3c08eb60bd47b66aa20b",
+      "name": "Choose a vegetable for maki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b751d3433bf088b362bff026",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3ade56c8513f4e1a27c083d7",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "817f52644b76f65ae2c97ba7",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "283b62320a2b9a6db1de6ed1a8bb071d",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "4de83493d2cca47afb70e066",
+    "name": "Spicy salmon, avocado and green onions in a sesame coating",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e85dad8c24afb1ee7588",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2b562a34f7bc5e525672516a",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "25fca1acfdabd83adc4aaa6e",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1ffcf7beee77e50e2e199d3e",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "88760d91c7f8b32f60ce54d043eeca45",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "50340b683db7ba84f155c315",
+    "name": "Salmon and avocado with spicy coating, teriyaki and sweet potato chips",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e779ad8c24afb1ee757f",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e5681956583549c9d4e71805",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7f56c8085b95e26b3b55c34b",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "fd1392b164c5a5c57ca423ca",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b03d338fafcb13f188fb4e605bd1b1b8",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "504d5012008272a7524ddf01",
+    "name": "Steamed sweet potato gyoza",
+    "description": "Steamed sweet potato gyoza 3 units",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68b9b04f3c27c30f791bf1fa",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a6d81802d7c212b5b5dd2475",
+      "option_id": "5d8155937dd5c71cc8494d0e",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0219a29b9f764a060a87fcd3",
+      "option_id": "c2922e8c7870bd46903dc83c",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9f91abf1ae59d68a9b990bb2",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 5,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e798ac80c7d88aaf359e8cf5e1247c7b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "54a1cf1892656ffae0e11b9a",
+    "name": "Spicy salmon, avocado and green onion sandwich topped with sesame seeds",
+    "description": "",
+    "price": 5700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4f97fc036cbdf8f0b7909d",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "4beee7398a3ec271553ce5ad",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d12205d38c4a72490eb14766",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1b049e0ab9df00532fc0450f",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7caa7d4c7e0d7073723d9853dcd492f6",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "57016e1afb95345336df481d",
+    "name": "Maki fish in assembly",
+    "description": "",
+    "price": 3700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805ea6a89cb3aafde996d9f",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "9ebe492f8eca1176896c7555",
+      "option_id": "67d71a959b6b15fa2d49989c",
+      "name": "Choose a fish for maki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "be27068a6e2e2dcba47ede4b",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2ce76b4a053469fc27bff644",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "47e41cb88c6a0fa19224b2d8",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f04801bc9f166344833b4268393e8f63",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e56b4e0e3810d227f036349",
+    "name": "Shiitake sandwich, avocado, green onion and cucumber in a sesame coating",
+    "description": "",
+    "price": 4800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e9eba22b3052ff34aa20",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "8611e4a3b3dc56e15a3b1b2f",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "595e1e59cad9c85552271742",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "428fb4073aee41534886e5af",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bf2b75c013d2ba6702932aec52b5f668",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "65740500fdce06beab467be7",
+    "name": "Salmon and Philadelphia cheese in a sesame coating",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e795ad8c24afb1ee7581",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "b8fd98eb06ba9d20a34e9133",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "81d7f6c6feea038e2370b6b3",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a34b62f4e7eb4f15a71c8ac2",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "72349ffc95d8b42a5cfeaa83b8778a45",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6bb20ca22e1cf11b9d0580a2",
+    "name": "Tempura-fried salmon, avocado and cucumber topped with red tobiko",
+    "description": "",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e7bf89cb3aafde996d82",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "209bc86e5aaa7353bd9d2b81",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7dfd94cecc8f86053014b690",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "169ce15534b05be842cba4a1",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1b15333e822620695ef5499c19806724",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6f9cbcdb2da4d34a4ccc31d3",
+    "name": "Salmon fried in tempura and avocado in sesame coating",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e7c689cb3aafde996d83",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "0296bafaff61f71b2e785cee",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "dacaefa93e8c34e3afe6bc6e",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "eedebed4ad26c8b8c2eb1ab2",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3cc94266416fe8e2231cc52dab415267",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "72e0572743db7649ba92a4ff",
+    "name": "Potomaki Shitaki, hemp, avocado, cucumber and scallions",
+    "description": "",
+    "price": 4600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805eab489cb3aafde996da8",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "304cf0a091e319b85a442597",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b115d617b56a2bf4636d8f25",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d3e7e95bbdf5ef9ea5638c1c",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "27e3a7b7236c145018e567f81bb417d0",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "757798ece0ac7bc413ee4ae2",
+    "name": "Smoked salmon sandwich, Philadelphia, cucumber and green onion in a sesame coating",
+    "description": "",
+    "price": 5700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e9e4a22b3052ff34aa1e",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e5f1276946e08de662523cd6",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "55a6502430853a53101a9f92",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "309696c81a237ecb56dda1a6",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "69d7d801ff4bc49d9babe68fb5a08eaa",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7aea31c7da7d0914287d6c26",
+    "name": "Avocado and cucumber with spicy coating, teriyaki and sweet potato chips",
+    "description": "",
+    "price": 4400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e964ad8c24afb1ee759e",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "720bbe16d7d971abb4ca7cc8",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "dd5294b3b9fca83e78116dcd",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7697b94744742de740d95b58",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "51d3fe3df7e42950055d81483c3a087d",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7ce612fe1a311a4b1399045b",
+    "name": "Salmon and avocado in a sesame coating",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e78aad8c24afb1ee7580",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "acbf9bb5904f9edf882ea3c0",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d08f5f5e0c0fc9bd89c3bdc0",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "aad2c679d6ca48cbd99e48af",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "998124c6015de2ce687bfca295987ccb",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7e7f6c1931c2a35d3f57ef45",
+    "name": "Salmon, avocado and cucumber topped with red tobiko",
+    "description": "",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e770ad8c24afb1ee757e",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "21291dc87194e60ca6b77962",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "22631da51d0169aeb43762c6",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5540a52dc653d6a914f90cfe",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b80b13ab00ca6405ea2206fe594d9d0e",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7f7f6ef62ced6bb5b9744a4f",
+    "name": "Red tuna, cucumber and avocado in a sesame coating",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e850ad8c24afb1ee7587",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e532558b69c8bab00eb0778a",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ae0d2452d655a3834720257d",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "90a2ffcc286f8259a2d0d5e6",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fb76a6e2ce7beab2014abcf0a28b6626",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "82819a765d6d42a02c8e8e39",
+    "name": "Vegetarian egg roll - 2 units",
+    "description": "Two units of fried egg roll stuffed with vegetables, served with sweet and sour sauce.",
+    "price": 3900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e666ad8c24afb1ee7574",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e91e544609e5c782388f52d1",
+      "option_id": "aa2d7276cdb44ffcba4261ce",
+      "name": "Would you like sweet and sour sauce?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e24168302f0bf63565ec4b1d7f6bc76c",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "831cf3d037c5ac7073f28a4a",
+    "name": "mineral water",
+    "description": "500 ml",
+    "price": 1000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805ec9589cb3aafde996dba",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "2e0ee8829b1824973db29b2be1f0a2ef",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "84e79b8224fb4da93dc81f44",
+    "name": "Shrimp, avocado and cucumber topped with red tobiko",
+    "description": "",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e876ad8c24afb1ee758a",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "7d006406badb9b799f93b021",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "397704360c039abf2243658e",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1a590f437eefc038b55169c3",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ecccacc3083227322ae1100e6aa98367",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "874902ff774562eb4cf4153f",
+    "name": "soya",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4f6dab0f23d310be11e4ff",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5758a0bd5a0bd6a234816cf31fda7653",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8e89f21a2ff979b0e121477d",
+    "name": "Salmon nigiri",
+    "description": "Two rice balls wrapped in raw salmon",
+    "price": 4100,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e62ea22b3052ff34a9f3",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "7300146459d0c0863350eeda",
+      "option_id": "114e2f5ede3cdaac40c2c2a5",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "77342121da869e199b5b5394b7975e54",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "94fe77683f1d83b402a4dfab",
+    "name": "Tuna and Philadelphia topped with salmon",
+    "description": "",
+    "price": 7300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a9129ace896c0fee8a09487",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "26fe6d0b0af4db8d504ef8ea",
+      "option_id": "ff2b29e349c15f2d7a55a196",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d8e309fda92f8b145f5cae0c",
+      "option_id": "86a0189d1d1769695574167b",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cc0ac9cd22daff8ddf8dd53587497f30",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9a1e52b57028b8a760dd9351",
+    "name": "Gluten-free soy",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a8ab527c824ea75d21f5011",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cf06bc74fafc174a02caf6a2ceadc17f",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9d21f27e64e8513e3f9b8c8f",
+    "name": "Avocado and salmon maki",
+    "description": "",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805ea8f89cb3aafde996da2",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "47a91efd84de282b915dee63",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "03e808d71711d8b56d5b1fe8",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c396293ef7792340ba1ae469",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "78e434e2bfdd64fec93e04fcb25b15f6",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9ddf1025f24ba8f4a353aeed",
+    "name": "Spicy tuna, avocado and green onion sandwich topped with sesame seeds",
+    "description": "Chopped tuna with spicy mayonnaise",
+    "price": 5700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4f97e7036cbdf8f0b79093",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "9c132657390645728e259a8e",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "64bb00fe03d994fbb7c70444",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5264b89cb6df0c4dd5f6550f",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cafa93d2abadc1e78eb67060b5bef7d7",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9e175fc6fbed274c35c70d59",
+    "name": "Wasabi",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4f6daaa8528f0c158f1198",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c49aa18b50b3b0f6317eef22306137db",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9e2fd4366ae723d6c6141d9c",
+    "name": "Potomaki salmon, avocado and cucumber",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805eaba89cb3aafde996da9",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "3bd1d54f6cc08d832fe74c1b",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6bdf4c85f2fdfa3329fe4057",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "238b25dd5ed4d79e07ae68f2",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5fbf5c0e25eaecc66319ca7dd4356bc4",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "a613864761dd23ce49cfd780",
+    "name": "Premium fish tray",
+    "description": "An ideal platter for fish lovers! A rich variety of sushi with fresh, high-quality fish, offering a delicious experience that is suitable for any event or pampering family evening. | 57 pcs",
+    "price": 39900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e5cdad8c24afb1ee756b",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "5b07ad526152e47c826df264",
+      "option_id": "fe301a2dc1c0bb290184a1c8",
+      "name": "I / O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e937d6d8b1debdc9ced06257",
+      "option_id": "af2272a35d2dfe1e4852ff33",
+      "name": "Roll I/O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "49b369ab5c8c319767228cd8",
+      "option_id": "63225300299ee4d1f109ed6d",
+      "name": "Roll I/O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9cd2144c8a71ad8c7441296d",
+      "option_id": "5dfedfa9e4358df578c332c5",
+      "name": "Roll I/O",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0099d1c9316dd9ebd75df728",
+      "option_id": "496f8d5aad3fb7e560ee2762",
+      "name": "Maki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "68c64e6085391b7d0a2a529a",
+      "option_id": "12b6edfb6a79c6301f402be0",
+      "name": "Maki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "351fb4efde48dd56de6dbabc",
+      "option_id": "45c792007f157d638027d5f4",
+      "name": "Nigerian",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5d85924d8cb50fdbe781740b",
+      "option_id": "bf6c2e9112d501d25c31364e",
+      "name": "Photomaki",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1226ce089aaa7fecb37a1b09",
+      "option_id": "cf30b3896f7d13d207a1dee6",
+      "name": "Gunkan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "dc0dc9bce22290fd6d936f47",
+      "option_id": "604e7bfec0bffb172c8e48e4",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 15
+       },
+       "max_single_selections": 15,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c9a51bac6eaafc165e7b8f33",
+      "option_id": "aa40c22d1a839921452799eb",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 25
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6438e370c656a714a2059cc3",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e76e7efc232146fbe2789ed8fef239b2",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ac2c0ab1f1c4e47f50ff64c9",
+    "name": "Wakama Salad",
+    "description": "Wakame seaweed, avocado, cucumbers, roasted sesame seeds and house sauce",
+    "price": 2700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e662ad8c24afb1ee7572",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "88363c7dc0531b158a4a19ce",
+      "option_id": "508fa170b273931ddfcc0989",
+      "name": "sum",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "29b09cdbfbd5e0bdd2558dfea5bbc7f5",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "af19d02f6a83898a41d18fba",
+    "name": "Smoked salmon, cucumber and Philadelphia in a sesame coating",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e84aad8c24afb1ee7585",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "47433a80c2fc74bb5e30b44b",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7e962ae989ee2ff876ed4885",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7f6a04aaa2e749f07cd8301a",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "514b83bbb1691faee06a1cf78837bbc3",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "af2056a03a064586c5640157",
+    "name": "Salmon and avocado topped with salmon",
+    "description": "",
+    "price": 7300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e72b89cb3aafde996d7a",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "4942d9cc54e5e882f2761e76",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "36fa8c861402e3cd10b789de",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "92e7d5353fec64ebd79c08b9",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1804d731d14ab7ff1c321901c66e6e96",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b3849902fb93f7333553217b",
+    "name": "Fused bottle",
+    "description": "500 ml",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805ec8b89cb3aafde996db7",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0b068942ec67527c3887314d3b286557",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b6aec4da2c0bec422c888379",
+    "name": "Avocado and Philadelphia topped with salmon",
+    "description": "",
+    "price": 5500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4f97dd13b9d669673f2ee9",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "95ac200a268391427a277fda",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "379e5d7c8058a75ce811c841",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "31d9cb2d82b3654bcdbf4a60",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "826706716aefeeb4d1bcf9fbbc5df41e",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c43b7551a54e59a51273b885",
+    "name": "חמוצים אסייתיים",
+    "description": "חמוצים של כרוב, פלפלים בכל הצבעים, גזר ומלפפון",
+    "price": 3000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a61bb3f1f48851f69f5280a",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9f98c31f35120fd74b97dbeba00847bf",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ce84c17ed7445a8bc317edf5",
+    "name": "אדממה",
+    "description": "תרמילי אדממה, לימון ומלח גס",
+    "price": 3900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/680f9cea61c0cdff9b129634",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4e6a32735de04f350b1a0fe01f3edce4",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d4d952ab94ffe42dda6cc428",
+    "name": "Self-assembly fried sushi - fish",
+    "description": "",
+    "price": 5700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805eb4a89cb3aafde996dac",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e8911b0f12d3323b45fad877",
+      "option_id": "b56361e6e4cf389fb7c9a0af",
+      "name": "Choose fish for sushi I/O Fried fish",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "356c617aee80b0d5fe12b67b",
+      "option_id": "d3424836528881bf83bc1e6c",
+      "name": "Choose 2 vegetables",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 2,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bd8c60f3499293518f907553",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f09dc675b86f8276eb5d67c4",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e11877f9f447e778abd81bc9",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c7809effb179df06c59a6f0539eba339",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d639f97cd21314675c455eed",
+    "name": "Salmon and avocado sandwich with sesame coating",
+    "description": "",
+    "price": 5700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e9dea22b3052ff34aa1d",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "c5ac862d0d166b814012976c",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7c7a1d8bec20c220784cc7d2",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8d8bebf6d682bfaf2e4edb5c",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "588c87a745f226cfd34d3bc57b6cf732",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "da3d1fd06b401c6189799f55",
+    "name": "Philadelphia",
+    "description": "",
+    "price": 6000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a61bb441f48851f69f5280c",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "fe2260a96dde9e94bda2ad3c",
+      "option_id": "f806ec8ac40eb50a8e3384f2",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8db98707a8bb954f68f50dd8",
+      "option_id": "f758e68256f8ccedd7ec85e6",
+      "name": "Choose paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 5,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "18c6ffde0e1d8e83f848d510254913c7",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "db628634d4c6edb48f842c0f",
+    "name": "Shrimp, avocado and Philadelphia in sesame coating",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e8b5a22b3052ff34aa12",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ab185fd3a48dc90af930ca84",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c6779a71f8da3ebe9d53edb6",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ba0fe545a163d813fbe7ccb7",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "334d7e69cc36ee1cc01710852835f16f",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "dcc38a58b61acd9376046707",
+    "name": "Self-assembly - Fried Sushi Inside Out Vegetarian",
+    "description": "",
+    "price": 4700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805eae3a22b3052ff34aa28",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "37fe4df969159bbf26ad08a3",
+      "option_id": "8c59cae0c8bef1306db4f12c",
+      "name": "Choose 3 vegetables",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 3,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a886307c8596384d4520c920",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "17a64fdfa3ab418098275f2c",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4c010a28bee73d0d961e5095",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9ec8438816f37827e10e4b2d55c86e8d",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "df44a5f5864b262f4a6ed4b4",
+    "name": "Double tempura shrimp (6 units)",
+    "description": "",
+    "price": 4400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e639a22b3052ff34a9f6",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ec65503ac6c5df05dff4e171",
+      "option_id": "136a74fab8d6da0b0f462107",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bfc1715a0518b3928ffbbb0a",
+      "option_id": "c2922e8c7870bd46903dc83c",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 20
+       },
+       "max_single_selections": 20,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "af36ddd467fd38938ab52912e1c38f8c",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e01867ae8a4b01309fd57a83",
+    "name": "Salmon sashimi",
+    "description": "Three slices of raw salmon",
+    "price": 5700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e634a22b3052ff34a9f4",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "af95d54f6f7eaef2fd9161c9",
+      "option_id": "114e2f5ede3cdaac40c2c2a5",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b3d43cf789fade3241121a1a0e53898c",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e4887c0e407a3a85d9628dbe",
+    "name": "Self-assembly - Sushi Inside Out Vegetarian",
+    "description": "",
+    "price": 4200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e70d89cb3aafde996d76",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e955ddf3f5ac8ffcc340f469",
+      "option_id": "335197b4e80dce24a3fd3459",
+      "name": "Would you like a coating?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4d15103cb058bb546f155418",
+      "option_id": "680f48795255d901cc3f80e2",
+      "name": "Choose 3 vegetables for vegetarian I/O sushi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 3,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2f942368219918b5cfbd624f",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f9d0f4242048ef5889357786",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "164a823e78dd8ba22ecbb290",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "87657b95a3327eb48104f109ded27740",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e5b33fcb88ab0b10b0621694",
+    "name": "Miso Soup",
+    "description": "Soup based on Japanese spices with tofu and green onions - contains gluten and fish",
+    "price": 3200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e647a22b3052ff34a9f7",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "699bd3201c4fcad1f8304f6c",
+      "option_id": "508fa170b273931ddfcc0989",
+      "name": "sum",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e1dfe7e308c4e9911178ce83",
+      "option_id": "f9e7f2db0a809dfb60911b8e",
+      "name": "Additional rice for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a330d592fa953e318fe09d9a",
+      "option_id": "2829dff35696346a945dcb20",
+      "name": "Extra salmon for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "252819b2601ff97bd476bdac8a0ff89c",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "eceb5d89dfc08a7fede8a48c",
+    "name": "Fried combination",
+    "description": "",
+    "price": 10000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4f97f1036cbdf8f0b79096",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2fdb4000aa572412688cf3f2",
+      "option_id": "b49c5501365283690010b459",
+      "name": "Choose 2 fried rolls",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 2,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5cd007656b2e02022e462ba5",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "54f0b96aa12260ed0c0453ec",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "69cf45163185b6c1f6b49786",
+      "option_id": "c2922e8c7870bd46903dc83c",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 15
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ce598813b0641d09bf3228e0653b9758",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "fa72948a8b439dfed84b97b1",
+    "name": "Shrimp, avocado and cucumber topped with green tobiko",
+    "description": "",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6805e899ad8c24afb1ee758b",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "f06d2e34913084d135e3712b",
+      "option_id": "0c17387da5c9be4acb1988d6",
+      "name": "Free sauces of choice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e9d8b62eb823be3aebed8e76",
+      "option_id": "bda6ad3ca3a1fd447ab6e667",
+      "name": "Would you like an appetizer too?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4cf3056f8382b82e02fa3f9f",
+      "option_id": "4887b59a2ead0066caf029e9",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 3,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bec159a4d9a711f6afab7412fe84031b",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "fdba34903db79727dfe7b8db",
+    "name": "Ginger",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4f6dc90f23d310be11e508",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "52542718dc0cffa12d43a1e0db4b3572",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "fe031e498b18788fdc4e7c39",
+    "name": "Teriyaki",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a8ab517c824ea75d21f500f",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8b0ff55afb1c5b42c173d39b033faedb",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "fe3918869a5e5b0e1af91841",
+    "name": "Chicken egg roll - 2 units",
+    "description": "2 chicken egg rolls with sweet and sour sauce",
+    "price": 3900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/686fbe04a575ad20a9444897",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "eaf9ce64395a6a04ffc75165",
+      "option_id": "aa2d7276cdb44ffcba4261ce",
+      "name": "Would you like sweet and sour sauce?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4edbc0497ba77a655624f67ff1744b0f",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   }
+  ],
+  "options": [
+   {
+    "id": "0c17387da5c9be4acb1988d6",
+    "name": "Free sauces of choice",
+    "type": "multi_choice",
+    "default_value": "9e49e1f612a711d5b0db41ce",
+    "values": [
+     {
+      "id": "9e49e1f612a711d5b0db41ce",
+      "name": "soya",
+      "price": 0
+     },
+     {
+      "id": "40fad0f46eb54b62eb5c2ea4",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "752707e25f41b487d924ee3f",
+      "name": "Homemade spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "4d953c2afcdb85bf676006dd",
+      "name": "Wasabi",
+      "price": 0
+     },
+     {
+      "id": "494a13808b6a9357dad03857",
+      "name": "Ginger",
+      "price": 0
+     },
+     {
+      "id": "97351c8e48297a2f4ba10063",
+      "name": "Low sodium soy",
+      "price": 0
+     },
+     {
+      "id": "4c7c3f29d2aaa8ce9e8004d5",
+      "name": "Gluten-free soy",
+      "price": 0
+     },
+     {
+      "id": "eb8671adcfbcc5fdeded4dae",
+      "name": "No sauces",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "114e2f5ede3cdaac40c2c2a5",
+    "name": "Free sauces of choice",
+    "type": "multi_choice",
+    "default_value": "4f859329f0a2d70eeb35cb5e",
+    "values": [
+     {
+      "id": "4f859329f0a2d70eeb35cb5e",
+      "name": "soya",
+      "price": 0
+     },
+     {
+      "id": "55fc4ae484988fd16b0a5e24",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "aa0f69bb01ff864f4633d64b",
+      "name": "Homemade spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "c2bc9e7e7d0116d4e17dc840",
+      "name": "Wasabi",
+      "price": 0
+     },
+     {
+      "id": "bf75bf66f3a6107acdd2f72d",
+      "name": "Ginger",
+      "price": 0
+     },
+     {
+      "id": "479b0f112811e281be5a4935",
+      "name": "Low sodium soy",
+      "price": 0
+     },
+     {
+      "id": "99b4266771de7c18305bd5c7",
+      "name": "Gluten-free soy",
+      "price": 0
+     },
+     {
+      "id": "681bfe681b703bf15095c7a8",
+      "name": "No sauces",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "12b6edfb6a79c6301f402be0",
+    "name": "Maki",
+    "type": "multi_choice",
+    "default_value": "66413c39d68c2170c4c8f498",
+    "values": [
+     {
+      "id": "66413c39d68c2170c4c8f498",
+      "name": "Maki red tuna",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "136a74fab8d6da0b0f462107",
+    "name": "Free sauces of choice",
+    "type": "multi_choice",
+    "default_value": "cf2948b6ce84e513ec93cf06",
+    "values": [
+     {
+      "id": "cf2948b6ce84e513ec93cf06",
+      "name": "soya",
+      "price": 0
+     },
+     {
+      "id": "87b326e2ccdf870f39c14b0a",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "37ecb0019b78d15aabb3e5e0",
+      "name": "Homemade spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "9f7288789211ef0db31efa36",
+      "name": "Wasabi",
+      "price": 0
+     },
+     {
+      "id": "906cd3b3f6ab3008030b995e",
+      "name": "Ginger",
+      "price": 0
+     },
+     {
+      "id": "88a542707e1161c6d381b4a0",
+      "name": "Low sodium soy",
+      "price": 0
+     },
+     {
+      "id": "ec9688171c3e77affcec311d",
+      "name": "Gluten-free soy",
+      "price": 0
+     },
+     {
+      "id": "7111fa1a0f3dbe89c7396932",
+      "name": "No sauces",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "1a48ae2da1e2487c5a6e0fc2",
+    "name": "Maki",
+    "type": "multi_choice",
+    "default_value": "995c24097e08c1412007f07e",
+    "values": [
+     {
+      "id": "995c24097e08c1412007f07e",
+      "name": "Sweet potato maki",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "25ebad131aebe192ec947d2c",
+    "name": "Roll I/O",
+    "type": "multi_choice",
+    "default_value": "2f5fb42552783a978a39cc82",
+    "values": [
+     {
+      "id": "2f5fb42552783a978a39cc82",
+      "name": "Carrots, avocados and cucumbers in a sesame coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "2829dff35696346a945dcb20",
+    "name": "Extra salmon for a fee",
+    "type": "multi_choice",
+    "default_value": "b61dfa67fff1f9dbf2694597",
+    "values": [
+     {
+      "id": "b61dfa67fff1f9dbf2694597",
+      "name": "salmon",
+      "price": 700
+     }
+    ]
+   },
+   {
+    "id": "32c10fdd01f179210f7f4a16",
+    "name": "I / O",
+    "type": "multi_choice",
+    "default_value": "27f24ce68a6f7b8d12ed70bc",
+    "values": [
+     {
+      "id": "27f24ce68a6f7b8d12ed70bc",
+      "name": "Salmon and avocado topped with salmon",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "335197b4e80dce24a3fd3459",
+    "name": "Would you like a coating?",
+    "type": "multi_choice",
+    "default_value": "2241d627ae0f0e070f14dff9",
+    "values": [
+     {
+      "id": "2241d627ae0f0e070f14dff9",
+      "name": "Sesame",
+      "price": 0
+     },
+     {
+      "id": "605a40e2453cac55e47eb97f",
+      "name": "Without coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "45c792007f157d638027d5f4",
+    "name": "Nigerian",
+    "type": "multi_choice",
+    "default_value": "4c61f25df6aa92e760c71043",
+    "values": [
+     {
+      "id": "4c61f25df6aa92e760c71043",
+      "name": "Salmon Nigiri Platter",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "4887b59a2ead0066caf029e9",
+    "name": "Choice of sauces for a fee",
+    "type": "multi_choice",
+    "default_value": "0b3d3ff90ea1a1f20a9607b1",
+    "values": [
+     {
+      "id": "5d60c7da4b4055012bd60616",
+      "name": "Ginger",
+      "price": 300
+     },
+     {
+      "id": "4d1c66c5fb9c585b38d04af0",
+      "name": "Wasabi",
+      "price": 300
+     },
+     {
+      "id": "f270bcf3b713b103d9e9238f",
+      "name": "Teriyaki",
+      "price": 300
+     },
+     {
+      "id": "a9afe8f3b5108e4a7f03a5ad",
+      "name": "soya",
+      "price": 300
+     },
+     {
+      "id": "e4b1a2d7d0cd939f7f64e2cc",
+      "name": "Low sodium soy",
+      "price": 300
+     },
+     {
+      "id": "c12ded091462002e162b2854",
+      "name": "Gluten-free soy",
+      "price": 300
+     },
+     {
+      "id": "690e796a414ccf8224a1e716",
+      "name": "Homemade spicy mayonnaise",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "496f8d5aad3fb7e560ee2762",
+    "name": "Maki",
+    "type": "multi_choice",
+    "default_value": "fe3131250b14201b5350bcf4",
+    "values": [
+     {
+      "id": "fe3131250b14201b5350bcf4",
+      "name": "Mackie Salmon",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "49a307950c9afdd81f1a5380",
+    "name": "Roll I/O",
+    "type": "multi_choice",
+    "default_value": "eeb0ffd0386e76fac52bff65",
+    "values": [
+     {
+      "id": "eeb0ffd0386e76fac52bff65",
+      "name": "Avocado and cucumber in a sesame coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "4a315ec5769a3f6cf594c639",
+    "name": "Choose 2 vegetables for sushi I/O fish",
+    "type": "multi_choice",
+    "default_value": "09e1e61ea29e7b7bcf10a504",
+    "values": [
+     {
+      "id": "09e1e61ea29e7b7bcf10a504",
+      "name": "cucumber",
+      "price": 0
+     },
+     {
+      "id": "5bc94677b1bc4d51a957f1bc",
+      "name": "His wings",
+      "price": 0
+     },
+     {
+      "id": "07078cc0391e50cf214dd0c2",
+      "name": "Shitaki",
+      "price": 0
+     },
+     {
+      "id": "27b20c0400909d207bd88bd5",
+      "name": "Carrot",
+      "price": 0
+     },
+     {
+      "id": "359307035d4c7fa1e7c60490",
+      "name": "sweet potato",
+      "price": 0
+     },
+     {
+      "id": "4cd40ef868ddabbe4465f3f7",
+      "name": "Avocado",
+      "price": 0
+     },
+     {
+      "id": "d0acafec536d052d9d61ab1f",
+      "name": "Green onions",
+      "price": 0
+     },
+     {
+      "id": "5fbc87577eff4615a79d6a31",
+      "name": "Oshinko",
+      "price": 0
+     },
+     {
+      "id": "dd06793e1b4e6e581478caf7",
+      "name": "Philadelphia cheese",
+      "price": 0
+     },
+     {
+      "id": "2b5736e3bead1e04da61503a",
+      "name": "ללא תוספת",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "508fa170b273931ddfcc0989",
+    "name": "sum",
+    "type": "multi_choice",
+    "default_value": "6c2c9f7e9c10e6930897c1e6",
+    "values": [
+     {
+      "id": "6c2c9f7e9c10e6930897c1e6",
+      "name": "sum",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5d8155937dd5c71cc8494d0e",
+    "name": "Free sauces of choice",
+    "type": "multi_choice",
+    "default_value": "17c1a7dc97f56f56a18d5537",
+    "values": [
+     {
+      "id": "17c1a7dc97f56f56a18d5537",
+      "name": "soya",
+      "price": 0
+     },
+     {
+      "id": "e13bb48b66a6d574051eede0",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "0fb69badbdaee042853b1427",
+      "name": "Homemade spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "32fedb3f35eb7fc7999b3909",
+      "name": "Wasabi",
+      "price": 0
+     },
+     {
+      "id": "60b50095c9dff7de5c8d8024",
+      "name": "Ginger",
+      "price": 0
+     },
+     {
+      "id": "fe6afec5288f59b0afeff3f9",
+      "name": "Low sodium soy",
+      "price": 0
+     },
+     {
+      "id": "4447744318e518f659af3b76",
+      "name": "Gluten-free soy",
+      "price": 0
+     },
+     {
+      "id": "12c17d78ad06cd1bb8b92c2f",
+      "name": "No sauces",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5dfedfa9e4358df578c332c5",
+    "name": "Roll I/O",
+    "type": "multi_choice",
+    "default_value": "d8e4e7e0488b299938082697",
+    "values": [
+     {
+      "id": "d8e4e7e0488b299938082697",
+      "name": "Red tuna, avocado and cucumber in a sesame coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5eda95930213d97b30d5195e",
+    "name": "Choose Photomaki",
+    "type": "multi_choice",
+    "default_value": "094d5fdef6bf0e257c09a2f4",
+    "values": [
+     {
+      "id": "094d5fdef6bf0e257c09a2f4",
+      "name": "Potomaki salmon, avocado and cucumber",
+      "price": 0
+     },
+     {
+      "id": "962130271b9a3bef245d8524",
+      "name": "Potomaki Shitaki, hemp, avocado, cucumber and scallions",
+      "price": 0
+     },
+     {
+      "id": "31e4d1a5d5732f6edfe00d36",
+      "name": "Photomaki with red tuna, cucumber and avocado",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "604e7bfec0bffb172c8e48e4",
+    "name": "Free sauces of choice",
+    "type": "multi_choice",
+    "default_value": "0162c3728c96271d7075ae00",
+    "values": [
+     {
+      "id": "0162c3728c96271d7075ae00",
+      "name": "soya",
+      "price": 0
+     },
+     {
+      "id": "0a2eaab9d7758c2ea2919d31",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "ac6c2d988be071fc6ba3c7a8",
+      "name": "Homemade spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "f67ff26133f6e3a2daea31e2",
+      "name": "Wasabi",
+      "price": 0
+     },
+     {
+      "id": "3ce382e26df497ba80166beb",
+      "name": "Ginger",
+      "price": 0
+     },
+     {
+      "id": "8f39614a5d2e4a7e90254874",
+      "name": "Low sodium soy",
+      "price": 0
+     },
+     {
+      "id": "a07bac5221dd6db7f5ac5d39",
+      "name": "Gluten-free soy",
+      "price": 0
+     },
+     {
+      "id": "d23b26fe9076bcbd0f2a6a53",
+      "name": "No sauces",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63225300299ee4d1f109ed6d",
+    "name": "Roll I/O",
+    "type": "multi_choice",
+    "default_value": "2e637a636b0d0a392569b820",
+    "values": [
+     {
+      "id": "2e637a636b0d0a392569b820",
+      "name": "Shrimp, avocado and Philadelphia in sesame coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "67d71a959b6b15fa2d49989c",
+    "name": "Choose a fish for maki",
+    "type": "multi_choice",
+    "default_value": "154d2782ccce6d85ba6d18ca",
+    "values": [
+     {
+      "id": "154d2782ccce6d85ba6d18ca",
+      "name": "salmon",
+      "price": 0
+     },
+     {
+      "id": "b368e3928c2dbd75418af2f3",
+      "name": "Red tuna",
+      "price": 0
+     },
+     {
+      "id": "91e0218d7574363b81a338e2",
+      "name": "Spicy salmon",
+      "price": 0
+     },
+     {
+      "id": "0f51df1181ab1a6ea22b2dc6",
+      "name": "Spicy tuna",
+      "price": 0
+     },
+     {
+      "id": "49dc659b7fad7ea02245a843",
+      "name": "Salmon fried in tempura",
+      "price": 0
+     },
+     {
+      "id": "4200eff5cc90315c12a1f546",
+      "name": "Shrimp",
+      "price": 0
+     },
+     {
+      "id": "d369b463ea6eb8f33106f568",
+      "name": "Smoked Salmon",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "680f48795255d901cc3f80e2",
+    "name": "Choose 3 vegetables for vegetarian I/O sushi",
+    "type": "multi_choice",
+    "default_value": "e851911ccd1d122714b0ec98",
+    "values": [
+     {
+      "id": "e851911ccd1d122714b0ec98",
+      "name": "cucumber",
+      "price": 0
+     },
+     {
+      "id": "11e0d9d72be2d6835ebcdd3a",
+      "name": "His wings",
+      "price": 0
+     },
+     {
+      "id": "73365a15bb57593d7431d777",
+      "name": "Shitaki",
+      "price": 0
+     },
+     {
+      "id": "6bb38e2ecee308edc27a011e",
+      "name": "Carrot",
+      "price": 0
+     },
+     {
+      "id": "7c3d0832bc6a7bf9bdb7639b",
+      "name": "sweet potato",
+      "price": 0
+     },
+     {
+      "id": "ec3adee63dd4aa540afee34e",
+      "name": "Avocado",
+      "price": 0
+     },
+     {
+      "id": "bc8bc05af9f68fa8533d1aa7",
+      "name": "Green onions",
+      "price": 0
+     },
+     {
+      "id": "9e08100ed0d54f049c817b4c",
+      "name": "Oshinko",
+      "price": 0
+     },
+     {
+      "id": "9f27799457bcbc4dd994efd0",
+      "name": "Philadelphia cheese",
+      "price": 0
+     },
+     {
+      "id": "cfcead3e68fe7541b7233ed4",
+      "name": "ללא תוספת",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "6cd536ebb16172be41a8bf01",
+    "name": "I / O",
+    "type": "multi_choice",
+    "default_value": "c78fefc58d45452995dfd323",
+    "values": [
+     {
+      "id": "c78fefc58d45452995dfd323",
+      "name": "Salmon and avocado with spicy coating, teriyaki and sweet potato chips",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "7c6d58781274f3cf6ef0a693",
+    "name": "I / O",
+    "type": "multi_choice",
+    "default_value": "fea8b908f003f8a68ad2119f",
+    "values": [
+     {
+      "id": "fea8b908f003f8a68ad2119f",
+      "name": "Salmon, avocado and cucumber topped with red tobiko",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "86a0189d1d1769695574167b",
+    "name": "Paid sauces",
+    "type": "multi_choice",
+    "default_value": "7d39dacbd5b47426ea5ffa8f",
+    "values": [
+     {
+      "id": "7d39dacbd5b47426ea5ffa8f",
+      "name": "Spicy homemade mayonnaise foca",
+      "price": 300
+     },
+     {
+      "id": "633747936881ce5d78ef7276",
+      "name": "Soybean Fuka",
+      "price": 300
+     },
+     {
+      "id": "bed4f90742a2ffd0d0db0498",
+      "name": "Teriyaki Fuka",
+      "price": 300
+     },
+     {
+      "id": "22f644f3a360e85866e2371c",
+      "name": "Wasabi Fuka",
+      "price": 300
+     },
+     {
+      "id": "3e8988f7be7dfdbc4bf17079",
+      "name": "Ginger Puka",
+      "price": 300
+     },
+     {
+      "id": "92903f3e0098a66278bb528d",
+      "name": "Low-sodium soy sauce",
+      "price": 300
+     },
+     {
+      "id": "aa79d330720d654aaf055ab1",
+      "name": "Gluten-free soy Pukka",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "87b4c4df2a64f3c648996a25",
+    "name": "Roll I/O",
+    "type": "multi_choice",
+    "default_value": "5174399cdad00bf2694a5c68",
+    "values": [
+     {
+      "id": "5174399cdad00bf2694a5c68",
+      "name": "Sweet potato, avocado and Philadelphia with sesame coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "8883bf190a3ee44768c5b96a",
+    "name": "Choose 3 vegetarian rolls for a couple",
+    "type": "multi_choice",
+    "default_value": "2dbb964ec930eb6dfdec5db7",
+    "values": [
+     {
+      "id": "2dbb964ec930eb6dfdec5db7",
+      "name": "Avocado and cucumber in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "4540ba316d8379c091b2c05e",
+      "name": "Avocado and cucumber with spicy coating, teriyaki and sweet potato chips",
+      "price": 0
+     },
+     {
+      "id": "6c68dc1f7c81e5b7d40eef45",
+      "name": "Sweet potato and avocado with sesame coating",
+      "price": 0
+     },
+     {
+      "id": "13d26ed5a4334c33ef4c8851",
+      "name": "Sweet potato, shiitake and cucumber coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "e7060b9922d9d8b636942f3a",
+      "name": "Sweet potato, avocado and Philadelphia with sesame coating",
+      "price": 0
+     },
+     {
+      "id": "d4609945b6292bffd5475df1",
+      "name": "Carrot, cucumber and avocado coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "e571133f787898331d2d8f15",
+      "name": "Carrot, cucumber and Philadelphia coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "791a3f500e57f92438076473",
+      "name": "Shiitake, avocado and cucumber in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "2d78ff9b6958c3e7913d9534",
+      "name": "Kanpyo, shiitake and avocado topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "e6779b3bf8a36e834227e26d",
+      "name": "Canpio, oshinko and avocado coated with sesame",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "88e3428833feef704eda15d5",
+    "name": "Choose 2 rolls with a special coating",
+    "type": "multi_choice",
+    "default_value": "80c035cb937355ad6b9df3b9",
+    "values": [
+     {
+      "id": "80c035cb937355ad6b9df3b9",
+      "name": "Salmon and avocado topped with salmon",
+      "price": 0
+     },
+     {
+      "id": "e4317d12aecd6157dce23314",
+      "name": "Avocado and Philadelphia topped with salmon",
+      "price": 0
+     },
+     {
+      "id": "5837c8e2f8d19f6afb8958ed",
+      "name": "Salmon, avocado and cucumber topped with green tobiko",
+      "price": 0
+     },
+     {
+      "id": "3de7d4d10abd5313e7413856",
+      "name": "Tempura-fried salmon, avocado and cucumber topped with green tobiko",
+      "price": 0
+     },
+     {
+      "id": "372f1080ee748c1b13c74546",
+      "name": "Shrimp, avocado and cucumber topped with green tobiko",
+      "price": 0
+     },
+     {
+      "id": "385513082ebab7bb9a9b8db1",
+      "name": "Salmon, avocado and cucumber topped with red tobiko",
+      "price": 0
+     },
+     {
+      "id": "b577cce42d74dd47d7bfc739",
+      "name": "Tempura-fried salmon, avocado and cucumber topped with red tobiko",
+      "price": 0
+     },
+     {
+      "id": "c2b3df71ad2bcb8ff41df5a3",
+      "name": "Salmon and avocado with spicy coating, teriyaki and sweet potato chips",
+      "price": 0
+     },
+     {
+      "id": "790ec2b0d2ee15b00987885a",
+      "name": "Avocado and cucumber with spicy coating, teriyaki and sweet potato chips",
+      "price": 0
+     },
+     {
+      "id": "cea4209651c5354aa4a8f0b1",
+      "name": "Smoked salmon, cucumber and Philadelphia sushi topped with red tobiko",
+      "price": 0
+     },
+     {
+      "id": "1eb77540b2608121ddce968f",
+      "name": "Red tuna, cucumber and avocado sushi topped with green tobiko",
+      "price": 0
+     },
+     {
+      "id": "03ff4f8af670842dfe94575c",
+      "name": "Shrimp, Philadelphia and avocado sushi topped with red tobiko",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "8a7ef4653220f3d86b156306",
+    "name": "Choose 2 maki",
+    "type": "multi_choice",
+    "default_value": "1d87d0e925e6553f01f90508",
+    "values": [
+     {
+      "id": "1d87d0e925e6553f01f90508",
+      "name": "Avocado maki",
+      "price": 0
+     },
+     {
+      "id": "0b894fc14dd2ba79ea611e1a",
+      "name": "Mackie Cucumber",
+      "price": 0
+     },
+     {
+      "id": "7dd740dac392b76a0140ee9a",
+      "name": "Sweet potato maki",
+      "price": 0
+     },
+     {
+      "id": "b9de19d1519496b076fe361c",
+      "name": "Mackie Salmon",
+      "price": 0
+     },
+     {
+      "id": "fffa8af76321234dcefb762a",
+      "name": "Spicy tuna and green onion maki",
+      "price": 0
+     },
+     {
+      "id": "c729462a70c02b379971ff9c",
+      "name": "Spicy Maki Salmon and Green Onion",
+      "price": 0
+     },
+     {
+      "id": "68434047b4415b3f90d12fce",
+      "name": "Maki salmon fried in tempura",
+      "price": 0
+     },
+     {
+      "id": "f8401bd907fead64abbc7d36",
+      "name": "Smoked salmon maki",
+      "price": 0
+     },
+     {
+      "id": "6f1bfd365a745991b51cd38a",
+      "name": "Salmon and avocado maki",
+      "price": 0
+     },
+     {
+      "id": "45225022705ac795c3891942",
+      "name": "Maki red tuna",
+      "price": 0
+     },
+     {
+      "id": "cc7bd90501be18b14344ae3e",
+      "name": "Smoked salmon and avocado maki",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "8c59cae0c8bef1306db4f12c",
+    "name": "Choose 3 vegetables",
+    "type": "multi_choice",
+    "default_value": "705280804978c2ee32870c6b",
+    "values": [
+     {
+      "id": "705280804978c2ee32870c6b",
+      "name": "Avocado",
+      "price": 0
+     },
+     {
+      "id": "2b4f6fd6bc2b0bcfd8f0106c",
+      "name": "Philadelphia cheese",
+      "price": 0
+     },
+     {
+      "id": "035ac1c44aa1f145eda6acd9",
+      "name": "sweet potato",
+      "price": 0
+     },
+     {
+      "id": "3469587d20dbf1af744c03ba",
+      "name": "Green onions",
+      "price": 0
+     },
+     {
+      "id": "eaf50bca7b4f546a4b929c37",
+      "name": "His wings",
+      "price": 0
+     },
+     {
+      "id": "449964bb1f92cae71ae92898",
+      "name": "Shitaki",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "9c047c237d22310b0ab7a3bb",
+    "name": "I / O",
+    "type": "multi_choice",
+    "default_value": "d4e3b0a8897bc3f5ebbe5276",
+    "values": [
+     {
+      "id": "d4e3b0a8897bc3f5ebbe5276",
+      "name": "Avocado and cucumber with spicy coating, teriyaki and sweet potato chips",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "a43625466531fef7aef0e4c1",
+    "name": "Choose 2 I/O rollers",
+    "type": "multi_choice",
+    "default_value": "057fc721605d11223fb1e225",
+    "values": [
+     {
+      "id": "057fc721605d11223fb1e225",
+      "name": "Salmon and avocado in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "606091764fc8665886a2b8a8",
+      "name": "Salmon and Philadelphia cheese in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "4a7ada1baeff1c88a8f0a8be",
+      "name": "Salmon and shiitake coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "c02d023caf7503a26b5bbc92",
+      "name": "Salmon and sweet potato topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "74ca0da0d1abf4312869995a",
+      "name": "Salmon and cucumber coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "68cef9dd7b8f2bda4f5a2546",
+      "name": "Salmon, carrots and green onions topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "2ac0adb1a054f82e9f54160a",
+      "name": "Fried salmon and avocado topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "71fc34a11bc1a320d143de11",
+      "name": "Fried salmon and shiitake mushrooms topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "772b985a888c3e4bbfc0b3a8",
+      "name": "Fried salmon and cucumber topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "109004f92a2bfade87cc02d8",
+      "name": "Smoked salmon and sesame coated Philadelphia",
+      "price": 0
+     },
+     {
+      "id": "6c4567dd84bbcbc6989bbd36",
+      "name": "Smoked salmon, cucumber and Philadelphia in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "ebd51f4c0f01562c1a725ed7",
+      "name": "Spicy salmon, avocado and green onions in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "058b2cc3f408b1c06d093092",
+      "name": "Shrimp, avocado and Philadelphia in sesame coating",
+      "price": 0
+     },
+     {
+      "id": "069a9997b1a9fe5a8f69b762",
+      "name": "Red tuna, cucumber and avocado in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "62aaf1243185a652c980d09f",
+      "name": "Red tuna, shiitake and kenapyo coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "36eda005f57381dd3c525ef7",
+      "name": "Spicy tuna, cucumber and green onion topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "979838a7d9e864331c08b103",
+      "name": "Avocado and cucumber in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "cd1683d5f144ff8366813963",
+      "name": "Fried sweet potato in tempura, shiitake and cucumber coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "d2b5e29d292bc6a70b99bd84",
+      "name": "Fried sweet potato in tempura, avocado and Philadelphia with sesame coating",
+      "price": 0
+     },
+     {
+      "id": "e6370465ea9d853904ef7162",
+      "name": "Carrot, cucumber and avocado coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "f5b77440af4ea02e3fb1756a",
+      "name": "Carrot, cucumber and Philadelphia coated with sesame",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "aa2d7276cdb44ffcba4261ce",
+    "name": "Would you like sweet and sour sauce?",
+    "type": "multi_choice",
+    "default_value": "321f487236e8afeb8a032133",
+    "values": [
+     {
+      "id": "321f487236e8afeb8a032133",
+      "name": "Sweet and sour sauce",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "aa40c22d1a839921452799eb",
+    "name": "Choice of sauces for a fee",
+    "type": "multi_choice",
+    "default_value": "86315dd24955c546546cf2cd",
+    "values": [
+     {
+      "id": "4f18e57b5854474bfdb73204",
+      "name": "Ginger",
+      "price": 300
+     },
+     {
+      "id": "253434ba5dd643c86ebd6fcb",
+      "name": "Wasabi",
+      "price": 300
+     },
+     {
+      "id": "1c7ebabad37e6477b4edaf14",
+      "name": "Teriyaki",
+      "price": 300
+     },
+     {
+      "id": "0e9b0cde97048eaaecd35ba3",
+      "name": "soya",
+      "price": 300
+     },
+     {
+      "id": "c59ffcb5067f0ba6e84f9fde",
+      "name": "Low sodium soy",
+      "price": 300
+     },
+     {
+      "id": "889556eca2dca6183e3045a6",
+      "name": "Gluten-free soy",
+      "price": 300
+     },
+     {
+      "id": "c1456479f4dc7f215a14b04f",
+      "name": "Homemade spicy mayonnaise",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "af2272a35d2dfe1e4852ff33",
+    "name": "Roll I/O",
+    "type": "multi_choice",
+    "default_value": "a7f0b9fc02db0c09501af541",
+    "values": [
+     {
+      "id": "a7f0b9fc02db0c09501af541",
+      "name": "Salmon and avocado in a sesame coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "b49c5501365283690010b459",
+    "name": "Choose 2 fried rolls",
+    "type": "multi_choice",
+    "default_value": "4c99792701f37c483e9eab60",
+    "values": [
+     {
+      "id": "4c99792701f37c483e9eab60",
+      "name": "Fried sushi with salmon and avocado",
+      "price": 0
+     },
+     {
+      "id": "0003e9299c786659cba215c4",
+      "name": "Fried sushi with salmon, avocado and Philadelphia",
+      "price": 0
+     },
+     {
+      "id": "b484a1b63288176b579379ac",
+      "name": "Fried sushi with salmon, avocado and sweet potato",
+      "price": 0
+     },
+     {
+      "id": "5377cf59802aede8bbdf91ce",
+      "name": "Fried sushi with salmon, avocado and green onions",
+      "price": 0
+     },
+     {
+      "id": "4d94ac0a9c0795d452cdcfce",
+      "name": "Fried sushi with salmon and Philadelphia",
+      "price": 0
+     },
+     {
+      "id": "fbffa3ebd4292c8240df4528",
+      "name": "Fried sushi with fried salmon, avocado and sweet potato",
+      "price": 0
+     },
+     {
+      "id": "a9743491172cc883858e9e4f",
+      "name": "Fried sushi with fried salmon and avocado",
+      "price": 0
+     },
+     {
+      "id": "4cb21a078f2df984973003c3",
+      "name": "Fried sushi with fried salmon, avocado and green onions",
+      "price": 0
+     },
+     {
+      "id": "0a169d20aff0fbff3da3c144",
+      "name": "Fried sushi with shrimp, avocado and Philadelphia",
+      "price": 0
+     },
+     {
+      "id": "9f555dc00cdf530dc24e2363",
+      "name": "Fried sushi with avocado, Philadelphia and shiitake",
+      "price": 0
+     },
+     {
+      "id": "20fffb717f2089c5086c71fd",
+      "name": "Fried sushi with avocado, sweet potato and Philadelphia",
+      "price": 0
+     },
+     {
+      "id": "71efb521c35c7c789212b303",
+      "name": "Fried sushi with avocado, sweet potato and green onions",
+      "price": 0
+     },
+     {
+      "id": "6b8a5c9ae680703f89de3a5d",
+      "name": "Fried sushi with avocado, Philadelphia and green onions",
+      "price": 0
+     },
+     {
+      "id": "a4eace514187e6ebf0fedc9b",
+      "name": "Fried sushi with avocado, sweet potato and shiitake",
+      "price": 0
+     },
+     {
+      "id": "5ea4e8c80b09246e92be19be",
+      "name": "Fried sushi with fried salmon, avocado and Philadelphia",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "b56361e6e4cf389fb7c9a0af",
+    "name": "Choose fish for sushi I/O Fried fish",
+    "type": "multi_choice",
+    "default_value": "944850bc54dcf400d5fe5f58",
+    "values": [
+     {
+      "id": "944850bc54dcf400d5fe5f58",
+      "name": "salmon",
+      "price": 0
+     },
+     {
+      "id": "c380d18b5a43621103be8155",
+      "name": "Salmon fried in tempura",
+      "price": 0
+     },
+     {
+      "id": "ddcda8154faa1e636d9327a6",
+      "name": "Red tuna",
+      "price": 0
+     },
+     {
+      "id": "7efbf70d41e66fe1383632ba",
+      "name": "Shrimp",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "bda6ad3ca3a1fd447ab6e667",
+    "name": "Would you like an appetizer too?",
+    "type": "multi_choice",
+    "default_value": "1480ce3d93c045ed57077440",
+    "values": [
+     {
+      "id": "815e9bed206af7e8bef5f4b5",
+      "name": "Salmon sashimi",
+      "price": 5500
+     }
+    ]
+   },
+   {
+    "id": "bf6c2e9112d501d25c31364e",
+    "name": "Photomaki",
+    "type": "multi_choice",
+    "default_value": "d8565527a236db673e0c6969",
+    "values": [
+     {
+      "id": "d8565527a236db673e0c6969",
+      "name": "Potomaki salmon, avocado and cucumber",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "c2922e8c7870bd46903dc83c",
+    "name": "Choice of sauces for a fee",
+    "type": "multi_choice",
+    "default_value": "cae0fa095b3a74404db9cadc",
+    "values": [
+     {
+      "id": "912c3445421d59e93ba32770",
+      "name": "Ginger",
+      "price": 300
+     },
+     {
+      "id": "a1c58bac3356ac57932a56eb",
+      "name": "Wasabi",
+      "price": 300
+     },
+     {
+      "id": "1c386a0aae16f14d9c126e04",
+      "name": "Teriyaki",
+      "price": 300
+     },
+     {
+      "id": "67c0395e91d84f676432bf6e",
+      "name": "soya",
+      "price": 300
+     },
+     {
+      "id": "03550538a3a3fb038061d23d",
+      "name": "Low sodium soy",
+      "price": 300
+     },
+     {
+      "id": "5b84630718ac70fbdc6efc50",
+      "name": "Gluten-free soy",
+      "price": 300
+     },
+     {
+      "id": "25617cc95b854be497c89990",
+      "name": "Homemade spicy mayonnaise",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "cf30b3896f7d13d207a1dee6",
+    "name": "Gunkan",
+    "type": "multi_choice",
+    "default_value": "358df17d83d689dff63afdb2",
+    "values": [
+     {
+      "id": "358df17d83d689dff63afdb2",
+      "name": "Gunkan Spicy Salmon Platter",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "d3424836528881bf83bc1e6c",
+    "name": "Choose 2 vegetables",
+    "type": "multi_choice",
+    "default_value": "a71cac999a1a81a5e490fabe",
+    "values": [
+     {
+      "id": "a71cac999a1a81a5e490fabe",
+      "name": "cucumber",
+      "price": 0
+     },
+     {
+      "id": "11a340ce1de267f65e829af9",
+      "name": "His wings",
+      "price": 0
+     },
+     {
+      "id": "3033a452222167a39be6138c",
+      "name": "Shitaki",
+      "price": 0
+     },
+     {
+      "id": "5daa6f5d214b9688e5771ff7",
+      "name": "Carrot",
+      "price": 0
+     },
+     {
+      "id": "76b7092de58a5bdb992bb754",
+      "name": "sweet potato",
+      "price": 0
+     },
+     {
+      "id": "cb7ea82f9e9c2a01b1871251",
+      "name": "Avocado",
+      "price": 0
+     },
+     {
+      "id": "166aef7b6fef7c53972bb319",
+      "name": "Green onions",
+      "price": 0
+     },
+     {
+      "id": "800159b1fc213657166dda7d",
+      "name": "Oshinko",
+      "price": 0
+     },
+     {
+      "id": "fdfd0a6eb2385fd4a13f0be4",
+      "name": "Philadelphia cheese",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "d8ed20fb28332e25ab59f789",
+    "name": "Roll I/O",
+    "type": "multi_choice",
+    "default_value": "a248251ca124cd0f4a57446b",
+    "values": [
+     {
+      "id": "a248251ca124cd0f4a57446b",
+      "name": "Salmon and Philadelphia cheese in a sesame coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "de3cb3eb3c252e1935bbc11c",
+    "name": "Choose fish for sushi I/O fish",
+    "type": "multi_choice",
+    "default_value": "47f6fea2ff868d3bcc5eca17",
+    "values": [
+     {
+      "id": "47f6fea2ff868d3bcc5eca17",
+      "name": "salmon",
+      "price": 0
+     },
+     {
+      "id": "cd727ae56752a8daf3e034cf",
+      "name": "Red tuna",
+      "price": 0
+     },
+     {
+      "id": "93cf37c135d435e7b4ecfdfb",
+      "name": "Spicy salmon",
+      "price": 0
+     },
+     {
+      "id": "fd35deab39cf42b9945e115f",
+      "name": "Spicy tuna",
+      "price": 0
+     },
+     {
+      "id": "7828322d907199895bc1b7f3",
+      "name": "Salmon fried in tempura",
+      "price": 0
+     },
+     {
+      "id": "e330f3309aea2320a090afb5",
+      "name": "Shrimp",
+      "price": 0
+     },
+     {
+      "id": "78da4626aa40abbbafa346f0",
+      "name": "Smoked Salmon",
+      "price": 0
+     },
+     {
+      "id": "71230e4d2c67e77da90c9cfc",
+      "name": "סלמון אפוי בטריאקי",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "de7ab615c39c079d15368169",
+    "name": "Maki",
+    "type": "multi_choice",
+    "default_value": "a35085cd572f0c3c31edc786",
+    "values": [
+     {
+      "id": "a35085cd572f0c3c31edc786",
+      "name": "Avocado maki",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "dea5ca956d1813368819ee20",
+    "name": "Photomaki",
+    "type": "multi_choice",
+    "default_value": "befd8e4ab07de259dcbecc22",
+    "values": [
+     {
+      "id": "befd8e4ab07de259dcbecc22",
+      "name": "Potomaki Shitaki, hemp, avocado, cucumber and scallions",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "f758e68256f8ccedd7ec85e6",
+    "name": "Choose paid sauces",
+    "type": "multi_choice",
+    "default_value": "9e096f98386d3f404ed1a955",
+    "values": [
+     {
+      "id": "449ab23eb7ab12017b2cc039",
+      "name": "Ginger",
+      "price": 300
+     },
+     {
+      "id": "521e526c9103ef153f12b714",
+      "name": "Wasabi",
+      "price": 300
+     },
+     {
+      "id": "29d95180f4c87cb2019b0c01",
+      "name": "Teriyaki",
+      "price": 300
+     },
+     {
+      "id": "83d20a14d31682b96cae99cf",
+      "name": "soya",
+      "price": 300
+     },
+     {
+      "id": "8d28de5d1a07e62a3c29eee3",
+      "name": "Low sodium soy",
+      "price": 300
+     },
+     {
+      "id": "3d29277a2def8b859ba28b9d",
+      "name": "Gluten-free soy",
+      "price": 300
+     },
+     {
+      "id": "a5710ca45ead02af5ceb82b0",
+      "name": "Homemade spicy mayonnaise",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "f806ec8ac40eb50a8e3384f2",
+    "name": "Free sauces of choice",
+    "type": "multi_choice",
+    "default_value": "fd04819ae681a36041f0efd6",
+    "values": [
+     {
+      "id": "fd04819ae681a36041f0efd6",
+      "name": "soya",
+      "price": 0
+     },
+     {
+      "id": "a7840f9f2c4d2bb97b4af95a",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "edbbcf244ea3b8fd05b031f6",
+      "name": "Homemade spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "7d45aec1b55efb9e453240a1",
+      "name": "Wasabi",
+      "price": 0
+     },
+     {
+      "id": "bc4534eb87f8c3750a02355f",
+      "name": "Ginger",
+      "price": 0
+     },
+     {
+      "id": "d9b0fd455143b7d055e433ce",
+      "name": "Low sodium soy",
+      "price": 0
+     },
+     {
+      "id": "e70b98c633bd4f53b7d52f64",
+      "name": "Gluten-free soy",
+      "price": 0
+     },
+     {
+      "id": "43272d552f8c7fc3ec2523c7",
+      "name": "No sauces",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "f9a349c73a2ae03560975ba1",
+    "name": "Choose 3 fish rolls for a couple",
+    "type": "multi_choice",
+    "default_value": "20bf845bc4eb3dbbe0ea2974",
+    "values": [
+     {
+      "id": "20bf845bc4eb3dbbe0ea2974",
+      "name": "Salmon and avocado in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "c2845282c3e3acdd33965aa4",
+      "name": "Salmon and Philadelphia cheese in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "368bcf930316ec495f383f0e",
+      "name": "Salmon and avocado with spicy coating, teriyaki and sweet potato chips",
+      "price": 0
+     },
+     {
+      "id": "37ead06e0c5e64d862a7a309",
+      "name": "Salmon and shiitake coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "e74b87b679e0c0b545ea5036",
+      "name": "Sweet potato fried in tempura, raw salmon in sesame coating",
+      "price": 0
+     },
+     {
+      "id": "4631c56243c81d505a49377f",
+      "name": "Salmon and cucumber coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "1be1873db54c9ee813b5745a",
+      "name": "Salmon, carrots and green onions topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "5ebba6fd82ebf8a4b2c1550f",
+      "name": "Fried salmon and avocado topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "5de8f3cbe730cdb9aede7c83",
+      "name": "Salmon fried in tempura and Philadelphia cheese in sesame coating",
+      "price": 0
+     },
+     {
+      "id": "268b6f3f892fb0ac76ae5883",
+      "name": "Fried salmon and shiitake mushrooms topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "2e1b0940f3d71961497fcaa1",
+      "name": "Fried salmon and cucumber topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "a4ca0726632c1e4387fc42c4",
+      "name": "Smoked salmon and sesame coated Philadelphia",
+      "price": 0
+     },
+     {
+      "id": "8399947576b005371221ef8a",
+      "name": "Smoked salmon, cucumber and Philadelphia in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "9e9ea2c1577754dcfa04e597",
+      "name": "Spicy salmon, avocado and green onions in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "c09531e40dc8154e296395eb",
+      "name": "Shrimp, avocado and Philadelphia in sesame coating",
+      "price": 0
+     },
+     {
+      "id": "c8c1dde358d076d5f20fed1f",
+      "name": "Red tuna, cucumber and avocado in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "0c4b2fb30fd30837610698fa",
+      "name": "Red tuna, shiitake and kenapyo coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "ad7dda1ee38b0debda36f7fa",
+      "name": "Red tuna, carrot and green onion coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "615d78e726086eca6c4e720c",
+      "name": "Spicy tuna, cucumber and green onion topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "2fe72b0dd6df239a3eb4ca6b",
+      "name": "Avocado and cucumber in a sesame coating",
+      "price": 0
+     },
+     {
+      "id": "576ff56ecb607819f0fbf74c",
+      "name": "Avocado and cucumber with spicy coating, teriyaki and sweet potato chips",
+      "price": 0
+     },
+     {
+      "id": "412d7cdcb0ce94b086ee0d5a",
+      "name": "Fried sweet potato in tempura, shiitake and cucumber coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "0cd71621b83f7792629f8b46",
+      "name": "Fried sweet potato in tempura, avocado and Philadelphia with sesame coating",
+      "price": 0
+     },
+     {
+      "id": "35214e4ba6ceb44d3de3b9d1",
+      "name": "Carrot, cucumber and avocado coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "34628ba76fb243b32a5d1b54",
+      "name": "Carrot, cucumber and Philadelphia coated with sesame",
+      "price": 0
+     },
+     {
+      "id": "48594fd0db2b2a7794038a7d",
+      "name": "Smoked salmon, avocado and cucumber sushi topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "66fe0cd6dc3f8f1198fd2bb3",
+      "name": "Smoked salmon sushi, green onion and avocado topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "21c4df3e6f74011b46423573",
+      "name": "Shrimp, avocado and cucumber sushi topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "4d522324bb33f1170cbbef81",
+      "name": "Shrimp, green onion and avocado sushi topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "2015b33c52dda4b2f2933346",
+      "name": "Red tuna and avocado sushi topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "bf35f3f17e82cedf608d3e28",
+      "name": "Shrimp, cucumber and Philadelphia sushi topped with sesame seeds",
+      "price": 0
+     },
+     {
+      "id": "849f5495f77f5f7c62122cfa",
+      "name": "Red tuna and sweet potato sushi topped with sesame seeds",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "f9e7f2db0a809dfb60911b8e",
+    "name": "Additional rice for a fee",
+    "type": "multi_choice",
+    "default_value": "e3fd10ec7540a2e42d1a4b7f",
+    "values": [
+     {
+      "id": "e3fd10ec7540a2e42d1a4b7f",
+      "name": "Rice",
+      "price": 500
+     }
+    ]
+   },
+   {
+    "id": "fb9a3c08eb60bd47b66aa20b",
+    "name": "Choose a vegetable for maki",
+    "type": "multi_choice",
+    "default_value": "a4d57fba1d7dcffdcd8dcced",
+    "values": [
+     {
+      "id": "a4d57fba1d7dcffdcd8dcced",
+      "name": "cucumber",
+      "price": 0
+     },
+     {
+      "id": "2f15a598aa934d0e3549a953",
+      "name": "His wings",
+      "price": 0
+     },
+     {
+      "id": "209d921fdd50a44ba5573fec",
+      "name": "Shitaki",
+      "price": 0
+     },
+     {
+      "id": "a5caeb17cb03d6a08100f17f",
+      "name": "Carrot",
+      "price": 0
+     },
+     {
+      "id": "f2aec128ba3ace513419540a",
+      "name": "sweet potato",
+      "price": 0
+     },
+     {
+      "id": "ab94108588b4b4654cf728f8",
+      "name": "Avocado",
+      "price": 0
+     },
+     {
+      "id": "1cc54131ce5b2688ac3cae05",
+      "name": "Oshinko",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "fe2c80fc1eaec6d62a87cf9f",
+    "name": "Roll I/O",
+    "type": "multi_choice",
+    "default_value": "204c716852cb5063e88dde2e",
+    "values": [
+     {
+      "id": "204c716852cb5063e88dde2e",
+      "name": "Shiitake, avocado and cucumber in a sesame coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "fe301a2dc1c0bb290184a1c8",
+    "name": "I / O",
+    "type": "multi_choice",
+    "default_value": "e950933e4e899a85a9a5152c",
+    "values": [
+     {
+      "id": "e950933e4e899a85a9a5152c",
+      "name": "Avocado and Philadelphia topped with salmon",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "ff2b29e349c15f2d7a55a196",
+    "name": "Free sauces of choice",
+    "type": "multi_choice",
+    "default_value": "520a6cc316f81ac7805f701e",
+    "values": [
+     {
+      "id": "520a6cc316f81ac7805f701e",
+      "name": "Spicy homemade mayonnaise foca",
+      "price": 0
+     },
+     {
+      "id": "7e0108538d8220dca6a85f67",
+      "name": "Soybean Fuka",
+      "price": 0
+     },
+     {
+      "id": "d0f7685fb00d5540bb6df289",
+      "name": "Teriyaki Fuka",
+      "price": 0
+     },
+     {
+      "id": "5c4dafe7328c531d0f2c614a",
+      "name": "Wasabi Fuka",
+      "price": 0
+     },
+     {
+      "id": "c9afbfa079c9c39c38ff843d",
+      "name": "Ginger Puka",
+      "price": 0
+     },
+     {
+      "id": "64881ccaca12fc9051b12a46",
+      "name": "Low-sodium soy sauce",
+      "price": 0
+     },
+     {
+      "id": "9ab5922b70f5cd1adaddfd38",
+      "name": "Gluten-free soy Pukka",
+      "price": 0
+     },
+     {
+      "id": "6cdae00d7da1f1d35957f118",
+      "name": "No sauces, focaccia",
+      "price": 0
+     }
+    ]
+   }
+  ]
+ }
+}
