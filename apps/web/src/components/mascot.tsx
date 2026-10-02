@@ -5,16 +5,17 @@ import { useReducedMotion } from '@/lib/prefs';
 
 export type MascotState = 'idle' | 'happy' | 'sniffing' | 'sleeping' | 'eating' | 'sad';
 
-// Remember which PNGs are missing so we don't flash a broken image on every mount.
+// Remember which art files are missing so we don't flash a broken image on every mount.
 const missing = new Set<string>();
 
+// Gentle whole-body motion only; expression (blink, scan, standby pulse) is animated inside the SVG art.
 const MOTION: Record<MascotState, TargetAndTransition> = {
-  idle: { y: [0, -3, 0], rotate: [0, -2, 0, 1.5, 0], transition: { duration: 4.2, repeat: Infinity, ease: 'easeInOut' } },
-  happy: { y: [0, -10, 0, -5, 0], rotate: [0, -4, 3, 0], transition: { duration: 1.1, repeat: Infinity, repeatDelay: 0.9, ease: 'easeOut' } },
-  sniffing: { x: [0, -3, 3, -2, 2, 0], rotate: [0, -3, 3, 0], transition: { duration: 0.9, repeat: Infinity, ease: 'easeInOut' } },
-  sleeping: { scale: [1, 1.025, 1], y: [0, 1, 0], transition: { duration: 3.6, repeat: Infinity, ease: 'easeInOut' } },
-  eating: { y: [0, 2, 0, 2, 0], rotate: [0, 1.5, -1.5, 0], transition: { duration: 0.7, repeat: Infinity, ease: 'easeInOut' } },
-  sad: { rotate: [-3, -5, -3], y: [2, 3, 2], transition: { duration: 4, repeat: Infinity, ease: 'easeInOut' } },
+  idle: { y: [0, -2, 0], transition: { duration: 4.2, repeat: Infinity, ease: 'easeInOut' } },
+  happy: { y: [0, -6, 0, -3, 0], transition: { duration: 1.1, repeat: Infinity, repeatDelay: 1.1, ease: 'easeOut' } },
+  sniffing: { x: [0, -2, 2, 0], transition: { duration: 1.2, repeat: Infinity, ease: 'easeInOut' } },
+  sleeping: { scale: [1, 1.015, 1], transition: { duration: 4, repeat: Infinity, ease: 'easeInOut' } },
+  eating: { y: [0, 2, 0], transition: { duration: 0.7, repeat: Infinity, ease: 'easeInOut' } },
+  sad: { y: [2, 3, 2], transition: { duration: 4, repeat: Infinity, ease: 'easeInOut' } },
 };
 
 export function Mascot({
@@ -32,8 +33,11 @@ export function Mascot({
   still?: boolean;
 }) {
   const reduce = useReducedMotion();
-  const src = `/mascot/${state}.png`;
-  const [failed, setFailed] = useState(() => missing.has(src));
+  // The .svg carries the visor animation (blink, glint, scan, standby pulse); the .png is its
+  // static first frame, used when motion is reduced or if the SVG can't load.
+  const sources = (reduce ? ['png'] : ['svg', 'png']).map((ext) => `/mascot/${state}.${ext}`);
+  const [, setMissingTick] = useState(0);
+  const src = sources.find((s) => !missing.has(s));
   const animate = reduce || still ? undefined : MOTION[state];
   return (
     <motion.div
@@ -43,8 +47,9 @@ export function Mascot({
       style={{ width: size, height: size, transformOrigin: '50% 85%' }}
       animate={animate}
     >
-      {!failed ? (
+      {src ? (
         <img
+          key={src}
           src={src}
           alt=""
           width={size}
@@ -53,49 +58,13 @@ export function Mascot({
           className="size-full object-contain drop-shadow-[0_8px_14px_rgb(43_26_51_/_0.18)]"
           onError={() => {
             missing.add(src);
-            setFailed(true);
+            setMissingTick((n) => n + 1);
           }}
         />
       ) : (
         <RoboFace state={state} />
       )}
-      {/* the rendered art already carries LED z's; only the vector fallback needs them */}
-      {state === 'sleeping' && !reduce && failed && <Zzz />}
-      {state === 'sniffing' && !reduce && <SniffPuffs />}
     </motion.div>
-  );
-}
-
-function Zzz() {
-  return (
-    <div className="pointer-events-none absolute -right-1 top-0 font-display font-bold text-ink-3" aria-hidden>
-      {[0, 1, 2].map((i) => (
-        <motion.span
-          key={i}
-          className="absolute"
-          style={{ fontSize: 12 + i * 4, right: i * 8, top: -i * 10 }}
-          animate={{ opacity: [0, 1, 0], y: [6, -8], x: [0, 4] }}
-          transition={{ duration: 2.4, repeat: Infinity, delay: i * 0.7, ease: 'easeOut' }}
-        >
-          z
-        </motion.span>
-      ))}
-    </div>
-  );
-}
-
-function SniffPuffs() {
-  return (
-    <div className="pointer-events-none absolute bottom-[22%] left-[-6%]" aria-hidden>
-      {[0, 1, 2].map((i) => (
-        <motion.span
-          key={i}
-          className="absolute block size-2 rounded-full bg-ball shadow-[0_0_6px_var(--ball)] ring-1 ring-ink/15"
-          animate={{ opacity: [0, 0.8, 0], x: [0, -14 - i * 4], y: [0, -4 + i * 4], scale: [0.6, 1.2] }}
-          transition={{ duration: 0.9, repeat: Infinity, delay: i * 0.25 }}
-        />
-      ))}
-    </div>
   );
 }
 

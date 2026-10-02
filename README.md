@@ -174,4 +174,4 @@ npm run typecheck
 
 ## 💛 Credits
 
-Woltie is an original robot dog drawn in code (`assets/scripts/robodog.py`), with six LED-eye expressions; banner food stickers are Microsoft's [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT); wordmark in Fredoka (OFL). Full list in [`CREDITS.md`](CREDITS.md). Not affiliated with Wolt or DoorDash.
+Woltie is an original robot dog drawn in code (`assets/scripts/robodog.py`), with six animated LED-visor expressions; banner food stickers are Microsoft's [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT); wordmark in Fredoka (OFL). Full list in [`CREDITS.md`](CREDITS.md). Not affiliated with Wolt or DoorDash.

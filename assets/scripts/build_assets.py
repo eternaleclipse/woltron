@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Build every Woltron visual asset from source.
 
-The mascot is an original robot dog drawn parametrically in `robodog.py`
+The mascot is an original robot K9 drawn parametrically in `robodog.py`
 (pure SVG gradients, no filters, so cairosvg and browsers render it the same).
-Each state swaps the LED eye glyphs, ear pose and props; a simplified head is
-used for the app icon, favicon and tray. Food stickers on the banner are
+Each state swaps the LED eye glyphs, ear pose, jaw and head tilt, and the
+mascot SVGs carry CSS visor animations (blink, glint, scan, standby pulse);
+the PNGs are the static first frame. The head alone is used for the app icon,
+favicon and tray. Food stickers on the banner are
 Microsoft Fluent Emoji (MIT). The wordmark is Fredoka (OFL) converted to
 outlines so every SVG is self-contained.
 
@@ -107,8 +109,10 @@ STATES = robodog.STATES
 
 
 def mascot_svg(state):
+    """Animated mascot SVG (CSS in <style>); cairosvg ignores the animation, so the
+    PNG rendered from the same file is the static first frame."""
     d, body = robodog.robodog(state)
-    return svg_doc(512, 512, body, d)
+    return svg_doc(512, 512, body, robodog.anim_style(state) + d)
 
 
 def icon_head(x, y, size, **kw):
