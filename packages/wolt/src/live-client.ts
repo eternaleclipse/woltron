@@ -2,6 +2,7 @@
  * Live implementation of WoltClient against Wolt's unofficial consumer APIs.
  * Endpoint provenance (verified live vs. inferred) is documented in README.md.
  */
+import { normalizeRefreshToken } from '@woltron/shared';
 import {
   WoltError,
   type BasketLineInput,
@@ -224,7 +225,7 @@ export class LiveWoltClient implements WoltClient {
   }
 
   async connectWithRefreshToken(refreshToken: string): Promise<WoltConnection> {
-    const rt = refreshToken.trim().replace(/^"|"$/g, '');
+    const rt = normalizeRefreshToken(refreshToken);
     if (!rt) throw new WoltError('unauthorized', 'Empty refresh token');
     this.setTokens({ refreshToken: rt });
     await this.auth.refresh();

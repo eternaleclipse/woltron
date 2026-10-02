@@ -16,6 +16,7 @@ import type {
   WoltClient,
   WoltConnection,
 } from '@woltron/shared';
+import { normalizeRefreshToken } from '@woltron/shared';
 import { DEFAULT_LOCATION, VERSION } from './config.js';
 import { describeCron, nextRuns, validateCron, validateTimezone } from './cron.js';
 import type { RunEngine } from './engine.js';
@@ -234,7 +235,7 @@ export function createApp(ctx: AppContext) {
   });
   app.post('/api/wolt/auth/token', async (c) => {
     const b = (await body(c)) as { refreshToken?: unknown };
-    const token = typeof b.refreshToken === 'string' ? b.refreshToken.trim() : '';
+    const token = typeof b.refreshToken === 'string' ? normalizeRefreshToken(b.refreshToken) : '';
     if (!token) throw badRequest('Paste your Wolt refresh token');
     const prev = store.secrets.woltTokens;
     store.updateSecrets({ woltTokens: { refreshToken: token } });
