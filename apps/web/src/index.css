@@ -232,13 +232,14 @@
 
 @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 @keyframes fade-out { from { opacity: 1; } to { opacity: 0; } }
+/* Centering lives in the `translate` property (Tailwind v4 -translate-*), so these only animate offset + scale on top of it. */
 @keyframes sheet-in {
-  from { opacity: 0; transform: translate(-50%, calc(-50% + 24px)) scale(0.96); }
-  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  from { opacity: 0; transform: translateY(24px) scale(0.96); }
+  to { opacity: 1; transform: none; }
 }
 @keyframes sheet-out {
-  from { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-  to { opacity: 0; transform: translate(-50%, calc(-50% + 12px)) scale(0.98); }
+  from { opacity: 1; transform: none; }
+  to { opacity: 0; transform: translateY(12px) scale(0.98); }
 }
 @keyframes pop-in {
   from { opacity: 0; transform: scale(0.94) translateY(-4px); }

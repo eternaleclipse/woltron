@@ -394,7 +394,10 @@ export function mapSearch(pages: Raw[], ctx: Omit<MapContext, 'city'>, known?: M
           if (!m || seenI.has(m.item.id) || m.item.price.amount <= 0) continue;
           seenI.add(m.item.id);
           const full = known?.get(m.venue.id) ?? venues.find((v) => v.id === m.venue.id);
-          items.push({ item: m.item, venue: full ?? m.venue });
+          // Item hits carry no venue open-state. If we have the delivering listing and this venue
+          // isn't in it, it doesn't deliver here right now — don't let item availability claim it's open.
+          const venue = full ?? (known?.size ? { ...m.venue, online: false, delivers: false } : m.venue);
+          items.push({ item: m.item, venue });
         }
       }
     }

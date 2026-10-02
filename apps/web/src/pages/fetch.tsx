@@ -290,6 +290,7 @@ function SuggestionCard({ s, rank, onAdd, onOpen }: { s: FetchSuggestion; rank: 
       </button>
       <div className="flex flex-1 flex-col px-2 pb-1.5 pt-3">
         <div className="flex items-center gap-2 text-[13px] text-ink-3">
+          <OpenBadge online={s.venue.online} />
           <span className="truncate font-semibold text-ink-2">{s.venue.name}</span>
           {s.venue.rating && (
             <span className="inline-flex shrink-0 items-center gap-0.5">
@@ -317,5 +318,19 @@ function SuggestionCard({ s, rank, onAdd, onOpen }: { s: FetchSuggestion; rank: 
         </div>
       </div>
     </Card>
+  );
+}
+
+function OpenBadge({ online }: { online: boolean }) {
+  return (
+    <span
+      className={cn(
+        'inline-flex shrink-0 items-center gap-1.5 rounded-full px-2 py-0.5 text-[11px] font-bold',
+        online ? 'bg-mint-soft text-mint-ink' : 'bg-surface-3 text-ink-3',
+      )}
+    >
+      <span className={cn('size-1.5 rounded-full', online ? 'animate-pulse bg-mint' : 'bg-ink-3')} />
+      {online ? 'Open now' : 'Closed'}
+    </span>
   );
 }
