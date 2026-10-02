@@ -68,5 +68,7 @@ linux:
   desktop:
     entry:
       StartupWMClass: Woltron
+deb:
+  artifactName: woltron_${version}_${arch}.deb
 appImage:
   artifactName: ${productName}-${version}-${arch}.AppImage

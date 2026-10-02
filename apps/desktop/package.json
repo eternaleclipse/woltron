@@ -2,7 +2,7 @@
   "name": "@woltron/desktop",
   "version": "0.1.0",
   "private": true,
-  "description": "Woltron desktop app — your very good food-fetching dog, in the tray.",
+  "description": "Woltron desktop app \u2014 your very good food-fetching dog, in the tray.",
   "author": "Woltron contributors",
   "main": "dist/main.cjs",
   "scripts": {
@@ -20,5 +20,6 @@
     "electron-builder": "^26.15.3",
     "esbuild": "^0.28.2",
     "typescript": "^5.6.0"
-  }
+  },
+  "homepage": "https://github.com/eternaleclipse/woltron"
 }
