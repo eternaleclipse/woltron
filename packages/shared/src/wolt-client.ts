@@ -26,6 +26,9 @@ export interface BasketQuote {
   etaMinutes?: number;
   checkoutUrl?: string; // URL that opens this basket on wolt.com
   warnings: string[];
+  /** Carried so a quote can be re-placed after a restart/confirmation wait. Persist the whole quote object. */
+  venueId?: string;
+  lines?: BasketLineInput[];
 }
 
 export interface PlacedOrder {
