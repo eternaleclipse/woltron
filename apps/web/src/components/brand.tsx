@@ -15,6 +15,7 @@ export function TennisBall({ size = 40, className, spin }: { size?: number; clas
     >
       <circle cx="20" cy="20" r="19" fill="var(--ball)" />
       <circle cx="20" cy="20" r="19" fill="url(#ball-shade)" />
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#2b1a33" strokeOpacity="0.28" strokeWidth="1.2" />
       <path d="M6.5 6.8 C13 12 13 28 6.5 33.2" stroke="#fff" strokeOpacity="0.95" strokeWidth="2.4" fill="none" strokeLinecap="round" />
       <path d="M33.5 6.8 C27 12 27 28 33.5 33.2" stroke="#fff" strokeOpacity="0.95" strokeWidth="2.4" fill="none" strokeLinecap="round" />
       <defs>

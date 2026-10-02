@@ -86,7 +86,7 @@ export const MODE_META: Record<OrderMode, { label: string; short: string; tone: 
   handoff: { label: 'Handoff', short: 'Handoff', tone: 'biscuit', icon: <ExternalLink />, explain: 'Fills your Wolt basket; you tap Pay.' },
 };
 
-export function ModePill({ mode, className, to = '/settings#order-mode' }: { mode: OrderMode; className?: string; to?: string | null }) {
+export function ModePill({ mode, className, to = '/settings#order-mode', short }: { mode: OrderMode; className?: string; to?: string | null; short?: boolean }) {
   const m = MODE_META[mode];
   const inner = (
     <span
@@ -97,7 +97,7 @@ export function ModePill({ mode, className, to = '/settings#order-mode' }: { mod
       )}
     >
       {mode === 'live' ? <span className="pulse-dot size-2 rounded-full bg-white" /> : m.icon}
-      {m.label}
+      {short ? (mode === 'live' ? 'Live order' : m.short) : m.label}
     </span>
   );
   return to ? (

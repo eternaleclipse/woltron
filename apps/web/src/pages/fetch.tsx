@@ -162,8 +162,40 @@ function SniffTicker() {
   );
 }
 
+/** A ball rolling along a paw-print trail while the LLM thinks (real calls take 5–8s). */
+function SniffTrail() {
+  return (
+    <div className="relative mx-auto mb-6 h-10 max-w-2xl" aria-hidden>
+      <div className="absolute inset-x-0 top-1/2 flex -translate-y-1/2 justify-between px-2">
+        {Array.from({ length: 14 }).map((_, i) => (
+          <motion.span
+            key={i}
+            className="text-[13px] text-ink-3"
+            style={{ transform: `rotate(${i % 2 ? 20 : -20}deg) translateY(${i % 2 ? 5 : -5}px)` }}
+            initial={{ opacity: 0.15 }}
+            animate={{ opacity: [0.15, 0.7, 0.15] }}
+            transition={{ duration: 1.6, repeat: Infinity, delay: i * 0.12 }}
+          >
+            🐾
+          </motion.span>
+        ))}
+      </div>
+      <motion.div
+        className="absolute top-0"
+        initial={{ left: '0%', rotate: 0 }}
+        animate={{ left: '92%', rotate: 900 }}
+        transition={{ duration: 9, ease: [0.2, 0.7, 0.3, 1] }}
+      >
+        <TennisBall size={40} />
+      </motion.div>
+    </div>
+  );
+}
+
 function ResultsSkeleton() {
   return (
+    <div>
+    <SniffTrail />
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {Array.from({ length: 6 }).map((_, i) => (
         <Card key={i} className="overflow-hidden p-2" style={{ opacity: 1 - i * 0.12 }}>
@@ -175,6 +207,7 @@ function ResultsSkeleton() {
           </div>
         </Card>
       ))}
+    </div>
     </div>
   );
 }
@@ -271,7 +304,7 @@ function SuggestionCard({ s, rank, onAdd, onOpen }: { s: FetchSuggestion; rank: 
             </span>
           )}
         </div>
-        <h3 className="mt-1 line-clamp-2 font-display text-lg font-bold leading-tight">{s.item.name}</h3>
+        <h3 dir="auto" className="mt-1 line-clamp-2 font-display text-lg font-bold leading-tight">{s.item.name}</h3>
         {/* The dog's reasoning, as a little speech bubble */}
         <p className="relative mt-3 rounded-[14px] rounded-tl-[4px] bg-surface-2 px-3 py-2 text-[13px] leading-snug text-ink-2">{s.reason}</p>
         <div className="mt-auto flex gap-2 pt-3">

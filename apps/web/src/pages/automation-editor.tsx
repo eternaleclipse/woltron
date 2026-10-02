@@ -148,7 +148,7 @@ export function AutomationEditorPage() {
             className="mb-4"
             options={[
               { value: 'preset', label: 'A preset' },
-              { value: 'pack', label: 'A pack (pick one)' },
+              { value: 'pack', label: 'A pack' },
             ]}
           />
           <div className="grid gap-2 sm:grid-cols-2" role="radiogroup" aria-label="Target">
@@ -223,7 +223,7 @@ export function AutomationEditorPage() {
         </Step>
       </div>
 
-      <div className="sticky bottom-20 z-10 mt-6 flex flex-wrap items-center gap-2 rounded-xl border border-line bg-surface/95 p-3 shadow-lg backdrop-blur lg:bottom-6">
+      <div className="sticky bottom-24 z-10 mt-6 flex flex-wrap items-center gap-2 rounded-xl border border-line bg-surface/95 p-3 shadow-lg backdrop-blur lg:bottom-6">
         {!isNew && (
           <Button
             variant="ghost"
@@ -256,8 +256,8 @@ export function AutomationEditorPage() {
               <Play /> Fire now
             </Button>
           )}
-          <Button variant="ball" onClick={onSave} loading={save.isPending} disabled={!dirty && !isNew}>
-            {dirty || isNew ? 'Save automation' : 'Saved'}
+          <Button variant={dirty || isNew ? 'ball' : 'soft'} onClick={onSave} loading={save.isPending} disabled={!dirty && !isNew} className="disabled:opacity-100">
+            {dirty || isNew ? 'Save automation' : <><Check /> Saved</>}
           </Button>
         </div>
       </div>

@@ -374,10 +374,10 @@ function LimitsSection({ settings, update }: { settings: Settings; update: Upd }
     <Section id="limits" title="Spending limits" description="Hard stops for every run, even scheduled ones. If a run would cross a limit, I sit and stay.">
       <div className="grid gap-4 sm:grid-cols-2">
         <Field label="Max per run" htmlFor="lim-run">
-          <MoneyInput id="lim-run" value={settings.limits.maxPerRun} currency={c} onCommit={(m) => update({ limits: { ...settings.limits, maxPerRun: m } }, 'Limit saved')} />
+          <MoneyInput id="lim-run" value={settings.limits.maxPerRun} currency={c} onCommit={(m) => update({ limits: { ...settings.limits, maxPerRun: (m ?? null) as Money | undefined } }, m ? 'Limit saved' : 'Limit removed')} />
         </Field>
         <Field label="Max per day" htmlFor="lim-day">
-          <MoneyInput id="lim-day" value={settings.limits.maxPerDay} currency={c} onCommit={(m) => update({ limits: { ...settings.limits, maxPerDay: m } }, 'Limit saved')} />
+          <MoneyInput id="lim-day" value={settings.limits.maxPerDay} currency={c} onCommit={(m) => update({ limits: { ...settings.limits, maxPerDay: (m ?? null) as Money | undefined } }, m ? 'Limit saved' : 'Limit removed')} />
         </Field>
       </div>
     </Section>

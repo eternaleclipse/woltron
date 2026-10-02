@@ -157,7 +157,7 @@ function RunSheet({ target, source, open, onOpenChange }: { target: Target; sour
                 <ul className="space-y-1">
                   {g.items.map((it) => (
                     <li key={it.key} className="flex items-baseline justify-between gap-3 text-[15px]">
-                      <span className="min-w-0 truncate">
+                      <span dir="auto" className="min-w-0 truncate">
                         <span className="tabular font-semibold text-ink-2">{it.quantity}×</span> {it.name}
                       </span>
                       <span className="tabular shrink-0 text-ink-2">{fmtShort({ amount: it.unitPrice.amount * it.quantity, currency: it.unitPrice.currency })}</span>

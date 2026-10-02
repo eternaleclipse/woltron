@@ -48,7 +48,8 @@ export function HomePage() {
           <div className="min-w-0">
             <h1 className="font-display text-[38px] font-extrabold leading-[0.98] tracking-[-0.035em] text-ink sm:text-[56px]">
               {g.hello}
-              {firstName ? `, ${firstName}` : ''}.
+              {firstName ? `, ${firstName}` : ''}
+              {g.end}
             </h1>
             <p className="mt-2 text-[15px] text-ink-2 sm:text-lg">{g.line}</p>
           </div>

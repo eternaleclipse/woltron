@@ -5,7 +5,7 @@ import { toast } from 'sonner';
 import { Copy, MoreHorizontal, Pencil, Plus, Star, Trash2 } from 'lucide-react';
 import type { Preset } from '@woltron/shared';
 import { useDeletePreset, useDuplicatePreset, usePresets, useSavePreset, toPresetInput } from '@/lib/queries';
-import { cn, fmtShort, groupByVenue, presetTotal, relTime } from '@/lib/utils';
+import { cn, fmtShort, groupByVenue, plural, presetTotal, relTime } from '@/lib/utils';
 import { Collage, EmptyState, ErrorState, PageHeader } from '@/components/bits';
 import { Button } from '@/components/ui/button';
 import { Card, Chip, Skeleton } from '@/components/ui/primitives';
@@ -140,7 +140,7 @@ function PresetCard({ preset }: { preset: Preset }) {
           <div>
             <div className="tabular font-display text-2xl font-bold leading-none">{fmtShort(presetTotal(preset))}</div>
             <div className="mt-1 text-xs text-ink-3">
-              {preset.items.reduce((s, i) => s + i.quantity, 0)} items{venues.length > 1 ? `, ${venues.length} separate orders` : ''}
+              {plural(preset.items.reduce((s, i) => s + i.quantity, 0), 'item')}{venues.length > 1 ? `, ${venues.length} separate orders` : ''}
             </div>
           </div>
           <div className="text-right text-xs text-ink-3">

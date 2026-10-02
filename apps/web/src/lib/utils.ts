@@ -116,14 +116,15 @@ export function fmtTime(iso: string): string {
   return new Date(iso).toLocaleTimeString('en', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
 }
 
-export function greeting(d = new Date()): { hello: string; line: string } {
+export function greeting(d = new Date()): { hello: string; end: string; line: string } {
   const h = d.getHours();
-  if (h < 5) return { hello: 'Still up?', line: 'Late-night snack run? I never sleep when there’s food.' };
-  if (h < 11) return { hello: 'Good morning', line: 'Breakfast? I can already smell the shakshuka.' };
-  if (h < 15) return { hello: 'Lunchtime', line: 'Tail’s wagging. What are we fetching today?' };
-  if (h < 18) return { hello: 'Good afternoon', line: 'Snack o’clock is a real time. I checked.' };
-  if (h < 22) return { hello: 'Good evening', line: 'Dinner plans? Point me at a bowl.' };
-  return { hello: 'Good night', line: 'One last fetch before the couch?' };
+  const r = (hello: string, line: string, end = '.') => ({ hello, line, end });
+  if (h < 5) return { hello: 'Still up', end: '?', line: 'Late-night snack run? I never sleep when there’s food.' };
+  if (h < 11) return r('Good morning', 'Breakfast? I can already smell the shakshuka.');
+  if (h < 15) return r('Lunchtime', 'Tail’s wagging. What are we fetching today?', '!');
+  if (h < 18) return r('Good afternoon', 'Snack o’clock is a real time. I checked.');
+  if (h < 22) return r('Good evening', 'Dinner plans? Point me at a bowl.');
+  return r('Good night', 'One last fetch before the couch?');
 }
 
 export function uid(prefix = ''): string {
@@ -148,8 +149,24 @@ export const PRESET_COLORS: Array<{ id: string; name: string; hex: string }> = [
   { id: 'collar', name: 'Collar', hex: '#4d3456' },
 ];
 
+/** Common colour names other clients (or the server seed) may use, mapped onto our palette. */
+const COLOR_ALIASES: Record<string, string> = {
+  lime: 'ball', yellow: 'ball', green: 'mint', teal: 'mint', emerald: 'mint',
+  rose: 'tongue', pink: 'tongue', red: 'paprika', orange: 'paprika', amber: 'biscuit',
+  blue: 'sky', cyan: 'sky', violet: 'lilac', purple: 'lilac', indigo: 'lilac', plum: 'collar',
+};
+
 export function colorHex(c: string | undefined): string {
   if (!c) return PRESET_COLORS[0]!.hex;
   if (c.startsWith('#')) return c;
-  return PRESET_COLORS.find((p) => p.id === c)?.hex ?? PRESET_COLORS[0]!.hex;
+  const id = COLOR_ALIASES[c] ?? c;
+  return PRESET_COLORS.find((p) => p.id === id)?.hex ?? PRESET_COLORS[0]!.hex;
+}
+
+export const plural = (n: number, word: string, many = `${word}s`) => `${n} ${n === 1 ? word : many}`;
+
+/** Normalise a stored colour (id, alias or hex) to one of our palette ids for pickers. */
+export function colorId(c: string | undefined): string | undefined {
+  if (!c || c.startsWith('#')) return c;
+  return COLOR_ALIASES[c] ?? c;
 }

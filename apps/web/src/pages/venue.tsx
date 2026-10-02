@@ -171,8 +171,8 @@ function ItemCard({ item, onClick }: { item: MenuItem; onClick: () => void }) {
       className="group flex w-full items-stretch gap-4 rounded-lg border border-line bg-surface p-3 text-left shadow-sm transition-[transform,box-shadow,border-color] duration-300 ease-[var(--ease-spring)] hover:-translate-y-0.5 hover:border-line-strong hover:shadow-md disabled:opacity-50"
     >
       <div className="flex min-w-0 flex-1 flex-col py-1">
-        <h3 className="line-clamp-2 font-semibold leading-snug text-ink">{item.name}</h3>
-        {item.description && <p className="mt-1 line-clamp-2 text-[13px] leading-snug text-ink-3">{item.description}</p>}
+        <h3 dir="auto" className="line-clamp-2 font-semibold leading-snug text-ink">{item.name}</h3>
+        {item.description && <p dir="auto" className="mt-1 line-clamp-2 text-[13px] leading-snug text-ink-3">{item.description}</p>}
         <div className="mt-auto flex items-center gap-2 pt-2">
           <span className="tabular font-display font-bold text-ink">{fmtShort(item.price)}</span>
           {item.dietary?.slice(0, 2).map((d) => (

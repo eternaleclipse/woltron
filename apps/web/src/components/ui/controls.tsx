@@ -35,7 +35,7 @@ export function Segmented<T extends string>({
             aria-checked={active}
             onClick={() => onChange(o.value)}
             className={cn(
-              'relative flex flex-1 items-center justify-center gap-1.5 rounded-[11px] font-semibold transition-colors duration-200 [&_svg]:size-4',
+              'relative flex flex-1 items-center justify-center gap-1.5 whitespace-nowrap rounded-[11px] font-semibold transition-colors duration-200 [&_svg]:size-4',
               size === 'md' ? 'h-9 px-3.5 text-[13px]' : 'h-7 px-2.5 text-xs',
               active ? 'text-collar-ink' : 'text-ink-2 hover:text-ink',
             )}

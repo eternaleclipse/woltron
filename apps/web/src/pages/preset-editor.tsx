@@ -6,7 +6,7 @@ import { ArrowLeft, Check, Plus, Store, Trash2 } from 'lucide-react';
 import type { Money, PresetInput, PresetItem } from '@woltron/shared';
 import { useDeletePreset, usePreset, useSavePreset, toPresetInput } from '@/lib/queries';
 import { errorMessage } from '@/lib/api';
-import { cn, colorHex, fmtShort, groupByVenue, presetTotal, PRESET_COLORS } from '@/lib/utils';
+import { cn, colorHex, fmtShort, groupByVenue, presetTotal, PRESET_COLORS, colorId } from '@/lib/utils';
 import { Collage, EmptyState, ErrorState } from '@/components/bits';
 import { EmojiPicker } from '@/components/emoji-picker';
 import { useRunLauncher } from '@/components/run-launcher';
@@ -101,17 +101,17 @@ export function PresetEditorPage() {
               <button
                 key={c.id}
                 role="radio"
-                aria-checked={draft.color === c.id}
+                aria-checked={colorId(draft.color) === c.id}
                 aria-label={c.name}
                 title={c.name}
                 onClick={() => set('color', c.id)}
                 className={cn(
                   'grid size-8 place-items-center rounded-full transition-transform duration-200 ease-[var(--ease-spring)] hover:scale-110',
-                  draft.color === c.id && 'ring-2 ring-ink ring-offset-2 ring-offset-bg',
+                  colorId(draft.color) === c.id && 'ring-2 ring-ink ring-offset-2 ring-offset-bg',
                 )}
                 style={{ background: c.hex }}
               >
-                {draft.color === c.id && <Check className="size-4 text-[#2b1a33]" strokeWidth={3} />}
+                {colorId(draft.color) === c.id && <Check className="size-4 text-[#2b1a33]" strokeWidth={3} />}
               </button>
             ))}
           </div>
@@ -180,7 +180,7 @@ export function PresetEditorPage() {
                               <div className="flex items-center gap-3 px-4 py-3">
                                 <SmartImage src={it.image} alt="" width={140} className="size-14 shrink-0 rounded-[14px]" />
                                 <div className="min-w-0 flex-1">
-                                  <div className="line-clamp-2 font-semibold leading-snug">{it.name}</div>
+                                  <div dir="auto" className="line-clamp-2 font-semibold leading-snug">{it.name}</div>
                                   {it.optionSummary && <div className="truncate text-[13px] text-ink-3">{it.optionSummary}</div>}
                                   <div className="tabular text-[13px] text-ink-2">{fmtShort(it.unitPrice)} each</div>
                                 </div>
@@ -260,8 +260,8 @@ export function PresetEditorPage() {
             </div>
           </Card>
           <div className="flex gap-2">
-            <Button variant="collar" size="lg" className="flex-1" onClick={onSave} loading={save.isPending} disabled={!dirty && !isNew}>
-              {dirty || isNew ? 'Save preset' : 'Saved'}
+            <Button variant={dirty || isNew ? 'collar' : 'soft'} size="lg" className="flex-1 disabled:opacity-100" onClick={onSave} loading={save.isPending} disabled={!dirty && !isNew}>
+              {dirty || isNew ? 'Save preset' : <><Check /> Saved</>}
             </Button>
             {!isNew && (
               <Button variant="ball" size="lg" className="flex-1" disabled={draft.items.length === 0 || dirty} onClick={() => launch({ kind: 'preset', id: id! })}>

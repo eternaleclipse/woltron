@@ -5,7 +5,7 @@ import { ArrowLeft, Check, Trash2 } from 'lucide-react';
 import type { PackInput, PackStrategy } from '@woltron/shared';
 import { useDeletePack, usePack, usePresets, useSavePack, toPackInput } from '@/lib/queries';
 import { errorMessage } from '@/lib/api';
-import { cn, fmtShort, presetTotal, PRESET_COLORS, relTime } from '@/lib/utils';
+import { cn, fmtShort, presetTotal, PRESET_COLORS, colorId, relTime } from '@/lib/utils';
 import { Collage, ErrorState } from '@/components/bits';
 import { Bone } from '@/components/brand';
 import { EmojiPicker } from '@/components/emoji-picker';
@@ -93,13 +93,13 @@ export function PackEditorPage() {
               <button
                 key={c.id}
                 role="radio"
-                aria-checked={draft.color === c.id}
+                aria-checked={colorId(draft.color) === c.id}
                 aria-label={c.name}
                 onClick={() => set('color', c.id)}
-                className={cn('grid size-8 place-items-center rounded-full transition-transform hover:scale-110', draft.color === c.id && 'ring-2 ring-ink ring-offset-2 ring-offset-bg')}
+                className={cn('grid size-8 place-items-center rounded-full transition-transform hover:scale-110', colorId(draft.color) === c.id && 'ring-2 ring-ink ring-offset-2 ring-offset-bg')}
                 style={{ background: c.hex }}
               >
-                {draft.color === c.id && <Check className="size-4 text-[#2b1a33]" strokeWidth={3} />}
+                {colorId(draft.color) === c.id && <Check className="size-4 text-[#2b1a33]" strokeWidth={3} />}
               </button>
             ))}
           </div>
@@ -218,8 +218,8 @@ export function PackEditorPage() {
             ) : null}
           </Card>
           <div className="flex gap-2">
-            <Button variant="collar" size="lg" className="flex-1" onClick={onSave} loading={save.isPending} disabled={!dirty && !isNew}>
-              {dirty || isNew ? 'Save pack' : 'Saved'}
+            <Button variant={dirty || isNew ? 'collar' : 'soft'} size="lg" className="flex-1 disabled:opacity-100" onClick={onSave} loading={save.isPending} disabled={!dirty && !isNew}>
+              {dirty || isNew ? 'Save pack' : <><Check /> Saved</>}
             </Button>
             {!isNew && (
               <Button variant="ball" size="lg" className="flex-1" onClick={() => launch({ kind: 'pack', id: id! })} disabled={dirty || !draft.members.length}>

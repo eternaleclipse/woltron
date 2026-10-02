@@ -71,7 +71,7 @@ export function RunDetailPage() {
           <div className="min-w-0 flex-1">
             <div className="mb-2 flex flex-wrap items-center gap-2">
               <RunStatusBadge status={run.status} size="lg" />
-              <ModePill mode={run.mode} to={null} />
+              <ModePill mode={run.mode} to={null} short />
             </div>
             <AnimatePresence mode="wait">
               <motion.h1
@@ -120,8 +120,8 @@ export function RunDetailPage() {
 
       {run.status === 'awaiting-confirmation' && <ConfirmCard run={run} className="mb-6" />}
 
-      <div className="grid items-start gap-6 lg:grid-cols-[1fr_340px]">
-        <div className="space-y-4">
+      <div className="grid items-start gap-6 lg:grid-cols-[minmax(0,1fr)_340px]">
+        <div className="min-w-0 space-y-4">
           {run.venueOrders.map((v, i) => {
             const vs = VENUE_STATUS[v.status];
             return (
@@ -143,7 +143,7 @@ export function RunDetailPage() {
                     <li key={li} className={cn('flex items-center gap-3 px-4 py-3', !l.available && 'opacity-50')}>
                       <SmartImage src={l.image} alt="" width={120} className="size-11 shrink-0 rounded-[12px]" />
                       <div className="min-w-0 flex-1">
-                        <div className="truncate font-medium">
+                        <div dir="auto" className="truncate font-medium">
                           <span className="tabular font-semibold text-ink-2">{l.quantity}×</span> {l.name}
                         </div>
                         {l.optionSummary && <div className="truncate text-[13px] text-ink-3">{l.optionSummary}</div>}
@@ -170,7 +170,7 @@ export function RunDetailPage() {
                     {v.checkoutUrl && (
                       <Button variant="ball" size="md" asChild className="ml-auto">
                         <a href={v.checkoutUrl} target="_blank" rel="noreferrer">
-                          Finish in Wolt <ExternalLink />
+                          {v.status === 'handed-off' ? 'Finish in Wolt' : 'Track in Wolt'} <ExternalLink />
                         </a>
                       </Button>
                     )}
