@@ -23,7 +23,7 @@
   <img src="apps/web/public/mascot/eating.png" width="88" alt="eating">
   <img src="apps/web/public/mascot/sleeping.png" width="88" alt="sleeping">
   <img src="apps/web/public/mascot/sad.png" width="88" alt="sad">
-  <br><sub>Meet <b>Woltie</b> — idle · happy · sniffing · eating · sleeping · sad</sub>
+  <br><sub>Meet <b>Woltie</b>, the robot dog — idle · happy · sniffing · eating · sleeping · sad</sub>
 </p>
 
 ---
@@ -174,4 +174,4 @@ npm run typecheck
 
 ## 💛 Credits
 
-Woltie is built from Microsoft's [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT), reworked into six expressions; wordmark in Fredoka (OFL). Full list in [`CREDITS.md`](CREDITS.md). Not affiliated with Wolt or DoorDash.
+Woltie is an original robot dog drawn in code (`assets/scripts/robodog.py`), with six LED-eye expressions; banner food stickers are Microsoft's [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT); wordmark in Fredoka (OFL). Full list in [`CREDITS.md`](CREDITS.md). Not affiliated with Wolt or DoorDash.

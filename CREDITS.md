@@ -1,8 +1,14 @@
 # Credits
 
-Woltron's visuals are built from the following third-party assets. Everything is
-generated reproducibly by `assets/scripts/build_assets.py` from the originals in
-`assets/source/` (`pip install cairosvg pillow fonttools`, then run the script from the repo root).
+Woltron's visuals are generated reproducibly by `assets/scripts/build_assets.py` from the
+sources in `assets/scripts/` and `assets/source/` (`pip install cairosvg pillow fonttools`,
+then run the script from the repo root).
+
+## Woltron the robot dog — original artwork
+
+The mascot (all six states in `apps/web/public/mascot/`), the app icons, favicon, tray icons,
+logo and the banner's dog are original vector artwork drawn in code in
+`assets/scripts/robodog.py` for this project; no third-party artwork is used for them.
 
 ## Fluent Emoji (Microsoft) — MIT License
 
@@ -12,12 +18,11 @@ generated reproducibly by `assets/scripts/build_assets.py` from the originals in
 
 | Used for | Fluent Emoji asset (Color SVG) |
 |---|---|
-| **Woltie the mascot** (all states), app icons, favicon, tray icons, logo, banner | Dog face (`dog_face_color.svg`), split into layers and re-composed with new hand-drawn expressions (happy/closed/puppy eyes, brows, frown, sniff lines, blush) |
-| Mascot props | Magnifying glass tilted left (sniffing), Zzz (sleeping), Bone (eating), Droplet (sad), Sparkles & Red heart (happy/eating) |
-| Brand stickers (`assets/brand/stickers/`) and banner doodles | Bone, Bowl with spoon, Steaming bowl, Pizza, Sushi, Hamburger, Taco, Dumpling, Takeout box, Paw prints |
+| Brand stickers (`assets/brand/stickers/`) and the food doodles on the banner | Bone, Bowl with spoon, Steaming bowl, Pizza, Sushi, Hamburger, Taco, Dumpling, Takeout box, Paw prints |
 
-The mascot artwork in `apps/web/public/mascot/` and the icons are derivative works of
-the above and are distributed under the same MIT terms (Copyright (c) Microsoft Corporation).
+The stickers in `assets/brand/stickers/` and the sticker layer of `assets/brand/banner.*` are
+derivative works of the above and are distributed under the same MIT terms
+(Copyright (c) Microsoft Corporation).
 
 ## Fredoka (font) — SIL Open Font License 1.1
 
