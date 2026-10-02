@@ -17,22 +17,20 @@ const WANTS: Want[] = [
   { key: 'veg', tags: ['vegan', 'hummus', 'vegetarian', 'healthy', 'salad'] },
 ];
 
-function pickVenues(venues: Venue[]): Map<string, Venue> {
-  const used = new Set<string>();
-  const out = new Map<string, Venue>();
+function candidates(venues: Venue[]): Map<string, Venue[]> {
   const ranked = [...venues].filter((v) => v.online && v.delivers).sort((a, b) => (b.rating?.score ?? 0) - (a.rating?.score ?? 0));
+  const out = new Map<string, Venue[]>();
   for (const w of WANTS) {
+    const list: Venue[] = [];
     for (const tag of w.tags) {
-      const v = ranked.find((x) => !used.has(x.slug) && x.tags.some((t) => t.toLowerCase() === tag));
-      if (v) {
-        out.set(w.key, v);
-        used.add(v.slug);
-        break;
-      }
+      for (const v of ranked) if (!list.includes(v) && v.tags.some((t) => t.toLowerCase() === tag)) list.push(v);
     }
+    out.set(w.key, list);
   }
   return out;
 }
+
+const hasUsableItems = (menu: Menu) => menu.items.some((i) => i.available && i.price.amount > 0);
 
 function defaultOptions(item: MenuItem): { options: ChosenOption[]; extra: number; summary: string[] } {
   const options: ChosenOption[] = [];
@@ -74,17 +72,23 @@ function pickItems(menu: Menu, n: number): PresetItem[] {
 
 async function buildFrom(client: WoltClient, loc: GeoLocation) {
   const { venues } = await client.listVenues(loc);
-  const picked = pickVenues(venues);
+  const used = new Set<string>();
   const menus = new Map<string, Menu>();
-  await Promise.all(
-    [...picked].map(async ([key, v]) => {
+  // Sequential on purpose: each want takes the best-rated venue not already used whose menu has orderable items.
+  for (const [key, list] of candidates(venues)) {
+    for (const v of list.slice(0, 6)) {
+      if (used.has(v.slug)) continue;
       try {
-        menus.set(key, await client.getMenu(v.slug, loc));
+        const menu = await client.getMenu(v.slug, loc);
+        if (!hasUsableItems(menu)) continue;
+        menus.set(key, menu);
+        used.add(v.slug);
+        break;
       } catch {
-        /* skip this venue */
+        /* try the next candidate */
       }
-    }),
-  );
+    }
+  }
   return menus;
 }
 

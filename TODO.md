@@ -10,10 +10,10 @@ Contract (do not change without noting it here): `packages/shared/src/*` · Spec
 - [x] Spec (`SPEC.md`)
 - [x] Shared domain types + REST contract + `WoltClient` interface (`packages/shared`)
 - [x] Monorepo skeleton (npm workspaces, tsconfig)
-- [ ] Merge workstreams, `npm install`, end-to-end smoke test (mock + live catalog)
-- [ ] Screenshots for README
-- [ ] README with mascot, docs, CREDITS
-- [ ] Private GitHub repo + push
+- [x] Merge workstreams, `npm install`, end-to-end smoke test (mock + live catalog)
+- [x] Screenshots for README
+- [x] README with mascot, docs, CREDITS
+- [x] Private GitHub repo + push
 
 ## 1. Wolt client — `packages/wolt` — *agent: wolt*
 - [x] Research unofficial endpoints (venues, venue, menu/assortment, search, geocode, auth refresh, basket, checkout, purchase, order status); document in `packages/wolt/README.md`
@@ -40,20 +40,31 @@ Contract (do not change without noting it here): `packages/shared/src/*` · Spec
 - [x] Note: branch `worktree-agent-a869e64901fc3fabf` (main merged in; uses the real `@woltron/wolt`, bundled into dist; the stand-in in `src/wolt/fallback-mock.ts` is only a last resort). Verified end to end against live Wolt (dry-run with exact checkout fees, live→handoff) and real OpenRouter. Default LLM `anthropic/claude-sonnet-4.5` (~8s fetch; haiku-4.5 ~4s).
 
 ## 3. Web UI — `apps/web` — *agent: web*
-- [~] Design system: tokens (light/dark), typography, components (Button, Card, Sheet/Dialog, Tabs, Switch, Input, Badge, Toast, Skeleton, Command palette)
-- [~] App shell: desktop sidebar / mobile bottom tabs, ⌘K, theme, SSE live updates, API client + token handling
-- [~] Home (Kennel)
-- [~] Fetch (LLM search)
-- [~] Explore + Venue menu + item option picker → add to preset
-- [~] Presets list + editor
-- [~] Packs list + editor + spin preview
-- [~] Automations list + editor (schedule builder, webhook copy)
-- [~] Runs timeline + run detail (confirm/cancel)
-- [~] Settings (Wolt connect, location, mode, limits, LLM, devices/QR, appearance)
-- [~] PWA manifest + icons, responsive polish, reduced motion
+- [x] Design system: tokens (light/dark), typography, components (Button, Card, Sheet/Dialog, Tabs, Switch, Input, Badge, Toast, Skeleton, Command palette)
+- [x] App shell: desktop sidebar / mobile bottom tabs, ⌘K, theme, SSE live updates, API client + token handling
+- [x] Home (Kennel)
+- [x] Fetch (LLM search)
+- [x] Explore + Venue menu + item option picker → add to preset
+- [x] Presets list + editor
+- [x] Packs list + editor + spin preview
+- [x] Automations list + editor (schedule builder, webhook copy)
+- [x] Runs timeline + run detail (confirm/cancel)
+- [x] Settings (Wolt connect, location, mode, limits, LLM, devices/QR, appearance)
+- [x] PWA manifest + icons, responsive polish, reduced motion
+- [x] Desktop bridge (onNavigate, launch-at-login, macOS drag region), `#order-mode` anchor; validated against real server (mock Wolt + real OpenRouter Fetch)
+- [x] `apps/web/DESIGN.md`; screenshots in `docs/screenshots/` (regenerate: `apps/web/scripts/screenshots.mjs`, `scripts/flows.mjs`)
+- [x] ~~For server: seeded preset "Noodle Rescue" uses venue `wok-to-walk-hahashmonain`, which the mock Wolt client lacks, so its runs (and Random Asian when it picks it) fail~~ — fixed: seed now falls back to the next venue with an orderable menu
 
 ## 4. Assets & Desktop — `assets/`, `apps/desktop` — *agent: desktop*
 - [x] Mascot: cute dog, multiple states (idle, happy, sniffing, sleeping, eating, sad) — CC0 preferred; record licences in `CREDITS.md` — Fluent Emoji dog face (MIT) recomposed; `apps/web/public/mascot/*.{png,svg}` (commit ad4188c on branch worktree-agent-abcca4b06f5386bd6)
 - [x] App icon set (png 16…1024, .ico, favicon.svg), PWA icons, README banner — also icns, tray icons, logo.svg, stickers; regenerate via `assets/scripts/build_assets.py`
 - [x] Electron main: start server in-process, window, tray w/ presets & packs quick-run, notifications, global shortcut, deep links, single instance — commit 59e9cd8; verified on Linux against `apps/desktop/dev/stub-server.mjs`; web UI can use `window.woltronDesktop` (see apps/desktop/README.md)
 - [x] electron-builder config (AppImage/deb/dmg/nsis) — `--dir` linux build verified; needs a self-contained (deps bundled) `apps/server/dist/index.js`
+
+## 5. Next ideas — *backlog*
+- [ ] Magic-link login UI (server returns 501 when Wolt demands a captcha; paste-link flow works)
+- [ ] Code-split web routes (main chunk ~170 KB gzip)
+- [ ] Share mock fixtures between `packages/wolt` and the web in-browser mock
+- [ ] Verify headless purchase against a real Wolt account (behind `WOLTRON_WOLT_EXPERIMENTAL_PURCHASE`)
+- [ ] CI: typecheck + tests + Electron packaging (Electron needs a display — use Xvfb)
+- [ ] Order status tracking → "delivered" notifications

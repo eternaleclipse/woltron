@@ -47,7 +47,34 @@
   <br><sub>The Electron desktop app — Kennel (home) in dark mode</sub>
 </p>
 
-<!-- SCREENSHOTS -->
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/home-desktop.png" alt="Kennel"><br><sub><b>Kennel</b> — greeting, next automation, one-tap presets & packs</sub></td>
+    <td width="50%"><img src="docs/screenshots/fetch-desktop.png" alt="Fetch"><br><sub><b>Fetch</b> — free-text LLM search over live Wolt menus</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/pack-editor-desktop.png" alt="Pack editor"><br><sub><b>Pack editor</b> — strategy, weights in bones 🦴, spin preview & odds</sub></td>
+    <td><img src="docs/screenshots/preset-editor-desktop.png" alt="Preset editor"><br><sub><b>Preset editor</b> — multi-restaurant baskets</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/automation-editor-desktop.png" alt="Automation editor"><br><sub><b>Automations</b> — schedules, webhooks, venue-online triggers, guards</sub></td>
+    <td><img src="docs/screenshots/run-detail-desktop.png" alt="Run detail"><br><sub><b>Run detail</b> — per-venue breakdown with Wolt's real fees & live log</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/venue-desktop.png" alt="Venue"><br><sub><b>Explore</b> — venue menus with real Wolt imagery</sub></td>
+    <td><img src="docs/screenshots/presets-desktop-dark.png" alt="Presets dark"><br><sub><b>Dark mode</b> — plum, not black</sub></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="docs/screenshots/home-mobile.png" width="24%" alt="Mobile home">
+  <img src="docs/screenshots/fetch-mobile.png" width="24%" alt="Mobile fetch">
+  <img src="docs/screenshots/item-sheet-mobile.png" width="24%" alt="Mobile item sheet">
+  <img src="docs/screenshots/run-confirm-mobile.png" width="24%" alt="Mobile confirm">
+  <br><sub>On your phone — bottom tabs, a tennis-ball Fetch button, and bottom sheets</sub>
+</p>
+
+More in [`docs/screenshots/`](docs/screenshots/).
 
 ## 🚀 Quick start
 
