@@ -1,0 +1,72 @@
+# electron-builder config for Woltron desktop.
+# Build the server + web first (`npm run build` at the repo root), then `npm -w @woltron/desktop run dist`.
+appId: dev.woltron.app
+productName: Woltron
+copyright: Copyright © Woltron contributors
+
+directories:
+  output: release
+  buildResources: ../../assets/icon
+
+# main/preload are fully bundled by esbuild → no node_modules to ship.
+files:
+  - dist/**/*
+  - "!dist/**/*.map"
+  - package.json
+npmRebuild: false
+nodeGypRebuild: false
+asar: true
+
+extraResources:
+  # In-process server bundle, loaded via import() from <resources>/server/index.js
+  - from: ../server/dist
+    to: server
+    filter: ["**/*", "!**/*.map"]
+  # Make sure Node treats the bundle as ESM even without apps/server/package.json next to it
+  - from: build-resources/server-package.json
+    to: server/package.json
+  # Built web UI, passed to startServer({ webDir })
+  - from: ../web/dist
+    to: web
+  # Tray + window icons used at runtime
+  - from: ../../assets/tray
+    to: assets/tray
+  - from: ../../assets/icon/png
+    to: assets/icon/png
+
+protocols:
+  - name: Woltron
+    schemes: [woltron]
+
+mac:
+  target: [dmg]
+  icon: ../../assets/icon/icon.icns
+  category: public.app-category.food-and-drink
+  darkModeSupport: true
+dmg:
+  title: Woltron
+  icon: ../../assets/icon/icon.icns
+
+win:
+  target: [nsis]
+  icon: ../../assets/icon/icon.ico
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  shortcutName: Woltron
+
+linux:
+  target: [AppImage, deb]
+  icon: ../../assets/icon/png
+  category: Utility
+  synopsis: Your very good food-fetching dog
+  description: Automate Wolt orders with presets, packs, schedules, triggers and LLM search.
+  maintainer: Woltron contributors <woltron@users.noreply.github.com>
+  executableName: woltron
+  desktop:
+    entry:
+      StartupWMClass: Woltron
+appImage:
+  artifactName: ${productName}-${version}-${arch}.AppImage

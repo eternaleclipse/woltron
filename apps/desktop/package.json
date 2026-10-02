@@ -1,0 +1,24 @@
+{
+  "name": "@woltron/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Woltron desktop app — your very good food-fetching dog, in the tray.",
+  "author": "Woltron contributors",
+  "main": "dist/main.cjs",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && electron .",
+    "dev:stub": "node scripts/build.mjs && WOLTRON_SERVER_ENTRY=dev/stub-server.mjs electron .",
+    "dist": "node scripts/build.mjs && electron-builder --config electron-builder.yml",
+    "dist:dir": "node scripts/build.mjs && electron-builder --config electron-builder.yml --dir",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@woltron/shared": "*",
+    "electron": "44.5.1",
+    "electron-builder": "^26.15.3",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.6.0"
+  }
+}
