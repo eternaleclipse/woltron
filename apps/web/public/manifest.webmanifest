@@ -1,0 +1,20 @@
+{
+  "name": "Woltron",
+  "short_name": "Woltron",
+  "description": "Your very good food-fetching dog.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6efe9",
+  "theme_color": "#2b1a33",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Fetch", "url": "/fetch" },
+    { "name": "Runs", "url": "/runs" }
+  ]
+}
