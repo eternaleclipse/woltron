@@ -16,13 +16,13 @@ export function TennisBall({ size = 40, className, spin }: { size?: number; clas
       <circle cx="20" cy="20" r="19" fill="var(--ball)" />
       <circle cx="20" cy="20" r="19" fill="url(#ball-shade)" />
       <circle cx="20" cy="20" r="18.4" fill="none" stroke="#2b1a33" strokeOpacity="0.28" strokeWidth="1.2" />
-      <path d="M6.5 6.8 C13 12 13 28 6.5 33.2" stroke="#fff" strokeOpacity="0.95" strokeWidth="2.4" fill="none" strokeLinecap="round" />
-      <path d="M33.5 6.8 C27 12 27 28 33.5 33.2" stroke="#fff" strokeOpacity="0.95" strokeWidth="2.4" fill="none" strokeLinecap="round" />
+      <path d="M6.5 6.8 C13 12 13 28 6.5 33.2" stroke="#fff" strokeOpacity="0.85" strokeWidth="2.4" fill="none" strokeLinecap="round" />
+      <path d="M33.5 6.8 C27 12 27 28 33.5 33.2" stroke="#fff" strokeOpacity="0.85" strokeWidth="2.4" fill="none" strokeLinecap="round" />
       <defs>
         <radialGradient id="ball-shade" cx="0.35" cy="0.3" r="0.8">
           <stop offset="0" stopColor="#fff" stopOpacity="0.35" />
           <stop offset="0.6" stopColor="#fff" stopOpacity="0" />
-          <stop offset="1" stopColor="#4d5a00" stopOpacity="0.22" />
+          <stop offset="1" stopColor="#4d5a00" stopOpacity="0.28" />
         </radialGradient>
       </defs>
     </motion.svg>

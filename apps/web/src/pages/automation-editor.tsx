@@ -338,7 +338,7 @@ function ScheduleBuilder({ trigger, onChange }: { trigger: Extract<Trigger, { ty
                     onClick={() => update(on ? s.days.filter((x) => x !== d.n) : [...s.days, d.n], s.time)}
                     className={cn(
                       'grid aspect-square flex-1 place-items-center rounded-full font-display text-base font-bold transition-[background-color,color,transform] duration-200 ease-[var(--ease-spring)] active:scale-90 sm:max-w-14',
-                      on ? 'bg-ball text-ball-ink shadow-[0_3px_0_-1px_#a8c22a]' : 'bg-surface-2 text-ink-3 hover:text-ink',
+                      on ? 'bg-ball text-ball-ink shadow-[0_3px_0_-1px_#a3b352]' : 'bg-surface-2 text-ink-3 hover:text-ink',
                     )}
                   >
                     <span className="sm:hidden">{d.letter}</span>
@@ -410,7 +410,7 @@ function WebhookPanel({ id, secret }: { id?: string; secret?: string }) {
           </button>
         </div>
         <pre className="overflow-x-auto rounded-md bg-[#2b1a33] p-4 font-mono text-[13px] leading-relaxed text-[#f6efe9]">
-          <span className="text-[#d7f25a]">curl</span> -X POST {url}
+          <span className="text-[#cadb72]">curl</span> -X POST {url}
         </pre>
       </div>
       <Button variant="outline" size="sm" loading={rotate.isPending} onClick={() => rotate.mutate(id, { onSuccess: () => toast.success('New URL generated', { description: 'The old one stopped working.' }) })}>

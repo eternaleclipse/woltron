@@ -163,7 +163,7 @@ function DogFace({ state }: { state: MascotState }) {
       {/* mouth */}
       <path d={sad ? 'M50 90 q10 -6 20 0' : 'M50 84 q5 6 10 0 q5 6 10 0'} stroke="#2b1a33" strokeWidth="2.6" fill="none" strokeLinecap="round" />
       {tongue && <path d="M55 87 C55 97 65 97 65 87Z" fill="#ff6f91" />}
-      {state === 'eating' && <ellipse cx="60" cy="104" rx="16" ry="5" fill="#d7f25a" stroke="#2b1a33" strokeWidth="2" />}
+      {state === 'eating' && <ellipse cx="60" cy="104" rx="16" ry="5" fill="#cadb72" stroke="#2b1a33" strokeWidth="2" />}
     </svg>
   );
 }

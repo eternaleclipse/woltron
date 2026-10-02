@@ -139,7 +139,7 @@ export function clamp(n: number, min: number, max: number) {
 }
 
 export const PRESET_COLORS: Array<{ id: string; name: string; hex: string }> = [
-  { id: 'ball', name: 'Tennis ball', hex: '#d7f25a' },
+  { id: 'ball', name: 'Tennis ball', hex: '#cadb72' },
   { id: 'tongue', name: 'Tongue', hex: '#ff6f91' },
   { id: 'biscuit', name: 'Biscuit', hex: '#f4b860' },
   { id: 'mint', name: 'Mint', hex: '#2fbf8f' },

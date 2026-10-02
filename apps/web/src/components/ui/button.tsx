@@ -19,7 +19,7 @@ export const buttonVariants = cva(
   {
     variants: {
       variant: {
-        ball: 'bg-ball text-ball-ink shadow-ball hover:bg-ball-hover active:translate-y-[4px] active:shadow-[0_2px_0_-1px_#a8c22a] dark:active:shadow-[0_2px_0_-1px_#93ab1c]',
+        ball: 'bg-ball text-ball-ink shadow-ball hover:bg-ball-hover active:translate-y-[4px] active:shadow-[0_2px_0_-1px_#a3b352] dark:active:shadow-[0_2px_0_-1px_#8e9c45]',
         collar: 'bg-collar text-collar-ink shadow-md hover:-translate-y-px hover:shadow-lg active:translate-y-0 active:scale-[0.97]',
         soft: 'bg-surface-2 text-ink border border-line hover:bg-surface-3 hover:border-line-strong active:scale-[0.97]',
         outline: 'bg-transparent text-ink border border-line-strong hover:bg-surface-2 active:scale-[0.97]',
