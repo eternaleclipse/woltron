@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-electron/
+out/
+release/
+*.log
+.DS_Store
+.env
+.env.*
+.woltron/
+coverage/
+.vite/
