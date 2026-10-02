@@ -43,8 +43,8 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="docs/media/desktop-electron.png" width="88%" alt="Woltron desktop app (Electron)">
-  <br><sub>The Electron desktop app — Kennel (home) in dark mode</sub>
+  <img src="docs/screenshots/home-desktop-dark.png" width="88%" alt="Woltron home in dark mode">
+  <br><sub>The Kennel (home) in dark mode — the same UI runs in the Electron app, your browser and your phone</sub>
 </p>
 
 <table>
