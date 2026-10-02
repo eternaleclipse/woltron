@@ -134,11 +134,11 @@ export function ItemSheet({
         step === 'options' ? (
           <>
             <Stepper value={qty} onChange={setQty} min={1} />
-            <div className="flex flex-1 justify-end gap-2">
-              <Button variant="soft" size="lg" onClick={orderNow} disabled={invalid.length > 0 || save.isPending}>
+            <div className="flex min-w-0 flex-1 justify-end gap-2">
+              <Button variant="soft" size="lg" className="px-4 max-sm:flex-1" onClick={orderNow} disabled={invalid.length > 0 || save.isPending}>
                 Order this
               </Button>
-              <Button variant="ball" size="lg" onClick={() => setStep('preset')} disabled={invalid.length > 0}>
+              <Button variant="ball" size="lg" className="px-4 max-sm:flex-1" onClick={() => setStep('preset')} disabled={invalid.length > 0}>
                 Add <span className="tabular">{fmtShort(lineTotal)}</span>
               </Button>
             </div>

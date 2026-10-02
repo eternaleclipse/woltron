@@ -1,0 +1,118 @@
+# Woltron design system
+
+A very good dog who fetches your food. Warm, playful, confident, and never clinical. Wolt is cyan and
+clean; Woltron is fur, felt and a slightly chewed tennis ball.
+
+## Signature: the tennis ball
+
+Spend the boldness in one place. The **ball** (chartreuse felt, white seams, `<TennisBall/>`) is the
+primary action colour and the brand mark:
+
+- the "o" in the `w●ltron` wordmark
+- the raised Fetch button in the mobile tab bar
+- every primary button (`variant="ball"`), which sits on a chunky ledge that collapses when pressed
+- the toss animation when a run starts, the spinning loader in Fetch, and the slot-machine spin in packs
+
+Everything around it stays quiet: fur-coloured pages, paper cards, plum ink.
+
+## Tokens (`src/index.css`)
+
+All colours are CSS variables on `:root` and `.dark`, exposed to Tailwind via `@theme inline`
+(`bg-surface`, `text-ink-2`, `bg-ball`, …).
+
+| Token | Light | Dark | Use |
+|---|---|---|---|
+| `bg` (Fur) | `#f6efe9` | `#1b1220` | page |
+| `surface` (Paper) / `-2` / `-3` | `#fffcfa` / `#f8f1ec` / `#f1e7e0` | `#251a2c` / `#2d2135` / `#36293f` | cards, wells, skeletons |
+| `ink` (Collar) / `-2` / `-3` | `#2b1a33` / `#6a5870` / `#9a8a9f` | `#f8efe9` / `#c0aec4` / `#8b7891` | text |
+| `ball` | `#d7f25a` | same | primary action, selection, progress |
+| `tongue` | `#ff6f91` | `#ff7fa0` | live mode, favourites, urgency |
+| `biscuit` | `#f4b860` | same | bones (pack weights), "needs your OK", warnings |
+| `mint` | `#2fbf8f` | same | success, open venues |
+| `plum-soft` | `#ece2ef` | 12% lilac | dry-run, neutral info |
+| `danger` | `#df3f3a` | same | destructive |
+
+Each accent has `-soft` (tint background) and `-ink` (readable text on the tint) variants.
+`collar` is an inverting token: dark plum in light mode, cream in dark mode (active nav, segmented thumb).
+
+Text on `ball` is always `ball-ink` (plum). Never put white on the ball.
+
+**Radius** has hierarchy, not one value: `xs 8` (kbd, tiny), `sm 12` (inputs, buttons), `md 16`,
+`lg 22` (images inside cards), `xl 30` (cards, sheets). Pills are `rounded-full`.
+
+**Shadows** are plum-tinted, never grey: `shadow-sm` (resting cards), `shadow-md` (hover lift),
+`shadow-lg` (sheets, popovers), `shadow-ball` (the ledge under ball buttons).
+
+## Type
+
+- **Bricolage Grotesque** (variable, `font-stretch: 88%`, weights 700–800) for display: page titles,
+  card titles, prices. Tight tracking (`-0.02em` to `-0.035em`).
+- **Onest** (variable) for UI and body, 15px base. `tabular-nums` (`.tabular`) for every price,
+  countdown and quantity.
+- Scale: 11 / 13 / 15 / 18 / 22 / 28 / 34 / 44 / 56. Sentence case everywhere; no all-caps eyebrows.
+- Item names from Wolt can be Hebrew or Arabic: render them with `dir="auto"`.
+
+## Layout
+
+- **Desktop (≥1024px):** 264px sidebar (wordmark, ⌘K search, nav, mode pill, mascot card) + content
+  capped at 1180px. Editors use a main column plus a sticky summary rail (340–360px).
+- **Mobile:** sticky top bar (wordmark, mode pill, search) and a bottom tab bar
+  (Kennel, Presets, **Fetch ball**, Runs, More). Dialogs become bottom drawers (`vaul`) with
+  footers that respect the safe area.
+- `<Sheet>` is the one responsive dialog: centered on desktop, drawer on mobile, same API.
+
+## Components (`src/components`)
+
+- `ui/button.tsx`: `ball | collar | soft | outline | ghost | tongue | danger | link` × `sm..xl | icon`
+- `ui/primitives.tsx`: Card (`interactive` lifts on hover), Badge (tones), Input, Textarea, Field,
+  Switch / SwitchRow (the thumb turns plum on a ball track), Chip, Skeleton, Kbd, SectionTitle
+- `ui/controls.tsx`: Segmented (spring-animated thumb), Stepper, SmartImage (blurhash or shimmer, then fade-in),
+  Tip (tooltip), Menu (dropdown)
+- `ui/sheet.tsx`: responsive dialog/drawer
+- `mascot.tsx`: `<Mascot state size />` loads `/mascot/<state>.png` and falls back to an inline vector pup
+- `brand.tsx`: TennisBall, Wordmark, Bone
+- `bits.tsx`: status and mode metadata, Collage (preset cover mosaic), EmptyState, PageHeader, Countdown
+- `run-launcher.tsx`: the global confirm-and-run sheet (`useRunLauncher().launch(target)`)
+- `confirm-card.tsx`: "Needs your OK" with a draining countdown ring
+- `pack-bits.tsx`: odds bars, the spin reel, fanned pack covers
+- `command-palette.tsx`: ⌘K / Ctrl K
+
+## Motion
+
+Motion answers what the person did; ambient motion is reserved for the mascot.
+
+- Springs (`--ease-spring`, `cubic-bezier(.34,1.56,.64,1)`) for presses, toggles, lifts.
+- Mascot: idle bob/tilt, happy bounce, sniffing sway with puffs, sleeping breath with z's, eating chomp, sad droop.
+- Moments: ball toss on run start, ball rolling along a paw trail while Fetch thinks, slot-machine reel
+  that lands on the pick, odds bars that spring to new widths, progress segments on runs.
+- `prefers-reduced-motion` **or** Settings → Reduce motion (`html[data-motion=reduce]`) disables
+  CSS animation and puts Motion in `reducedMotion="always"`.
+
+## Mascot states
+
+| State | Where |
+|---|---|
+| `idle` | sidebar, waiting for confirmation |
+| `happy` | home greeting, results found, run succeeded |
+| `sniffing` | loading (Fetch, runs in progress), venue without a menu |
+| `sleeping` | empty lists, skipped or cancelled runs |
+| `eating` | delivered |
+| `sad` | errors, failed runs, the go-live confirmation |
+
+## Voice & tone
+
+Friendly dog, used sparingly: one wink per screen at most, never in error details.
+
+- Actions say what happens: "Fetch (dry run)", "Order ₪214", "Save preset", "Skip it".
+- Results say what happened: "Good boy! Order placed", "Dry run done", "Sat and stayed" (guard skipped).
+- Loading: "Fetching…", "Sniffing around the neighbourhood…".
+- Empty states invite an action: "Nothing saved yet. Save a basket you love and I'll fetch it in one tap."
+- Errors explain and offer a fix in plain words: "That token didn't work. Copy the whole value of __wrtoken."
+- Money is never playful: the go-live confirmation is serious and makes you type
+  "I understand Woltron will spend real money".
+
+## Accessibility
+
+Visible focus ring (`--focus`, violet) on everything; radio and checkbox semantics on custom pickers;
+labelled icon buttons; sufficient contrast (ink on fur 13:1, ball-ink on ball 12:1); keyboard:
+⌘K palette, `g` then a letter to jump between screens, `/` for Fetch.

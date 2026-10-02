@@ -229,9 +229,9 @@ function PresetTile({ preset }: { preset: Preset }) {
         <Collage preset={preset} className="aspect-[5/4] w-full" rounded="rounded-[22px]" />
         <div className="px-2 pb-2 pt-3">
           <div className="truncate font-display text-[17px] font-bold leading-tight">{preset.name}</div>
-          <div className="mt-0.5 flex items-center gap-2 text-[13px] text-ink-3">
+          <div className="mt-0.5 flex min-w-0 flex-wrap items-baseline gap-x-2 text-[13px] text-ink-3">
             <span className="tabular font-semibold text-ink-2">{fmtShort(presetTotal(preset))}</span>
-            <span>{venues > 1 ? `${venues} venues` : preset.items[0]?.venueName}</span>
+            <span className="min-w-0 truncate">{venues > 1 ? `${venues} venues` : preset.items[0]?.venueName}</span>
           </div>
         </div>
       </Link>
@@ -279,7 +279,7 @@ export function RunFab({ onClick, label, className }: { onClick: () => void; lab
       onClick={onClick}
       aria-label={label}
       className={cn(
-        'absolute right-4 top-4 grid size-11 place-items-center rounded-full bg-ball text-ball-ink shadow-ball transition-[transform,box-shadow] duration-200 ease-[var(--ease-spring)] hover:scale-110 active:translate-y-[3px] active:scale-95 active:shadow-none',
+        'absolute right-4 top-4 z-20 grid size-11 place-items-center rounded-full bg-ball text-ball-ink shadow-ball transition-[transform,box-shadow] duration-200 ease-[var(--ease-spring)] hover:scale-110 active:translate-y-[3px] active:scale-95 active:shadow-none',
       )}
     >
       <Play className={cn('size-[18px] translate-x-px fill-current', className)} />
