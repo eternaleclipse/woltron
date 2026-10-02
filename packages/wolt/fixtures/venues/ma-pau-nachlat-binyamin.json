@@ -1,0 +1,2563 @@
+{
+ "captured_at": "2026-10-02T21:59:11.863Z",
+ "location": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "static": {
+  "venue": {
+   "id": "5ceab75c38452a099128c560",
+   "slug": "ma-pau-nachlat-binyamin",
+   "name": "Ma Pau | Indian Food",
+   "description": "Traditional Classic Food From Mumbai",
+   "image_url": "https://imageproxy.wolt.com/assets/67332fa6a7cc62434f9d8795",
+   "image_blurhash": "j4IFy1;C00Tt;;4iNGjL0lSz;;8h",
+   "brand_logo_image_url": "https://imageproxy.wolt.com/assets/6798cb5f69d4c47b6d167ed9",
+   "address": "זבולון 7 ",
+   "rating": {
+    "rating": 3,
+    "score": "8.8",
+    "score_raw": 8.8,
+    "volume": 500
+   },
+   "share_url": "https://wolt.com/he/isr/tel-aviv/restaurant/ma-pau-nachlat-binyamin",
+   "currency": "ILS",
+   "country": "ISR",
+   "delivery_methods": [
+    "homedelivery",
+    "takeaway"
+   ],
+   "timezone": "Asia/Jerusalem",
+   "product_line": "restaurant",
+   "delivery_base_price": 1000,
+   "service_fee_estimate": {
+    "min": 100,
+    "max": 590,
+    "percentage": 5
+   },
+   "zero_distance_fees": {
+    "delivery_price": 1200
+   },
+   "opening_times_schedule": [
+    {
+     "day": "Monday",
+     "formatted_times": "11:00–23:00"
+    },
+    {
+     "day": "Tuesday",
+     "formatted_times": "11:00–23:00"
+    },
+    {
+     "day": "Wednesday",
+     "formatted_times": "11:00–23:00"
+    },
+    {
+     "day": "Thursday",
+     "formatted_times": "11:00–23:00"
+    },
+    {
+     "day": "Friday",
+     "formatted_times": "11:00–23:00"
+    },
+    {
+     "day": "Saturday",
+     "formatted_times": "12:00–23:00"
+    },
+    {
+     "day": "Sunday",
+     "formatted_times": "11:00–23:00"
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "5ceab75c38452a099128c560",
+   "location": {
+    "bbox": null,
+    "type": "Point",
+    "coordinates": [
+     34.77306998,
+     32.06010031
+    ]
+   },
+   "price_range": 2,
+   "food_tags": [
+    "indian",
+    "vegetarian",
+    "recovery_2",
+    "vegan",
+    "asian",
+    "Hindi",
+    "lunch",
+    "dinner",
+    "homemade",
+    "homemade meals",
+    "street food",
+    "Wolt Benefits"
+   ],
+   "short_description": "Traditional Classic Food From India"
+  },
+  "order_minimum": 5000
+ },
+ "dynamic": {
+  "venue": {
+   "id": "5ceab75c38452a099128c560",
+   "online": true,
+   "open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:11.801718+03:00",
+    "previous_open": "2026-10-02T11:00:00+03:00",
+    "next_open": "2026-10-03T12:00:00+03:00",
+    "next_close": "2026-10-03T23:00:00+03:00",
+    "next_close_time_localized": "23:00"
+   },
+   "delivery_open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:11.801718+03:00",
+    "previous_open": "2026-10-02T11:00:00+03:00",
+    "next_open": "2026-10-03T12:00:00+03:00",
+    "next_close": "2026-10-03T23:00:00+03:00",
+    "next_close_time_localized": "23:00"
+   },
+   "delivery_configs": [
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "homedelivery",
+     "schedule": "standard",
+     "estimate": {
+      "label": "45-55 min",
+      "min": 45,
+      "mean": 50,
+      "max": 55
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    },
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "takeaway",
+     "schedule": "standard",
+     "estimate": {
+      "label": "15-20 min",
+      "min": 15,
+      "mean": 15,
+      "max": 20
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "5ceab75c38452a099128c560",
+   "alive": true,
+   "preestimate_total": {
+    "min": 45,
+    "max": 55,
+    "mean": 50
+   },
+   "discounts": [
+    {
+     "id": "venue_campaign:6a9fb0ee7e0c38621cb8c73e",
+     "effects": {
+      "basket_discount": {
+       "amount": 0,
+       "fraction": 0.15,
+       "min_amount": null,
+       "max_amount": 5000,
+       "include": null,
+       "exclude": null
+      },
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": 9900,
+        "max_amount": null,
+        "any_of_items": null,
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 900,
+        "end": 1140
+       },
+       {
+        "start": 2340,
+        "end": 2580
+       },
+       {
+        "start": 3780,
+        "end": 4020
+       },
+       {
+        "start": 5220,
+        "end": 5460
+       },
+       {
+        "start": 9540,
+        "end": 9780
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": true,
+     "tap_to_apply": false,
+     "description": {
+      "title": "From 15% off your order ⬇️"
+     }
+    },
+    {
+     "id": "venue_campaign:6a7c2457b94bcc6db711da4c",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee"
+     }
+    }
+   ],
+   "delivery_specs": {
+    "delivery_enabled": true,
+    "original_delivery_price": 1600,
+    "order_minimum_no_surcharge": 5000,
+    "delivery_pricing": {
+     "base_price": 1000,
+     "price_ranges": [
+      {
+       "min": 0,
+       "max": 5000,
+       "a": 5100,
+       "b": -1,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 5000,
+       "max": 6000,
+       "a": 100,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 6000,
+       "max": 11800,
+       "a": 0,
+       "b": 0.05,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 11800,
+       "max": 0,
+       "a": 590,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      }
+     ]
+    }
+   }
+  },
+  "order_minimum": 5000
+ },
+ "assortment": {
+  "assortment_id": "5ceb80d82d0b72f793bfb556",
+  "loading_strategy": "full",
+  "primary_language": "he",
+  "selected_language": "en",
+  "categories": [
+   {
+    "id": "45c4bb8ddb3b65f8151c50ff",
+    "name": "number of Diners",
+    "slug": "number-of-diners-1",
+    "item_ids": [
+     "5a30c06bfddcfd5eafd71ede"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "5fa6be89f1b43e1b6a79abf0",
+    "name": "Chat - appetizers",
+    "slug": "chat-appetizers-2",
+    "item_ids": [
+     "c41e876884a285db707a0b34",
+     "9b9f41922332718ad51adc62",
+     "388f19a609189327e2be5041",
+     "7cb2443635f5f8761c28be04",
+     "9c13624078038d4d7063438f"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "3c9aaecfda7da852d7da5736",
+    "name": "Soups Salads",
+    "slug": "soups-salads-3",
+    "item_ids": [
+     "202cbd082d3a00e65a681679",
+     "fd1663eb79feb03b38e5e7da"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "5141669a876defb64030ad19",
+    "name": "biryani",
+    "slug": "biryani-5",
+    "item_ids": [
+     "9d6eef072531148939f38a78",
+     "37f3ce90ae96b66e1694005d",
+     "b7c543e70781a4a13e99d863",
+     "a5b02a7dbddcd2758bc90d0a"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "d6bf36e2c98f6bf9d61ba9da",
+    "name": "Paneer",
+    "slug": "paneer-6",
+    "item_ids": [
+     "ee76c72071bab2ce044423a3",
+     "bf0159491884a3f7d74ff277",
+     "c7f3cb57f447d874b3d17fe5"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "1616bee0874197d1b45d7606",
+    "name": "dosa",
+    "slug": "dosa-7",
+    "item_ids": [
+     "f8886c808fd50222b0d63333",
+     "7c1b1b3dbd879ae58e63998a",
+     "71195959ac698b553de6227d"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "c078641dbe4e7bf278e5ae2c",
+    "name": "Thali",
+    "slug": "thali-8",
+    "item_ids": [
+     "b5e757dc170168bc3def7c9c",
+     "c6b0486889c79c49feb8ea39",
+     "11cbb36355bcc037f39a9eef",
+     "5a92aafb6577c2e1565a13fb"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "09570ac80025125006ca2b1b",
+    "name": "curry",
+    "slug": "curry-9",
+    "item_ids": [
+     "1ccdd151f441dbed6a4cc59e",
+     "f20af46e7b1475781ad241ea",
+     "6e9c7a8bed05cb01cb398356",
+     "4395ad67fa986335e36f078c"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "b6dbbea23f4f9057c27e0289",
+    "name": "Nazids",
+    "slug": "nazids-10",
+    "item_ids": [
+     "0cda0df6e336363a1e96ba98",
+     "0c442f737962194e19dec125",
+     "820475f582adc3f2b07f4889",
+     "7041f444cc619d8060a9b17d",
+     "373f5a8d894d03a0d7319a84"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "08ba0bc981e675dfc1b83655",
+    "name": "Extras",
+    "slug": "extras-11",
+    "item_ids": [
+     "20db32ae572a06e8400f02c1",
+     "253c775f718f223726606225"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "9ef6c7393fa0732950ab472f",
+    "name": "Dips",
+    "slug": "dips-12",
+    "item_ids": [
+     "22ec7d7d42009edaff689478",
+     "fdd635e06a854eb46226102d",
+     "78470a8c7f60f3bb5416361a",
+     "4987f7104d00e7230138ed53"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "0ea61fad795686bed52392dc",
+    "name": "desserts",
+    "slug": "desserts-13",
+    "item_ids": [
+     "e4247683124417227adbef88",
+     "a5912fc647c284c0d6bfb74b",
+     "aa81be24d1a9350eed120efc"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "73245f85c5a58657ec53c18a",
+    "name": "Hot drink",
+    "slug": "hot-drink-15",
+    "item_ids": [
+     "7d9f508714610a7814d861c4"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "b0beb7cb6f4b5a478555b5b7",
+    "name": "soft drink",
+    "slug": "soft-drink-16",
+    "item_ids": [
+     "fafd0a6a48aaa02a7369d753",
+     "f70b96c22b215fa308fee27d",
+     "3025f7108a55761486d95423",
+     "003d49c90b943c26d55f1be6",
+     "fff436a5849560fd03c54925",
+     "8a566ab481ec97752729a02e",
+     "ae3fb9698e4d13053875a452",
+     "5a0f9618d9c2d683c445f3e9",
+     "216ac2bf7a43796f85cb1666"
+    ],
+    "subcategories": []
+   }
+  ],
+  "items": [
+   {
+    "id": "003d49c90b943c26d55f1be6",
+    "name": "soda",
+    "description": "0.33",
+    "price": 1000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/b9c669b8-4f6c-11eb-9e27-122f389db4fe_kinley_soda_250_ml.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6b7fa32820c135dfaf7895b7cc00a4ac",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0c442f737962194e19dec125",
+    "name": "Ragda",
+    "description": "Casserole of chickpeas in tomato sauce, yogurt, cilantro and onion",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/169d1b98-1408-11e9-afa1-0a586461ca46_MP2092.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "04baedee504a45ea0141e8b0",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ecb16b5b5a4122a2b7facf2c",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "796978df3299de7e06c7642aa50d5439",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0cda0df6e336363a1e96ba98",
+    "name": "D'El Tadka",
+    "description": "We will add yellow and orange lentils",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/40ea373e-140b-11e9-9456-0a586460bc3f_MP4287.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "fce2881bed69c0f4185d0b95",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8df317e61f5f7c52c15cb559",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f29167d466f59f4fe6d00d74ee431084",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "11cbb36355bcc037f39a9eef",
+    "name": "Vegetarian Thali",
+    "description": "Served with vegetable stew and dal",
+    "price": 5800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/e32a0432-9459-11ea-9c01-0a58646d7a86_________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "5caa7cf42751131e278709f7",
+      "option_id": "b25bb32ca9331e36381d6c6a",
+      "name": "Spicy addition",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1424e234439829f80d82bce3",
+      "option_id": "513240ec1a7a39abfdf6df24",
+      "name": "Added raita (yogurt)",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9045f93662ba4c2b03638d8333112c27",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1ccdd151f441dbed6a4cc59e",
+    "name": "Veggie Curry",
+    "description": "Seasonal vegetables and legumes in a rich coconut sauce",
+    "price": 5500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/b9dca4e4-1436-11e9-b3a5-0a586461c838__________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a4b2ea3045d387358657a4b4",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7d6b47edeb6e30135589a27f",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "365c7055449fdb32cde6cc1b",
+      "option_id": "9ac6c01fbc8e20a9e138baae",
+      "name": "Veggie Curry Side Dishes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "995225a8e6fcdd7325753ff43c25e5c6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "202cbd082d3a00e65a681679",
+    "name": "A small salad",
+    "description": "Cabbage, celery, carrots and peppers in a ginger and chili sauce",
+    "price": 2000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/9989a656-6bfc-11e9-9848-0a5864643e1d_yaelitz-4__1_.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "2cd8f5ccafcdd23d1257c7b0dc0a735a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "20db32ae572a06e8400f02c1",
+    "name": "Basmati rice",
+    "description": "White Rice",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/a5d2079a-1437-11e9-befd-0a586461c838__________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "02ceb99445562ff1924b297243282983",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "216ac2bf7a43796f85cb1666",
+    "name": "Tonic bottle - Fever Tree",
+    "description": "",
+    "price": 1300,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3651446348b855e35d47f6d25072758b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "22ec7d7d42009edaff689478",
+    "name": "Coconut pepper",
+    "description": "Green chili dip with coconut and coriander",
+    "price": 2500,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3d225a2218db02570b0993fd80f8eaae",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "253c775f718f223726606225",
+    "name": "Chapati",
+    "description": "A pair of traditional Indian bread pastries",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/dcc6874e-1437-11e9-a450-0a5864641ad5__________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "db344303877574725ff1ab58d1684cde",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3025f7108a55761486d95423",
+    "name": "Sprite can",
+    "description": "0.33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/f22b5680-42c7-11eb-9073-3a87a4ff4ab7_53003_wolt_8500x4800_sprite_can_lime.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4c096287c4cd5a64c025a1bb7bd3f0f1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "373f5a8d894d03a0d7319a84",
+    "name": "D. Al McKenney",
+    "description": "Black and red lentils",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/51ffb800-140b-11e9-8389-0a586461cd4f_MP4290.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "49efa51f1108c05e740a9e46",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "990d5d876391b13752f6a982",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "56170fcb38d98c003a3cf714bfc036d3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "37f3ce90ae96b66e1694005d",
+    "name": "Paneer Biryani",
+    "description": "Stir-fried rice with seasonal vegetables and paneer cheese",
+    "price": 7500,
+    "images": [],
+    "options": [
+     {
+      "id": "5f88322c9be57458ab0061b0",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b76df86ac068b4d705056eae",
+      "option_id": "3647a890a8fbb4fe34bfe3ff",
+      "name": "Changes and Additions - Biryani",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a6e6afd869435af21df99cec0a99926b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "388f19a609189327e2be5041",
+    "name": "Legume pani puri 🌱",
+    "description": "Four thin and crispy pockets, stuffed with potato legumes Served with chutney dips",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/dbdec4f6-943b-11ea-b1de-0a58646a5a84______________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "7a3b77106a68576bf059164e",
+      "option_id": "5ec8eadb95a55f171b328e8b",
+      "name": "Changes - Fanny Puri",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "355a528fa11f67b0efea957dace211f6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "4395ad67fa986335e36f078c",
+    "name": "Butter Chicken",
+    "description": "Pieces of chicken breast in a sauce rich in butter and tomato cream and cashews",
+    "price": 7800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/1ec9e81c-943d-11ea-8ee0-0a58647f847a________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "49cd4894de733820e9337b9e",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7e48f6a5ae09f3571ad059c1",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "598a1c6bad6bdc3e5fd680d7f3ea7a92",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "4987f7104d00e7230138ed53",
+    "name": "Raita",
+    "description": "Cucumber and carrot yogurt dip",
+    "price": 2500,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f7661b4eda71a837e849663ac76e25fc",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5a0f9618d9c2d683c445f3e9",
+    "name": "Ginger Beer - Fever Tree",
+    "description": "",
+    "price": 1500,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "534909d8fb3c26799c2ddd867b2754d9",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5a30c06bfddcfd5eafd71ede",
+    "name": "Flatware",
+    "description": "Please select this item as the number of diners who need cutlery --- If you do not select this item, cutlery will not be sent with the order ---",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/66f28ca1f1ad1a6626bc2595",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cc9f31a69e5e5c1af5a61b8bec7e5a70",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5a92aafb6577c2e1565a13fb",
+    "name": "Kitaniy Tahali",
+    "description": "Served with legumes and vegetable stew",
+    "price": 6200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/e32a0432-9459-11ea-9c01-0a58646d7a86_________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "15656814ea2b1df0a5d75c86",
+      "option_id": "b25bb32ca9331e36381d6c6a",
+      "name": "Spicy addition",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a1bc09690ecc2b46007303e5",
+      "option_id": "513240ec1a7a39abfdf6df24",
+      "name": "Added raita (yogurt)",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "93b53709e704be188c68d13bd5e4bbb4",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6e9c7a8bed05cb01cb398356",
+    "name": "Chicken curry",
+    "description": "Chicken breast pieces in coconut milk sauce",
+    "price": 7500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/f0d36728-1407-11e9-9023-0a586461c838_MP1560.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "1fc5e922d6a11e7b323665e4",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1c865e022300e9854d560ba3",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c0109da041449d88c2af00bd232a422b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7041f444cc619d8060a9b17d",
+    "name": "Kobi Bhaji",
+    "description": "Potato and white cabbage stew",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/7079d37e-140b-11e9-be0b-0a586460bc3f_MP4293.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "9443a5b8de1bb0f3e3e83f58",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "80a237d688f2c9bb2535ebde",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "987fa70c7851ce10e927efe48d47719b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "71195959ac698b553de6227d",
+    "name": "טיקה ד׳וסה",
+    "description": "נתחי חזה עוף ביוגורט",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/dae0ab0e-943c-11ea-8e64-0a586470480f_______________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "5f832324f93c47fa2bf85485",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d5540490090e34e7eac722b77763e92e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "78470a8c7f60f3bb5416361a",
+    "name": "Mango pickles",
+    "description": "Pickled mango, paprika and lemon",
+    "price": 3000,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0d2ab463833140e1bb998c600707d3a3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7c1b1b3dbd879ae58e63998a",
+    "name": "מייסור ד׳וסה",
+    "description": "במילוי תפוח אדמה, ירקות , קשיו וצימוקים",
+    "price": 6200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/f8b580a0-943c-11ea-bf6a-0a5864705106_________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "dc6589aecd55130958df7cae",
+      "option_id": "b25bb32ca9331e36381d6c6a",
+      "name": "Spicy addition",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cf03070757065bf42e18ef2f",
+      "option_id": "1384356518dd2421912be6c6",
+      "name": "Changes - Mysore Dosa",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a1baee1199fb9a9ee130d26c44a21243",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7cb2443635f5f8761c28be04",
+    "name": "Tandoori naan",
+    "description": "Dough pastry baked in the tandoor with added garlic / butter",
+    "price": 2000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/36b388c4-1366-11e9-a297-0a5864637f80_MP3146.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "1abe32899cd459092cdfbd93",
+      "option_id": "a1c7daec290bbf7a7d00f29b",
+      "name": "Addition to naan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9e1f8c85b37a4a10eaf8b04606665f05",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7d9f508714610a7814d861c4",
+    "name": "double chai",
+    "description": "Classic style iced tea with milk",
+    "price": 3000,
+    "images": [],
+    "options": [
+     {
+      "id": "74a8bff9a624caf8cd01235e",
+      "option_id": "55328733c66179caf43d6e3d",
+      "name": "Choose a base",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "850f3525e4b397bed33c4c7632556dbe",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "820475f582adc3f2b07f4889",
+    "name": "Chawli",
+    "description": "Toss beans in tomato sauce",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/350be0fc-140b-11e9-b9c4-0a586461c838_MP4285.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "8768ac3719a367237cd42268",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2fbe31fd16cbdfa569ea5cb0",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "95cd8a17b098ca0fa71325925b16fa79",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8a566ab481ec97752729a02e",
+    "name": "Grapes",
+    "description": "0.33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/1f2b2788-f3a7-11eb-86f9-422b8abd2a19_52887_labels_mashkal_2020_grape_330ml_wolt_1440x810.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1b0876ce129edc0ef86e68ecc927e36e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9b9f41922332718ad51adc62",
+    "name": "Bhaja onion 🌱",
+    "description": "Onion and chickpea fritters Served with chutney dips",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63312840-1436-11e9-9afd-0a586461cd4f__________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ef02d14e7fd532d022a0f8bf",
+      "option_id": "85e86bfdd1e34db841c04fa5",
+      "name": "Changes and Additions - Onion Bhaja",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e634ebb1d49228d3bbf56b9d110696af",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9c13624078038d4d7063438f",
+    "name": "Cheese naan",
+    "description": "Naan with added paneer",
+    "price": 2800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/069d8eb0-9041-11ea-ad1f-0a58646e702a________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f6d8d01b985503efd0b7930cfa721ba2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9d6eef072531148939f38a78",
+    "name": "Vegetable Biryani 🌱",
+    "description": "Stir-fried rice with seasonal vegetables and vegetable pakora topping",
+    "price": 6500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/86db16e0-1407-11e9-8ec0-0a5864641ad5_MAPA-499.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e72669323651adf59cf75a24",
+      "option_id": "b25bb32ca9331e36381d6c6a",
+      "name": "Spicy addition",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "67e253f4a99886bb0c0ce8b3",
+      "option_id": "3647a890a8fbb4fe34bfe3ff",
+      "name": "Changes and Additions - Biryani",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8df61ba47748e1b012dc44c02e7819a8",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "a5912fc647c284c0d6bfb74b",
+    "name": "Peanut Pie",
+    "description": "Peanut butter and Belgian chocolate pie",
+    "price": 3500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/7c554828-943d-11ea-ae2c-0a5864701a0e__________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fb43ff03eb8e44542e083d25f88ee75a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "a5b02a7dbddcd2758bc90d0a",
+    "name": "Biryani kitaniy",
+    "description": "Stir-fried rice with beans and potatoes",
+    "price": 6800,
+    "images": [],
+    "options": [
+     {
+      "id": "8bfb18f5fc9ff755771126ca",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "dbece1a6db0f595539718077",
+      "option_id": "3647a890a8fbb4fe34bfe3ff",
+      "name": "Changes and Additions - Biryani",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "718c24d169e2f2e450bd352e4bf38a10",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "aa81be24d1a9350eed120efc",
+    "name": "Gulab Jamon",
+    "description": "Two cheese balls in caramel",
+    "price": 3500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/8b030766-943d-11ea-85dd-0a58646d7a7f____________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4ff0359dad491add132fe61319e28533",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ae3fb9698e4d13053875a452",
+    "name": "Maltese black beer",
+    "description": "0.33",
+    "price": 1500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/bfc85df8-4f6c-11eb-afa4-0262bc5677f2_________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6870ad8388b040ff0c8e4ed08098eead",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b5e757dc170168bc3def7c9c",
+    "name": "Chicken Tahali",
+    "description": "Served with chicken tikka masala stew and minced chicken breast",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/cb6e4d3a-9459-11ea-b1d7-0a5864705418__________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "bc1eb10b18f4350ed0bf03c4",
+      "option_id": "b25bb32ca9331e36381d6c6a",
+      "name": "Spicy addition",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4590992a6e6adc4f7b359322a2d02620",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b7c543e70781a4a13e99d863",
+    "name": "Chicken biryani",
+    "description": "Stir-fried rice with pieces of chicken breast and seasoned potato",
+    "price": 7500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/256ccbcc-1436-11e9-b715-0a586461ca4a_____________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "7e6735b4bf3a4d72647e08c0",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1279c54df6c9b1e2730931b2",
+      "option_id": "3647a890a8fbb4fe34bfe3ff",
+      "name": "Changes and Additions - Biryani",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "16ebacd34e124f79566383b7dafc100f",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "bf0159491884a3f7d74ff277",
+    "name": "Paneer butter masala",
+    "description": "Paneer cheese and eggplant pakora in tomato and cashew butter sauce",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/d6ed6e70-1408-11e9-8928-0a586461cf3e_MP4223.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2fdf52d12f515c80be26d3ea",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2d92667a89fd8e382d3104f7",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "08ee9658a8e4e7916166dc8f5179fc6a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c41e876884a285db707a0b34",
+    "name": "סמוסה עוף",
+    "description": "כיסונים חמים ופריכים | על מצע גרגירי חומוס ויוגורט",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/6fa0dce8-9459-11ea-9b1d-0a58647f847d______________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "d160a0f13edf5ad84cf62a54",
+      "option_id": "738e842c0929973fe67bedcc",
+      "name": "Changes and Additions - Samosa",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ab398e926642f10a1c8df519bac5c8ac",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c6b0486889c79c49feb8ea39",
+    "name": "Paneer Thali",
+    "description": "Served with paneer dishes in tomato butter and spinach sauce",
+    "price": 6800,
+    "images": [],
+    "options": [
+     {
+      "id": "baba725dae63762bd0889313",
+      "option_id": "b25bb32ca9331e36381d6c6a",
+      "name": "Spicy addition",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8a36b4c2c9f91b3606e685feeb363341",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c7f3cb57f447d874b3d17fe5",
+    "name": "Dumpling stock",
+    "description": "Paneer cheese and potato dumplings Served with cashew nuts and dried fruit sauce",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/0f89aad2-1409-11e9-bfa8-0a586461d21c_MP4227.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ac937f1641bb3a91c6e765aa",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "27891127d0b259af73fe2c9c",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "96997ce1027ecdefc7e9f98a42033dff",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e4247683124417227adbef88",
+    "name": "‫ד׳וסה קרפ 🌾",
+    "description": "קרפ עדין נטול גלוטן עשוי מבלילת אורז ועדשים עם תוספת מייפל או שוקולד",
+    "price": 3500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/944e44f2-943d-11ea-8faa-0a58646d7a7f__________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "0bad62f37e7a03cf721850ee",
+      "option_id": "d57ecac4ece37e51a35de3f4",
+      "name": "Choose Chocolate/Maple",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "473aa1a78306d26338a960e7",
+      "option_id": "1f409d3c1f7c4c79af51ad1f",
+      "name": "Changes - Dosa Crepe",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fd8bc0f092cd20787edc3f28ebda7657",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ee76c72071bab2ce044423a3",
+    "name": "Palak Paneer",
+    "description": "Paneer cheese with mildly seasoned spinach",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/ea0db316-943b-11ea-84bf-0a58647e1d26__________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "7ef73a7f48d013d34337c15a",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1fa010128aabab2623c72aac",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5f97436d0a7f26bcd84723cd78927880",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "f20af46e7b1475781ad241ea",
+    "name": "tikka masala",
+    "description": "Pieces of chicken breast in tomato sauce with cashews and butter",
+    "price": 7500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/401024a0-1437-11e9-b25b-0a586461d22d_______________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "993d804733c0e7c8f3c203b1",
+      "option_id": "202d1668a6b5b9bd3bf400ac",
+      "name": "Spicy addition ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "758dd2c1f63ef6fa1f23e638",
+      "option_id": "a8d5e76a29791201efb5f39d",
+      "name": "Would you like to replace the rice?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9bd63985dee5b49ee74e0a71be253668",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "f70b96c22b215fa308fee27d",
+    "name": "Can of Zero Coke",
+    "description": "0.33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/2a6f2a68-42c7-11eb-9a37-92ca09493036_coca_cola_zero_can_330ml_.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9f900f813b08609034cfad20621b3fc9",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "f8886c808fd50222b0d63333",
+    "name": "מסאלה ד׳וסה 🌱",
+    "description": "במילוי תפוח אדמה, כמון וזרעי חרדל",
+    "price": 5800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/e8269ed6-943c-11ea-a8df-0a5864705909_________________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "f8f290cfe0436c070bd06050",
+      "option_id": "b25bb32ca9331e36381d6c6a",
+      "name": "Spicy addition",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5cb420f9bf562ba7cb6d848bcaf5a9b2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "fafd0a6a48aaa02a7369d753",
+    "name": "Coca Cola can",
+    "description": "0.33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://image-resizer-proxy.development.dev.woltapi.com/wolt-dev-development-restaurant-api-menu-images/menu-images/5fbe3d6b40ccbfedccfd71a0/1a7063e8-42c7-11eb-9443-92ca09493036_coca_cola_can_330ml.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4b6c7ffaf74a1af2f4424e5c459bd425",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "fd1663eb79feb03b38e5e7da",
+    "name": "Ma Pao salad",
+    "description": "A mixture of leaves, fresh garden vegetables decorated with cashews and a rich vinaigrette sauce",
+    "price": 4800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/1e47cb2e-1366-11e9-82cf-0a586461886c_MP0029.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "6852243089165db90e9837ac",
+      "option_id": "3cde1d4cdb338a958f89e611",
+      "name": "Changes and Additions - Ma Pao Salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a4d44c560265b2ef6bf1e383",
+      "option_id": "aa65636b904534285b4bc0c0",
+      "name": "Paid extras - Ma Pao salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ca441db92f63a490c055a1d3bee72991",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "fdd635e06a854eb46226102d",
+    "name": "Tamarind",
+    "description": "Tamarind dip and sweet and sour dates",
+    "price": 2500,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f0560e7893110331ee3116921b8047f6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "fff436a5849560fd03c54925",
+    "name": "grapefruit",
+    "description": "0.33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ceb80d82d0b72f793bfb556/19a479ae-f3a7-11eb-82f8-ae58e28e15fa_52887_mashkal_2020_grapefruit_330ml_wolt_1440x810.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "97a268a3fac8a779a1e3fcc00d377151",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   }
+  ],
+  "options": [
+   {
+    "id": "1384356518dd2421912be6c6",
+    "name": "Changes - Mysore Dosa",
+    "type": "multi_choice",
+    "default_value": "133811c222752fc153cd06f3",
+    "values": [
+     {
+      "id": "133811c222752fc153cd06f3",
+      "name": "Without cashews",
+      "price": 0
+     },
+     {
+      "id": "2f250f67bbba918956d3d5ef",
+      "name": "No raisins",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "202d1668a6b5b9bd3bf400ac",
+    "name": "Spicy addition ",
+    "type": "multi_choice",
+    "default_value": "5c2cf39ddf1d8561dd3a1f1a",
+    "values": [
+     {
+      "id": "5c2cf39ddf1d8561dd3a1f1a",
+      "name": "Without spicy",
+      "price": 0
+     },
+     {
+      "id": "5c5fe871f0aa0132cca2f6f2",
+      "name": "Spicy addition",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "3647a890a8fbb4fe34bfe3ff",
+    "name": "Changes and Additions - Biryani",
+    "type": "multi_choice",
+    "default_value": "aafe45bc3477213032f2bf93",
+    "values": [
+     {
+      "id": "aafe45bc3477213032f2bf93",
+      "name": "cashew",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "3cde1d4cdb338a958f89e611",
+    "name": "Changes and Additions - Ma Pao Salad",
+    "type": "multi_choice",
+    "default_value": "c77df3eea675356792e2d414",
+    "values": [
+     {
+      "id": "c77df3eea675356792e2d414",
+      "name": "cashew",
+      "price": 0
+     },
+     {
+      "id": "e5d02b561b261f39335b2b19",
+      "name": "Onion",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "513240ec1a7a39abfdf6df24",
+    "name": "Added raita (yogurt)",
+    "type": "multi_choice",
+    "default_value": "c224d767d8a954813cd9a157",
+    "values": [
+     {
+      "id": "c224d767d8a954813cd9a157",
+      "name": "Without raita",
+      "price": 0
+     },
+     {
+      "id": "b8ef2fc896de9c5b1f445641",
+      "name": "With raita",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "55328733c66179caf43d6e3d",
+    "name": "Choose a base",
+    "type": "choice",
+    "default_value": "525d3b3745511b7df2c7c779",
+    "values": [
+     {
+      "id": "525d3b3745511b7df2c7c779",
+      "name": "Plain milk",
+      "price": 0
+     },
+     {
+      "id": "8e2a8eb5385a72c67a44b4d2",
+      "name": "soy milk",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5ec8eadb95a55f171b328e8b",
+    "name": "Changes - Fanny Puri",
+    "type": "multi_choice",
+    "default_value": "5ea4b0fcaaf484b060f07a1d",
+    "values": [
+     {
+      "id": "5ea4b0fcaaf484b060f07a1d",
+      "name": "Without raw onions",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "85e86bfdd1e34db841c04fa5",
+    "name": "Changes and Additions - Onion Bhaja",
+    "type": "multi_choice",
+    "default_value": "53a24950fb60ecc5d7ef3edf",
+    "values": [
+     {
+      "id": "53a24950fb60ecc5d7ef3edf",
+      "name": "Coriander decorations",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "9ac6c01fbc8e20a9e138baae",
+    "name": "Veggie Curry Side Dishes",
+    "type": "multi_choice",
+    "default_value": "f9332a1ef5684b98f55a19f3",
+    "values": [
+     {
+      "id": "f9332a1ef5684b98f55a19f3",
+      "name": "Pekura Vegetables",
+      "price": 1000
+     },
+     {
+      "id": "02968f928b043b412d192c3d",
+      "name": "Paneer cheese",
+      "price": 1000
+     }
+    ]
+   },
+   {
+    "id": "a1c7daec290bbf7a7d00f29b",
+    "name": "Addition to naan",
+    "type": "multi_choice",
+    "default_value": "3b82c8e9c930895c42b9a8ed",
+    "values": [
+     {
+      "id": "3b82c8e9c930895c42b9a8ed",
+      "name": "butter",
+      "price": 0
+     },
+     {
+      "id": "57175cb6a6a9de10a4f835cd",
+      "name": "butter and garlic",
+      "price": 0
+     },
+     {
+      "id": "ef587fde6ffe85607b2b4569",
+      "name": "Without butter",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "a8d5e76a29791201efb5f39d",
+    "name": "Would you like to replace the rice?",
+    "type": "choice",
+    "default_value": "6f91412be71698dfab610307",
+    "values": [
+     {
+      "id": "6f91412be71698dfab610307",
+      "name": "No thanks",
+      "price": 0
+     },
+     {
+      "id": "83ea7f4f702ad4f504e3cb6b",
+      "name": "Replace with chapati",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "aa65636b904534285b4bc0c0",
+    "name": "Paid extras - Ma Pao salad",
+    "type": "multi_choice",
+    "default_value": "c7576fe16aeb20f71d4e7786",
+    "values": [
+     {
+      "id": "c7576fe16aeb20f71d4e7786",
+      "name": "Pekura Vegetables",
+      "price": 1000
+     },
+     {
+      "id": "f11deb4f0ba683b623009b1c",
+      "name": "גבינת פאניר",
+      "price": 1400
+     },
+     {
+      "id": "ab9fd65a740447d8907ba34d",
+      "name": "Chunks of tikka chicken",
+      "price": 1700
+     }
+    ]
+   },
+   {
+    "id": "b25bb32ca9331e36381d6c6a",
+    "name": "Spicy addition",
+    "type": "multi_choice",
+    "default_value": "073ddda247d845a0df8eef53",
+    "values": [
+     {
+      "id": "b1e08a2e3737aa30a5f457ba",
+      "name": "add spicy",
+      "price": 0
+     },
+     {
+      "id": "073ddda247d845a0df8eef53",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "d57ecac4ece37e51a35de3f4",
+    "name": "Choose Chocolate/Maple",
+    "type": "multi_choice",
+    "default_value": "1ff231fadf6d5f09dc3c7926",
+    "values": [
+     {
+      "id": "1ff231fadf6d5f09dc3c7926",
+      "name": "chocolate",
+      "price": 0
+     }
+    ]
+   }
+  ]
+ }
+}

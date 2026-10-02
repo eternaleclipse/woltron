@@ -1,0 +1,5308 @@
+{
+ "captured_at": "2026-10-02T21:59:14.561Z",
+ "location": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "static": {
+  "venue": {
+   "id": "6224779e04ad3c418ba6ba41",
+   "slug": "amore-mio",
+   "name": "Amore Mio",
+   "description": "Amore Mio restaurant was opened 20 years ago by Suzannea and Shlomi Salomon. The couple returned to Israel about from a stay in Italy and opened the legendary \"Pizza Pazza” and brought to Israel new dishes  such as focaccia, calzone and lasagna",
+   "image_url": "https://imageproxy.wolt.com/assets/673206cee797795fa3838c63",
+   "image_blurhash": "j5Dmtb;40jX7;JSXllh40AlkVW95",
+   "brand_logo_image_url": "https://imageproxy.wolt.com/assets/673206cd2d3e61400737f400",
+   "address": "אבן גבירול 100, תל אביב",
+   "rating": {
+    "rating": 3,
+    "score": "9.0",
+    "score_raw": 9,
+    "volume": 500
+   },
+   "share_url": "https://wolt.com/he/isr/tel-aviv/restaurant/amore-mio",
+   "currency": "ILS",
+   "country": "ISR",
+   "delivery_methods": [
+    "takeaway",
+    "homedelivery"
+   ],
+   "timezone": "Asia/Jerusalem",
+   "product_line": "restaurant",
+   "delivery_base_price": 1000,
+   "service_fee_estimate": {
+    "min": 100,
+    "max": 590,
+    "percentage": 5
+   },
+   "zero_distance_fees": {
+    "delivery_price": 1200
+   },
+   "opening_times_schedule": [
+    {
+     "day": "Monday",
+     "formatted_times": "11:30–23:00"
+    },
+    {
+     "day": "Tuesday",
+     "formatted_times": "11:30–23:00"
+    },
+    {
+     "day": "Wednesday",
+     "formatted_times": "11:30–23:00"
+    },
+    {
+     "day": "Thursday",
+     "formatted_times": "11:30–23:00"
+    },
+    {
+     "day": "Friday",
+     "formatted_times": "11:30–23:00"
+    },
+    {
+     "day": "Saturday",
+     "formatted_times": "11:30–23:00"
+    },
+    {
+     "day": "Sunday",
+     "formatted_times": "11:30–23:00"
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "6224779e04ad3c418ba6ba41",
+   "location": {
+    "bbox": null,
+    "type": "Point",
+    "coordinates": [
+     34.7815637,
+     32.0835373
+    ]
+   },
+   "price_range": 2,
+   "food_tags": [
+    "italian",
+    "pasta",
+    "vegan",
+    "pizza",
+    "glutenfree",
+    "gluten free",
+    "isr_soup",
+    "isr_g_before_passover",
+    "recovery_1",
+    "ThemedNight_italian24"
+   ],
+   "short_description": "Italian restaurant in Tel Aviv City Center"
+  },
+  "order_minimum": 5000
+ },
+ "dynamic": {
+  "venue": {
+   "id": "6224779e04ad3c418ba6ba41",
+   "online": true,
+   "open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:14.431034+03:00",
+    "previous_open": "2026-10-02T11:30:00+03:00",
+    "next_open": "2026-10-03T11:30:00+03:00",
+    "next_close": "2026-10-03T23:00:00+03:00",
+    "next_close_time_localized": "23:00"
+   },
+   "delivery_open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:14.431034+03:00",
+    "previous_open": "2026-10-02T11:30:00+03:00",
+    "next_open": "2026-10-03T11:30:00+03:00",
+    "next_close": "2026-10-03T23:00:00+03:00",
+    "next_close_time_localized": "23:00"
+   },
+   "delivery_configs": [
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "homedelivery",
+     "schedule": "standard",
+     "estimate": {
+      "label": "20-30 min",
+      "min": 20,
+      "mean": 25,
+      "max": 30
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    },
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "takeaway",
+     "schedule": "standard",
+     "estimate": {
+      "label": "10-20 min",
+      "min": 10,
+      "mean": 15,
+      "max": 20
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "6224779e04ad3c418ba6ba41",
+   "alive": true,
+   "preestimate_total": {
+    "min": 20,
+    "max": 30,
+    "mean": 25
+   },
+   "discounts": [
+    {
+     "id": "venue_campaign:6a61b25ea3dbf9521bf5db60",
+     "effects": {
+      "basket_discount": {
+       "amount": 0,
+       "fraction": 0.15,
+       "min_amount": null,
+       "max_amount": null,
+       "include": null,
+       "exclude": null
+      },
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": 9900,
+        "max_amount": null,
+        "any_of_items": null,
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 0,
+        "end": 180
+       },
+       {
+        "start": 1320,
+        "end": 1439
+       },
+       {
+        "start": 1440,
+        "end": 1620
+       },
+       {
+        "start": 2760,
+        "end": 2879
+       },
+       {
+        "start": 2880,
+        "end": 3060
+       },
+       {
+        "start": 4200,
+        "end": 4319
+       },
+       {
+        "start": 8640,
+        "end": 8820
+       },
+       {
+        "start": 9960,
+        "end": 10079
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": true,
+     "tap_to_apply": false,
+     "description": {
+      "title": "15% off on orders over ₪99"
+     }
+    },
+    {
+     "id": "venue_campaign:6a9fb0ee7e0c38621cb8c73e",
+     "effects": {
+      "basket_discount": {
+       "amount": 0,
+       "fraction": 0.15,
+       "min_amount": null,
+       "max_amount": 5000,
+       "include": null,
+       "exclude": null
+      },
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": 9900,
+        "max_amount": null,
+        "any_of_items": null,
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 900,
+        "end": 1140
+       },
+       {
+        "start": 2340,
+        "end": 2580
+       },
+       {
+        "start": 3780,
+        "end": 4020
+       },
+       {
+        "start": 5220,
+        "end": 5460
+       },
+       {
+        "start": 9540,
+        "end": 9780
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": true,
+     "tap_to_apply": false,
+     "description": {
+      "title": "From 15% off your order ⬇️"
+     }
+    },
+    {
+     "id": "venue_campaign:6a7c2457b94bcc6db711da4c",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee"
+     }
+    }
+   ],
+   "delivery_specs": {
+    "delivery_enabled": true,
+    "original_delivery_price": 1200,
+    "order_minimum_no_surcharge": 5000,
+    "delivery_pricing": {
+     "base_price": 1000,
+     "price_ranges": [
+      {
+       "min": 0,
+       "max": 5000,
+       "a": 5100,
+       "b": -1,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 5000,
+       "max": 6000,
+       "a": 100,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 6000,
+       "max": 11800,
+       "a": 0,
+       "b": 0.05,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 11800,
+       "max": 0,
+       "a": 590,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      }
+     ]
+    }
+   }
+  },
+  "order_minimum": 5000
+ },
+ "assortment": {
+  "assortment_id": "622478c6cb98984effe7e562",
+  "loading_strategy": "full",
+  "primary_language": "he",
+  "selected_language": "en",
+  "categories": [
+   {
+    "id": "fc6ba63784420e80678bac4a",
+    "name": "NUMBER OF DINERS",
+    "slug": "number-of-diners-3",
+    "item_ids": [
+     "624e8ee95bfeb8a160e1c9f1"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "4a2c8b2b0cd8a612a60cbc8f",
+    "name": "ANTIPASTI",
+    "description": "It is not possible to add a general comment to the order. To make changes to the content of the dishes, use only the dish options 🌱 - vegan 🌾 - gluten-free",
+    "slug": "antipasti-6",
+    "item_ids": [
+     "624e8ee95bfeb8a160e1c9b9",
+     "624e8ee95bfeb8a160e1c9b4",
+     "624e8ee95bfeb8a160e1c9b1",
+     "624e8ee95bfeb8a160e1c9b2",
+     "624e8ee95bfeb8a160e1c9b3",
+     "624e8ee95bfeb8a160e1c9b5",
+     "624e8ee95bfeb8a160e1c9b6",
+     "624e8ee95bfeb8a160e1c9ba",
+     "624e8ee95bfeb8a160e1c9fb"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "44cce8190cb99c671d8a0614",
+    "name": "PIZZA",
+    "description": "all pizzas can be served without tomato sauce",
+    "slug": "pizza-7",
+    "item_ids": [
+     "624e8ee95bfeb8a160e1c9a2",
+     "624e8ee95bfeb8a160e1c9a3",
+     "624e8ee95bfeb8a160e1c9a4",
+     "624e8ee95bfeb8a160e1c9a5",
+     "624e8ee95bfeb8a160e1c9a6",
+     "624e8ee95bfeb8a160e1c9a7",
+     "624e8ee95bfeb8a160e1c9ad",
+     "624e8ee95bfeb8a160e1c9ae",
+     "624e8ee95bfeb8a160e1c9ac",
+     "624e8ee95bfeb8a160e1c9a9",
+     "624e8ee95bfeb8a160e1c9b0"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "d518e137ea89da94c1229dff",
+    "name": "PASTA WITH TOMATO SAUCE",
+    "description": "The dishes contain a little garlic and spicy, can be removed by changing the dish",
+    "slug": "pasta-with-tomato-sauce-8",
+    "item_ids": [
+     "624e8ee95bfeb8a160e1c9bf",
+     "624e8ee95bfeb8a160e1c9c0",
+     "624e8ee95bfeb8a160e1c9c1",
+     "624e8ee95bfeb8a160e1c9c2",
+     "624e8ee95bfeb8a160e1c9c3",
+     "624e8ee95bfeb8a160e1c9c4",
+     "624e8ee95bfeb8a160e1c9c5",
+     "624e8ee95bfeb8a160e1c9c6"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "75a6ac63b623e82bdcbbbde9",
+    "name": "PASTA WITH CREAM SAUCE",
+    "description": "The dishes contain parmesan, nutmeg, a little garlic and spicy can be removed by changing the dish",
+    "slug": "pasta-with-cream-sauce-9",
+    "item_ids": [
+     "626584f7500fa90ac527d262",
+     "624e8ee95bfeb8a160e1c9c7",
+     "624e8ee95bfeb8a160e1c9c8",
+     "624e8ee95bfeb8a160e1c9ca",
+     "624e8ee95bfeb8a160e1c9cc",
+     "624e8ee95bfeb8a160e1c9ce",
+     "624e8ee95bfeb8a160e1c9cd",
+     "624e8ee95bfeb8a160e1c9d1",
+     "624e8ee95bfeb8a160e1c9cf",
+     "624e8ee95bfeb8a160e1c9db"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "1a4305dfdc0811d935b14d03",
+    "name": "PASTA WITH OLIVE OIL",
+    "description": "served with garlic and chilli",
+    "slug": "pasta-with-olive-oil-10",
+    "item_ids": [
+     "624e8ee95bfeb8a160e1c9d7",
+     "624e8ee95bfeb8a160e1c9d8",
+     "624e8ee95bfeb8a160e1c9da",
+     "624e8ee95bfeb8a160e1c9d9",
+     "624e8ee95bfeb8a160e1c9dd",
+     "624e8ee95bfeb8a160e1c9dc",
+     "624e8ee95bfeb8a160e1c9d0",
+     "624e8ee95bfeb8a160e1c9de"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "3a7e41304cee0e119e59f163",
+    "name": "RISOTTO",
+    "description": "The dishes contain a little garlic and spicy, can be removed by changing the dish",
+    "slug": "risotto-11",
+    "item_ids": [
+     "624e8ee95bfeb8a160e1c9df",
+     "624e8ee95bfeb8a160e1c9e0",
+     "624e8ee95bfeb8a160e1c9e1"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "25a994e9573f0baf32d30b76",
+    "name": "RAVIOLI | GNOCCHI",
+    "description": "with parmesan, butmeg, garlic and chilli",
+    "slug": "ravioli-gnocchi-12",
+    "item_ids": [
+     "624e8ee95bfeb8a160e1c9d2",
+     "624e8ee95bfeb8a160e1c9d3",
+     "624e8ee95bfeb8a160e1c9d5",
+     "624e8ee95bfeb8a160e1c9d6"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "99836078d23499e30078d00d",
+    "name": "MEAT",
+    "slug": "meat-13",
+    "item_ids": [
+     "624e8ee95bfeb8a160e1c9bd",
+     "624e8ee95bfeb8a160e1c9be",
+     "624e8ee95bfeb8a160e1c9bc"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "52f9df594beef9245b9aef78",
+    "name": "DESSERT",
+    "description": "All our desserts contain pasteurized eggs. ",
+    "slug": "dessert-14",
+    "item_ids": [
+     "624e8ee95bfeb8a160e1c9e2",
+     "624e8ee95bfeb8a160e1c9e3",
+     "624e8ee95bfeb8a160e1c9e4",
+     "624e8ee95bfeb8a160e1c9e5",
+     "624e8ee95bfeb8a160e1c9e6"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "cdb808131dd9120e2790c3d0",
+    "name": "DRINKS",
+    "slug": "drinks-15",
+    "item_ids": [
+     "62723b226cc099da763200aa",
+     "62723b24d1190956c6d2ad44",
+     "62723b257e26b43a623f9afc",
+     "62723b279bcd19f1c23f9b0b",
+     "62723b28b50a5115abcc9491",
+     "62723b41b50a5115abcc94ca",
+     "62723b4455335a56814cf0fd",
+     "62723b3d37a757658b2bf6a9"
+    ],
+    "subcategories": []
+   }
+  ],
+  "items": [
+   {
+    "id": "624e8ee95bfeb8a160e1c9a2",
+    "name": "Margherita",
+    "description": "tomato sauce and mozzarella",
+    "price": 7400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/f44d0058-0db3-11ee-85e7-ee9bc1ec0b83________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "1044e609b2e328a63e460ffb",
+      "option_id": "64535a0bc8054330c32d2785",
+      "name": "Possible Changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b4cbe9008caa0b221f2a45dc20b6da0d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9a3",
+    "name": "Zio Topolino",
+    "description": "tomato sauce, mozzarella and olives for your choice",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/2b5fb4a0-0db4-11ee-885d-2a1e93850387_________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "754270392526690fcc9c64e6",
+      "option_id": "64535a0bc8054330c32d2785",
+      "name": "Possible Changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "41e274c6b16e1745d6d83165",
+      "option_id": "624e8ee95bfeb8a160e1c85e",
+      "name": "Choose",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 2
+       },
+       "max_single_selections": 2,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b7f8cd070715eed670140894b83d4f94",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9a4",
+    "name": "Napolitana",
+    "description": "tomato sauce, mozzarella and anchovy",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/37983512-0db4-11ee-a3c8-2eb644be93b3_________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "db1b34f2803120623a15acad55890951",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9a5",
+    "name": "Funghi",
+    "description": "tomato sauce, mozzarella and champignon",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/40d0462e-0db4-11ee-be29-2eb644be93b3______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "b2f59ea97b896e6b99088805",
+      "option_id": "64535a0bc8054330c32d2785",
+      "name": "Possible Changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b5575eccd91ad3c7ef507fb2ca49d83a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9a6",
+    "name": "Zia Isabella",
+    "description": "tomato sauce, mozzarella, parmesan, tomato and arugula",
+    "price": 8300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/4b6140ca-0db4-11ee-aa94-2e231cc10966_______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e62749eb4a2b822f7c25fb82",
+      "option_id": "64535a0bc8054330c32d2785",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0032756daca4bb1889583500ee8235a5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9a7",
+    "name": "Nono Peppo 🌶",
+    "description": "tomato sauce, mozzarella, feta and chilli",
+    "price": 8300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/5ffd9164-0db4-11ee-858e-3a472aad5a95_________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "28054c3a84828034546345aa",
+      "option_id": "64535a0bc8054330c32d2785",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "08a5cfccf3e3f725aac2f506276741b3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9a9",
+    "name": "Zio Massimo",
+    "description": "cream sauce, mozzarella, parmesan, roquefort cheese, champignon and onion",
+    "price": 8300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/3d5daf5e-a7f5-11ef-b33d-968c42f78826______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "188d30071b0127fe75ccfb2ffef32f0c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9ac",
+    "name": "Zio Babi",
+    "description": "tomato sauce, mozzarella, hard-boiled egg, tomato and basil",
+    "price": 8300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/f8ec2462-0db4-11ee-bde2-d2a764b9abf4____.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "dac27f338201fe21b67ae4a61df26f58",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9ad",
+    "name": "Zio Dino",
+    "description": "tomato sauce, mozzarella, salami, pepper and onion",
+    "price": 8500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/73a2f268-0db4-11ee-83cf-06f9a78f929e_____.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "158d421aa42f275749f1a5dd94361c9e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9ae",
+    "name": "Zio Botto",
+    "description": "tomato sauce, mozzarella, minced meat and onion",
+    "price": 8500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/9e9f6ad8-a7f4-11ef-8d2a-2203bac49df5_____.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1cfa2a3b2e3ad89e487821d482c6f7f5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9b0",
+    "name": "Zia Angelica",
+    "description": "mozzarella, pesto, goat cheese and tomato",
+    "price": 8300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/493f6348-0db5-11ee-a722-a29ff24ff6eb________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c0d0efa6ec7fa3931c3fd75b62d4fcfb",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9b1",
+    "name": "Focaccia 🌱",
+    "description": "olive oil, rosemary and garlic",
+    "price": 3200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/0da0e8dc-0db2-11ee-8d61-ee9b9ad13133__________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "44f821a451407ec9c32408b8",
+      "option_id": "624e8ee95bfeb8a160e1c863",
+      "name": "Possible Changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c128491e37bc87866c9d33ce29283ea9",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9b2",
+    "name": "Bruschetta Pomodoro 🌱",
+    "description": "tomato cubes, basil and olive oil, on toasted bread with garlic",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/1d50a254-0db2-11ee-96f4-d2c12325d6bc________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "11ba8099b7899366fbec12c9675a171a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9b3",
+    "name": "Caprese",
+    "description": "fresh mozzarella slices, tomato, olive oil and basil",
+    "price": 4900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/24802cd4-0db2-11ee-b72a-72f336d65fb6______.jpg",
+      "blurhash": "j4q5xgKY00h4KHLclBh401pB;ZKG"
+     }
+    ],
+    "options": [
+     {
+      "id": "6c628fbbccfc5aa36b18fd9c",
+      "option_id": "624e8ee95bfeb8a160e1c882",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bed88e818e4d89ffbbb9cfc7",
+      "option_id": "e098ceb5dfd7d372264868a6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "198e9b02647db1b891ccb930f6d27702",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9b4",
+    "name": "Beef Carpaccio",
+    "description": "beef fillet slices, olive oil, lemon, arugula and parmesan",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/2bad2372-0db2-11ee-b2a8-66b97f4978b3_______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2fcdc800ca3bfe2ca9ef5f95",
+      "option_id": "624e8ee95bfeb8a160e1c87c",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9c042e616f12ee203c184736",
+      "option_id": "e098ceb5dfd7d372264868a6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b293b32283774800189daec63a568699",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9b5",
+    "name": "Small Antipasti",
+    "description": "eggplant, tomato sauce, parmesan, sweet potato with thyme, champignon, peppers, confit garlic, green beans with kalamata olives, carrot and feta cheese",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/34f2a8a8-0db2-11ee-91a4-2e231cc10966_________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "212291dc6a5ff5bc8a9a967c",
+      "option_id": "624e8ee95bfeb8a160e1c867",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7284eee487a8426536c2a7ad",
+      "option_id": "e098ceb5dfd7d372264868a6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cffe274edf1f6d1848695e9248be717d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9b6",
+    "name": "Large Antipasti",
+    "description": "eggplant, tomato sauce, parmesan, sweet potato with thyme, champignon, peppers, confit garlic, green beans with kalamata olives, carrot and feta cheese",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/3b12c0e2-0db2-11ee-b7ca-8e9f4cc6d014_________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2a18d0c6efb43ed51b4ce187",
+      "option_id": "624e8ee95bfeb8a160e1c867",
+      "name": "Possible Changes - Antipasti",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "da205640ac831e847aab393d",
+      "option_id": "e098ceb5dfd7d372264868a6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "77ef65cbb0f7165cb794063bdae19063",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9b9",
+    "name": "Amore Salad",
+    "description": "lettuce, croutons, walnuts, roasted peppers and parmesan with a basil vinaigrette. \n*this dish has some sweet flavors",
+    "price": 6900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/89176020-a7f5-11ef-941f-8e16b6cb89be______________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "b1b92eed087a38fb3a2c23fa",
+      "option_id": "64535a0bc8054330c32d2784",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6479903cc58eec80b23dac03",
+      "option_id": "e098ceb5dfd7d372264868a6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4814eccd54906ca701c0141928a91a53",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9ba",
+    "name": "Sicilian Salad",
+    "description": "roughly chopped vegetable salad. cucumber, tomato, lettuce, red onion, kalamata olives, feta cheese, olive oil, lemon and vinegar",
+    "price": 6900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/04c32d32-0db3-11ee-90d9-8e9f4cc6d014__________.jpg",
+      "blurhash": "j1nBNoPu00kxNkGYiXPa00OS;Z8R"
+     }
+    ],
+    "options": [
+     {
+      "id": "34b8897ff8b7901ee918b3b6",
+      "option_id": "67adad281f71eba948436acf",
+      "name": "A vegan dish? 🌱",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9f90a38de3f30bf516713295",
+      "option_id": "e098ceb5dfd7d372264868a6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d68af25f71e9927e4f441db72618820d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9bc",
+    "name": "Drunk Liver",
+    "description": "±350 gr of chicken liver, red wine sauce, red vermut, brandy, butter and onion. served with potatoes and a green salad",
+    "price": 10400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/00c861ec-a7f5-11ef-af2b-bebe25f0b66c__________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "350eb755771036d15b53618a",
+      "option_id": "624e8ee95bfeb8a160e1c975",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1081fc73f6fa12a275252790",
+      "option_id": "e098ceb5dfd7d372264868a6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "638f607e086a056cafaebf24",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4ffd4e02dedc7ea62585f53ea75f739a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9bd",
+    "name": "Liver a-la Grillia",
+    "description": "±350 gr of chicken liver, grilled with onion. served with potatoes and a green salad",
+    "price": 10400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/15dacd0e-a7f5-11ef-80f7-ae8d36a3f726_____________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "28e6e205b816ce50ddf70966",
+      "option_id": "624e8ee95bfeb8a160e1c978",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "33499e2331528e333005b14d",
+      "option_id": "e098ceb5dfd7d372264868a6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "40dec5357139061b2e937bb4",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9e3e001e403809fa3b0ce4a4cf2f4ee0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9be",
+    "name": "Pollo a-la Grillia",
+    "description": "±330 gr of chicken thigh, marinated and grilled. served with potatoes and a green salad",
+    "price": 10400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/e048d220-a7f5-11ef-99b4-12ca50b608b9______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e540ac6ba1de7a05da73a984",
+      "option_id": "e098ceb5dfd7d372264868a6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9b450decf4a72c10c0c9343f",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cff108a7aefe7694b1f0b0dfdc027e52",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9bf",
+    "name": "Pomodoro 🌱",
+    "description": "pasta with tomato sauce\nchoose the pasta type",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/7b5043b6-0db5-11ee-ab0f-06f9a78f929e________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "c70c3f7e7d1be43707065835",
+      "option_id": "624e8ee95bfeb8a160e1c869",
+      "name": "Choose",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a268e9a4b70d4078a280b412",
+      "option_id": "64535a0bc8054330c32d276c",
+      "name": "Possible changes - Pomodoro",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1a2bc94c78a9169d6a131f62",
+      "option_id": "79952452abf63804564336bb",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7073184e4431dad22d94d54c",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6db5dc59384ae534678f9d19",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3c74bb1ea7b7b2d30a29cf7cf8148b6d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9c0",
+    "name": "Arabiatta 🌶",
+    "description": "pasta with tomato sauce, fresh tomato, green pepper, chilli, green chilli\nchoose the pasta type",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/83504de0-0db5-11ee-bffc-3a472aad5a95________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a64c79c7c55fb70a802ede6b",
+      "option_id": "624e8ee95bfeb8a160e1c869",
+      "name": "Choose",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6b6e490b55a13f964cb4d3e1",
+      "option_id": "79952452abf63804564336bb",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "dab5f3664ce9ce775c8499a0",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "116441cca81d66e232391738",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c6cef4323b66160c4ce81e924907ae3b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9c1",
+    "name": "Zia Marina",
+    "description": "pasta with tomato sauce, eggplant, fresh tomato, feta, kalamata olives and basil\nchoose the pasta type",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/8b501f2a-0db5-11ee-88cb-569346f8ac78______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "5c61e729d9d4b203936cca11",
+      "option_id": "624e8ee95bfeb8a160e1c869",
+      "name": "Choose",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ee7083062df312c5b9c490b0",
+      "option_id": "64535a0bc8054330c32d277f",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "98583f56aa8c3ff626102ab1",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1994aa25f95418ed96e23ff4",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fccbc2901c7683e7165550b5dea1d542",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9c2",
+    "name": "Zia Goditta",
+    "description": "Mafaldine pasta, tomato sauce, mascarpone cheese and spinach",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/95b5e5e4-0db5-11ee-945c-72f336d65fb6_______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "6649cec07fff7d5a48051ce0",
+      "option_id": "6405afcc5fcb0912d56f59d2",
+      "name": "Choose pasta",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3f558b747e1c0e56d5a0a607",
+      "option_id": "64535a0bc8054330c32d2770",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0f8ac92aa0fa906b4e109413",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ca2f867fc8a8151631aa8dc0",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f39e9319dab9a955a02cc9f9d7f727e5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9c3",
+    "name": "Zia Gloria",
+    "description": "spaghetti, tomato sauce, zucchini, eggplant, mozzarella cheese and spinach",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/9e48e31e-0db5-11ee-9c62-ee9b9ad13133_______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "07ae41f6fcd760d92f036bbc",
+      "option_id": "0785bc523cfe5fce56759b20",
+      "name": "Choose Pasta - Gloria",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "561664d02d21490740004184",
+      "option_id": "64535a0bc8054330c32d277c",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0d1a8110448523959df70a28",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7d657636a98837d93fe4bb8f",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6c306e2504bcf9e79530415216c74fa1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9c4",
+    "name": "Ragu",
+    "description": "pasta with tomato sauce, minced meat, onion and parsley\nchoose the pasta type",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/a6259672-0db5-11ee-9ee6-2e231cc10966_____.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "cfeb94c3be188d8b33446642",
+      "option_id": "624e8ee95bfeb8a160e1c869",
+      "name": "Choose",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1a86e58144049f23dbee5325",
+      "option_id": "64535a0bc8054330c32d2780",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6c825dde5c53954addb9c1a0",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "633ba68b182e2837b09eab6c",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "51284daba9439a7ca32347c133ccf4e1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9c5",
+    "name": "Zio Sabatino",
+    "description": "strozzapreti ('priest strangler' pasta), chicken, pepper cream and zucchini",
+    "price": 8600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/693ecb3bbc1a5fb053454694",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "6f836cdb61bc963f3c9031bc",
+      "option_id": "6846b2e9b0cf8d9f9be6148f",
+      "name": "Pasta change - radiator",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c174125db39a4f0546bc071c",
+      "option_id": "64535a0bc8054330c32d2783",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "853744424aadcf0a182b325e",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "153086ef9987b27ad6520449",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f7c095243cd25a544a54c4f6a0ee3d75",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9c6",
+    "name": "Zio Giovanni",
+    "description": "strozzapreti ('priest strangler' pasta), smoked goose breast, salami, pesto and parsley",
+    "price": 8600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/b6c4a388-0db5-11ee-b411-72f336d65fb6_______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "23223ad3f75a201e41fdf15d",
+      "option_id": "6405b0403c223a389ffa07ea",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c2c1ddecb9829b5f8e3754d8",
+      "option_id": "64535a0bc8054330c32d2786",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8540d6be9d4eedc033f0d1c8",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "877bd226db113826f3a031a5",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f95dca63319d13bd088f3359f2597703",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9c7",
+    "name": "Zio Picchio",
+    "description": "Mafaldine pasta, cream sauce, champignon",
+    "price": 8400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/613f28f6-0db6-11ee-89c9-8e9f4cc6d014______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "6a73b49b4b487c0f6d3b6558",
+      "option_id": "6405afcc5fcb0912d56f59d2",
+      "name": "Choose pasta",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8db135c7f3b5a90aac709cf2",
+      "option_id": "64535a0bc8054330c32d276b",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "791a27aefbbef3970bfd20aa",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "da9c723ca96196f0db192d63",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ea0b244c4c13e12715e8aaada1659464",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9c8",
+    "name": "Zio Leandro",
+    "description": "strozzapreti ('priest strangler' pasta), with cream and sweet potato with thyme",
+    "price": 8400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/7300390e-0db6-11ee-bb0a-a29ff24ff6eb_______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "b3554243e40bd28e4e3b5c6b",
+      "option_id": "624e8ee95bfeb8a160e1c990",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "341ccfb5d2eecafd88b568ad",
+      "option_id": "64535a0bc8054330c32d276e",
+      "name": "Possible changes - Andrew",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "60593f556d9002d0927ca8e6",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "19a4c6547be58b341d225984",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a7d3af84721e337df6294c2465fef804",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9ca",
+    "name": "Spiritoza",
+    "description": "penne with cream, tomato sauce and sprinkles of vodka",
+    "price": 8100,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/85dacd0a-0db6-11ee-b2a8-66b97f4978b3__________.jpg",
+      "blurhash": "j5vShoXL028hXKTtcPcO0icP;kTt"
+     }
+    ],
+    "options": [
+     {
+      "id": "6e869ee72b21c509db201d4d",
+      "option_id": "624e8ee95bfeb8a160e1c989",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e2c11ab74163ca418f9f2dd6",
+      "option_id": "64535a0bc8054330c32d2788",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "759fb1c0725a84c5c0878dc8",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bba36b597a0a77c6d8db8b39",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "434a4241980fda4ae377d74a35719348",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9cc",
+    "name": "Zia Francesca",
+    "description": "strozzapreti ('priest strangler' pasta), cream sauce, goat cheese, broccoli and basil",
+    "price": 8400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/f27a15f8-a7f5-11ef-a9b2-56486d6a089b_________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "0799e3894e34edecc0ac164e",
+      "option_id": "624e8ee95bfeb8a160e1c990",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9378379cd25bdde705353681",
+      "option_id": "64535a0bc8054330c32d2787",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "407c0944936f3262b49b5378",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "be0e27fcab9a8720b5519048",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ca94ac34350ef853173dcf9f07a8ad3b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9cd",
+    "name": "Zia Julia",
+    "description": "penne with cream, smoked goose breast, onion jam and saffron.\n*this dish has some sweet flavors",
+    "price": 8800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/b0cf4868-a7f4-11ef-9314-06f6aadb6549_______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "c693509895274b8331720254",
+      "option_id": "624e8ee95bfeb8a160e1c989",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cbfb0b37eeae58aa5548cdc0",
+      "option_id": "64535a0bc8054330c32d276b",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "00e8a0e6b82951f4cfcb91e4",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f3f9e2028c8184619bc88c0d",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b3ccdf12cd2933f8ffb47372f2753416",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9ce",
+    "name": "Carbonara",
+    "description": "spaghetti with cream, smoked goose breast and egg yolk",
+    "price": 8800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/2a102b92-a7f6-11ef-95b0-da986c1154f2________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "70e901695d5d7b91344863f7",
+      "option_id": "624e8ee95bfeb8a160e1c982",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3cc8a8c72fdf3f0c24b412a3",
+      "option_id": "64535a0bc8054330c32d2769",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a5ffc54b2bca2bf184c4590b",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5a42f5c1af4f50a01a3552ce",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0afc9f290a5c1e15d33d9ca953e09892",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9cf",
+    "name": "Zio Chiriola",
+    "description": "spaghetti with cream sauce, brandy, chicken, broccoli and spinach",
+    "price": 8800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/693ecb79bc1a5fb05345469f",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e715174616ecd0055fa1cf2c",
+      "option_id": "6846b2e9b0cf8d9f9be6148f",
+      "name": "Pasta change - radiator",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e7543c63115579eb0910e5eb",
+      "option_id": "64535a0bc8054330c32d2776",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "822a3a3189ae704f07936a00",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ac2bdae84e669fcf06a3bb99",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4b336c26355505445d1d8666db3f698c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9d0",
+    "name": "Zio Auggenio 🌶",
+    "description": "penne with cream, pepper cream, chicken and kalamata olives",
+    "price": 7900,
+    "images": [],
+    "options": [
+     {
+      "id": "c7e33c1b35939e97ccb9ef94",
+      "option_id": "624e8ee95bfeb8a160e1c997",
+      "name": "Pasta change - spaghetti",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b4d7aeecc8de8114c8c771f3",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7dc9d24421cfc7eb8ebf5a2e",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "196eb4c91c3a386edbc16470a0ede387",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9d1",
+    "name": "Pulcinella",
+    "description": "spaghetti in cream, chicken liver and red wine\n*this dish has some sweet flavors",
+    "price": 8800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/ff9e16f6-0db6-11ee-b253-4a7971fbc3d7__________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "016d5be64745ec9873eef4a3",
+      "option_id": "624e8ee95bfeb8a160e1c982",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3965a42eff44c1033235619f",
+      "option_id": "64535a0bc8054330c32d276b",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4ee94c12e4aec340366b0d9f",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1d6ceb195a8cf8b109dd932e",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "847e79732b6c8cc1152778bb44e95426",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9d2",
+    "name": "Zia Patricia",
+    "description": "tortellini with goat cheese, butter, cream ,dried tomatoes, parmesan and basil",
+    "price": 9200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/819456ee-ad60-11ef-bcef-e6f186deba1b_whatsapp_image_2024_11_27_at_14.17__1_.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "aca6e69ebca647edbd14b067",
+      "option_id": "64535a0bc8054330c32d2772",
+      "name": "Possible Changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "24b1624d20e2959dcf63d783",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c5851c8571c10f7530c84cb4",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "06674a4722709d5398f3926ec66080aa",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9d3",
+    "name": "Zia Dora",
+    "description": "ravioli with ricotta and spinach in cream sauce, spinach and basil",
+    "price": 9200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/693ecae7412f4b47cf4bf91b",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "8bdd58083aed51d081831300",
+      "option_id": "64535a0bc8054330c32d277a",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8404de9aa365d1b01d180166",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ebf7cf7a21f2f4714b88da8f",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0faa15f615ffb8d7bd4e35a1dad0c49e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9d5",
+    "name": "Zia Rosetta",
+    "description": "gnocchi with tomato sauce, cream, parmesan and nutmeg",
+    "price": 8500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/00375110-a7f6-11ef-b709-ae8d36a3f726__________.jpg",
+      "blurhash": "j4AU1Y4x028x;;PccPh401gPZPPu"
+     }
+    ],
+    "options": [
+     {
+      "id": "091a63d5acb01e650ca538d7",
+      "option_id": "64535a0bc8054330c32d276d",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7484617ccc512574a443a591",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5707e1e27886752a1bc395b2",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7e2c3b49853974810c0c7a8d07d387b2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9d6",
+    "name": "Zia Fiorella",
+    "description": "gnocchi with cream, roquefort cheese, walnuts and nutmeg",
+    "price": 8900,
+    "images": [],
+    "options": [
+     {
+      "id": "b51f734ba88c252a77589922",
+      "option_id": "64535a0bc8054330c32d277d",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c68837e2eafdd493ca5dfb82",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ecca8203c35ff07b61b11c25",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cff9dbef50a33557b30064eac69a90c8",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9d7",
+    "name": "Zia Pupetta 🌶",
+    "description": "spaghetti with olive oil, garlic, chilli and parsley",
+    "price": 6300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/414572a2-0db7-11ee-99a9-ee9bc1ec0b83______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "b5fcd024c98a2ef121ea8c35",
+      "option_id": "624e8ee95bfeb8a160e1c99e",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ad56b80ca5f05a7173b5e6d6",
+      "option_id": "64535a0bc8054330c32d2775",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7d3a260d2f3942914b7a5f51",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4049889a42eeac823a7954e4",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1eddde10f068dd7f81bbb6356a27e57f",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9d8",
+    "name": "Zia Patina 🌶",
+    "description": "Strozzapreti with olive oil, vegetable stock, pesto, zucchini, broccoli, dried tomatoes and spinach",
+    "price": 8100,
+    "images": [],
+    "options": [
+     {
+      "id": "b076ef113f7b4cf51396324a",
+      "option_id": "624e8ee95bfeb8a160e1c990",
+      "name": "Pasta change - choking priests",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7fa56f20dfb66216b3dea14c",
+      "option_id": "624e8ee95bfeb8a160e1c8eb",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "26440835cf56b0ee385656c6",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "dab4fdc150554a4d1ffe6bfb",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "09247182160dd547b35a298cfe0591e1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9d9",
+    "name": "Nonna Suzana",
+    "description": "spaghetti with olive oil, anchovy, mozzarella, roquefort cheese, tomato tepanade, parsley and pine nuts",
+    "price": 8300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/dc047f54-0db7-11ee-a286-66b97f4978b3______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "cf190eff610bd0387055af64",
+      "option_id": "647dd640671436c3852054c5",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "be3e6f7ab8030ca5de8f79ac",
+      "option_id": "624e8ee95bfeb8a160e1c8f3",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "364f4356ba98690da70bf003",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "263522474ee628263e15d6a7",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "19763229961a5a5aba070a6c252e2b61",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9da",
+    "name": "Zia Analisa",
+    "description": "spaghetti with olive oil, tomato tepanade, sweet potato with thyme, feta, kalamata olives, parsley and arugula",
+    "price": 8300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/89ca434e-a7f4-11ef-a807-b24a23681ad2_______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "da1bafdd3cb2f0e1cbe3a7b1",
+      "option_id": "64535a0bc8054330c32d278c",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9c2350cd29c9dcd31a876e38",
+      "option_id": "64535a0bc8054330c32d2777",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4846f451d0154013aebc973a",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a3a0def8ef920413134fcafe",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b33bcb6bf1cd2ce6c74295083928699c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9db",
+    "name": "Zio Alberto",
+    "description": "spaghetti with olive oil, salami, pumpkin, onion and feta",
+    "price": 8400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/a611ddf6-0db7-11ee-bde8-2eb644be93b3_____.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "7b5e39f7e892a75b69add51b",
+      "option_id": "64535a0bc8054330c32d278b",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e4e48122aad675a089d57c0d",
+      "option_id": "64535a0bc8054330c32d2778",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "29f5afc4aefb3f5c158b756c",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "637583fc6fafa308376e78e1",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8dfd6df2d065bdf561bbf2ba82515bf2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9dc",
+    "name": "Zia Stella",
+    "description": "spaghtti with olive oil, chicken liver and parsley",
+    "price": 8700,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/be11fb6a-0db8-11ee-9e88-ee9b9ad13133_____.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "101a7485a213e5f2b2dadfdb",
+      "option_id": "64535a0bc8054330c32d278c",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "acefc550a351652e904116e3",
+      "option_id": "64535a0bc8054330c32d276a",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1f1c0171b3e71f5af41590c8",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7740dd2cce1a9bcd575aa2fd",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d572e6e1d9f31611243036cd80de7e6f",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9dd",
+    "name": "Zio Marco",
+    "description": "spaghetti with olive oil, minced meat, eggplant, onion, tomato tepanade and pesto",
+    "price": 8700,
+    "images": [],
+    "options": [
+     {
+      "id": "9839c56c5f751c2690cfe20d",
+      "option_id": "67433575c26e79ca90d568db",
+      "name": "Pasta change - Tzio Marco",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e87c84f7d4dc6a3da6636d9c",
+      "option_id": "64535a0bc8054330c32d276a",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2f24338d508672e086a0909c",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8f503a0c1633fc111d45dc99",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e31d6d26c143703c7fd4ed3a0c658348",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9de",
+    "name": "Zio Claudio",
+    "description": "spaghetti with olive oil, tomato tepanade, smoked goose breast, chicken, onion and parsley",
+    "price": 8700,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/2389e5c4-a7f6-11ef-b47b-7e5fcc2dc938________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "4f80090a71f5eedcf61fcf43",
+      "option_id": "64535a0bc8054330c32d278c",
+      "name": "Pasta change",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c9e502c3396c09597bb1d64b",
+      "option_id": "64535a0bc8054330c32d2771",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a17aca56b562e851e531badc",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f4bbeaa68305b5a1856d8b66",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "76f66da75d871306c58f86a47587cde2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9df",
+    "name": "Zio Fabrizio",
+    "description": "champignon, onion, parmesan, butter and parsley",
+    "price": 8900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/141b1c2a-a7f6-11ef-b8c8-02f946a827a7____________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "73eb7f5b4fe5878fe33c4464",
+      "option_id": "64535a0bc8054330c32d2774",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "42dca02134d5f2cddb02657b",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9f8796c094e9bc029d2750e3",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9c6266062d85c6db00ac89468ef01f30",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9e0",
+    "name": "Zio Giuseppe",
+    "description": "mozzarella, kashkaval, parmesan, tomato sauce, onion and basil",
+    "price": 8900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/0e144040-a7f6-11ef-850d-52b40a5267d6___________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a7e46e4c160cb3209bd87836",
+      "option_id": "64535a0bc8054330c32d2781",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e018a08c88647cd4b4ca6d7e",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e7e62345a5e68a320cf2a979",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "49570bd66fb92b10998964ba6d148e70",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9e1",
+    "name": "Zio Anselmo",
+    "description": "pumpkin, peas, mascarpone and parmesan",
+    "price": 8900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/0451f980-a7f6-11ef-9d67-6ea8b73d3a97___________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ba12556df9ccb2ef9ad67e6e",
+      "option_id": "64535a0bc8054330c32d2774",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bcb10436cb5e2649b55f83ae",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5163daa8a0daffdb65b3ab08",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "aaae535bb68eb1ef1152383dffd8ec89",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9e2",
+    "name": "One Thousand Leaves (\"Millefoglie\")",
+    "description": "layers of puff pastry with creme pattiseire and almonds",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/85d6801e-0dc1-11ee-8563-724505872f48_________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ee9e782e2305feba79430785",
+      "option_id": "624e8ee95bfeb8a160e1c980",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7d4c7ed02da345b76b562c3be7fd1ebe",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9e3",
+    "name": "Tiramisu",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/8d80df44-0dc1-11ee-8628-46a1b1958609_______.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "54e5cbcfe981499c195fae9deaefcfd5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9e4",
+    "name": "Drowning in Coffee",
+    "description": "semi-freddo white chocolate, drowning in espresso",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/94a1117c-0dc1-11ee-a8da-d2c12325d6bc__________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b55ff34708824d0fc5fbe626449e2249",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9e5",
+    "name": "Nonno Cezara",
+    "description": "hot chocolate fondant",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/9dbd41b8-0dc1-11ee-ad10-569346f8ac78___________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c997611367d76b56e268f65f52e1068a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9e6",
+    "name": "Nonno Rena",
+    "description": "three sorbet scoops - coconut, strawberry and passionfruit",
+    "price": 4400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/a47805d8-0dc1-11ee-8e08-3a472aad5a95___________.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "50e11a2e1a913a174eea409cdb9fa1ae",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9f1",
+    "name": "Disposable Cutlery 🍴",
+    "description": "Please choose this item as many times as there are diners in need of disposable cutlery",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ce7d19fe48da83010022327/24a3017a-2f0f-11eb-bc53-fedda11353e4__________.jpeg",
+      "blurhash": "j2;fPYll;;TtTttTcPCpTuKXcPl4"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "402cb65cefd55593f5ea14f5a6fa5147",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c9fb",
+    "name": "Lentil soup 🌾🌱",
+    "description": "",
+    "price": 4900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/623fe55c-0343-11ed-be51-6673e6e98fc1__________.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8d2090ad1c9cc83c3af75252e735f996",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "626584f7500fa90ac527d262",
+    "name": "Tzio Mikaela",
+    "description": "Turn in cream",
+    "price": 7000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/3b99eb1c-0db7-11ee-b19a-ee9b9ad13133_____.jpg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ac9a2bbe770e311dc113f580",
+      "option_id": "624e8ee95bfeb8a160e1c989",
+      "name": "Pasta change - turn",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "fe53c7f091ac3cd844a2a038",
+      "option_id": "62658541c2c549adc434475d",
+      "name": "Possible changes - cream pasta",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2ec333de35b7f34a322df929",
+      "option_id": "66a64328cd1c39a6866d6dae",
+      "name": "Extra parmesan",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1e919e61712a6542b30d3498",
+      "option_id": "e8c4a0b0b074c2e8498bee7f",
+      "name": "Seasoning",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "38698a29d0f3ab25cf5d35d9efa72bf4",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62723b226cc099da763200aa",
+    "name": "Coca-Cola (can)",
+    "description": "0,33",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/1a7eea74-a7f6-11ef-b0be-5ef809e5c777_____.jpg",
+      "blurhash": "j1slVC8i0yPt0gXKSXmn00uXZBOG"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cfa92443795a1223b5c8ad780db2cb10",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62723b24d1190956c6d2ad44",
+    "name": "Cola Zero (can)",
+    "description": "0,33",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/ed3772ee-a7f4-11ef-b0b8-7295321dae23_____.jpg",
+      "blurhash": "j0qRRC0000XK00;;;diG00PcZ3OY"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "98f2411b083c203d567c79ef6dcbca35",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62723b257e26b43a623f9afc",
+    "name": "Sprite (can)",
+    "description": "0,33",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/a42dc624-a7f5-11ef-a2b7-e6d7bd37a5df_______.jpg",
+      "blurhash": "j0oCtE0000;L00;;T6lY00Lc;;OX"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3239a559aa403d80c60eedc6a198934a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62723b279bcd19f1c23f9b0b",
+    "name": "Sprite Zero (can)",
+    "description": "0,33",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/a2d108ae-a7f5-11ef-8e17-167026cd6f8e____________.jpg",
+      "blurhash": "j0p6BH0000;;00;;;LlG00PcX:KC"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7ee2c0fc93ec4196e0609c9cf33e6ab4",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62723b28b50a5115abcc9491",
+    "name": "Fanta (can)",
+    "description": "0,33",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/d2707dce-a7f5-11ef-974a-f6079fe5e341____________.jpg",
+      "blurhash": "j0r6dF0000X;00;;;rKF00PcX;uX"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e313dd3df151c0c7d56ce383d3e089e0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62723b3d37a757658b2bf6a9",
+    "name": "Kinley Soda",
+    "description": "0,25",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/6e6949c8-a7f5-11ef-bd58-06f6aadb6549_____.jpg",
+      "blurhash": "j0oC9H0100OB00XKX;h400CCPcPc"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "2049de8794519e504e6cf050ddd1d972",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62723b41b50a5115abcc94ca",
+    "name": "Tapuzina Grape Juice - Glass Bottle",
+    "description": "0,33",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/622478c6cb98984effe7e562/ae61f192-a7f5-11ef-9738-b24a23681ad2____________.jpg",
+      "blurhash": "j0nBRz0000Tt00;LTccP00lkOAPc"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a65c729704ffd557862aabca81dd01ee",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62723b4455335a56814cf0fd",
+    "name": "Fuze Tea - Peach (glass bottle)",
+    "description": "0,33",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/shared/cd27ddee-a7f5-11ef-9ac2-de4a10653be5______________.jpg",
+      "blurhash": "j0p5Vz0001PK00;L8RcP00hkSPPc"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "73424b946024fb4753293779a6e1b6fc",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   }
+  ],
+  "options": [
+   {
+    "id": "0785bc523cfe5fce56759b20",
+    "name": "Choose Pasta - Gloria",
+    "type": "multi_choice",
+    "default_value": "74ff8fa16002395531fa1abd",
+    "values": [
+     {
+      "id": "74ff8fa16002395531fa1abd",
+      "name": "spaghetti",
+      "price": 0
+     },
+     {
+      "id": "1941256ca888394077a7e3e7",
+      "name": "Turn whole wheat",
+      "price": 0
+     },
+     {
+      "id": "88ca0189cd1ec2ae5188c7a8",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c85e",
+    "name": "Choose",
+    "type": "multi_choice",
+    "default_value": "30254737e6c554b7332f03fb",
+    "values": [
+     {
+      "id": "30254737e6c554b7332f03fb",
+      "name": "Green Olives",
+      "price": 0
+     },
+     {
+      "id": "6441c98c0f6c12eb805bc6a5",
+      "name": "Kalamata Olives",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c863",
+    "name": "Possible Changes - Focaccia",
+    "type": "multi_choice",
+    "default_value": "109438dc3b6932e3dbfc9956",
+    "values": [
+     {
+      "id": "109438dc3b6932e3dbfc9956",
+      "name": "Without rosemary",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c867",
+    "name": "Possible Changes - Antipasti",
+    "type": "multi_choice",
+    "default_value": "da4decbbdbf226cff1135491",
+    "values": [
+     {
+      "id": "da4decbbdbf226cff1135491",
+      "name": "Vegan dish 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c869",
+    "name": "Choose",
+    "type": "multi_choice",
+    "default_value": "86e03707a4ab4584ebda06cf",
+    "values": [
+     {
+      "id": "86e03707a4ab4584ebda06cf",
+      "name": "Spaghetti",
+      "price": 0
+     },
+     {
+      "id": "5a518b5f4a18ed7b52a7f1b4",
+      "name": "Penne",
+      "price": 0
+     },
+     {
+      "id": "7542600814304c6b7339cf13",
+      "name": "Turn whole wheat",
+      "price": 0
+     },
+     {
+      "id": "91bfc327ebfc363937542619",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c87c",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "5a1810e0634804cf9fab7d51",
+    "values": [
+     {
+      "id": "5a1810e0634804cf9fab7d51",
+      "name": "Without parmesan",
+      "price": 0
+     },
+     {
+      "id": "150e5c65eeb5cc552f38e11c",
+      "name": "No rocket",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c882",
+    "name": "Possible changes - Caprese",
+    "type": "multi_choice",
+    "default_value": "2cb33aa083398e04ca3000af",
+    "values": [
+     {
+      "id": "2cb33aa083398e04ca3000af",
+      "name": "Without basil",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c8eb",
+    "name": "Possible changes - patina",
+    "type": "multi_choice",
+    "default_value": "e3efa369692a1c9f896851ae",
+    "values": [
+     {
+      "id": "e3efa369692a1c9f896851ae",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c8f3",
+    "name": "Possible changes - Susanna",
+    "type": "multi_choice",
+    "default_value": "207446853333557ba40b383c",
+    "values": [
+     {
+      "id": "6a2e7b4a7a2885b74487e5a9",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c975",
+    "name": "Possible changes - drunk liver",
+    "type": "multi_choice",
+    "default_value": "d6d0478eb3eaa6624d990cf6",
+    "values": [
+     {
+      "id": "d6d0478eb3eaa6624d990cf6",
+      "name": "Without onion",
+      "price": 0
+     },
+     {
+      "id": "1e188d363f2557037006d404",
+      "name": "Without butter",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c978",
+    "name": "Possible changes - grilled liver",
+    "type": "multi_choice",
+    "default_value": "e5d06d217b2220ef493c97da",
+    "values": [
+     {
+      "id": "e5d06d217b2220ef493c97da",
+      "name": "Without onion",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c980",
+    "name": "Possible changes - a thousand leaves",
+    "type": "multi_choice",
+    "default_value": "d7d3efc193dbae48ed824325",
+    "values": [
+     {
+      "id": "d7d3efc193dbae48ed824325",
+      "name": "No almonds",
+      "price": 0
+     },
+     {
+      "id": "0fe05e9d61135f7cdd8d7270",
+      "name": "Vegan dish 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c982",
+    "name": "Pasta change - spaghetti",
+    "type": "choice",
+    "default_value": "df733e3c9fd6fb274c6bbd1f",
+    "values": [
+     {
+      "id": "df733e3c9fd6fb274c6bbd1f",
+      "name": "spaghetti",
+      "price": 0
+     },
+     {
+      "id": "f8efb163b76f5048f6df4953",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "30b966ac9a55c289ae0485cc",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c989",
+    "name": "Pasta change - turn",
+    "type": "choice",
+    "default_value": "990a2401dadf77260d6b3c5f",
+    "values": [
+     {
+      "id": "990a2401dadf77260d6b3c5f",
+      "name": "turn",
+      "price": 0
+     },
+     {
+      "id": "07bf91c4a6dbb85c4217e401",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "a1c8aa1796fa70deba3531c5",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c990",
+    "name": "Pasta change - choking priests",
+    "type": "choice",
+    "default_value": "db98a2f72cb384157300e0bf",
+    "values": [
+     {
+      "id": "db98a2f72cb384157300e0bf",
+      "name": "Strangling priests",
+      "price": 0
+     },
+     {
+      "id": "3eefad3fa373f055e8bc43ee",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "a2e39685830d3470958a6f40",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c997",
+    "name": "Pasta change - spaghetti",
+    "type": "choice",
+    "default_value": "b8f5622ee3c8aeadcc617434",
+    "values": [
+     {
+      "id": "b8f5622ee3c8aeadcc617434",
+      "name": "spaghetti",
+      "price": 0
+     },
+     {
+      "id": "2f826eb8b42fd2d185816673",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "4bca93ac3f652d1fb9289434",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "624e8ee95bfeb8a160e1c99e",
+    "name": "Pasta change",
+    "type": "choice",
+    "default_value": "995fd63ad4891b5c90dca6b1",
+    "values": [
+     {
+      "id": "995fd63ad4891b5c90dca6b1",
+      "name": "Unchanged",
+      "price": 0
+     },
+     {
+      "id": "bee18350f75ff85a70d408fa",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "779e34361bae266c27aad752",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "62658541c2c549adc434475d",
+    "name": "Possible changes - cream pasta",
+    "type": "multi_choice",
+    "default_value": "43241f17616f694ae8a12dbd",
+    "values": [
+     {
+      "id": "43241f17616f694ae8a12dbd",
+      "name": "Without any",
+      "price": 0
+     },
+     {
+      "id": "f7188b0b211549c34816b3e5",
+      "name": "Without spicy",
+      "price": 0
+     },
+     {
+      "id": "7660f15b41f4abc2ca770c53",
+      "name": "Without parmesan",
+      "price": 0
+     },
+     {
+      "id": "b27112fcb7d14d36c5c1ba22",
+      "name": "Without nutmeg",
+      "price": 0
+     },
+     {
+      "id": "685e792b2f294092edc9ee61",
+      "name": "Dose for a child 🤸🏽‍♂️",
+      "price": 0
+     },
+     {
+      "id": "74df09f8d2557a0f8d706ddb",
+      "name": "Vegan dish 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "6405afcc5fcb0912d56f59d2",
+    "name": "Choose pasta",
+    "type": "multi_choice",
+    "default_value": "5f442aba526f8d205763fe7d",
+    "values": [
+     {
+      "id": "5f442aba526f8d205763fe7d",
+      "name": "From Paldina",
+      "price": 0
+     },
+     {
+      "id": "f08c4eacd6decd4c720ab220",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "17f4b1ceb6bd7eb541026d84",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "6405b0403c223a389ffa07ea",
+    "name": "Pasta change",
+    "type": "choice",
+    "default_value": "35b64e7969a10159be066bc1",
+    "values": [
+     {
+      "id": "35b64e7969a10159be066bc1",
+      "name": "Strangling priests",
+      "price": 0
+     },
+     {
+      "id": "7a1e52e32c5b712480e6b8e3",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "94c330fb14252d61f4dc2702",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2769",
+    "name": "Possible changes - carbonara",
+    "type": "multi_choice",
+    "default_value": "5447aab14867ebde7c30b589",
+    "values": [
+     {
+      "id": "5447aab14867ebde7c30b589",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d276a",
+    "name": "Possible changes - Stella",
+    "type": "multi_choice",
+    "default_value": "4dfe4fa936ab25ef6e05a063",
+    "values": [
+     {
+      "id": "4dfe4fa936ab25ef6e05a063",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d276b",
+    "name": "Possible changes - Pekio",
+    "type": "multi_choice",
+    "default_value": "c1e34fe4c04cd0b0153824a0",
+    "values": [
+     {
+      "id": "c1e34fe4c04cd0b0153824a0",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d276c",
+    "name": "Possible changes - Pomodoro",
+    "type": "multi_choice",
+    "default_value": "caa71779e2ba7943a8fd8f89",
+    "values": [
+     {
+      "id": "caa71779e2ba7943a8fd8f89",
+      "name": "Without spicy",
+      "price": 0
+     },
+     {
+      "id": "35ef3d71ff2a6095057bd3b0",
+      "name": "Dose for a child 🤸🏽‍♂️",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d276d",
+    "name": "Possible changes - Rosa",
+    "type": "multi_choice",
+    "default_value": "867b957150a7594b749f2fb8",
+    "values": [
+     {
+      "id": "867b957150a7594b749f2fb8",
+      "name": "Without spicy",
+      "price": 0
+     },
+     {
+      "id": "ab9045838e7f4d64b18ead3a",
+      "name": "Vegan dish 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d276e",
+    "name": "Possible changes - Andrew",
+    "type": "multi_choice",
+    "default_value": "2f2f3cb6874680ca0fb7b4bf",
+    "values": [
+     {
+      "id": "2f2f3cb6874680ca0fb7b4bf",
+      "name": "Without spicy",
+      "price": 0
+     },
+     {
+      "id": "4996b119cb82fb935f958e7f",
+      "name": "Vegan dish 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2770",
+    "name": "Possible changes - Judith",
+    "type": "multi_choice",
+    "default_value": "a4bb0508d118b1439ff3af4e",
+    "values": [
+     {
+      "id": "a4bb0508d118b1439ff3af4e",
+      "name": "Without spicy",
+      "price": 0
+     },
+     {
+      "id": "514fda3ba48ab34b47615964",
+      "name": "Vegan cheese 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2771",
+    "name": "Possible changes - Claudio",
+    "type": "multi_choice",
+    "default_value": "64c288db5653fc9d090ba1f9",
+    "values": [
+     {
+      "id": "64c288db5653fc9d090ba1f9",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2772",
+    "name": "Possible Changes - Ravioli",
+    "type": "multi_choice",
+    "default_value": "5a3d804a7743f0785a0c52d6",
+    "values": [
+     {
+      "id": "5a3d804a7743f0785a0c52d6",
+      "name": "No Chilli",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2774",
+    "name": "Possible changes - Fabrizio",
+    "type": "multi_choice",
+    "default_value": "30822e09f8440127f5994586",
+    "values": [
+     {
+      "id": "30822e09f8440127f5994586",
+      "name": "Gluten free 🌽",
+      "price": 0
+     },
+     {
+      "id": "de2f073fa90133a37989f91f",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2775",
+    "name": "Possible changes - poppet",
+    "type": "multi_choice",
+    "default_value": "18285487ff9efbc538de8b60",
+    "values": [
+     {
+      "id": "18285487ff9efbc538de8b60",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2776",
+    "name": "Possible changes - Ciriola",
+    "type": "multi_choice",
+    "default_value": "8c18832864eab3f9cd4304f9",
+    "values": [
+     {
+      "id": "8c18832864eab3f9cd4304f9",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2777",
+    "name": "Possible changes - analysis",
+    "type": "multi_choice",
+    "default_value": "e354bddcee2bcadeac01e941",
+    "values": [
+     {
+      "id": "e354bddcee2bcadeac01e941",
+      "name": "Vegan cheese 🌱",
+      "price": 0
+     },
+     {
+      "id": "73bdb0aa2f03d3f5fb1a33b8",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2778",
+    "name": "Possible changes - Alberto",
+    "type": "multi_choice",
+    "default_value": "8592d2aeb2cf0e545887881b",
+    "values": [
+     {
+      "id": "8592d2aeb2cf0e545887881b",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d277a",
+    "name": "Possible changes - Dora",
+    "type": "multi_choice",
+    "default_value": "5ff0f89fd8a2b84d780e5d86",
+    "values": [
+     {
+      "id": "5ff0f89fd8a2b84d780e5d86",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d277c",
+    "name": "Possible changes - Gloria",
+    "type": "multi_choice",
+    "default_value": "2f7e9336548b8426d36d00ca",
+    "values": [
+     {
+      "id": "2f7e9336548b8426d36d00ca",
+      "name": "Vegan cheese 🌱",
+      "price": 0
+     },
+     {
+      "id": "c5a0e80c6d4d0c5c816be985",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d277d",
+    "name": "Possible changes - Fiorella",
+    "type": "multi_choice",
+    "default_value": "6d8a0f76a06d1b1b34da4f31",
+    "values": [
+     {
+      "id": "6d8a0f76a06d1b1b34da4f31",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d277f",
+    "name": "Possible changes - Marina",
+    "type": "multi_choice",
+    "default_value": "0089269a9545dee97b9bddd6",
+    "values": [
+     {
+      "id": "0089269a9545dee97b9bddd6",
+      "name": "Vegan cheese 🌱",
+      "price": 0
+     },
+     {
+      "id": "6090d8ab5bc731c700f676ca",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2780",
+    "name": "Possible changes - rego",
+    "type": "multi_choice",
+    "default_value": "223cb47bec3d57eacfe9a88d",
+    "values": [
+     {
+      "id": "223cb47bec3d57eacfe9a88d",
+      "name": "Without spicy",
+      "price": 0
+     },
+     {
+      "id": "cd2dce44c79555c87876cc5f",
+      "name": "Dose for a child 🤸🏽‍♂️",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2781",
+    "name": "Possible changes - Giuseppe",
+    "type": "multi_choice",
+    "default_value": "4415207223f3cd8e9d668f08",
+    "values": [
+     {
+      "id": "4415207223f3cd8e9d668f08",
+      "name": "Gluten free 🌽",
+      "price": 0
+     },
+     {
+      "id": "a967cb0eb2556cd5d098ac08",
+      "name": "Without spicy",
+      "price": 0
+     },
+     {
+      "id": "abf3ef5e0a26749c85e4acab",
+      "name": "Vegan dish 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2783",
+    "name": "Possible changes - Sabatino",
+    "type": "multi_choice",
+    "default_value": "ca0c47834afeed3004b7d35a",
+    "values": [
+     {
+      "id": "ca0c47834afeed3004b7d35a",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2784",
+    "name": "Changes are possible - Amora",
+    "type": "multi_choice",
+    "default_value": "96c23eee1a9c606caddd9149",
+    "values": [
+     {
+      "id": "96c23eee1a9c606caddd9149",
+      "name": "Without croutons",
+      "price": 0
+     },
+     {
+      "id": "222fe9e11a700d1f4a0a93b3",
+      "name": "Without parmesan",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2785",
+    "name": "Possible Changes - Pizza",
+    "type": "multi_choice",
+    "default_value": "559de2c2e98121bb48087cb1",
+    "values": [
+     {
+      "id": "559de2c2e98121bb48087cb1",
+      "name": "Vegan Cheese 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2786",
+    "name": "Possible changes - Giovanni",
+    "type": "multi_choice",
+    "default_value": "856cfcd937d6d2412188ae6e",
+    "values": [
+     {
+      "id": "856cfcd937d6d2412188ae6e",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2787",
+    "name": "Possible changes - Francesca",
+    "type": "multi_choice",
+    "default_value": "e2063b520e40c5381ecc504b",
+    "values": [
+     {
+      "id": "e2063b520e40c5381ecc504b",
+      "name": "Without spicy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d2788",
+    "name": "Possible changes - spiritosis",
+    "type": "multi_choice",
+    "default_value": "5f67775e413228a6b65359a4",
+    "values": [
+     {
+      "id": "5f67775e413228a6b65359a4",
+      "name": "Without spicy",
+      "price": 0
+     },
+     {
+      "id": "fd8e3d411ce524f6d05fd5cc",
+      "name": "Vegan dish 🌱",
+      "price": 0
+     },
+     {
+      "id": "459769b4c2d36e26f21c157d",
+      "name": "Dose for a child 🤸🏽‍♂️",
+      "price": 0
+     },
+     {
+      "id": "df8bd81ec55eae3697ecae5d",
+      "name": "No vodka",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d278b",
+    "name": "Pasta change - patina",
+    "type": "choice",
+    "default_value": "2a172ebc3cc52573ebda33a2",
+    "values": [
+     {
+      "id": "2a172ebc3cc52573ebda33a2",
+      "name": "Suffocating priests",
+      "price": 0
+     },
+     {
+      "id": "43eb5fd966541e417d463a45",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "8d0bf0e4fb90d879741e0b08",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "64535a0bc8054330c32d278c",
+    "name": "Pasta change - Analysis",
+    "type": "choice",
+    "default_value": "481809cf8edf76f54dbabf62",
+    "values": [
+     {
+      "id": "481809cf8edf76f54dbabf62",
+      "name": "spaghetti",
+      "price": 0
+     },
+     {
+      "id": "6b80b6c71eaabc66904455ce",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "8346b9a962978125a8fcb88a",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "647dd640671436c3852054c5",
+    "name": "Pasta change",
+    "type": "choice",
+    "default_value": "9ea71894152a856864d91aaa",
+    "values": [
+     {
+      "id": "9ea71894152a856864d91aaa",
+      "name": "spaghetti",
+      "price": 0
+     },
+     {
+      "id": "0b3250addc0431fc307682e3",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "b37e6b251ee35665eec67932",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "66a64328cd1c39a6866d6dae",
+    "name": "Extra parmesan",
+    "type": "multi_choice",
+    "default_value": "a71f61586ec6d4eed1bf7746",
+    "values": [
+     {
+      "id": "a71f61586ec6d4eed1bf7746",
+      "name": "Extra parmesan",
+      "price": 200
+     }
+    ]
+   },
+   {
+    "id": "67433575c26e79ca90d568db",
+    "name": "Pasta change - Tzio Marco",
+    "type": "choice",
+    "default_value": "c7743195849402a0c03a6885",
+    "values": [
+     {
+      "id": "c7743195849402a0c03a6885",
+      "name": "turn",
+      "price": 0
+     },
+     {
+      "id": "2d345cc9111a58f7ede1136d",
+      "name": "Turn whole wheat",
+      "price": 0
+     },
+     {
+      "id": "34abe590b2a3ae5453e70314",
+      "name": "Gluten free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "67adad281f71eba948436acf",
+    "name": "A vegan dish? 🌱",
+    "type": "multi_choice",
+    "default_value": "5f3bcf0944c4afba9bf2243d",
+    "values": [
+     {
+      "id": "5f3bcf0944c4afba9bf2243d",
+      "name": "Vegan cheese",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "6846b2e9b0cf8d9f9be6148f",
+    "name": "Pasta change - radiator",
+    "type": "choice",
+    "default_value": "1d4c8456d659d053aa3bb8cf",
+    "values": [
+     {
+      "id": "1d4c8456d659d053aa3bb8cf",
+      "name": "Radiator",
+      "price": 0
+     },
+     {
+      "id": "b7203b47582f999e9319d082",
+      "name": "Whole wheat pasta",
+      "price": 0
+     },
+     {
+      "id": "48ba307c4ce425dedabdd236",
+      "name": "Gluten-free pasta 🌽",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "79952452abf63804564336bb",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "633a94c06b1ac33fc4af88ac",
+    "values": [
+     {
+      "id": "633a94c06b1ac33fc4af88ac",
+      "name": "Vegan dish 🌱",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "e098ceb5dfd7d372264868a6",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "622de8d7c284aae7119cc9d1",
+    "values": [
+     {
+      "id": "622de8d7c284aae7119cc9d1",
+      "name": "Gluten-free dish",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "e8c4a0b0b074c2e8498bee7f",
+    "name": "Seasoning",
+    "type": "choice",
+    "default_value": "d34c217efef485a4a32314cb",
+    "values": [
+     {
+      "id": "d34c217efef485a4a32314cb",
+      "name": "Regular seasoning",
+      "price": 0
+     },
+     {
+      "id": "9e2d03501f07f3adb4a22fe0",
+      "name": "A little seasoning",
+      "price": 0
+     }
+    ]
+   }
+  ]
+ }
+}

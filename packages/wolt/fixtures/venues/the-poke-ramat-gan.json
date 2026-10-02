@@ -1,0 +1,3087 @@
+{
+ "captured_at": "2026-10-02T21:59:12.210Z",
+ "location": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "static": {
+  "venue": {
+   "id": "69427d91000dd35283ccdaa4",
+   "slug": "the-poke-ramat-gan",
+   "name": "The Poke | Ramat Gan",
+   "description": "Asian bowls and fresh rice burgers",
+   "image_url": "https://imageproxy.wolt.com/assets/69561dbb5d2b0d2b7187c711",
+   "image_blurhash": "j7OHKiTLdchbhr;;h6XJTJh441GR",
+   "brand_logo_image_url": "https://imageproxy.wolt.com/assets/69561d7b23b40dc5d0462ee3",
+   "address": "מנחם בגין 22, רמת גן",
+   "rating": {
+    "rating": 3,
+    "score": "8.4",
+    "score_raw": 8.4,
+    "volume": 500
+   },
+   "share_url": "https://wolt.com/he/isr/tel-aviv/restaurant/the-poke-ramat-gan",
+   "currency": "ILS",
+   "country": "ISR",
+   "delivery_methods": [
+    "homedelivery",
+    "takeaway"
+   ],
+   "timezone": "Asia/Jerusalem",
+   "product_line": "restaurant",
+   "delivery_base_price": 1000,
+   "service_fee_estimate": {
+    "min": 100,
+    "max": 590,
+    "percentage": 5
+   },
+   "zero_distance_fees": {
+    "delivery_price": 1200
+   },
+   "opening_times_schedule": [
+    {
+     "day": "Monday",
+     "formatted_times": "11:00–01:00"
+    },
+    {
+     "day": "Tuesday",
+     "formatted_times": "11:00–01:00"
+    },
+    {
+     "day": "Wednesday",
+     "formatted_times": "11:00–01:00"
+    },
+    {
+     "day": "Thursday",
+     "formatted_times": "11:00–02:00"
+    },
+    {
+     "day": "Friday",
+     "formatted_times": "11:00–02:00"
+    },
+    {
+     "day": "Saturday",
+     "formatted_times": "11:00–02:00"
+    },
+    {
+     "day": "Sunday",
+     "formatted_times": "11:00–01:00"
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "69427d91000dd35283ccdaa4",
+   "location": {
+    "bbox": null,
+    "type": "Point",
+    "coordinates": [
+     34.800877219994334,
+     32.086144378963766
+    ]
+   },
+   "price_range": 2,
+   "food_tags": [
+    "asian",
+    "fish",
+    "poke",
+    "sushi",
+    "vegetable",
+    "healthy"
+   ],
+   "short_description": "Asian | Poke | Sushi | Rice Burger"
+  },
+  "order_minimum": 5000
+ },
+ "dynamic": {
+  "venue": {
+   "id": "69427d91000dd35283ccdaa4",
+   "online": true,
+   "open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:12.077443+03:00",
+    "previous_open": "2026-10-02T11:00:00+03:00",
+    "next_open": "2026-10-03T11:00:00+03:00",
+    "next_close": "2026-10-03T02:00:00+03:00",
+    "next_close_time_localized": "02:00"
+   },
+   "delivery_open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:12.077443+03:00",
+    "previous_open": "2026-10-02T11:00:00+03:00",
+    "next_open": "2026-10-03T11:00:00+03:00",
+    "next_close": "2026-10-03T02:00:00+03:00",
+    "next_close_time_localized": "02:00"
+   },
+   "delivery_configs": [
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "homedelivery",
+     "schedule": "standard",
+     "estimate": {
+      "label": "30-40 min",
+      "min": 30,
+      "mean": 35,
+      "max": 40
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    },
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "takeaway",
+     "schedule": "standard",
+     "estimate": {
+      "label": "10-30 min",
+      "min": 10,
+      "mean": 20,
+      "max": 30
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "69427d91000dd35283ccdaa4",
+   "alive": true,
+   "preestimate_total": {
+    "min": 30,
+    "max": 40,
+    "mean": 35
+   },
+   "discounts": [
+    {
+     "id": "venue_campaign:6aa7be04af0092bb344d0256",
+     "effects": {
+      "basket_discount": {
+       "amount": 0,
+       "fraction": 0.1,
+       "min_amount": null,
+       "max_amount": 5000,
+       "include": null,
+       "exclude": null
+      },
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 690,
+        "end": 900
+       },
+       {
+        "start": 2130,
+        "end": 2340
+       },
+       {
+        "start": 3570,
+        "end": 3780
+       },
+       {
+        "start": 5010,
+        "end": 5220
+       },
+       {
+        "start": 9330,
+        "end": 9540
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": true,
+     "tap_to_apply": false,
+     "description": {
+      "title": "From 10% off your order ⬇️"
+     }
+    },
+    {
+     "id": "venue_campaign:6a9fb0ee7e0c38621cb8c73e",
+     "effects": {
+      "basket_discount": {
+       "amount": 0,
+       "fraction": 0.15,
+       "min_amount": null,
+       "max_amount": 5000,
+       "include": null,
+       "exclude": null
+      },
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": 9900,
+        "max_amount": null,
+        "any_of_items": null,
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 900,
+        "end": 1140
+       },
+       {
+        "start": 2340,
+        "end": 2580
+       },
+       {
+        "start": 3780,
+        "end": 4020
+       },
+       {
+        "start": 5220,
+        "end": 5460
+       },
+       {
+        "start": 9540,
+        "end": 9780
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": true,
+     "tap_to_apply": false,
+     "description": {
+      "title": "From 15% off your order ⬇️"
+     }
+    },
+    {
+     "id": "venue_campaign:6a7c2457b94bcc6db711da4c",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee"
+     }
+    },
+    {
+     "id": "venue_campaign:6aa94a5f04f136ab10a55148",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": {
+       "fraction": null,
+       "max_amount": null,
+       "min_amount": null,
+       "max_amount_per_item": null,
+       "min_amount_per_item": null,
+       "amount_per_item": 400,
+       "include": {
+        "categories": null,
+        "items": [
+         "ebcbaee51e7e00cbaed338bc"
+        ],
+        "cheapest_items": null
+       },
+       "exclude": null,
+       "exclude_options": false
+      }
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": null,
+        "max_amount": null,
+        "any_of_items": [
+         "ebcbaee51e7e00cbaed338bc"
+        ],
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery",
+       "takeaway",
+       "eatin"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 0,
+        "end": 690
+       },
+       {
+        "start": 1140,
+        "end": 1439
+       },
+       {
+        "start": 1440,
+        "end": 2130
+       },
+       {
+        "start": 2580,
+        "end": 2879
+       },
+       {
+        "start": 2880,
+        "end": 3570
+       },
+       {
+        "start": 4020,
+        "end": 4319
+       },
+       {
+        "start": 4320,
+        "end": 5010
+       },
+       {
+        "start": 5460,
+        "end": 5759
+       },
+       {
+        "start": 5760,
+        "end": 6450
+       },
+       {
+        "start": 6900,
+        "end": 7199
+       },
+       {
+        "start": 7200,
+        "end": 7890
+       },
+       {
+        "start": 8340,
+        "end": 8639
+       },
+       {
+        "start": 8640,
+        "end": 9330
+       },
+       {
+        "start": 9780,
+        "end": 10079
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "ברביקיו בול ₪4 off"
+     }
+    },
+    {
+     "id": "venue_campaign:6aac11e3f85e5ce38b378b1e",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": {
+       "fraction": null,
+       "max_amount": null,
+       "min_amount": null,
+       "max_amount_per_item": null,
+       "min_amount_per_item": null,
+       "amount_per_item": 1000,
+       "include": {
+        "categories": null,
+        "items": [
+         "30417f643852e5337a22c160",
+         "6b679d5408e55f03d4e7792c",
+         "8a8f4b08d69a519908a8fc01",
+         "0d33d160dcaca0e9eef4e318",
+         "16ceefaa12bc95c5aa56d065",
+         "73a3bbd354d8b7f03e7dcfe1"
+        ],
+        "cheapest_items": null
+       },
+       "exclude": null,
+       "exclude_options": false
+      }
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": null,
+        "max_amount": null,
+        "any_of_items": [
+         "30417f643852e5337a22c160",
+         "6b679d5408e55f03d4e7792c",
+         "8a8f4b08d69a519908a8fc01",
+         "0d33d160dcaca0e9eef4e318",
+         "16ceefaa12bc95c5aa56d065",
+         "73a3bbd354d8b7f03e7dcfe1"
+        ],
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery",
+       "takeaway",
+       "eatin"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 0,
+        "end": 690
+       },
+       {
+        "start": 1140,
+        "end": 1439
+       },
+       {
+        "start": 1440,
+        "end": 2130
+       },
+       {
+        "start": 2580,
+        "end": 2879
+       },
+       {
+        "start": 2880,
+        "end": 3570
+       },
+       {
+        "start": 4020,
+        "end": 4319
+       },
+       {
+        "start": 4320,
+        "end": 5010
+       },
+       {
+        "start": 5460,
+        "end": 5759
+       },
+       {
+        "start": 5760,
+        "end": 7199
+       },
+       {
+        "start": 7200,
+        "end": 8639
+       },
+       {
+        "start": 8640,
+        "end": 9330
+       },
+       {
+        "start": 9780,
+        "end": 10079
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪10 off on selected items"
+     }
+    },
+    {
+     "id": "venue_campaign:6aac121b04dcc14a124732da",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": {
+       "fraction": null,
+       "max_amount": null,
+       "min_amount": null,
+       "max_amount_per_item": null,
+       "min_amount_per_item": null,
+       "amount_per_item": 700,
+       "include": {
+        "categories": null,
+        "items": [
+         "9ab7f136442cae77330cd8a7"
+        ],
+        "cheapest_items": null
+       },
+       "exclude": null,
+       "exclude_options": false
+      }
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": null,
+        "max_amount": null,
+        "any_of_items": [
+         "9ab7f136442cae77330cd8a7"
+        ],
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery",
+       "takeaway",
+       "eatin"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 0,
+        "end": 690
+       },
+       {
+        "start": 1140,
+        "end": 1439
+       },
+       {
+        "start": 1440,
+        "end": 2130
+       },
+       {
+        "start": 2580,
+        "end": 2879
+       },
+       {
+        "start": 2880,
+        "end": 3570
+       },
+       {
+        "start": 4020,
+        "end": 4319
+       },
+       {
+        "start": 4320,
+        "end": 5010
+       },
+       {
+        "start": 5460,
+        "end": 5759
+       },
+       {
+        "start": 5760,
+        "end": 7199
+       },
+       {
+        "start": 7200,
+        "end": 8639
+       },
+       {
+        "start": 8640,
+        "end": 9330
+       },
+       {
+        "start": 9780,
+        "end": 10079
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "פוקה ירקות ₪7 off"
+     }
+    },
+    {
+     "id": "venue_campaign:6aac12640f84b5e2b83b7aa7",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": {
+       "fraction": null,
+       "max_amount": null,
+       "min_amount": null,
+       "max_amount_per_item": null,
+       "min_amount_per_item": null,
+       "amount_per_item": 900,
+       "include": {
+        "categories": null,
+        "items": [
+         "d2a1058e8b0128c2cbc00b52"
+        ],
+        "cheapest_items": null
+       },
+       "exclude": null,
+       "exclude_options": false
+      }
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": null,
+        "max_amount": null,
+        "any_of_items": [
+         "d2a1058e8b0128c2cbc00b52"
+        ],
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery",
+       "takeaway",
+       "eatin"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 0,
+        "end": 690
+       },
+       {
+        "start": 1140,
+        "end": 1439
+       },
+       {
+        "start": 1440,
+        "end": 2130
+       },
+       {
+        "start": 2580,
+        "end": 2879
+       },
+       {
+        "start": 2880,
+        "end": 3570
+       },
+       {
+        "start": 4020,
+        "end": 4319
+       },
+       {
+        "start": 4320,
+        "end": 5010
+       },
+       {
+        "start": 5460,
+        "end": 5759
+       },
+       {
+        "start": 5760,
+        "end": 7199
+       },
+       {
+        "start": 7200,
+        "end": 8639
+       },
+       {
+        "start": 8640,
+        "end": 9330
+       },
+       {
+        "start": 9780,
+        "end": 10079
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "פיאסטה בול ₪9 off"
+     }
+    },
+    {
+     "id": "venue_campaign:6aac129204dcc14a1247335b",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": {
+       "fraction": null,
+       "max_amount": null,
+       "min_amount": null,
+       "max_amount_per_item": null,
+       "min_amount_per_item": null,
+       "amount_per_item": 1200,
+       "include": {
+        "categories": null,
+        "items": [
+         "9a7eb8ad567d8a10e01d7c5c"
+        ],
+        "cheapest_items": null
+       },
+       "exclude": null,
+       "exclude_options": false
+      }
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": null,
+        "max_amount": null,
+        "any_of_items": [
+         "9a7eb8ad567d8a10e01d7c5c"
+        ],
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery",
+       "takeaway",
+       "eatin"
+      ],
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 0,
+        "end": 690
+       },
+       {
+        "start": 1140,
+        "end": 1439
+       },
+       {
+        "start": 1440,
+        "end": 2130
+       },
+       {
+        "start": 2580,
+        "end": 2879
+       },
+       {
+        "start": 2880,
+        "end": 3570
+       },
+       {
+        "start": 4020,
+        "end": 4319
+       },
+       {
+        "start": 4320,
+        "end": 5010
+       },
+       {
+        "start": 5460,
+        "end": 5759
+       },
+       {
+        "start": 5760,
+        "end": 7199
+       },
+       {
+        "start": 7200,
+        "end": 8639
+       },
+       {
+        "start": 8640,
+        "end": 9330
+       },
+       {
+        "start": 9780,
+        "end": 10079
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "פוקה בהרכבה עצמית ₪12 off"
+     }
+    },
+    {
+     "id": "venue_campaign:6ab27c432b839eb53fe99edf",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": null,
+      "free_items": null,
+      "item_discount": {
+       "fraction": null,
+       "max_amount": null,
+       "min_amount": null,
+       "max_amount_per_item": null,
+       "min_amount_per_item": null,
+       "amount_per_item": 700,
+       "include": {
+        "categories": null,
+        "items": [
+         "94f9c2becc07079886d28191",
+         "8037572c9dce79020f1bd307"
+        ],
+        "cheapest_items": null
+       },
+       "exclude": null,
+       "exclude_options": false
+      }
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": null,
+        "max_amount": null,
+        "any_of_items": [
+         "94f9c2becc07079886d28191",
+         "8037572c9dce79020f1bd307"
+        ],
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": [
+       {
+        "start": 0,
+        "end": 690
+       },
+       {
+        "start": 1140,
+        "end": 1439
+       },
+       {
+        "start": 1440,
+        "end": 2130
+       },
+       {
+        "start": 2580,
+        "end": 2879
+       },
+       {
+        "start": 2880,
+        "end": 3570
+       },
+       {
+        "start": 4020,
+        "end": 4319
+       },
+       {
+        "start": 4320,
+        "end": 5010
+       },
+       {
+        "start": 5460,
+        "end": 5759
+       },
+       {
+        "start": 5760,
+        "end": 7199
+       },
+       {
+        "start": 7200,
+        "end": 8639
+       },
+       {
+        "start": 8640,
+        "end": 9330
+       },
+       {
+        "start": 9780,
+        "end": 10079
+       }
+      ],
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "The Poke Item Discount"
+     }
+    }
+   ],
+   "delivery_specs": {
+    "delivery_enabled": true,
+    "original_delivery_price": 1400,
+    "order_minimum_no_surcharge": 5000,
+    "delivery_pricing": {
+     "base_price": 1000,
+     "price_ranges": [
+      {
+       "min": 0,
+       "max": 5000,
+       "a": 5100,
+       "b": -1,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 5000,
+       "max": 6000,
+       "a": 100,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 6000,
+       "max": 11800,
+       "a": 0,
+       "b": 0.05,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 11800,
+       "max": 0,
+       "a": 590,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      }
+     ]
+    }
+   }
+  },
+  "order_minimum": 5000
+ },
+ "assortment": {
+  "assortment_id": "6942a49ed0188776d68ee6fc",
+  "loading_strategy": "full",
+  "primary_language": "he",
+  "selected_language": "en",
+  "categories": [
+   {
+    "id": "e6b1edba4ffa18100c8e5d88",
+    "name": "🔥Puka of the month",
+    "slug": "puka-of-the-month-2",
+    "item_ids": [
+     "16ceefaa12bc95c5aa56d065",
+     "ebcbaee51e7e00cbaed338bc"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "426b64495c3e8b9c0f2beaf0",
+    "name": "primacy",
+    "slug": "primacy-4",
+    "item_ids": [
+     "634244d9117539049d025bd6",
+     "0ee7d0c8fe94b121a86a96c8",
+     "7f9743709bf7a93953ccb00d",
+     "f3b934198d05a90845b5c848",
+     "c1d7c73aeb62c7e7434e2fa4",
+     "cd57de75ff6d41c92efaa21f",
+     "b08699be473230accd27b3d2"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "21598d5ec9e987a40eaaaa4f",
+    "name": "Pokeball",
+    "slug": "pokeball-6",
+    "item_ids": [
+     "8a8f4b08d69a519908a8fc01",
+     "ebcbaee51e7e00cbaed338bc",
+     "30417f643852e5337a22c160",
+     "6b679d5408e55f03d4e7792c",
+     "9ab7f136442cae77330cd8a7",
+     "0d33d160dcaca0e9eef4e318",
+     "d2a1058e8b0128c2cbc00b52",
+     "73a3bbd354d8b7f03e7dcfe1",
+     "9a7eb8ad567d8a10e01d7c5c",
+     "8037572c9dce79020f1bd307"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "5c763b8f50dba1a0f733146e",
+    "name": "Sauces",
+    "slug": "sauces-8",
+    "item_ids": [
+     "b6a28a5e62a7bc22094fe9c3",
+     "918ebb6523f8c545e024dfe8",
+     "af7f610bbd5e0ca490b4e831",
+     "7eb64b0a2c1c50b816d0df0e",
+     "1c8f5ae336b8813f5ba6c8de",
+     "62e7c64401bcd9d82cb5155b",
+     "4656d1578e289f452ad1247f",
+     "1ba7aa5e1a3fb662403b13d2"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "a4264413de24a5da4bf9f9dc",
+    "name": "soft drinks",
+    "slug": "soft-drinks-9",
+    "item_ids": [
+     "3be6f5f6691cf0469dd3c197",
+     "9337f843c4b8b5ecb09b714c",
+     "bc25432a2686c024e5989cce",
+     "0d6f705fa0c1f57ecc284a20"
+    ],
+    "subcategories": []
+   }
+  ],
+  "items": [
+   {
+    "id": "0d33d160dcaca0e9eef4e318",
+    "name": "Aloha Ball",
+    "description": "Hawaiian poka bowl with rice, tuna in ponzu and teriyaki, cucumber with togarashi, carrots, avocado, corn, pineapple and edamame",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a4631446d36cf43d976b1a4",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "6ee84d59f31ea3a1c394b7cd",
+      "option_id": "024e80509c6c614830445442",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f45df0c8ad982ecff6a3258c",
+      "option_id": "22d74b72bab6f46d9daf8e73",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 9,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4162f289de14bc78d83fe0f191710ed7",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0d6f705fa0c1f57ecc284a20",
+    "name": "mineral water",
+    "description": "",
+    "price": 1000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698852dd3f2baa47350d70bd",
+      "blurhash": "j3;fLXKX;;GGPttUh3CpTttUcPCo"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7f1f1124a6f514611102d810c705c744",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0ee7d0c8fe94b121a86a96c8",
+    "name": "Vegetarian egg roll - 2 units",
+    "description": "",
+    "price": 3900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698851f94fe07fe9e1899730",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ff2e33f9b4d8187e8167d7fa",
+      "option_id": "ddc830687d20ef505e69301d",
+      "name": "Possible additions",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c303a19aedb57e7cdadd4338ba4eb71d",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "16ceefaa12bc95c5aa56d065",
+    "name": "Sakura Ball",
+    "description": "Sushi rice, red tuna and raw salmon, avocado, cucumber, edamame and wakame seaweed. Served with soy sauce, ponzu and wasabi.",
+    "price": 7500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a46315bdbbb66c8e4079f86",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "7f7e13e2db167398fdaecb02",
+      "option_id": "1aa431f3bb7608905468d2c4",
+      "name": "Choice of coating",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "134f8476fb2d21a846d9f456",
+      "option_id": "e134911cad4fbfa960ff3997",
+      "name": "Free sauces to choose from",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8e2f1c51d05a8b4ef9c06c6d",
+      "option_id": "687dbcfb83ac666bbbb9fdb0",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7246f7b40901615162a00a54d945204d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1ba7aa5e1a3fb662403b13d2",
+    "name": "Homemade Asian Sauce",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a8946b20a874c6d81f5d767",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "560bedc8fd5d7782c0b2107d8621b306",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "1c8f5ae336b8813f5ba6c8de",
+    "name": "Ginger",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a047f3dcf8c9f142af430d3",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "220858340bac3c329a695284b29670b2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "30417f643852e5337a22c160",
+    "name": "Puka Salmon Ponzo",
+    "description": "Salmon with ponzu sauce, avocado, edamame, cucumber and oshinko",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698852513f2baa47350d70ae",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "5e027185ba122b5a1433aced",
+      "option_id": "70d0898f13e3c3d0d2c0c054",
+      "name": "Coating for a leak?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9340e7da657e73ebc2e23c83",
+      "option_id": "a5c4df5e6a549af9900d5e3f",
+      "name": "Choose a base for the focaccia",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e698d5df0248dc4445e5479b",
+      "option_id": "024e80509c6c614830445442",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "09df15e4f3b65ff1251268fa",
+      "option_id": "22d74b72bab6f46d9daf8e73",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 9,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "dd4243f66927d01c136b3883ced53b84",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3be6f5f6691cf0469dd3c197",
+    "name": "Coca Cola can",
+    "description": "",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698852b55b01ba0990cc14cf",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "eb89a2934d94b09c7ffa7ba4bfb817fe",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "4656d1578e289f452ad1247f",
+    "name": "Gluten-free soy",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a047f4ccf8c9f142af430d9",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6bff9eb2225896d42641025dac389db6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62e7c64401bcd9d82cb5155b",
+    "name": "Low sodium soy",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a047f46cf8c9f142af430d5",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "94b757fd1941f48dd0606661f2d9423d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "634244d9117539049d025bd6",
+    "name": "Chicken egg roll - 2 units",
+    "description": "",
+    "price": 3900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698851ec4fe07fe9e189972f",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "51862241123f8066a96ba3b3",
+      "option_id": "ddc830687d20ef505e69301d",
+      "name": "Possible additions",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "2c41e020e8d47012c07509b505c9a322",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6b679d5408e55f03d4e7792c",
+    "name": "Puka Shrimp Tempura",
+    "description": "Shrimp in tempura, avocado, shiitake, oshinko and carrots",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6988525c3f2baa47350d70af",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "974523e460c517763127b5dd",
+      "option_id": "70d0898f13e3c3d0d2c0c054",
+      "name": "Coating for a leak?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0a61ae3af9e554110d009061",
+      "option_id": "dbd32e0b3495df64e640bf69",
+      "name": "Choose a base for the focaccia",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6c573ac47d5139cf18d44bf4",
+      "option_id": "024e80509c6c614830445442",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "45fa2302e3ce77d8b359d51e",
+      "option_id": "22d74b72bab6f46d9daf8e73",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 9,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b11ff907b42b6302aa3fe4392e4829aa",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "73a3bbd354d8b7f03e7dcfe1",
+    "name": "Sakura Ball",
+    "description": "Sushi rice, red tuna and raw salmon, avocado, cucumber, edamame and wakame seaweed. Served with soy sauce, ponzu and wasabi.",
+    "price": 7500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a46315bdbbb66c8e4079f86",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "7f7e13e2db167398fdaecb02",
+      "option_id": "1aa431f3bb7608905468d2c4",
+      "name": "Choice of coating",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "134f8476fb2d21a846d9f456",
+      "option_id": "e134911cad4fbfa960ff3997",
+      "name": "Free sauces to choose from",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8e2f1c51d05a8b4ef9c06c6d",
+      "option_id": "687dbcfb83ac666bbbb9fdb0",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a27e3cfea69284f7b6b5325972f091c1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7eb64b0a2c1c50b816d0df0e",
+    "name": "Wasby",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a047f35cf8c9f142af430d2",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "875fe5f36209d5172060096f760ccb7a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7f9743709bf7a93953ccb00d",
+    "name": "Steamed mushroom gyoza - 3 units",
+    "description": "",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698852044fe07fe9e1899731",
+      "blurhash": "j4TdaJ;;XZKXGAh4gPpl;Oll8iCG"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b7f1415be67603c546c8c20ead120517",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8037572c9dce79020f1bd307",
+    "name": "Self-assembled vegetable poka",
+    "description": "Choose vegetables",
+    "price": 5600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698852493f2baa47350d70ad",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2de680969ccbefc6d720cf72",
+      "option_id": "70d0898f13e3c3d0d2c0c054",
+      "name": "Coating for a leak?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5cd76a00b613aeb71c858278",
+      "option_id": "1a11aae2c47a928b338a0c4b",
+      "name": "Choose a base for the focaccia",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5d1b249f0027a2db5f39db9d",
+      "option_id": "2bc24ca5c5665c209af09c67",
+      "name": "Choose vegetables for Poke Bowl",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 5,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "11f6be42c756a78f4b2d8cee",
+      "option_id": "024e80509c6c614830445442",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7d23da64555f98ec5361537e",
+      "option_id": "22d74b72bab6f46d9daf8e73",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 9,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cdfbc0011e5eb85155b3a7caa0bd3482",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8a8f4b08d69a519908a8fc01",
+    "name": "Aloha Ball",
+    "description": "Hawaiian poka bowl with rice, tuna in ponzu and teriyaki, cucumber with togarashi, carrots, avocado, corn, pineapple and edamame",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a46314c6d36cf43d976b1a9",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "6ee84d59f31ea3a1c394b7cd",
+      "option_id": "024e80509c6c614830445442",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f45df0c8ad982ecff6a3258c",
+      "option_id": "22d74b72bab6f46d9daf8e73",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 9,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "08c6024cadd575620443c867bb83aa8b",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "918ebb6523f8c545e024dfe8",
+    "name": "soya",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a047f1fcf8c9f142af430c6",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "53a5e4ae27e9de96bf020ef59fc3f982",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9337f843c4b8b5ecb09b714c",
+    "name": "Can of Zero Coke",
+    "description": "",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698852bf3f2baa47350d70b7",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1b2464e0d15e78eb21dbbf3765fa68bb",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9a7eb8ad567d8a10e01d7c5c",
+    "name": "Self-assembled focaccia",
+    "description": "Choose fish and vegetables",
+    "price": 9100,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698852413f2baa47350d70ac",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "edb68477e58fda67a9aaa0a7",
+      "option_id": "70d0898f13e3c3d0d2c0c054",
+      "name": "Coating for a leak?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f4822908fd509d3489ef00c6",
+      "option_id": "1a11aae2c47a928b338a0c4b",
+      "name": "Choose a base for the focaccia",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c9fda5ebfb28520d26784109",
+      "option_id": "0955a56a7be64eaf65604d0f",
+      "name": "Choose a protein for Poke Ball",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e318c1346884d5de54b52004",
+      "option_id": "684cf63ecba7d0f8d396e4e5",
+      "name": "Choose vegetables for Poke Bowl",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 4,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cdaa51b8794d33eecc9cc4cc",
+      "option_id": "024e80509c6c614830445442",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1ca087549ea3927f231a599e",
+      "option_id": "22d74b72bab6f46d9daf8e73",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 9,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e059098f7aad602b843edb06ddeeca6d",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9ab7f136442cae77330cd8a7",
+    "name": "Vegetable Pukka",
+    "description": "Avocado, cucumber, carrot, shiitake and kanpyo",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698852723f2baa47350d70b1",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "9d836178a272f062808e8e67",
+      "option_id": "70d0898f13e3c3d0d2c0c054",
+      "name": "Coating for a leak?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6bbf49f8318c94d611f855d6",
+      "option_id": "1a11aae2c47a928b338a0c4b",
+      "name": "Choose a base for the focaccia",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5ae9786e8c09835ddcfd5159",
+      "option_id": "22d74b72bab6f46d9daf8e73",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5bb1b9d48d93ba3f188109a9",
+      "option_id": "024e80509c6c614830445442",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d0720a60c269312bea571a80",
+      "option_id": "22d74b72bab6f46d9daf8e73",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 9,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e0d10fd10cdd68135ed95e9aea71b631",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "af7f610bbd5e0ca490b4e831",
+    "name": "Teriyaki",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a047f2bcf8c9f142af430cc",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "af84d58df18fb83e323eed2b30ce7498",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b08699be473230accd27b3d2",
+    "name": "Double Tempura Shrimp",
+    "description": "6 units",
+    "price": 4400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6abe2565989435c00395b027",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "66329e9efe00a91e916954a2",
+      "option_id": "82cff2dd3a2bd0c2991a41d7",
+      "name": "Sauce to choose from",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f1d8d86f0070583b71f0b235",
+      "option_id": "687dbcfb83ac666bbbb9fdb0",
+      "name": "Choice of sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 20
+       },
+       "max_single_selections": 20,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b0191020b56bcbbe1a1dca1b25a99abb",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b6a28a5e62a7bc22094fe9c3",
+    "name": "Spicy homemade mayonnaise",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a047f0bcf8c9f142af430bb",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "11e21857650914d58429e48cc9f9f2e2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "bc25432a2686c024e5989cce",
+    "name": "Fuse T bottle",
+    "description": "",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698852d33f2baa47350d70bc",
+      "blurhash": "j9;fvSGGX;Gpzcu8FlCoPtC7gPtV"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bdde4a3dd79aa3c0b0513cc052163372",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c1d7c73aeb62c7e7434e2fa4",
+    "name": "Miso Soup",
+    "description": "Soup based on Japanese spices with tofu and green onions - contains gluten and fish",
+    "price": 3200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a05b11c70bdc89ad21cd5a8",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "9ae4c74cc73e32ca75ff52f7",
+      "option_id": "6de55ac6aba84cf6f22be3e9",
+      "name": "Additional rice for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a287359c60be32b536ed399d",
+      "option_id": "01b202b138e963f4995c898b",
+      "name": "Extra salmon for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a160380baed3212ce1f79739",
+      "option_id": "d99e90461de3725a38b3904c",
+      "name": "sum",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6d1d3eee20b02a0844bcb2228d9f3eea",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "cd57de75ff6d41c92efaa21f",
+    "name": "Asian pickles",
+    "description": "Pickles of cabbage, peppers of all colors, carrots and cucumbers",
+    "price": 3000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a5f58b3ee5e87d181b7df9e",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a12f05c928650b7359e052f88bde5648",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d2a1058e8b0128c2cbc00b52",
+    "name": "Fiesta Ball",
+    "description": "Mexican focaccia bowl with rice, turkey schnitzel, white beans, avocado, corn, tomatoes, cilantro and lemon juice",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a2d5064e517e6ef66d3a7db",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "1e97ec3e0c2b6798dc710335",
+      "option_id": "a3972996f32edd52253b9eb9",
+      "name": "Changes | Fiesta Ball",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3ed60ca57f19e2d8e11c00ad",
+      "option_id": "31b795946ac9d827e0ef386c",
+      "name": "Fiesta Bowl sauce of choice (comes inside the dish)",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6ee84d59f31ea3a1c394b7cd",
+      "option_id": "024e80509c6c614830445442",
+      "name": "Choose a sauce",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f45df0c8ad982ecff6a3258c",
+      "option_id": "22d74b72bab6f46d9daf8e73",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 9,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fb9f246b512daf2b273daec48ec10116",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ebcbaee51e7e00cbaed338bc",
+    "name": "Barbecue Bowl",
+    "description": "White rice, schnitzel, avocado, cucumber, corn and cherry tomatoes in barbecue sauce",
+    "price": 7000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6aaa8597b08b2cef98aadf46",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "dd552696ff03ffdd749285856ac2fb23",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "f3b934198d05a90845b5c848",
+    "name": "Steamed sweet potato gyoza - 3 units",
+    "description": "",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6988520d4fe07fe9e1899733",
+      "blurhash": "j5SIWH;;X:GYKSh4gQlB;Qlm8iBB"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cd5f9b1f48f9a1e9def1fac8d9541c5c",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   }
+  ],
+  "options": [
+   {
+    "id": "01b202b138e963f4995c898b",
+    "name": "Extra salmon for a fee",
+    "type": "multi_choice",
+    "default_value": "70313304c3090b9685b78877",
+    "values": [
+     {
+      "id": "70313304c3090b9685b78877",
+      "name": "salmon",
+      "price": 700
+     }
+    ]
+   },
+   {
+    "id": "024e80509c6c614830445442",
+    "name": "Choose a sauce",
+    "type": "multi_choice",
+    "default_value": "e4fc1bcb9874cfd3445720ab",
+    "values": [
+     {
+      "id": "e4fc1bcb9874cfd3445720ab",
+      "name": "Teriyaki Fuka",
+      "price": 0
+     },
+     {
+      "id": "9fc7e0efeae502b9e6e5517b",
+      "name": "Ginger Puka",
+      "price": 0
+     },
+     {
+      "id": "610d1f5e272d604ca1ba102f",
+      "name": "Low-sodium soy sauce",
+      "price": 0
+     },
+     {
+      "id": "b7868d3518351296ed5e8294",
+      "name": "Spicy homemade mayonnaise foca",
+      "price": 0
+     },
+     {
+      "id": "ba8bb10ce27dd8291a352857",
+      "name": "Wasabi Fuka",
+      "price": 0
+     },
+     {
+      "id": "58a7b7f900d51fe0fa39378c",
+      "name": "Soybean Fuka",
+      "price": 0
+     },
+     {
+      "id": "f6ee95bceb6559db50c80dbf",
+      "name": "Homemade Asian Fuka sauce",
+      "price": 0
+     },
+     {
+      "id": "2423e032011131fd64d8ba87",
+      "name": "Gluten-free soy",
+      "price": 0
+     },
+     {
+      "id": "573513c7cb419dbf53b04a6c",
+      "name": "No sauces",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "0955a56a7be64eaf65604d0f",
+    "name": "Choose a protein for Poke Ball",
+    "type": "multi_choice",
+    "default_value": "b8eb99bb6d5f78dd638b1ec4",
+    "values": [
+     {
+      "id": "b8eb99bb6d5f78dd638b1ec4",
+      "name": "Shrimp",
+      "price": 0
+     },
+     {
+      "id": "5972140870b82667e7c27579",
+      "name": "Shrimp in tempura",
+      "price": 0
+     },
+     {
+      "id": "30b3db82f6ac5cdfc6d3e48c",
+      "name": "salmon",
+      "price": 0
+     },
+     {
+      "id": "586c5f3059155dfecfe4785b",
+      "name": "Salmon in ponzo sauce",
+      "price": 0
+     },
+     {
+      "id": "89b9049c6f95f99bd0ea250c",
+      "name": "Tuna in ponzo sauce",
+      "price": 0
+     },
+     {
+      "id": "aed327c5568b50433a48b650",
+      "name": "tuna",
+      "price": 0
+     },
+     {
+      "id": "4f5e9ac4ac71214f4b5e5137",
+      "name": "Fried salmon",
+      "price": 0
+     },
+     {
+      "id": "163133ecf37a3757e4affc86",
+      "name": "Turkey Schnitzel",
+      "price": 0
+     },
+     {
+      "id": "724388eabcb620f59f687c4d",
+      "name": "Raw salmon and red tuna",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "1a11aae2c47a928b338a0c4b",
+    "name": "Choose a base for the focaccia",
+    "type": "multi_choice",
+    "default_value": "f0eeda358d3851902cb95670",
+    "values": [
+     {
+      "id": "f0eeda358d3851902cb95670",
+      "name": "Sushi rice",
+      "price": 0
+     },
+     {
+      "id": "3cbbc5f44a2a98ea57a59034",
+      "name": "White Rice",
+      "price": 0
+     },
+     {
+      "id": "4c0e972aad80eb97fd5ca1a2",
+      "name": "quinoa",
+      "price": 0
+     },
+     {
+      "id": "99176204eab72678724a3fb6",
+      "name": "Bean noodles",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "1aa431f3bb7608905468d2c4",
+    "name": "Choice of coating",
+    "type": "multi_choice",
+    "default_value": "c66ec08dcd361960f72c4649",
+    "values": [
+     {
+      "id": "c66ec08dcd361960f72c4649",
+      "name": "Sesame Pukka",
+      "price": 0
+     },
+     {
+      "id": "444db8742b5bb5c7165fd25f",
+      "name": "Nori algae",
+      "price": 0
+     },
+     {
+      "id": "7d17ba186ca4e218b0dcb1a4",
+      "name": "Without coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "22d74b72bab6f46d9daf8e73",
+    "name": "Paid sauces",
+    "type": "multi_choice",
+    "default_value": "9c60d5b9ec3d51cd07359738",
+    "values": [
+     {
+      "id": "9c60d5b9ec3d51cd07359738",
+      "name": "Spicy homemade mayonnaise foca",
+      "price": 300
+     },
+     {
+      "id": "2c6f809edf3d0ab79892fb28",
+      "name": "Homemade Asian Fuka sauce",
+      "price": 300
+     },
+     {
+      "id": "4a0665f2601029ee02693e43",
+      "name": "Soybean Fuka",
+      "price": 300
+     },
+     {
+      "id": "6fbca7789ccb485c6561658e",
+      "name": "Teriyaki Fuka",
+      "price": 300
+     },
+     {
+      "id": "0c9cb1d500b8371130aef847",
+      "name": "Wasabi Fuka",
+      "price": 300
+     },
+     {
+      "id": "02a34a6808dfd022f6690b70",
+      "name": "Ginger Puka",
+      "price": 300
+     },
+     {
+      "id": "5224efc166146e13cdf8f3e7",
+      "name": "Low-sodium soy sauce",
+      "price": 300
+     },
+     {
+      "id": "a663417386fcaca550d8f579",
+      "name": "Gluten-free soy Pukka",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "2bc24ca5c5665c209af09c67",
+    "name": "Choose vegetables for Poke Bowl",
+    "type": "multi_choice",
+    "default_value": "d4a6fe02539d2d25251ebe1a",
+    "values": [
+     {
+      "id": "d4a6fe02539d2d25251ebe1a",
+      "name": "Avocado",
+      "price": 0
+     },
+     {
+      "id": "74d13f5751de0fa9054d3038",
+      "name": "pineapple",
+      "price": 0
+     },
+     {
+      "id": "fb870410d68d7c1762f7e4a5",
+      "name": "cucumber",
+      "price": 0
+     },
+     {
+      "id": "f9900116b2b72218a2ac5a6d",
+      "name": "Carrot",
+      "price": 0
+     },
+     {
+      "id": "82152ac9a31e2bbf51736fb2",
+      "name": "Shitaki",
+      "price": 0
+     },
+     {
+      "id": "d38b13c4d73026731bc77d88",
+      "name": "His wings",
+      "price": 0
+     },
+     {
+      "id": "8e169de2c3c79ab709e98789",
+      "name": "Green onions",
+      "price": 0
+     },
+     {
+      "id": "f60401c075cbe4aa13b2ea73",
+      "name": "Oshinko",
+      "price": 0
+     },
+     {
+      "id": "73876d0e7b3126d344cc46cb",
+      "name": "Earth",
+      "price": 0
+     },
+     {
+      "id": "c432891c00243f6b27e2eb56",
+      "name": "corn",
+      "price": 0
+     },
+     {
+      "id": "8521f231c746fd81f0bcf8ef",
+      "name": "Wakame seaweed",
+      "price": 0
+     },
+     {
+      "id": "5a42a4511ec8485bed8d2c4b",
+      "name": "Cherry tomatoes",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "31b795946ac9d827e0ef386c",
+    "name": "Fiesta Bowl sauce of choice (comes inside the dish)",
+    "type": "multi_choice",
+    "default_value": "ad6062fa702b335b6fab04e7",
+    "values": [
+     {
+      "id": "ad6062fa702b335b6fab04e7",
+      "name": "Thai lemon sauce ",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "684cf63ecba7d0f8d396e4e5",
+    "name": "Choose vegetables for Poke Bowl",
+    "type": "multi_choice",
+    "default_value": "b19ccf4ddc4ad424d38f7a9e",
+    "values": [
+     {
+      "id": "b19ccf4ddc4ad424d38f7a9e",
+      "name": "Avocado",
+      "price": 0
+     },
+     {
+      "id": "fd8d6e979310ab7975fb5094",
+      "name": "pineapple",
+      "price": 0
+     },
+     {
+      "id": "2edbe78a77d214b3bd699fda",
+      "name": "cucumber",
+      "price": 0
+     },
+     {
+      "id": "1873792154b1bf4a7e7fecbf",
+      "name": "Carrot",
+      "price": 0
+     },
+     {
+      "id": "c41f52c29969a9c896a8b215",
+      "name": "Shitaki",
+      "price": 0
+     },
+     {
+      "id": "300a38e6155a177175834238",
+      "name": "His wings",
+      "price": 0
+     },
+     {
+      "id": "e1ef72dc4d19bfe401a7e614",
+      "name": "Green onions",
+      "price": 0
+     },
+     {
+      "id": "135d49a3e2b9ba76bf4f0b22",
+      "name": "Oshinko",
+      "price": 0
+     },
+     {
+      "id": "b2e4f8197247edcb503c95f5",
+      "name": "corn",
+      "price": 0
+     },
+     {
+      "id": "df1802d98d798f6557f61ae6",
+      "name": "Cherry tomatoes",
+      "price": 0
+     },
+     {
+      "id": "e611d76ece802b82ac5e4a79",
+      "name": "Wakame seaweed",
+      "price": 0
+     },
+     {
+      "id": "fc760c4d296fdda99c414688",
+      "name": "Sweet potato pokey",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "687dbcfb83ac666bbbb9fdb0",
+    "name": "Choice of sauces for a fee",
+    "type": "multi_choice",
+    "default_value": "4543cf6f3b166339ed85b903",
+    "values": [
+     {
+      "id": "ffa84e4bd7168fe5a26008c3",
+      "name": "Ginger",
+      "price": 300
+     },
+     {
+      "id": "564411f9c2f8ef7062246697",
+      "name": "Wasabi",
+      "price": 300
+     },
+     {
+      "id": "53957d3c5929a1f63c675da5",
+      "name": "Teriyaki",
+      "price": 300
+     },
+     {
+      "id": "ddd632b3e87189a636f70ca8",
+      "name": "soya",
+      "price": 300
+     },
+     {
+      "id": "40312030e0669526dcffcba0",
+      "name": "Low sodium soy",
+      "price": 300
+     },
+     {
+      "id": "2c2d0977e85e58aa8ef4cbd4",
+      "name": "Gluten-free soy",
+      "price": 300
+     },
+     {
+      "id": "8730957029870e620d15fbee",
+      "name": "Homemade spicy mayonnaise",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "6de55ac6aba84cf6f22be3e9",
+    "name": "Additional rice for a fee",
+    "type": "multi_choice",
+    "default_value": "f625ae940776b53086191c26",
+    "values": [
+     {
+      "id": "f625ae940776b53086191c26",
+      "name": "Rice",
+      "price": 500
+     }
+    ]
+   },
+   {
+    "id": "70d0898f13e3c3d0d2c0c054",
+    "name": "Coating for a leak?",
+    "type": "multi_choice",
+    "default_value": "51bc6d5f9e5361ceea3264f7",
+    "values": [
+     {
+      "id": "51bc6d5f9e5361ceea3264f7",
+      "name": "Sesame",
+      "price": 0
+     },
+     {
+      "id": "b5e3c5fa879c0be6fa8c0384",
+      "name": "Without coating",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "82cff2dd3a2bd0c2991a41d7",
+    "name": "Sauce to choose from",
+    "type": "multi_choice",
+    "default_value": "f160eceeaaf9169390e83347",
+    "values": [
+     {
+      "id": "f160eceeaaf9169390e83347",
+      "name": "Without sauce",
+      "price": 0
+     },
+     {
+      "id": "464dbc3067bb655be770cfe3",
+      "name": "soya",
+      "price": 0
+     },
+     {
+      "id": "50888689cb4ae2a670bc21bc",
+      "name": "Teriyaki",
+      "price": 0
+     },
+     {
+      "id": "9ee5806d001d2e576f79c936",
+      "name": "Homemade spicy mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "97e3cd244f8db13944132836",
+      "name": "Homemade aioli",
+      "price": 0
+     },
+     {
+      "id": "277478b2f450825c51da0479",
+      "name": "Wasby",
+      "price": 0
+     },
+     {
+      "id": "ef5ed16727d7ad4379dc4715",
+      "name": "Ginger",
+      "price": 0
+     },
+     {
+      "id": "17347ef142a316d81fd554f5",
+      "name": "Low sodium soy",
+      "price": 0
+     },
+     {
+      "id": "98f576e6f0a51b014e001747",
+      "name": "Gluten-free soy",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "a3972996f32edd52253b9eb9",
+    "name": "Changes | Fiesta Ball",
+    "type": "multi_choice",
+    "default_value": "0f25d88952207d6e07ae3433",
+    "values": [
+     {
+      "id": "0f25d88952207d6e07ae3433",
+      "name": "Without coriander",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "a5c4df5e6a549af9900d5e3f",
+    "name": "Choose a base for the focaccia",
+    "type": "multi_choice",
+    "default_value": "349c715601c6ae681f19cc2c",
+    "values": [
+     {
+      "id": "349c715601c6ae681f19cc2c",
+      "name": "Sushi rice",
+      "price": 0
+     },
+     {
+      "id": "5f0cad0d92b34c0096ccf206",
+      "name": "White Rice",
+      "price": 0
+     },
+     {
+      "id": "5905c88fdf6884c9113a52ce",
+      "name": "quinoa",
+      "price": 0
+     },
+     {
+      "id": "0c40ed1439449e8ee421b810",
+      "name": "Bean noodles",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "d99e90461de3725a38b3904c",
+    "name": "sum",
+    "type": "multi_choice",
+    "default_value": "78952ee3987503a9e2ce6d1c",
+    "values": [
+     {
+      "id": "78952ee3987503a9e2ce6d1c",
+      "name": "sum",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "dbd32e0b3495df64e640bf69",
+    "name": "Choose a base for the focaccia",
+    "type": "multi_choice",
+    "default_value": "51ff2e71b43aafe436b8c5db",
+    "values": [
+     {
+      "id": "51ff2e71b43aafe436b8c5db",
+      "name": "Sushi rice",
+      "price": 0
+     },
+     {
+      "id": "fb06c6c21a0eac8e9d9384a3",
+      "name": "White Rice",
+      "price": 0
+     },
+     {
+      "id": "351fa7d5a6a4d0a262650ce4",
+      "name": "quinoa",
+      "price": 0
+     },
+     {
+      "id": "3c5ad8f108d1baa2543de8fe",
+      "name": "Bean noodles",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "ddc830687d20ef505e69301d",
+    "name": "Possible additions",
+    "type": "multi_choice",
+    "default_value": "6160f6bcc2f68f05b1661598",
+    "values": [
+     {
+      "id": "6160f6bcc2f68f05b1661598",
+      "name": "Sweet and sour sauce",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "e134911cad4fbfa960ff3997",
+    "name": "Free sauces to choose from",
+    "type": "multi_choice",
+    "default_value": "728c528454442bef2e34b632",
+    "values": [
+     {
+      "id": "728c528454442bef2e34b632",
+      "name": "Teriyaki Fuka",
+      "price": 0
+     },
+     {
+      "id": "f627e2650fec5ec5c03e19b6",
+      "name": "No sauces, focaccia",
+      "price": 0
+     },
+     {
+      "id": "f0dde6559aca9ab2f03853cb",
+      "name": "Ginger Puka",
+      "price": 0
+     },
+     {
+      "id": "264a9cfc202704428cfd41f0",
+      "name": "Low-sodium soy sauce",
+      "price": 0
+     },
+     {
+      "id": "6bd70628078893de3f0054cc",
+      "name": "Spicy homemade mayonnaise foca",
+      "price": 0
+     },
+     {
+      "id": "cfa6babaeaa48ddf0cfeb16d",
+      "name": "Wasabi Fuka",
+      "price": 0
+     },
+     {
+      "id": "8a946761b8b1fbe9d9843780",
+      "name": "Soybean Fuka",
+      "price": 0
+     },
+     {
+      "id": "57074c0977bbba1e99bd5a66",
+      "name": "Homemade Asian Fuka sauce",
+      "price": 0
+     },
+     {
+      "id": "45f5899c20d427fb7cd099d0",
+      "name": "Gluten-free soy Pukka",
+      "price": 0
+     }
+    ]
+   }
+  ]
+ }
+}

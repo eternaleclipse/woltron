@@ -1,0 +1,4451 @@
+{
+ "captured_at": "2026-10-02T21:59:13.814Z",
+ "location": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "static": {
+  "venue": {
+   "id": "5cb851762d820c000d66ca9d",
+   "slug": "nona-cafe",
+   "name": "Cafe Nona",
+   "description": "Cafe Nona is unique in that it never closes. Any day or time you find yourself craving for a schnitzel, this American-style eatery has you covered. Known amongst locals for its drink specials until 2 in the morning, it’s the spot to keep drinking while satiating your hunger pains. The laid back atmosphere means you'll never be rushed, giving you ample time to work your way through the large Israeli breakfast, which is served all day. The menu is filled with typical local fare, including sandwiches, salads and bourekas. ",
+   "image_url": "https://imageproxy.wolt.com/assets/6a29697d11515485c9535749",
+   "image_blurhash": "j4HFC7cRF5X;PKTKINiW;;XK8gPc",
+   "brand_logo_image_url": null,
+   "address": "אבן גבירול 44",
+   "rating": {
+    "rating": 3,
+    "score": "8.4",
+    "score_raw": 8.4,
+    "volume": 500
+   },
+   "share_url": "https://wolt.com/he/isr/tel-aviv/restaurant/nona-cafe",
+   "currency": "ILS",
+   "country": "ISR",
+   "delivery_methods": [
+    "homedelivery",
+    "takeaway"
+   ],
+   "timezone": "Asia/Jerusalem",
+   "product_line": "restaurant",
+   "delivery_base_price": 1000,
+   "service_fee_estimate": {
+    "min": 100,
+    "max": 590,
+    "percentage": 5
+   },
+   "zero_distance_fees": {
+    "delivery_price": 1200
+   },
+   "opening_times_schedule": [
+    {
+     "day": "Monday",
+     "formatted_times": "All day"
+    },
+    {
+     "day": "Tuesday",
+     "formatted_times": "All day"
+    },
+    {
+     "day": "Wednesday",
+     "formatted_times": "All day"
+    },
+    {
+     "day": "Thursday",
+     "formatted_times": "All day"
+    },
+    {
+     "day": "Friday",
+     "formatted_times": "All day"
+    },
+    {
+     "day": "Saturday",
+     "formatted_times": "All day"
+    },
+    {
+     "day": "Sunday",
+     "formatted_times": "All day"
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "5cb851762d820c000d66ca9d",
+   "location": {
+    "bbox": null,
+    "type": "Point",
+    "coordinates": [
+     34.78155613,
+     32.07698289
+    ]
+   },
+   "price_range": 2,
+   "food_tags": [
+    "salad",
+    "vegetarian",
+    "schnitzel",
+    "isr_soup",
+    "recovery_1",
+    "sandwich",
+    "bistro",
+    "Wolt Benefits"
+   ],
+   "short_description": "A Well Known Coffee House in Tel Aviv"
+  },
+  "order_minimum": 5000
+ },
+ "dynamic": {
+  "venue": {
+   "id": "5cb851762d820c000d66ca9d",
+   "online": true,
+   "open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:13.687487+03:00",
+    "previous_open": null,
+    "next_open": null,
+    "next_close": null,
+    "next_close_time_localized": null
+   },
+   "delivery_open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:13.687487+03:00",
+    "previous_open": null,
+    "next_open": null,
+    "next_close": null,
+    "next_close_time_localized": null
+   },
+   "delivery_configs": [
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "homedelivery",
+     "schedule": "standard",
+     "estimate": {
+      "label": "30-40 min",
+      "min": 30,
+      "mean": 35,
+      "max": 40
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    },
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "takeaway",
+     "schedule": "standard",
+     "estimate": {
+      "label": "20-25 min",
+      "min": 20,
+      "mean": 25,
+      "max": 25
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "5cb851762d820c000d66ca9d",
+   "alive": true,
+   "preestimate_total": {
+    "min": 30,
+    "max": 40,
+    "mean": 35
+   },
+   "discounts": [
+    {
+     "id": "venue_campaign:6a7c2457b94bcc6db711da4c",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee"
+     }
+    },
+    {
+     "id": "venue_campaign:6a927bbd3894d0581bbbb984",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [
+       {
+        "min_amount": 9900,
+        "max_amount": null,
+        "any_of_items": null,
+        "items_from_categories": null,
+        "min_quantity": null,
+        "max_quantity": null,
+        "any_of_option_values": null,
+        "including_restricted_items": false
+       }
+      ],
+      "preorder": null,
+      "delivery_methods": [
+       "homedelivery"
+      ],
+      "min_distance": null,
+      "max_distance": 3000,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": true,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee on orders over ₪99"
+     }
+    }
+   ],
+   "delivery_specs": {
+    "delivery_enabled": true,
+    "original_delivery_price": 1200,
+    "order_minimum_no_surcharge": 5000,
+    "delivery_pricing": {
+     "base_price": 1000,
+     "price_ranges": [
+      {
+       "min": 0,
+       "max": 5000,
+       "a": 5100,
+       "b": -1,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 5000,
+       "max": 6000,
+       "a": 100,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 6000,
+       "max": 11800,
+       "a": 0,
+       "b": 0.05,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 11800,
+       "max": 0,
+       "a": 590,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      }
+     ]
+    }
+   }
+  },
+  "order_minimum": 5000
+ },
+ "assortment": {
+  "assortment_id": "5cb85895d26353000e8d8c8a",
+  "loading_strategy": "full",
+  "primary_language": "he",
+  "selected_language": "en",
+  "categories": [
+   {
+    "id": "b513c00164f478bf61a7f3e1",
+    "name": "sum",
+    "slug": "sum-1",
+    "item_ids": [
+     "0b8ba6f6cee8118ad678e5cb"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "5a5b905ec1bbee69304e3b97",
+    "name": "Lunch and dinner starters",
+    "slug": "lunch-and-dinner-starters-3",
+    "item_ids": [
+     "d510ca8a2852a03b6a0dcf1e",
+     "3c12f94b306ccc1fa863cdf4",
+     "24e67d92ffe3233037dccfcd",
+     "22d87b2be71284c181089a63",
+     "27ebd928faf1ef947e62f701",
+     "03f159dabc8049b56fec8cef",
+     "809604473667a2646878fc01",
+     "dde0eb45d4abed42391236d1",
+     "d8b32a1de228be25f0fd4d46"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "9d07dd733f556f8acf619a4c",
+    "name": "Sandwiches | Breakfast and Dinner",
+    "slug": "sandwiches-breakfast-and-dinner-4",
+    "item_ids": [
+     "41601fe40c1d7af1149f7c9f",
+     "67825aa12620cfde8c831a0b",
+     "3d38358ea068b7e661008167",
+     "6b9cc1f6cbc53f50124d2e23",
+     "74aecb8125b4cd67c6f66e8c",
+     "6761b19fc2e0bb641db138e4",
+     "5caa9f3ac38cc5fc1aa27c53"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "55837cd6b797ba34d1ec3183",
+    "name": "Toasts | Morning and evening",
+    "slug": "toasts-morning-and-evening-5",
+    "item_ids": [
+     "c65bb5a916235dcf8da0124c",
+     "96b33a8e252efead99c5a634",
+     "8a16d245557eb0c13225666a",
+     "ab49e59790a2236501b7b62d"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "3f85eda1665f0a94a7308ffe",
+    "name": "Salads | Breakfast and Dinner",
+    "slug": "salads-breakfast-and-dinner-6",
+    "item_ids": [
+     "6e4e479b9b829d830d0b4850",
+     "3dec546d2db8b0610e842ac8",
+     "cdfd2ddb771bd990b293ecf6",
+     "4bc5fd3f200f27d008b816fc",
+     "964d57a606defa1f433763f1"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "79614046a4e0d75638a3f30c",
+    "name": "Mains | Evening",
+    "slug": "mains-evening-8",
+    "item_ids": [
+     "cd06d06005f6c2abcde13ccf",
+     "c7d9248933f789ddc0bc13c2",
+     "40d78666385ef54f97e5ef7b",
+     "0b49e8300e498e69104787a2",
+     "7fff5a8b1386800714fb1ce8",
+     "33af72b5d56a5a61da76cac8",
+     "bee298499ee5089352f69b1c",
+     "3511403e2f4f11562dfd4fe4",
+     "dfe42b1ee046c17788b8fae5"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "ace74b77571cace76bcbdc59",
+    "name": "Extras",
+    "slug": "extras-14",
+    "item_ids": [
+     "cbe806b329afc70d5d87fc2e",
+     "448e1660eeaf32fd4c430574",
+     "8ebdd154827721501dc58aa4",
+     "5ed927eb46095243c17a1a7e"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "8502296c3d877b1221854120",
+    "name": "Sauces",
+    "slug": "sauces-15",
+    "item_ids": [
+     "c4c75ea4e5a96ffce563b970",
+     "3a38e0bbef960f3f90c41bb6",
+     "3ea1b1bc000ced92d10d21b8",
+     "3a6e9ee837a3da9e5773eace",
+     "505bb633da409bd9728ba8c9",
+     "17507850d6575b05eb66ecc0",
+     "ce4326017f9b525ef3abb986",
+     "bdc1797eeba6553184ee21d6",
+     "86e138286ac9bd7c276a1c9c"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "f995aa3c9a8ce7e7e255642a",
+    "name": "desserts",
+    "slug": "desserts-16",
+    "item_ids": [
+     "6cdaa65e7b9bd7a293f51154",
+     "800c2c298727eea09a63d79a",
+     "7097651cc810afa728e818a1",
+     "67748d6c74762977eb4cffe4",
+     "140020cacc55d19e9d5a47fb",
+     "5ba11e2a16c370b1023b63af",
+     "62b1721971d5b9314af201f7",
+     "762da8e9c2bf52454378a1d8",
+     "7ff36a92c56d3b49a7e5707b",
+     "0ac19bce9d713d04d05da801"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "955e29fe54402f303be70d25",
+    "name": "soft drinks",
+    "slug": "soft-drinks-18",
+    "item_ids": [
+     "622b00d58d3f26cb52d5d739",
+     "636dadf131ae1c7846b81ce7",
+     "a95f6aadabaa3743d381db49",
+     "9ecfe6119004c031f47d8e18",
+     "2bf8c6b907c3b72d0bc6b79d",
+     "44ee5bdd31a8272c124b2d20",
+     "035adf50495ff56e5fbbed7f",
+     "3371491f003f2822397faa80",
+     "0ac1f1cff7bf896588b1c5dd",
+     "cb7e191546729fc27129cb27",
+     "6319a03048e9db45075a28f2",
+     "7efadf13ebc6b696fce42372"
+    ],
+    "subcategories": []
+   }
+  ],
+  "items": [
+   {
+    "id": "035adf50495ff56e5fbbed7f",
+    "name": "Mineral water springs",
+    "description": "0.5",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a97f",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4f5ceda15029b01b062e0d54d38035d7",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "03f159dabc8049b56fec8cef",
+    "name": "Mix chips",
+    "description": "Mix chips and sweet potato",
+    "price": 3800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534ce9",
+      "blurhash": "jaNbqJ;:P;9aN3cPiYLcL;hpkyJk"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "03fd6827a0c7affc9091eaf24d735300",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0ac19bce9d713d04d05da801",
+    "name": "pecan pie",
+    "description": "Vegan, recommended to be heated slightly.",
+    "price": 5200,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "15cb831c251039bc73ad8dfdf96f42b6",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0ac1f1cff7bf896588b1c5dd",
+    "name": "Trimmed of yesteryear",
+    "description": "Choose a flavor",
+    "price": 1500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a965",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "34ae5628d876eab36265faaa",
+      "option_id": "a562f15600267bbd3992161c",
+      "name": "Choose a flavor to trim",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4fc5fa23f4dd9e9a3a59f574834bcb17",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0b49e8300e498e69104787a2",
+    "name": "CURRY BOWL",
+    "description": "Rice, chicken, curry, sweet potato, onion, garlic, tomato and coconut milk",
+    "price": 7800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bd356d77354c0b2a00fc",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "97b34a048881a10a39a39111",
+      "option_id": "439e799385bea21546d6d1c0",
+      "name": "Would you like to have your house trimmed on sale?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ddf123381cfcd71e6c9f4db0",
+      "option_id": "f319684975b7805979d8025d",
+      "name": "Choose a flavor for your home decor",
+      "prerequisite_values": [
+       "1cddbc8758e8716a4dd61140"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c4d6ceefc74d9431ee59ff35b1c3deab",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0b8ba6f6cee8118ad678e5cb",
+    "name": "Flatware 🍴",
+    "description": "Please select this item as the number of diners who need flatware",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/66717fd8750bf16648d2aed9",
+      "blurhash": "L7J*uAj[~qt7xufQM{fQ%MofIURj"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "012b81b3a9a31fc54346311e04584901",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "140020cacc55d19e9d5a47fb",
+    "name": "Brownies",
+    "description": "Delicious homemade brownies",
+    "price": 1800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a963",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "04c199a82416bfc974d923c4598ff787",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "17507850d6575b05eb66ecc0",
+    "name": "Maple vinaigrette",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cd0",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8f5081041500142dd857e9c13fc1cb2c",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "22d87b2be71284c181089a63",
+    "name": "Sweet potato chips",
+    "description": "Served with ketchup and pepper mayonnaise",
+    "price": 3800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534ce8",
+      "blurhash": "jbNHyP;KP;eYgycPiYLcT;hmkyB3"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ec430e78f2743f394202f9ad1f243660",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "24e67d92ffe3233037dccfcd",
+    "name": "Earth",
+    "description": "Boiled soybeans with coarse salt and lemon",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534ccb",
+      "blurhash": "j9KHCKXKXLTtKXcPcPPbPvTtcxcP"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "75c5c22a3f794a45db56fa96738ecca1",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "27ebd928faf1ef947e62f701",
+    "name": "Nona chips",
+    "description": "Fried fries served with pepper mayonnaise and ketchup",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534ceb",
+      "blurhash": "j8LbeF;JnL8TlkcOh5PcjLhrkxOA"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f4e8afded0a3d4c4feda25921f8ea9cd",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "2bf8c6b907c3b72d0bc6b79d",
+    "name": "Sprite Zero",
+    "description": "0.33",
+    "price": 1500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a990",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "15f7b92ead9c99af66ae648b1b4766b5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3371491f003f2822397faa80",
+    "name": "San Pellegrino is small",
+    "description": "0.25",
+    "price": 1400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a98e",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "be22d848e29e5ae810f4daa6c6150853",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "33af72b5d56a5a61da76cac8",
+    "name": "Beef patties",
+    "description": "Meatballs in tomato sauce (contains gluten), mixed herbs, served with a side dish of your choice",
+    "price": 7800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bcbfd702608a9624ab1a",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a01d8858dfd5324ab6bdfade",
+      "option_id": "82df4d7d041afbeee6942d21",
+      "name": "Choose an extension",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9c464533fa10383d2eacce71",
+      "option_id": "439e799385bea21546d6d1c0",
+      "name": "Would you like to have your house trimmed on sale?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9092163576aafbc2d8fa51e5",
+      "option_id": "f319684975b7805979d8025d",
+      "name": "Choose a flavor for your home decor",
+      "prerequisite_values": [
+       "1cddbc8758e8716a4dd61140"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d68ab57822f249429908c79d8cfcafcf",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3511403e2f4f11562dfd4fe4",
+    "name": "filled peppers",
+    "description": "2 peppers stuffed with rice and onion, carrots served with a spread of your choice and grated tomato",
+    "price": 6200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bce1d702608a9624ab2c",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "0b802c654346d31e52d6814d",
+      "option_id": "3eddebf91fabb6b13207e044",
+      "name": "Choose a spread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b8a51de266e48caa3b1d4def",
+      "option_id": "7f8c9298accc9db3eaf4ccce",
+      "name": "Additional sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 12
+       },
+       "max_single_selections": 12,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "05f7bffcb1ba7867e607c4f3",
+      "option_id": "439e799385bea21546d6d1c0",
+      "name": "Would you like to have your house trimmed on sale?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bf29663b7e0fe44bc70d2f1e",
+      "option_id": "f319684975b7805979d8025d",
+      "name": "Choose a flavor for your home decor",
+      "prerequisite_values": [
+       "1cddbc8758e8716a4dd61140"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "875deb2ec6b56da4f03a0138e2f69c47",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3a38e0bbef960f3f90c41bb6",
+    "name": "Mustard and honey aioli",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534ccc",
+      "blurhash": "j8Qc;a;;HucPh4GGqHKXPuh4p2Tc"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6b564318d2d0978d789aeb473f4b44bf",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3a6e9ee837a3da9e5773eace",
+    "name": "Tehina",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a973",
+      "blurhash": "j5TtzkORPLTtcQTtlmplLvPcoNlk"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d87ada4e385f14a2e337444457aa8312",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3c12f94b306ccc1fa863cdf4",
+    "name": "home bread",
+    "description": "Half a Jerusalem bagel, sourdough bread, butter and tomato vinaigrette",
+    "price": 2600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a97b",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a0cbf534f9c67da1ad5d1ead74a73d3c",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3d38358ea068b7e661008167",
+    "name": "Avocado bagel",
+    "description": "Avocado, tomato and rocket salad in a bagel",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a95d",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "d4f4102ee6a02d1b30ef4509",
+      "option_id": "63ab2bac9d16b44a1178feae",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d9a8de1efd635c7129df79eff5c13d14",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3dec546d2db8b0610e842ac8",
+    "name": "Quinoa BOWL",
+    "description": "Cucumber, peppers, tomatoes, avocado, pumpkin seeds, sunflower seeds, tahini, tomato vinaigrette",
+    "price": 6400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bb226d77354c0b2a0020",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "430c920dc8879f3556054672",
+      "option_id": "f692a4154d4bb799744e34f6",
+      "name": "Additional possibility of payment",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ad36ec287ce23e739c18aec6",
+      "option_id": "bbb16e9876ec3d0b9131b93f",
+      "name": "Paid extras for the egg",
+      "prerequisite_values": [
+       "79ebd2f91c868567eab98c54"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7e28232e10d45d765f6f0667",
+      "option_id": "065942907377110ddcf9ac1e",
+      "name": "Additional possibility of payment",
+      "prerequisite_values": [
+       "79ebd2f91c868567eab98c54"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bc70f4a93fcdf6e9f168c9ffa05aeb62",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3ea1b1bc000ced92d10d21b8",
+    "name": "Herb aioli",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a95a",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7b3b8f6ab579b86a41159e982f21ec68",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "40d78666385ef54f97e5ef7b",
+    "name": "2 buttons",
+    "description": "Comes in a pair of soft buns, 80 gram burger, truffle aioli, rocket, onion chips and fries",
+    "price": 7800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bc4a6d77354c0b2a00b6",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "de25010f1109795a6bb882a5",
+      "option_id": "d550a39621f6cd7aa0b85d1c",
+      "name": "Button components | One button",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4a48e7e20f93289f9c50fe00",
+      "option_id": "0b60f0c07361c8f580ab25b2",
+      "name": "Choose an extension",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1513cace1c2e2c5c76296dba",
+      "option_id": "2354f70876d6df4e67a9d239",
+      "name": "Possible changes | Vegetable salad",
+      "prerequisite_values": [
+       "d257166d713761d8543978d1"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "30bfea2675faf0b68df17353",
+      "option_id": "aa82f6e3cde85dfc77c00060",
+      "name": "Possible extras for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ac3909cd2b25e412466c9c8c",
+      "option_id": "66a5cf10f0fafa57c6203b8c",
+      "name": "Paid extras for the egg",
+      "prerequisite_values": [
+       "984657b6bfd97da1aa324368"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "12375d3d376078f3c1abb9dc",
+      "option_id": "5851f7ef3d8ad894dc48c64a",
+      "name": "Paid extras",
+      "prerequisite_values": [
+       "984657b6bfd97da1aa324368"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e0e39aa1b8e625c07b302590",
+      "option_id": "be97aad7f46c0981fc2e6a1b",
+      "name": "Choose a submission method",
+      "prerequisite_values": [
+       "984657b6bfd97da1aa324368"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ebd0ee1a8ef0a6501fc85869",
+      "option_id": "7f8c9298accc9db3eaf4ccce",
+      "name": "Additional sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 12
+       },
+       "max_single_selections": 12,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5943b20ede677825e968937b",
+      "option_id": "439e799385bea21546d6d1c0",
+      "name": "Would you like to have your house trimmed on sale?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b75a9b0fe72c51769bf45984",
+      "option_id": "f319684975b7805979d8025d",
+      "name": "Choose a flavor for your home decor",
+      "prerequisite_values": [
+       "1cddbc8758e8716a4dd61140"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ec413b31d5a8d139c2320d27979a4abc",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "41601fe40c1d7af1149f7c9f",
+    "name": "Whole omelet sandwich",
+    "description": "Choice of bread and spread, tomato, lettuce, and omelette",
+    "price": 5000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a977",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a78de6502b9816b0ec9ccd17",
+      "option_id": "5f35c601644e881229b79372",
+      "name": "Choose bread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1f489e23bcdc3d47ea72ddbc",
+      "option_id": "70e809ccf4e8a939106bfd98",
+      "name": "Choose a spread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "76e5f59ca1489a0fe55af31b",
+      "option_id": "5a3fa3e04802abfe66f58537",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9ba1d8a0e6713b97d07882c47357b5e7",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "448e1660eeaf32fd4c430574",
+    "name": "ירקות קלויים",
+    "description": "",
+    "price": 1800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a974",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ff0eab640abe4a9820e4abd8df12ac8a",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "44ee5bdd31a8272c124b2d20",
+    "name": "Sprite",
+    "description": "0.33",
+    "price": 1500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a991",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bf5e7bce245d445551c05441340a5735",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "4bc5fd3f200f27d008b816fc",
+    "name": "Ceaser salad",
+    "description": "Caesar lettuce hearts, Caesar dressing, croutons, Parmesan and soft-boiled egg",
+    "price": 6200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bb633a9b0b41a1d29d8b",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "4e58e3db35219d3576413559",
+      "option_id": "ee20f944fc80a5925a2cbc1f",
+      "name": "Possible changes | Caesar salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "116f6a3ee7dc93af6d932c28",
+      "option_id": "f692a4154d4bb799744e34f6",
+      "name": "Additional possibility of payment",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cb96b4307f0dae17dd4ec202",
+      "option_id": "bbb16e9876ec3d0b9131b93f",
+      "name": "Paid extras for the egg",
+      "prerequisite_values": [
+       "79ebd2f91c868567eab98c54"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "396f760e2685dce66374c4b4",
+      "option_id": "065942907377110ddcf9ac1e",
+      "name": "Additional possibility of payment",
+      "prerequisite_values": [
+       "79ebd2f91c868567eab98c54"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "69a2f7b819ec02e0e6fd9cda03559a37",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "505bb633da409bd9728ba8c9",
+    "name": "Caesar sauce",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cf1",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b0c8bbdecd687250c663e8acd18750b8",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5ba11e2a16c370b1023b63af",
+    "name": "Chocolate yeast",
+    "description": "Chocolate yeast is always fun",
+    "price": 3000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a9aa",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "73cecca02f8f1e6a55d0cf9bfd4a12d6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5caa9f3ac38cc5fc1aa27c53",
+    "name": "Etricot sandwich",
+    "description": "Gafta, mustard and honey aioli, entrecote pieces, caramelized onions, lettuce, tomato, pickles",
+    "price": 6900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96baed3a9b0b41a1d29d56",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "60fe87c726b197d03339e8ae",
+      "option_id": "1b89f89156a370310b03289c",
+      "name": "Possible changes | Etricot sandwich",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "de70453c979be13ab714899f",
+      "option_id": "eb3364e913f6b9ce9c7bdffa",
+      "name": "Possible extras for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8e8a6adb12424119bed8655c",
+      "option_id": "439e799385bea21546d6d1c0",
+      "name": "Would you like to have your house trimmed on sale?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6c11e687d0744e8acbd9c426",
+      "option_id": "f319684975b7805979d8025d",
+      "name": "Choose a flavor for your home decor",
+      "prerequisite_values": [
+       "1cddbc8758e8716a4dd61140"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6ade3ffafc8c5bd25148c995",
+      "option_id": "7f8c9298accc9db3eaf4ccce",
+      "name": "Additional sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 12
+       },
+       "max_single_selections": 12,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "070af4ceca96fd8637cfdefcdc4287f5",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5ed927eb46095243c17a1a7e",
+    "name": "Puree",
+    "description": "milky",
+    "price": 1800,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fe7120b2a0f3352be9acca75fcbf66a4",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "622b00d58d3f26cb52d5d739",
+    "name": "Nordic soda",
+    "description": "0.25",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a986",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "54922ec3ea22faecef7ea205b701c580",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62b1721971d5b9314af201f7",
+    "name": "Banana cake 🌱",
+    "description": "Vegan",
+    "price": 2400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a993",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "96355b7d98187b906f4bd0e1cdc10ab2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6319a03048e9db45075a28f2",
+    "name": "Americano is cold",
+    "description": "",
+    "price": 1700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a95b",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2716342493fa126a8fb3e455",
+      "option_id": "0ce380c907e0916f703320ae",
+      "name": "strength?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ff636576103f9e7327a08e52",
+      "option_id": "ef2e588f93fb6657158019a0",
+      "name": "Sugar water?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b48a72a1c7e41aaa0677f763",
+      "option_id": "95c46fa5e1326132711ae32c",
+      "name": "Changes to Americano Cold?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "06372d23bfe94b8d1229b665",
+      "option_id": "a5a3fb83a08108c575c3fc32",
+      "name": "Milk for Americano",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bfab7a5a430ff1b8fa72906e260d9ab9",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "636dadf131ae1c7846b81ce7",
+    "name": "Coca-Cola",
+    "description": "0.33",
+    "price": 1500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a9a0",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c37d3203acb93c84c9867776932a662c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6761b19fc2e0bb641db138e4",
+    "name": "Schnitzelowitz",
+    "description": "Gefta, schnitzel, fried onions, lettuce, tomato, mayonnaise, pepper and coleslaw salad",
+    "price": 6200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96ba873a9b0b41a1d29d36",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "4fea3dfb1598e122e8e9494e",
+      "option_id": "7f8c9298accc9db3eaf4ccce",
+      "name": "Additional sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 12
+       },
+       "max_single_selections": 12,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c5961a4181812daaa5ab98ec",
+      "option_id": "d741411b8b9c8b44d47e2c72",
+      "name": "Additional possibility of payment",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d7969368b611ebfc836075075c0195b5",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "67748d6c74762977eb4cffe4",
+    "name": "Chocolate fudge cake 🌾",
+    "description": "A warm and very soft homemade chocolate cake, made without flour and filled with chocolate inside and out | Gluten-free",
+    "price": 5400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/698337e24a1ca46e451eb344",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d41bc84f3e5db197129131173055e133",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "67825aa12620cfde8c831a0b",
+    "name": "A whole tuna sandwich",
+    "description": "Bread type of choice, lettuce, tomato, tuna salad, mayonnaise, lemon, celery, oregano and hard-boiled egg",
+    "price": 5000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cda",
+      "blurhash": "j8PceU;:T;8z8yl4KXlGH;lqgyFl"
+     }
+    ],
+    "options": [
+     {
+      "id": "7a36693f73e4bb2f673ad29b",
+      "option_id": "5f35c601644e881229b79372",
+      "name": "Choose bread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bfde9475b469af1051102947",
+      "option_id": "0f5adeb420c32fdbe4909797",
+      "name": "Choose a type of tuna",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "df5f9dc47d4a9407ca58e089",
+      "option_id": "ce1e9d0b38e8a6daabbea9b7",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1c59959bd05c629054cc09879bba72a4",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6b9cc1f6cbc53f50124d2e23",
+    "name": "Egg salad bagel",
+    "description": "Egg salad with fried onions, tomato, rocket and chives in a bagel",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a95e",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ea60ef8d18bce8b7c45c9d9a",
+      "option_id": "d337567673f87fdfcf8209b1",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "aa866498d89d070df6e4be1dac2f8ef1",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6cdaa65e7b9bd7a293f51154",
+    "name": "Kinder cake",
+    "description": "Kinder cake with velvety Kinder cream between two layers of cookie dough",
+    "price": 5400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a997",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "59f23fa28d5ab6918926f06d4de54e77",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6e4e479b9b829d830d0b4850",
+    "name": "Winning vegetable salad",
+    "description": "Tomato, cucumber, red and yellow pepper, onion, hard-boiled egg, croutons, tahini, olive oil and lemon",
+    "price": 5900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bb043a9b0b41a1d29d5c",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "dee8533335b0e308ac283bb2",
+      "option_id": "fd1e9c4e22fbca6ec31189e8",
+      "name": "Possible changes | Winning vegetable salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d73a1c13b6ae845619ba2fcc39cc4472",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7097651cc810afa728e818a1",
+    "name": "Biscuit cake",
+    "description": "Layers of biscuits, vanilla cream and crispy chocolate in a delicate coating of milk chocolate ganache",
+    "price": 4600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a992",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ab756a60bfc531cbed7cfa81fec400a7",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "74aecb8125b4cd67c6f66e8c",
+    "name": "Salmon bagel",
+    "description": "Salmon, cream cheese, avocado salad, smoked salmon and chives on a bagel",
+    "price": 6400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a960",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "d2c10b05b66cfa668009905d",
+      "option_id": "c07e9dee993942833f3e70b6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "84b701ce1556111eae988571d7c61fa4",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "762da8e9c2bf52454378a1d8",
+    "name": "Poppy seed cake",
+    "description": "Poppy cake and white chocolate",
+    "price": 2400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a996",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6d1522d4116314f5e344f8bd8f706671",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7efadf13ebc6b696fce42372",
+    "name": "Cold matcha",
+    "description": "",
+    "price": 2200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a97d",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "3e8ead62bc35d4c698b15b03",
+      "option_id": "1f95f64b435f098016a935cc",
+      "name": "type of milk",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5c47c83062afe31f8f9c4e01",
+      "option_id": "3f11edb451c2e90b37ac9cf2",
+      "name": "Fruit addition to matcha",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "51c3683fbfeb03e463c1ad44177905b9",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7ff36a92c56d3b49a7e5707b",
+    "name": "carrot cake",
+    "description": "Carrot cake covered in powdered sugar",
+    "price": 2400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a995",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f80a6820bd5ec3961de1229b338019d5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7fff5a8b1386800714fb1ce8",
+    "name": "Lasagna Bolognese",
+    "description": "Durum pasta sheets, minced meat, mixed herbs, tomato sauce and bechamel",
+    "price": 7800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bc833a9b0b41a1d29dd3",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "5ebde50413203caed4e91e6d",
+      "option_id": "439e799385bea21546d6d1c0",
+      "name": "Would you like to have your house trimmed on sale?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f81cf298430faa0291eda982",
+      "option_id": "f319684975b7805979d8025d",
+      "name": "Choose a flavor for your home decor",
+      "prerequisite_values": [
+       "1cddbc8758e8716a4dd61140"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "00f051de4a864a5c90122bbafc853edf",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "800c2c298727eea09a63d79a",
+    "name": "lemon flower",
+    "description": "Lemon flower with crispy shell, pistachio, white chocolate, lemon creme and vanilla Chantilly cream",
+    "price": 5400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a99a",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "375e3a5110f25a942843aefce7c6ae2e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "809604473667a2646878fc01",
+    "name": "chopped liver",
+    "description": "Baked chicken liver, onions and eggs served with toasted bread and pickles",
+    "price": 4200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cd5",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3a5fb24f4147024b358cecdadc883f30",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "86e138286ac9bd7c276a1c9c",
+    "name": "Truffle aioli",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534ccd",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "eef690e58e50d0e7c12f199ccf7a4f01",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8a16d245557eb0c13225666a",
+    "name": "Toast 4 cheeses",
+    "description": "Mozzarella cheese, goat's gouda, butter cheddar and herb aioli on brioche toast",
+    "price": 6600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a96d",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "613cc9ca7a8046522b787a5f",
+      "option_id": "9442350da40f0963b1c6c82e",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5a07543f28f9279927e1825001b67158",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8ebdd154827721501dc58aa4",
+    "name": "Vegetable Salad",
+    "description": "",
+    "price": 1800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a98c",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "362178ce5a2a532cd18a4458",
+      "option_id": "dbdcd9b8c97b36d3149e1789",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e293f48806bc5a0ac0fabf51ce99e7c0",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "964d57a606defa1f433763f1",
+    "name": "The perfect salad",
+    "description": "Chipotle chicken, fresh avocado, soft-boiled egg, mixed lettuce, zucchini, cucumber, cherry tomatoes, herbs, pickled onions, green beans, maple vinaigrette",
+    "price": 7400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bb7e6d77354c0b2a005f",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "71acc7cd563bcc73e8f2427d",
+      "option_id": "c33e6990aabb956cb246e4eb",
+      "name": "Possible Changes | The Perfect Salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 8
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4273123a91a3e1d7b78ee6d2",
+      "option_id": "f692a4154d4bb799744e34f6",
+      "name": "Additional possibility of payment",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "715e89afc9ed56824b3d5d63",
+      "option_id": "bbb16e9876ec3d0b9131b93f",
+      "name": "Paid extras for the egg",
+      "prerequisite_values": [
+       "79ebd2f91c868567eab98c54"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9e6c275bc3c0d12305920d12",
+      "option_id": "065942907377110ddcf9ac1e",
+      "name": "Additional possibility of payment",
+      "prerequisite_values": [
+       "79ebd2f91c868567eab98c54"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ebe314e32d051eee3191fa5ad65ae450",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "96b33a8e252efead99c5a634",
+    "name": "Gabriella Toast",
+    "description": "Hard-boiled egg, caramelized onions, feta and Gouda on bread of your choice",
+    "price": 6000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cd2",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "10b65e712fd69f45104ce0a7",
+      "option_id": "5f35c601644e881229b79372",
+      "name": "Choose bread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "90335e0d7badfbf1d163fd04",
+      "option_id": "0b762603da4b6a3120ff6507",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "b59e994d065d1a50f6e50992",
+      "option_id": "25150aed52f53dadef783121",
+      "name": "Additional vegetable salad for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "80999443f39964f7863f19f782d965f7",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "9ecfe6119004c031f47d8e18",
+    "name": "diet Coke",
+    "description": "0.33",
+    "price": 1500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a967",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "432233b2282bf70faee831dee59606cf",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "a95f6aadabaa3743d381db49",
+    "name": "Cola Zero",
+    "description": "0.33",
+    "price": 1500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a99f",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f49551ce9fb008b03e3d9cd8fd970a36",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ab49e59790a2236501b7b62d",
+    "name": "Truffle toast",
+    "description": "Truffle butter, morcella, parmesan, goat's gouda and truffle aioli on brioche toast",
+    "price": 6900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cd3",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "47212e1dc69913c0d273df0c",
+      "option_id": "404b1327dc45ca63e8ea22e6",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a8a54d1bda6acff37858859f1ff63362",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "bdc1797eeba6553184ee21d6",
+    "name": "mayonnaise",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cde",
+      "blurhash": "j9Rtrj;;mZcPpBGGlmKXHdh4JQPc"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f3f3c961cf4acac0491d91dc8b61cb15",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "bee298499ee5089352f69b1c",
+    "name": "Shakshuka",
+    "description": "2 eggs, tomato sauce with onion, garlic and pepper. Served with labneh, tahini, pickles, salad and bread.",
+    "price": 6900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bd516d77354c0b2a0102",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "aa61e27f7e7098709ae6a5ba",
+      "option_id": "e98c3854476f37b27d77d484",
+      "name": "Extras paid for the rattle",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5d87455ec05363f880205aaed0197925",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c4c75ea4e5a96ffce563b970",
+    "name": "Aioli Chipotle",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a53497713b9d669673fcd80",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ac41a46ab67f356b5d0a34a19b70155c",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c65bb5a916235dcf8da0124c",
+    "name": "Cheese toast",
+    "description": "Gouda and butter on bread of your choice, served with herb aioli on the side.",
+    "price": 5400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cd1",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "53b882c16fe541947012ddf2",
+      "option_id": "5f35c601644e881229b79372",
+      "name": "Choose bread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0a16a72af47b847da804da3c",
+      "option_id": "182fde4ecbd6c9188738d610",
+      "name": "Paid extras",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "ef628a52bda6311e7c0d6070eb036dab",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c7d9248933f789ddc0bc13c2",
+    "name": "Eran Bik's beef sausage",
+    "description": "2 sausages, fried onions, mashed potatoes, coleslaw, aioli and mustard",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bc013a9b0b41a1d29db0",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "887e89262b096aa9b6f39a85",
+      "option_id": "37db302d1a4dd632c08126f0",
+      "name": "Possible changes | Eran Bik's beef sausage",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9fc8e2625bbbb0dceae2cebb",
+      "option_id": "0b60f0c07361c8f580ab25b2",
+      "name": "Choose an extension",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5f77627e9ab371eb6bb527db",
+      "option_id": "2354f70876d6df4e67a9d239",
+      "name": "Possible changes | Vegetable salad",
+      "prerequisite_values": [
+       "d257166d713761d8543978d1"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6e16a3e727b7d1e1041c148d",
+      "option_id": "7f8c9298accc9db3eaf4ccce",
+      "name": "Additional sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 12
+       },
+       "max_single_selections": 12,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0c9821ad17f54c55f7dccbc8",
+      "option_id": "439e799385bea21546d6d1c0",
+      "name": "Would you like to have your house trimmed on sale?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "489e3f087dce18c6e3e05a82",
+      "option_id": "f319684975b7805979d8025d",
+      "name": "Choose a flavor for your home decor",
+      "prerequisite_values": [
+       "1cddbc8758e8716a4dd61140"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "13eda763f230ab08204cd87ef32b0dd3",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "cb7e191546729fc27129cb27",
+    "name": "מיץ טבעי",
+    "description": "בחרו טעם",
+    "price": 2200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a981",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "90e86877a0888d0b7b41ce1f",
+      "option_id": "a2f9ee811b9cd1cf1968797a",
+      "name": "Choose natural juice",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9891e47b8a184fb825e4232d1bd497ad",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "cbe806b329afc70d5d87fc2e",
+    "name": "Rice",
+    "description": "",
+    "price": 1800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a959",
+      "blurhash": "j3SZDmcxbfPtdsTtKDl4bfPd;jPb"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "337d422b02a76f038708fa4bcac1a07d",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "cd06d06005f6c2abcde13ccf",
+    "name": "Chipotle chicken breast",
+    "description": "Served with a side of your choice",
+    "price": 7600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bbdfd702608a9624aaaf",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "32557af0b046c8276e96849b",
+      "option_id": "4be251da2025ab2411728cab",
+      "name": "Choose a side extension",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a7e5e8554de328dac1a1024f",
+      "option_id": "542b96bd5f2c83525432370b",
+      "name": "Possible changes | Vegetable salad",
+      "prerequisite_values": [
+       "bd642f33fb4ab734e4b7509c"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 4
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "944be2d320a0178e42d0a6fb",
+      "option_id": "7f8c9298accc9db3eaf4ccce",
+      "name": "Additional sauces for a fee",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 12
+       },
+       "max_single_selections": 12,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2c6eb07c3bdc0efddb50b0c3",
+      "option_id": "439e799385bea21546d6d1c0",
+      "name": "Would you like to have your house trimmed on sale?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4c16509e4b6415effde2e13e",
+      "option_id": "f319684975b7805979d8025d",
+      "name": "Choose a flavor for your home decor",
+      "prerequisite_values": [
+       "1cddbc8758e8716a4dd61140"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8006e163b431e4c0798bebca4288df9c",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "cdfd2ddb771bd990b293ecf6",
+    "name": "Coarse Greek salad",
+    "description": "Tomato, cucumber, red and yellow pepper, onion, feta cheese, olives, croutons, olive oil, lemon and oregano",
+    "price": 6400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bb493a9b0b41a1d29d7c",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "39ab5dae9270e326dcbf4063",
+      "option_id": "31e901f3616275a697e71d36",
+      "name": "Possible Variations | Coarse Greek Salad",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "55c7f7ac949bc3defbbb02ebcd3b70eb",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ce4326017f9b525ef3abb986",
+    "name": "ketchup",
+    "description": "",
+    "price": 300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cef",
+      "blurhash": "j8Rd7f;;X;cPh4tTKXPc;;h48hPc"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5c95ce97a64c2565b9b3f5259e4166e5",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d510ca8a2852a03b6a0dcf1e",
+    "name": "Tahini and spices",
+    "description": "Tahini, harissa, hot pepper and grated tomatoes",
+    "price": 2200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a1801d8e1d6e1ece872a972",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a966027b3eed26a8ad89044a68a6a4da",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d8b32a1de228be25f0fd4d46",
+    "name": "Chicken popcorn",
+    "description": "Coated with a special blend, chipotle aioli and herb aioli",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534ce6",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "00fb3070475bc6a99c84ead8ef911252",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "dde0eb45d4abed42391236d1",
+    "name": "Corruption chips",
+    "description": "Philadelphia and Cheddar",
+    "price": 4600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a295cd811515485c9534cea",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1c5773318ecef419c65a4e22560ef9e5",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "dfe42b1ee046c17788b8fae5",
+    "name": "Healthy morning and evening",
+    "description": "6% beef yogurt, seasonal fruit salad and granola, served with honey",
+    "price": 5400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a96bd733a9b0b41a1d29dfd",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2181c9e2ce30882fbb2805c2",
+      "option_id": "17ababf48767ca1b5e558095",
+      "name": "Choose a submission method",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f83a2a8ac360c4a17e116701ddbbead4",
+    "vat_category_code": null,
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   }
+  ],
+  "options": [
+   {
+    "id": "065942907377110ddcf9ac1e",
+    "name": "Additional possibility of payment",
+    "type": "multi_choice",
+    "default_value": "436dfde6886f340712d2e304",
+    "values": [
+     {
+      "id": "436dfde6886f340712d2e304",
+      "name": "White bread",
+      "price": 600
+     },
+     {
+      "id": "fed5dd44d829fa1861f7cc99",
+      "name": "Grain bread",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "0b60f0c07361c8f580ab25b2",
+    "name": "Choose an extension",
+    "type": "multi_choice",
+    "default_value": "9bc9d82ceb4b1cab95a7dfa0",
+    "values": [
+     {
+      "id": "9bc9d82ceb4b1cab95a7dfa0",
+      "name": "Roasted vegetables",
+      "price": 0
+     },
+     {
+      "id": "e56655a58df7c4323e5a62d6",
+      "name": "Fries",
+      "price": 0
+     },
+     {
+      "id": "2b71b190d3aa7207856d8a9d",
+      "name": "Puree",
+      "price": 0
+     },
+     {
+      "id": "b44c7fb012b35f010701c343",
+      "name": "Rice",
+      "price": 0
+     },
+     {
+      "id": "d257166d713761d8543978d1",
+      "name": "Vegetable Salad",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "0b762603da4b6a3120ff6507",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "1f8f6250709e70e00970b304",
+    "values": [
+     {
+      "id": "1f8f6250709e70e00970b304",
+      "name": "No mayonnaise",
+      "price": 0
+     },
+     {
+      "id": "d89b45c7cd6f4735d8098c89",
+      "name": "No hard boiled egg",
+      "price": 0
+     },
+     {
+      "id": "b4a9cfaece954a032dec55f4",
+      "name": "No caramelized onions",
+      "price": 0
+     },
+     {
+      "id": "e20415a1315c4e4a3165fbda",
+      "name": "Without Gouda",
+      "price": 0
+     },
+     {
+      "id": "f2c9af246dc1b41678ff28a2",
+      "name": "Without feta",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "0ce380c907e0916f703320ae",
+    "name": "strength?",
+    "type": "multi_choice",
+    "default_value": "bef1c2bf2c3579a373a3f53b",
+    "values": [
+     {
+      "id": "bef1c2bf2c3579a373a3f53b",
+      "name": "Normal strength",
+      "price": 0
+     },
+     {
+      "id": "17a0dee89b674eb2c831d49a",
+      "name": "strong",
+      "price": 0
+     },
+     {
+      "id": "357fad061133325e966ae15f",
+      "name": "weak",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "0f5adeb420c32fdbe4909797",
+    "name": "Choose a type of tuna",
+    "type": "multi_choice",
+    "default_value": "faa2e703f2dffd98043053fe",
+    "values": [
+     {
+      "id": "faa2e703f2dffd98043053fe",
+      "name": "Tuna salad",
+      "price": 0
+     },
+     {
+      "id": "9e4847b3fcbc41bf8b336076",
+      "name": "Raw tuna",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "17ababf48767ca1b5e558095",
+    "name": "Choose a submission method",
+    "type": "multi_choice",
+    "default_value": "70dbd474a1abb911e8d16be4",
+    "values": [
+     {
+      "id": "70dbd474a1abb911e8d16be4",
+      "name": "Regular",
+      "price": 0
+     },
+     {
+      "id": "f50e6611e708d721ecade5e5",
+      "name": "dismantled",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "182fde4ecbd6c9188738d610",
+    "name": "Paid extras",
+    "type": "multi_choice",
+    "default_value": "e3c244608b20239f995b25b3",
+    "values": [
+     {
+      "id": "e3c244608b20239f995b25b3",
+      "name": "Yellow cheese",
+      "price": 500
+     },
+     {
+      "id": "b418e33d1ae17b74815179e3",
+      "name": "Onion",
+      "price": 200
+     },
+     {
+      "id": "72bc946594a997a1b9a4a1f5",
+      "name": "olives",
+      "price": 200
+     },
+     {
+      "id": "199e0fa321b8942dfb59b235",
+      "name": "Tomato",
+      "price": 200
+     },
+     {
+      "id": "1d6c9d95b20b2f369d14409d",
+      "name": "Hard-boiled egg",
+      "price": 500
+     },
+     {
+      "id": "91ac51f2e3c35015ea1e73d2",
+      "name": "Feta",
+      "price": 900
+     }
+    ]
+   },
+   {
+    "id": "1b89f89156a370310b03289c",
+    "name": "Possible changes | Etricot sandwich",
+    "type": "multi_choice",
+    "default_value": "124a42cc4b827129cc8c2fdd",
+    "values": [
+     {
+      "id": "124a42cc4b827129cc8c2fdd",
+      "name": "Without mustard aioli",
+      "price": 0
+     },
+     {
+      "id": "921b2089b989c82bb67fc645",
+      "name": "Without onion jam",
+      "price": 0
+     },
+     {
+      "id": "5ad14ede43ac0c6e19bd8bee",
+      "name": "Without lettuce",
+      "price": 0
+     },
+     {
+      "id": "1f78f441b7d6fd68c718f280",
+      "name": "No tomato",
+      "price": 0
+     },
+     {
+      "id": "69c297ff5b204dc8915faa9e",
+      "name": "No pickles",
+      "price": 0
+     },
+     {
+      "id": "b11fb9da1dfe0d14efcd5157",
+      "name": "No pickled onions",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "1f95f64b435f098016a935cc",
+    "name": "type of milk",
+    "type": "multi_choice",
+    "default_value": "671049ba2d1ac8648e2023c6",
+    "values": [
+     {
+      "id": "671049ba2d1ac8648e2023c6",
+      "name": "Without regular milk",
+      "price": 0
+     },
+     {
+      "id": "eb24f826731414f2e56f1d7b",
+      "name": "soy milk",
+      "price": 0
+     },
+     {
+      "id": "475cee6be93c5be66e8a143a",
+      "name": "Oatmeal",
+      "price": 0
+     },
+     {
+      "id": "f48a1e105e19ff7c5fad9650",
+      "name": "almond milk",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "2354f70876d6df4e67a9d239",
+    "name": "Possible changes | Vegetable salad",
+    "type": "multi_choice",
+    "default_value": "abdc88365df43a716af037f1",
+    "values": [
+     {
+      "id": "abdc88365df43a716af037f1",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "486b0648235b0b2e290f670d",
+      "name": "No tomato",
+      "price": 0
+     },
+     {
+      "id": "56109d34da2eb4b19e73bf82",
+      "name": "Without purple onion",
+      "price": 0
+     },
+     {
+      "id": "d72d58ce521efd4c1aefa3ea",
+      "name": "Without seasoning",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "31e901f3616275a697e71d36",
+    "name": "Possible Variations | Coarse Greek Salad",
+    "type": "multi_choice",
+    "default_value": "722209007d2195f7637c243d",
+    "values": [
+     {
+      "id": "722209007d2195f7637c243d",
+      "name": "No tomato",
+      "price": 0
+     },
+     {
+      "id": "713552b1df3d0ef62d15b9cf",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "f661d0c747e3d7f29a7b0a3b",
+      "name": "No red pepper",
+      "price": 0
+     },
+     {
+      "id": "1c536f7dd7ea454cbdb978d2",
+      "name": "No yellow pepper",
+      "price": 0
+     },
+     {
+      "id": "03004b0f17454269e53989c9",
+      "name": "No feta cheese",
+      "price": 0
+     },
+     {
+      "id": "e26e45b97d19455a13b822d7",
+      "name": "No olives",
+      "price": 0
+     },
+     {
+      "id": "849cb4c78f20509def95d79b",
+      "name": "Without croutons",
+      "price": 0
+     },
+     {
+      "id": "fa670d1ee28133c8ec4f575b",
+      "name": "Without lemon olive oil",
+      "price": 0
+     },
+     {
+      "id": "ef92f45aed9bfa996aed8a48",
+      "name": "Without oregano",
+      "price": 0
+     },
+     {
+      "id": "c5709e488d0481b01db6547e",
+      "name": "Without onion",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "37db302d1a4dd632c08126f0",
+    "name": "Possible changes | Eran Bik's beef sausage",
+    "type": "multi_choice",
+    "default_value": "e0afd6a99b5ecdfcd6221db5",
+    "values": [
+     {
+      "id": "e0afd6a99b5ecdfcd6221db5",
+      "name": "Without coleslaw salad",
+      "price": 0
+     },
+     {
+      "id": "9bb26a8576af2cd2b3b2593d",
+      "name": "Without mustard",
+      "price": 0
+     },
+     {
+      "id": "41ded29da7edc03ec77b2719",
+      "name": "No pickled onions",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "3eddebf91fabb6b13207e044",
+    "name": "Choose a spread",
+    "type": "multi_choice",
+    "default_value": "943ca4ccb462f688e01ff654",
+    "values": [
+     {
+      "id": "943ca4ccb462f688e01ff654",
+      "name": "Tehina",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "3f11edb451c2e90b37ac9cf2",
+    "name": "Fruit addition to matcha",
+    "type": "multi_choice",
+    "default_value": "79a15d9b9d60da903cfbacdf",
+    "values": [
+     {
+      "id": "79a15d9b9d60da903cfbacdf",
+      "name": "Banana puree",
+      "price": 500
+     },
+     {
+      "id": "7ac5668f08e7f246e5ea5c7f",
+      "name": "Yuzu puree",
+      "price": 500
+     },
+     {
+      "id": "63f6d09e68690677525459cc",
+      "name": "Mango puree",
+      "price": 500
+     },
+     {
+      "id": "a96468da327487872e619d4c",
+      "name": "Passion fruit puree",
+      "price": 500
+     }
+    ]
+   },
+   {
+    "id": "404b1327dc45ca63e8ea22e6",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "46f627c47a56789ec7f29190",
+    "values": [
+     {
+      "id": "46f627c47a56789ec7f29190",
+      "name": "Without mozzarella",
+      "price": 0
+     },
+     {
+      "id": "78d778ffce1c7df66632d111",
+      "name": "Without goat gouda",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "439e799385bea21546d6d1c0",
+    "name": "Would you like to have your house trimmed on sale?",
+    "type": "multi_choice",
+    "default_value": "1cddbc8758e8716a4dd61140",
+    "values": [
+     {
+      "id": "1cddbc8758e8716a4dd61140",
+      "name": "Trim the house",
+      "price": 900
+     }
+    ]
+   },
+   {
+    "id": "4be251da2025ab2411728cab",
+    "name": "Choose a side extension",
+    "type": "multi_choice",
+    "default_value": "a826830ebeef29a00d10af06",
+    "values": [
+     {
+      "id": "a826830ebeef29a00d10af06",
+      "name": "Roasted vegetables",
+      "price": 0
+     },
+     {
+      "id": "f09782f9828dc112dc66a65b",
+      "name": "Fries",
+      "price": 0
+     },
+     {
+      "id": "95da3fa8971eb4cf82918587",
+      "name": "Puree",
+      "price": 0
+     },
+     {
+      "id": "d4a79a844b3e22f5bdbd639d",
+      "name": "Rice",
+      "price": 0
+     },
+     {
+      "id": "bd642f33fb4ab734e4b7509c",
+      "name": "Vegetable Salad",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "542b96bd5f2c83525432370b",
+    "name": "Possible changes | Vegetable salad",
+    "type": "multi_choice",
+    "default_value": "3d8c65f88f95ebb0a6ecffe5",
+    "values": [
+     {
+      "id": "3d8c65f88f95ebb0a6ecffe5",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "d72b7dc0434b4abe8e71574f",
+      "name": "No tomato",
+      "price": 0
+     },
+     {
+      "id": "13b00563f578dfcebb76aa48",
+      "name": "Without purple onion",
+      "price": 0
+     },
+     {
+      "id": "78318f137cac4d8c6abf02ff",
+      "name": "Without seasoning",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5851f7ef3d8ad894dc48c64a",
+    "name": "Paid extras",
+    "type": "multi_choice",
+    "default_value": "91541ba89f5a1c5a1969076b",
+    "values": [
+     {
+      "id": "91541ba89f5a1c5a1969076b",
+      "name": "White bread",
+      "price": 600
+     },
+     {
+      "id": "15a9d2ba68ffd9716b70d69f",
+      "name": "Grain bread",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5a3fa3e04802abfe66f58537",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "3cb56cb29e2c13b466ace135",
+    "values": [
+     {
+      "id": "3cb56cb29e2c13b466ace135",
+      "name": "No tomato",
+      "price": 0
+     },
+     {
+      "id": "6a1c621eeced0aee65e571e1",
+      "name": "Without lettuce",
+      "price": 0
+     },
+     {
+      "id": "e3a402cdb8d07795ad6d802d",
+      "name": "Without onion",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5f35c601644e881229b79372",
+    "name": "Choose bread",
+    "type": "multi_choice",
+    "default_value": "0e290f70f1aa07d4306f9229",
+    "values": [
+     {
+      "id": "0e290f70f1aa07d4306f9229",
+      "name": "Jaffa",
+      "price": 0
+     },
+     {
+      "id": "30889715eb3a6bcd9527db54",
+      "name": "White bread",
+      "price": 0
+     },
+     {
+      "id": "824f2405eb2b81898927697f",
+      "name": "Grain bread",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "63ab2bac9d16b44a1178feae",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "7cea7556eacc76c1d4ed569e",
+    "values": [
+     {
+      "id": "7cea7556eacc76c1d4ed569e",
+      "name": "No rocket",
+      "price": 0
+     },
+     {
+      "id": "97934178f75533e76c7ab2d3",
+      "name": "No tomato",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "66a5cf10f0fafa57c6203b8c",
+    "name": "Paid extras for the egg",
+    "type": "multi_choice",
+    "default_value": "752329ca5595be2d91f0565a",
+    "values": [
+     {
+      "id": "752329ca5595be2d91f0565a",
+      "name": "Tomatoes and mint",
+      "price": 0
+     },
+     {
+      "id": "81f6751c441c61e572acde93",
+      "name": "Feta and spinach",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "70e809ccf4e8a939106bfd98",
+    "name": "Choose a spread",
+    "type": "multi_choice",
+    "default_value": "465ad38c505ab0e795afeb7f",
+    "values": [
+     {
+      "id": "465ad38c505ab0e795afeb7f",
+      "name": "Tehina",
+      "price": 0
+     },
+     {
+      "id": "e4f25f9893eb9bd99cf4a71e",
+      "name": "cream",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "7f8c9298accc9db3eaf4ccce",
+    "name": "Additional sauces for a fee",
+    "type": "multi_choice",
+    "default_value": "5f07da6d6c883a5d336b5719",
+    "values": [
+     {
+      "id": "5f07da6d6c883a5d336b5719",
+      "name": "Aioli Chipotle",
+      "price": 300
+     },
+     {
+      "id": "65ebda1d37316dbbcfd6f760",
+      "name": "Herb aioli",
+      "price": 300
+     },
+     {
+      "id": "81b6c02de750ba01152a1521",
+      "name": "Truffle aioli",
+      "price": 400
+     },
+     {
+      "id": "4bc6994cfe75a4a3d4b2fd97",
+      "name": "Mustard and honey aioli",
+      "price": 300
+     },
+     {
+      "id": "60ad43dbedf1d0d5a2cf664e",
+      "name": "ketchup",
+      "price": 300
+     },
+     {
+      "id": "1d854dc201d81f8fc2c90aca",
+      "name": "mayonnaise",
+      "price": 300
+     },
+     {
+      "id": "e0ac716d5367613e3d659019",
+      "name": "Arisa Harif",
+      "price": 300
+     },
+     {
+      "id": "310263046c97b425fea218f3",
+      "name": "Maple vinaigrette",
+      "price": 300
+     },
+     {
+      "id": "d34d5db5a1fd4545a25aabda",
+      "name": "Tomato vinaigrette",
+      "price": 300
+     },
+     {
+      "id": "6fef4692c13d8790e591944b",
+      "name": "Caesar sauce",
+      "price": 500
+     },
+     {
+      "id": "e81c83dd8587f8b0a2a34822",
+      "name": "Tehina",
+      "price": 300
+     },
+     {
+      "id": "4b621c2e6e4643c6542a5fd6",
+      "name": "Colesau salad",
+      "price": 400
+     }
+    ]
+   },
+   {
+    "id": "82df4d7d041afbeee6942d21",
+    "name": "Choose an extension",
+    "type": "multi_choice",
+    "default_value": "c217745ae3e59ac07c95c8cb",
+    "values": [
+     {
+      "id": "c217745ae3e59ac07c95c8cb",
+      "name": "Puree",
+      "price": 0
+     },
+     {
+      "id": "a9567bf1d48c2d5e8648c793",
+      "name": "Rice",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "9442350da40f0963b1c6c82e",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "a9e38f26160e2dadd78178ad",
+    "values": [
+     {
+      "id": "a9e38f26160e2dadd78178ad",
+      "name": "Without mozzarella",
+      "price": 0
+     },
+     {
+      "id": "9e4fefe36abc57976ca7f948",
+      "name": "Without Gouda",
+      "price": 0
+     },
+     {
+      "id": "0631ea242d1e8b3f85fb5e6b",
+      "name": "Without cheddar",
+      "price": 0
+     },
+     {
+      "id": "46520fa527e70ba832badacd",
+      "name": "Without weed aioli",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "95c46fa5e1326132711ae32c",
+    "name": "Changes to Americano Cold?",
+    "type": "multi_choice",
+    "default_value": "af18157997a45ce0e5d3712e",
+    "values": [
+     {
+      "id": "af18157997a45ce0e5d3712e",
+      "name": "dismantled",
+      "price": 0
+     },
+     {
+      "id": "e8f10e2ffe25751051c4ef25",
+      "name": "lacking",
+      "price": 0
+     },
+     {
+      "id": "f3c7e64e7c329aefd8a0f2d3",
+      "name": "Sugar water",
+      "price": 0
+     },
+     {
+      "id": "e9fd3cf51f46cf2747ea188e",
+      "name": "cup",
+      "price": 0
+     },
+     {
+      "id": "a5477dc19cdd91a9641c9364",
+      "name": "TA",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "a2f9ee811b9cd1cf1968797a",
+    "name": "Choose natural juice",
+    "type": "multi_choice",
+    "default_value": "ba89594758d127cf752de7fb",
+    "values": [
+     {
+      "id": "ba89594758d127cf752de7fb",
+      "name": "תפוזים",
+      "price": 0
+     },
+     {
+      "id": "6d9f13027a62b96529e4785f",
+      "name": "מיץ גזר תפוזים",
+      "price": 0
+     },
+     {
+      "id": "d7bcd1a7214dc7abf48c60f8",
+      "name": "Carrot",
+      "price": 0
+     },
+     {
+      "id": "462d64b7d22af06a1bbc7216",
+      "name": "red grapefruits",
+      "price": 0
+     },
+     {
+      "id": "9588d3b381c7ed286ddb7356",
+      "name": "lemonade",
+      "price": 0
+     },
+     {
+      "id": "626f9e472870c4c7146482ac",
+      "name": "Apples",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "a562f15600267bbd3992161c",
+    "name": "Choose a flavor to trim",
+    "type": "multi_choice",
+    "default_value": "9495de2282b3e8a6991a9f4c",
+    "values": [
+     {
+      "id": "9495de2282b3e8a6991a9f4c",
+      "name": "strawberry",
+      "price": 0
+     },
+     {
+      "id": "09d84060650c1285bb7e034a",
+      "name": "peach",
+      "price": 0
+     },
+     {
+      "id": "1c6ddea16c7b06126ee7d054",
+      "name": "pineapple",
+      "price": 0
+     },
+     {
+      "id": "dd3f82e9531f61e653b93b7b",
+      "name": "Passionflower",
+      "price": 0
+     },
+     {
+      "id": "811f57012d2a5691b73b74db",
+      "name": "watermelon",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "a5a3fb83a08108c575c3fc32",
+    "name": "Milk for Americano",
+    "type": "multi_choice",
+    "default_value": "4efdf81101f6a44656a2692d",
+    "values": [
+     {
+      "id": "da23bd1c5981a9b0d89e4b9f",
+      "name": "Cold plain milk",
+      "price": 0
+     },
+     {
+      "id": "cb26142d15905fc3cbaa1992",
+      "name": "Cold soy milk",
+      "price": 0
+     },
+     {
+      "id": "f84acc3c740a6ec8e65068e4",
+      "name": "Cold almond milk",
+      "price": 0
+     },
+     {
+      "id": "ab000685e9a2375dfddb98de",
+      "name": "Cold oat milk",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "aa82f6e3cde85dfc77c00060",
+    "name": "Possible extras for a fee",
+    "type": "multi_choice",
+    "default_value": "0357d3e7719024e8baa251c3",
+    "values": [
+     {
+      "id": "0357d3e7719024e8baa251c3",
+      "name": "Cheddar",
+      "price": 1000
+     },
+     {
+      "id": "984657b6bfd97da1aa324368",
+      "name": "Fried Egg",
+      "price": 800
+     },
+     {
+      "id": "f39941dae8110bc8b27deef4",
+      "name": "Extra hamburger patty 80 grams",
+      "price": 1800
+     }
+    ]
+   },
+   {
+    "id": "be97aad7f46c0981fc2e6a1b",
+    "name": "Choose a submission method",
+    "type": "multi_choice",
+    "default_value": "b94312d53c51caf8b8260148",
+    "values": [
+     {
+      "id": "b94312d53c51caf8b8260148",
+      "name": "Liquid",
+      "price": 0
+     },
+     {
+      "id": "d656fea4e4edea82cdf5767e",
+      "name": "Well made",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "c07e9dee993942833f3e70b6",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "ad5c24aa5a14ec0894a8b83e",
+    "values": [
+     {
+      "id": "ad5c24aa5a14ec0894a8b83e",
+      "name": "No cream cheese",
+      "price": 0
+     },
+     {
+      "id": "a754dec6db0a021f650af9f7",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "f4eae4a82178f36e1f2f126c",
+      "name": "Without chives",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "c33e6990aabb956cb246e4eb",
+    "name": "Possible Changes | The Perfect Salad",
+    "type": "multi_choice",
+    "default_value": "0751b7414c002c08c5361222",
+    "values": [
+     {
+      "id": "0751b7414c002c08c5361222",
+      "name": "Without maple vinaigrette",
+      "price": 0
+     },
+     {
+      "id": "a0916f7ab135e73921679e9e",
+      "name": "Without avocado",
+      "price": 0
+     },
+     {
+      "id": "90b39769707a04a6b5439564",
+      "name": "Without lettuce",
+      "price": 0
+     },
+     {
+      "id": "59a0bc43d16645d74d831c8b",
+      "name": "No cherry tomatoes",
+      "price": 0
+     },
+     {
+      "id": "8d56125b1b561c4a0e640f13",
+      "name": "Without zucchini",
+      "price": 0
+     },
+     {
+      "id": "6b2bda3d05b46178444f958d",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "9a96eccb0f4752d2c52364c4",
+      "name": "No pickled onions",
+      "price": 0
+     },
+     {
+      "id": "f1b209ada1d3d65264fb2702",
+      "name": "No soft-boiled egg",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "ce1e9d0b38e8a6daabbea9b7",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "e78fc1d0250f0b2085417e18",
+    "values": [
+     {
+      "id": "e78fc1d0250f0b2085417e18",
+      "name": "Without lettuce",
+      "price": 0
+     },
+     {
+      "id": "70d85297cfcc401ec5048611",
+      "name": "No tomato",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "d337567673f87fdfcf8209b1",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "1904fb28a183e4264bfe0644",
+    "values": [
+     {
+      "id": "1904fb28a183e4264bfe0644",
+      "name": "Without grated tomato",
+      "price": 0
+     },
+     {
+      "id": "eb5046958166c8768c16dd3d",
+      "name": "No rocket",
+      "price": 0
+     },
+     {
+      "id": "37f6f47cc13afddb34d756ea",
+      "name": "Without chives",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "d550a39621f6cd7aa0b85d1c",
+    "name": "Button components | One button",
+    "type": "multi_choice",
+    "default_value": "ff036054460405c2e4d84296",
+    "values": [
+     {
+      "id": "ff036054460405c2e4d84296",
+      "name": "Without truffle aioli",
+      "price": 0
+     },
+     {
+      "id": "92714ea5c2282899a4c470fb",
+      "name": "No rocket",
+      "price": 0
+     },
+     {
+      "id": "ae4c04848dcf6b4803d0b6bd",
+      "name": "No fried onions",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "d741411b8b9c8b44d47e2c72",
+    "name": "Additional possibility of payment",
+    "type": "multi_choice",
+    "default_value": "ff695234d6eb2e5c11755fcb",
+    "values": [
+     {
+      "id": "ff695234d6eb2e5c11755fcb",
+      "name": "Schnitzel added to the meal",
+      "price": 2000
+     },
+     {
+      "id": "19f22f4e7a30b2669bc50ab6",
+      "name": "Fried Egg",
+      "price": 800
+     },
+     {
+      "id": "176353f6b6b602652b2b3fc8",
+      "name": "Avocado",
+      "price": 1200
+     }
+    ]
+   },
+   {
+    "id": "dbdcd9b8c97b36d3149e1789",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "8a1545b73d05ea1cc5b28bac",
+    "values": [
+     {
+      "id": "8a1545b73d05ea1cc5b28bac",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "3676c3fd1acf99cedd781e0b",
+      "name": "No tomato",
+      "price": 0
+     },
+     {
+      "id": "6c2cf6bf0f991d91480f1079",
+      "name": "Without purple onion",
+      "price": 0
+     },
+     {
+      "id": "b914c27997dd1fd0d0d619a2",
+      "name": "Without seasoning",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "e98c3854476f37b27d77d484",
+    "name": "Extras paid for the rattle",
+    "type": "multi_choice",
+    "default_value": "3f75b7c922ccc28c9fcab6f6",
+    "values": [
+     {
+      "id": "3f75b7c922ccc28c9fcab6f6",
+      "name": "Extra egg",
+      "price": 600
+     },
+     {
+      "id": "b886db4b622ab893e4a1666c",
+      "name": "Spicy green pepper",
+      "price": 0
+     },
+     {
+      "id": "81101462dcf1af4164d4608c",
+      "name": "Tehina",
+      "price": 300
+     },
+     {
+      "id": "cc7124d4518b8c7895107b45",
+      "name": "Arisa",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "eb3364e913f6b9ce9c7bdffa",
+    "name": "Possible extras for a fee",
+    "type": "multi_choice",
+    "default_value": "d619f89c02949f8f251fb737",
+    "values": [
+     {
+      "id": "d619f89c02949f8f251fb737",
+      "name": "Entrecote",
+      "price": 2200
+     },
+     {
+      "id": "eb8f5c91bfdee071fee4de23",
+      "name": "Avocado",
+      "price": 1200
+     },
+     {
+      "id": "af07050fd7f7916d08bf8de7",
+      "name": "Fried Egg",
+      "price": 800
+     },
+     {
+      "id": "770f9fb1194a241aa647d47b",
+      "name": "Cheddar",
+      "price": 1000
+     }
+    ]
+   },
+   {
+    "id": "ee20f944fc80a5925a2cbc1f",
+    "name": "Possible changes | Caesar salad",
+    "type": "multi_choice",
+    "default_value": "95bf8941b10600f2ddaec818",
+    "values": [
+     {
+      "id": "95bf8941b10600f2ddaec818",
+      "name": "Without parmesan",
+      "price": 0
+     },
+     {
+      "id": "0a695edd32bf98c9545474f8",
+      "name": "No soft-boiled egg",
+      "price": 0
+     },
+     {
+      "id": "f18fe78e1187db455bebd33a",
+      "name": "Without Caesar sauce",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "ef2e588f93fb6657158019a0",
+    "name": "Sugar water?",
+    "type": "multi_choice",
+    "default_value": "adc16470ac67dc5bd2d77da9",
+    "values": [
+     {
+      "id": "adc16470ac67dc5bd2d77da9",
+      "name": "With sugar water",
+      "price": 0
+     },
+     {
+      "id": "4c8403e41d29fe1415c9949c",
+      "name": "without sugar water",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "f319684975b7805979d8025d",
+    "name": "Choose a flavor for your home decor",
+    "type": "multi_choice",
+    "default_value": "fec8af4c0a270025bfe89108",
+    "values": [
+     {
+      "id": "fec8af4c0a270025bfe89108",
+      "name": "raspberry",
+      "price": 0
+     },
+     {
+      "id": "a8901b5e136f0a2914a543e6",
+      "name": "Grapes",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "f692a4154d4bb799744e34f6",
+    "name": "Additional possibility of payment",
+    "type": "multi_choice",
+    "default_value": "eec0ec9317eebab789686b28",
+    "values": [
+     {
+      "id": "eec0ec9317eebab789686b28",
+      "name": "chicken",
+      "price": 1800
+     },
+     {
+      "id": "79ebd2f91c868567eab98c54",
+      "name": "Soft-boiled egg",
+      "price": 600
+     },
+     {
+      "id": "7b05eab61355b1f1de4a2dbf",
+      "name": "Hard-boiled egg",
+      "price": 600
+     },
+     {
+      "id": "dc4359ba4ce25669b63ab5e2",
+      "name": "Avocado",
+      "price": 1200
+     }
+    ]
+   },
+   {
+    "id": "fd1e9c4e22fbca6ec31189e8",
+    "name": "Possible changes | Winning vegetable salad",
+    "type": "multi_choice",
+    "default_value": "580a06396fb3188615335746",
+    "values": [
+     {
+      "id": "580a06396fb3188615335746",
+      "name": "No tomato",
+      "price": 0
+     },
+     {
+      "id": "bd33aca07c155ed10d7cba79",
+      "name": "Without cucumber",
+      "price": 0
+     },
+     {
+      "id": "bee14a1c3a8896bf831a45dd",
+      "name": "No red pepper",
+      "price": 0
+     },
+     {
+      "id": "fec1e30f64487578bcd8d8c8",
+      "name": "No yellow pepper",
+      "price": 0
+     },
+     {
+      "id": "b00a3002899315034c848eef",
+      "name": "No hard boiled egg",
+      "price": 0
+     },
+     {
+      "id": "0218b4def7a6aa04ced4b7aa",
+      "name": "Without croutons",
+      "price": 0
+     },
+     {
+      "id": "d370fc2f7a3f35fe76293ff1",
+      "name": "Without tahini",
+      "price": 0
+     },
+     {
+      "id": "6c4769656397542113aaaa09",
+      "name": "Without lemon olive oil",
+      "price": 0
+     },
+     {
+      "id": "0a7307467f148f97c2606775",
+      "name": "Without onion",
+      "price": 0
+     }
+    ]
+   }
+  ]
+ }
+}
