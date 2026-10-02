@@ -1,10 +1,12 @@
-import { app, BrowserWindow, dialog, globalShortcut, ipcMain, Notification, type IpcMainInvokeEvent } from 'electron';
+import { app, BrowserWindow, dialog, globalShortcut, ipcMain, Notification, session, type IpcMainInvokeEvent } from 'electron';
+import { existsSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import type { Target } from '@woltron/shared';
 import { ApiClient, subscribeEvents } from './api';
 import { findDeepLinkArg, parseDeepLink, PROTOCOL } from './deeplink';
 import { getLaunchAtLogin, launchedHidden, setLaunchAtLogin } from './login';
 import { Notifier } from './notifications';
+import { serverPaths } from './paths';
 import { startEmbeddedServer, type RunningServer } from './server';
 import { state } from './state';
 import { WoltronTray } from './tray';
@@ -135,6 +137,23 @@ ipcMain.on('woltron:navigate-ready', (e, ready: unknown) => {
 });
 
 // ── boot ────────────────────────────────────────────────────────────────────
+/**
+ * After an update the UI's un-hashed files (mascot art, icons) keep their URLs, so an HTTP cache or
+ * the PWA service worker from the previous build could keep showing old artwork. Clear both once
+ * per installed build; cached remote food photos survive normal launches.
+ */
+async function dropStaleUiCaches() {
+  const { entry, webDir } = serverPaths();
+  const stamp = [entry, webDir && path.join(webDir, 'index.html')]
+    .map((f) => (f && existsSync(f) ? statSync(f).mtimeMs : 0))
+    .join(':');
+  const marker = path.join(app.getPath('userData'), 'ui-build');
+  if (existsSync(marker) && readFileSync(marker, 'utf8') === stamp) return;
+  await session.defaultSession.clearCache().catch(() => undefined);
+  await session.defaultSession.clearStorageData({ storages: ['serviceworkers', 'cachestorage'] }).catch(() => undefined);
+  writeFileSync(marker, stamp);
+}
+
 async function boot() {
   try {
     server = await startEmbeddedServer();
@@ -145,6 +164,7 @@ async function boot() {
   }
   console.log(`[woltron] server ready at ${server.url}`);
   api = new ApiClient(server.url);
+  await dropStaleUiCaches();
 
   win = createMainWindow({
     baseUrl: server.url,

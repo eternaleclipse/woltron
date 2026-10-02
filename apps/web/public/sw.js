@@ -1,6 +1,6 @@
 // Woltron service worker — minimal app-shell cache so the PWA installs and opens offline-ish.
 // API calls are never cached (they are live state).
-const CACHE = 'woltron-shell-v1';
+const CACHE = 'woltron-shell-v2'; // bump to drop old caches
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['/', '/manifest.webmanifest'])).then(() => self.skipWaiting()));
@@ -20,17 +20,22 @@ self.addEventListener('fetch', (e) => {
     e.respondWith(fetch(e.request).catch(() => caches.match('/')));
     return;
   }
-  // Static assets: stale-while-revalidate.
+  // Hashed build files (/assets/*-<hash>.js|css) never change: cache-first.
+  // Everything else (mascot art, icons, stickers) keeps its URL across releases: network-first,
+  // so new artwork shows up immediately and the cache is only an offline fallback.
+  const hashed = url.pathname.startsWith('/assets/');
   e.respondWith(
     caches.open(CACHE).then(async (cache) => {
       const hit = await cache.match(e.request);
-      const net = fetch(e.request)
-        .then((res) => {
-          if (res.ok) cache.put(e.request, res.clone());
-          return res;
-        })
-        .catch(() => hit);
-      return hit || net;
+      if (hashed && hit) return hit;
+      try {
+        const res = await fetch(e.request);
+        if (res.ok) cache.put(e.request, res.clone());
+        return res;
+      } catch (err) {
+        if (hit) return hit;
+        throw err;
+      }
     }),
   );
 });

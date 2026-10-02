@@ -67,9 +67,14 @@ export function serveSpa(webDir: string | undefined) {
     }
     const ext = path.extname(file).toLowerCase();
     const headers: Record<string, string> = { 'Content-Type': MIME[ext] ?? 'application/octet-stream' };
-    if (isIndex || ext === '.html' || rel.endsWith('sw.js') || rel.endsWith('.webmanifest')) headers['Cache-Control'] = 'no-cache';
-    else if (rel.startsWith('/assets/')) headers['Cache-Control'] = 'public, max-age=31536000, immutable';
-    else headers['Cache-Control'] = 'public, max-age=3600';
+    // Hashed build output never changes. Everything else (mascot art, icons, index.html…) keeps its
+    // URL across releases, so browsers must revalidate; the ETag makes that a cheap 304.
+    if (rel.startsWith('/assets/') && !isIndex) headers['Cache-Control'] = 'public, max-age=31536000, immutable';
+    else headers['Cache-Control'] = 'no-cache';
+    const stat = await fs.promises.stat(file);
+    const etag = `W/"${stat.size.toString(16)}-${Math.floor(stat.mtimeMs).toString(16)}"`;
+    headers['ETag'] = etag;
+    if (c.req.header('if-none-match') === etag) return c.body(null, 304, headers);
     const body = c.req.method === 'HEAD' ? null : await fs.promises.readFile(file);
     return c.body(body as never, 200, headers);
   };
