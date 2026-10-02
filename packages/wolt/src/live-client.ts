@@ -17,7 +17,7 @@ import {
   type WoltConnection,
   type WoltTokens,
 } from '@woltron/shared';
-import { TokenManager, parseMagicLink } from './auth.js';
+import { TokenManager, isUrl, parseMagicLink, tokenFromUrl } from './auth.js';
 import { DEFAULT_LOCATION, checkoutUrlFor, haversineMeters, orderTrackingUrl } from './geo.js';
 import { HOSTS, HttpCore, HttpError, type HttpOptions, type RequestOptions } from './http.js';
 import {
@@ -253,11 +253,31 @@ export class LiveWoltClient implements WoltClient {
   }
 
   async verifyMagicLink(linkOrCode: string): Promise<WoltConnection> {
-    const token = parseMagicLink(linkOrCode);
-    if (!token) throw new WoltError('unauthorized', 'No token found in the link');
+    let token = parseMagicLink(linkOrCode);
+    // Login emails usually wrap the wolt.com link in a click-tracking redirect: follow it (like a click would) to find the token.
+    if (isUrl(token)) token = (await this.resolveLoginRedirect(token)) ?? '';
+    if (!token) throw new WoltError('unauthorized', 'No login token found in that link. Copy the “Log in” button link from the Wolt email.');
     this.setTokens(null);
     await this.auth.emailLogin(token);
     return this.connection();
+  }
+
+  private async resolveLoginRedirect(url: string): Promise<string | undefined> {
+    let next = url;
+    for (let hop = 0; hop < 6; hop++) {
+      const found = tokenFromUrl(next);
+      if (found) return found;
+      let res: Response;
+      try {
+        res = await this.http.fetchImpl(next, { redirect: 'manual', headers: { 'user-agent': 'Mozilla/5.0 Woltron' } });
+      } catch (e) {
+        throw new WoltError('network', `Couldn’t open the login link: ${(e as Error).message}`);
+      }
+      const loc = res.headers.get('location');
+      if (!loc) return undefined;
+      next = new URL(loc, next).toString();
+    }
+    return undefined;
   }
 
   async connection(): Promise<WoltConnection> {

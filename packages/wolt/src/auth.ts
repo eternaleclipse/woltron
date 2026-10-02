@@ -82,7 +82,7 @@ export class TokenManager {
       return await this.http.json(`${HOSTS.auth}/v1/wauth2/access_token`, { method: 'POST', body, retry: false });
     } catch (e) {
       if (e instanceof HttpError && (e.status === 400 || e.status === 401 || e.status === 403)) {
-        throw new WoltError('unauthorized', `Wolt rejected the credentials (${e.status}). Paste a fresh __wrtoken from wolt.com.`, e.status);
+        throw new WoltError('unauthorized', `Wolt rejected the login (${e.status}). Request a fresh login link from wolt.com and paste it here.`, e.status);
       }
       throw e;
     }
@@ -105,15 +105,28 @@ export class TokenManager {
   }
 }
 
-/** Extract the magic-link token from a pasted link (…?token=…&email=…) or return the raw code. */
-export function parseMagicLink(linkOrCode: string): string {
-  const s = linkOrCode.trim();
+const TOKEN_KEYS = ['token', 'magic_token', 'login_token', 'email_token'];
+
+/** Token from a wolt.com login URL (query or #hash), or undefined if this URL doesn't carry one. */
+export function tokenFromUrl(url: string): string | undefined {
   try {
-    const u = new URL(s);
-    const t = u.searchParams.get('token') ?? u.searchParams.get('magic_token');
-    if (t) return t;
+    const u = new URL(url);
+    for (const params of [u.searchParams, new URLSearchParams(u.hash.replace(/^#/, ''))]) {
+      for (const k of TOKEN_KEYS) {
+        const t = params.get(k);
+        if (t) return t;
+      }
+    }
   } catch {
     /* not a URL */
   }
-  return s;
+  return undefined;
+}
+
+export const isUrl = (s: string) => /^https?:\/\//i.test(s.trim());
+
+/** Extract the magic-link token from a pasted link (…?token=…&email=…) or return the raw code. */
+export function parseMagicLink(linkOrCode: string): string {
+  const s = linkOrCode.trim().replace(/^["'<]+|["'>]+$/g, '');
+  return tokenFromUrl(s) ?? s;
 }

@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'motion/react';
 import { toast } from 'sonner';
 import { Check, Copy, ExternalLink, KeyRound, Laptop, LocateFixed, LogOut, MapPin, Monitor, Moon, RefreshCw, Search, Smartphone, Sun, TriangleAlert } from 'lucide-react';
 import type { GeoLocation, Money, OrderMode, Settings, SettingsPatch } from '@woltron/shared';
-import { useConnectWolt, useDisconnectWolt, useGeocode, useHealth, usePairing, usePatchSettings, useRotatePairing, useSettings } from '@/lib/queries';
+import { useLinkWolt, useDisconnectWolt, useGeocode, useHealth, usePairing, usePatchSettings, useRotatePairing, useSettings } from '@/lib/queries';
 import { errorMessage } from '@/lib/api';
 import { desktop } from '@/lib/desktop';
 import { cn, currencySymbol, fmtDateTime } from '@/lib/utils';
@@ -113,7 +113,7 @@ function Section({ id, title, description, children, aside }: { id: string; titl
 // ───────── Wolt ─────────
 function WoltSection({ settings }: { settings: Settings }) {
   const w = settings.wolt;
-  const connect = useConnectWolt();
+  const connect = useLinkWolt();
   const disconnect = useDisconnectWolt();
   const [token, setToken] = useState('');
   return (
@@ -137,26 +137,47 @@ function WoltSection({ settings }: { settings: Settings }) {
         </div>
       ) : (
         <div className="grid gap-6 md:grid-cols-2">
-          <ol className="space-y-3 text-[15px]">
-            {[
-              <>
-                Open <a href="https://wolt.com" target="_blank" rel="noreferrer" className="font-semibold underline decoration-ball-deep/60 decoration-2 underline-offset-4">wolt.com <ExternalLink className="inline size-3.5" /></a> and log in.
-              </>,
-              <>Open DevTools: <kbd className="font-semibold">F12</kbd> or <kbd className="font-semibold">⌥⌘I</kbd>.</>,
-              <>Go to <strong>Application</strong>, then <strong>Local Storage</strong> (or <strong>Cookies</strong>) for wolt.com.</>,
-              <>Find <code className="rounded bg-surface-3 px-1.5 py-0.5 text-[13px]">__wrtoken</code> and copy its whole value.</>,
-              <>Paste it here. That’s it.</>,
-            ].map((s, i) => (
-              <li key={i} className="flex gap-3">
-                <span className="grid size-6 shrink-0 place-items-center rounded-full bg-collar text-xs font-bold text-collar-ink">{i + 1}</span>
-                <span className="text-ink-2">{s}</span>
-              </li>
-            ))}
-          </ol>
+          <div className="space-y-4">
+            <ol className="space-y-3 text-[15px]">
+              {[
+                <>
+                  Open{' '}
+                  <a href="https://wolt.com" target="_blank" rel="noreferrer" className="font-semibold underline decoration-ball-deep/60 decoration-2 underline-offset-4">
+                    wolt.com <ExternalLink className="inline size-3.5" />
+                  </a>{' '}
+                  in a <strong>private window</strong> and log in with your email.
+                </>,
+                <>
+                  In Wolt’s email, <strong>don’t click</strong> the log-in button. Right-click it and choose <strong>Copy link</strong>.
+                </>,
+                <>Paste the link here. Woltron gets its own login, separate from your browser.</>,
+              ].map((s, i) => (
+                <li key={i} className="flex gap-3">
+                  <span className="grid size-6 shrink-0 place-items-center rounded-full bg-collar text-xs font-bold text-collar-ink">{i + 1}</span>
+                  <span className="text-ink-2">{s}</span>
+                </li>
+              ))}
+            </ol>
+            <details className="group rounded-lg bg-surface-2 px-4 py-3 text-[13px] text-ink-2">
+              <summary className="cursor-pointer font-semibold text-ink">Or paste a browser token instead</summary>
+              <p className="mt-2">
+                On wolt.com open DevTools (<kbd>F12</kbd>) → <strong>Storage</strong>/<strong>Application</strong> → Cookies, and copy{' '}
+                <code className="rounded bg-surface-3 px-1.5 py-0.5">__wrtoken</code>. Heads-up: this shares your browser’s login, and Wolt can sign
+                Woltron out when the browser renews it. To avoid that, log in from a private window, copy the token, then just close the window — don’t click “Log out”.
+              </p>
+            </details>
+          </div>
           <div className="space-y-3">
             {w.lastError && <p className="rounded-sm bg-danger-soft px-3 py-2 text-[13px] text-danger-ink">{w.lastError}</p>}
-            <Field label="Refresh token" htmlFor="wolt-token" hint="Starts with something like eyJ…">
-              <Textarea id="wolt-token" value={token} onChange={(e) => setToken(e.target.value)} placeholder="Paste __wrtoken here" className="font-mono text-[13px]" spellCheck={false} />
+            <Field label="Login link or token" htmlFor="wolt-token" hint="A https://… link from Wolt’s email, or a __wrtoken value">
+              <Textarea
+                id="wolt-token"
+                value={token}
+                onChange={(e) => setToken(e.target.value)}
+                placeholder="https://wolt.com/…  or  __wrtoken"
+                className="font-mono text-[13px]"
+                spellCheck={false}
+              />
             </Field>
             <Button
               variant="ball"
@@ -169,7 +190,7 @@ function WoltSection({ settings }: { settings: Settings }) {
                     setToken('');
                     toast.success(c.connected ? `Hi ${c.user?.name?.split(' ')[0] ?? 'there'}! Wolt is connected` : 'Saved');
                   },
-                  onError: (e) => toast.error('That token didn’t work', { description: errorMessage(e) }),
+                  onError: (e) => toast.error('That didn’t work', { description: errorMessage(e) }),
                 })
               }
             >

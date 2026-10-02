@@ -66,6 +66,23 @@ export function useConnectWolt() {
   });
 }
 
+/** Connect with either a pasted login-email link (preferred: Woltron gets its own session) or a raw refresh token. */
+export function useLinkWolt() {
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: (input: string) => {
+      const v = input.trim();
+      return /^<?["']?https?:\/\//i.test(v)
+        ? api('POST /api/wolt/auth/verify', { body: { linkOrCode: v } })
+        : api('POST /api/wolt/auth/token', { body: { refreshToken: v } });
+    },
+    onSuccess: (c) => {
+      qc.setQueryData(qk.woltAuth, c);
+      qc.invalidateQueries({ queryKey: qk.settings });
+    },
+  });
+}
+
 export function useDisconnectWolt() {
   const qc = useQueryClient();
   return useMutation({
