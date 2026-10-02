@@ -181,7 +181,9 @@ function BottomTabs() {
             onClick={() => setMore(true)}
             className={cn('flex flex-col items-center gap-0.5 text-[11px] font-semibold', inMore ? 'text-ink' : 'text-ink-3')}
           >
-            <MenuIcon className="size-[22px]" />
+            <span className={cn('grid h-7 w-12 place-items-center rounded-full', inMore && 'bg-ball-soft')}>
+              <MenuIcon className="size-[22px]" />
+            </span>
             More
           </button>
         </div>

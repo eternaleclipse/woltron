@@ -62,14 +62,14 @@ export function RunDetailPage() {
 
       {/* Hero */}
       <section className="relative mb-6 overflow-hidden rounded-xl border border-line bg-surface p-5 shadow-sm sm:p-7">
-        <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
+        <div className="flex flex-wrap items-start gap-x-5 gap-y-3 sm:flex-nowrap sm:items-center">
           <AnimatePresence mode="wait">
-            <motion.div key={meta.mascot} initial={{ scale: 0.7, opacity: 0, rotate: -8 }} animate={{ scale: 1, opacity: 1, rotate: 0 }} exit={{ scale: 0.8, opacity: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 20 }}>
+            <motion.div className="origin-top-left max-sm:-mb-6 max-sm:scale-[0.62]" key={meta.mascot} initial={{ scale: 0.7, opacity: 0, rotate: -8 }} animate={{ scale: 1, opacity: 1, rotate: 0 }} exit={{ scale: 0.8, opacity: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 20 }}>
               <Mascot state={meta.mascot} size={104} />
             </motion.div>
           </AnimatePresence>
-          <div className="min-w-0 flex-1">
-            <div className="mb-2 flex flex-wrap items-center gap-2">
+          <div className="min-w-0 basis-full sm:basis-auto sm:flex-1">
+            <div className="mb-2 flex flex-wrap items-center gap-2 max-sm:absolute max-sm:right-5 max-sm:top-5 max-sm:flex-col max-sm:items-end">
               <RunStatusBadge status={run.status} size="lg" />
               <ModePill mode={run.mode} to={null} short />
             </div>
@@ -89,9 +89,9 @@ export function RunDetailPage() {
               {run.packName && <> from the {run.packName} pack</>}, started by {SOURCE_LABEL[run.source].toLowerCase()} {relTime(run.createdAt)}
             </p>
           </div>
-          <div className="sm:text-right">
+          <div className="flex items-baseline gap-2 sm:block sm:text-right">
             <div className="text-[13px] text-ink-3">Total</div>
-            <div className="tabular font-display text-4xl font-extrabold">{fmtShort(run.total)}</div>
+            <div className="tabular font-display text-3xl font-extrabold sm:text-4xl">{fmtShort(run.total)}</div>
           </div>
         </div>
 

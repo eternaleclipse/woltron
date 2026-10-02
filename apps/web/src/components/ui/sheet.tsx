@@ -87,7 +87,7 @@ export function Sheet({ open, onOpenChange, title, description, children, footer
           </Drawer.Title>
           <Drawer.Description className="sr-only">{typeof title === 'string' ? title : 'Sheet'}</Drawer.Description>
           <div className="min-h-0 flex-1 overflow-y-auto px-6 pb-6 pt-4">{children}</div>
-          {footer && <div className="flex items-center gap-2 border-t border-line bg-surface-2 px-5 pb-[max(16px,env(safe-area-inset-bottom))] pt-3 [&>*]:flex-1">{footer}</div>}
+          {footer && <div className="flex items-center gap-2 border-t border-line bg-surface-2 px-5 pb-[max(16px,env(safe-area-inset-bottom))] pt-3 [&>button]:flex-1">{footer}</div>}
         </Drawer.Content>
       </Drawer.Portal>
     </Drawer.Root>

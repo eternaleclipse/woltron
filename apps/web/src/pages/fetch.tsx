@@ -64,7 +64,7 @@ export function FetchPage() {
             {loading ? 'On it.' : hasResult ? 'Here’s what I found.' : 'What are we craving?'}
           </h1>
           <p className="mt-2 max-w-md text-[15px] text-ink-2">
-            {loading ? <SniffTicker /> : `Say it like you’d say it to a friend. ${name} reads menus near ${settings?.location?.label?.toLowerCase() ?? 'you'} and brings back the best matches.`}
+            {loading ? <SniffTicker /> : hasResult ? `Tap a dish to pick options, or save it to a preset for later.` : `Say it like you’d say it to a friend. ${name} reads menus near ${settings?.location?.label ?? "you"} and brings back the best matches.`}
           </p>
         </div>
 

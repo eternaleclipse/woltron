@@ -92,7 +92,7 @@ function AutomationRow({ a }: { a: Automation }) {
           <TriggerIcon trigger={a.trigger.type} className="size-8 rounded-[10px] sm:hidden [&_svg]:size-4" />
           <h3 className="truncate font-display text-lg font-bold leading-tight">{a.name}</h3>
         </div>
-        <p className="mt-1 truncate text-[13px] text-ink-2">
+        <p className="mt-1 line-clamp-2 text-[13px] sm:truncate text-ink-2">
           <span className="font-semibold text-ink">{triggerSummary(a)}</span>
           {' → '}
           {target ? `${target.emoji} ${target.name}` : 'missing target'}
