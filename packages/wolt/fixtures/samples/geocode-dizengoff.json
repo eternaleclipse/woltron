@@ -1,0 +1,70 @@
+{
+ "status": "OK",
+ "results": [
+  {
+   "geometry": {
+    "location": {
+     "lat": 32.0751741,
+     "lng": 34.7745357
+    },
+    "location_type": "ROOFTOP",
+    "viewport": {
+     "northeast": {
+      "lat": 32.0765357302915,
+      "lng": 34.7758717802915
+     },
+     "southwest": {
+      "lat": 32.0738377697085,
+      "lng": 34.7731738197085
+     }
+    }
+   },
+   "place_id": "ChIJj02_Y4BLHRUR6WpfkUTHGqI",
+   "types": [
+    "premise",
+    "street_address"
+   ],
+   "formatted_address": "Dizengoff St 50, Tel Aviv-Yafo, Israel",
+   "address_components": [
+    {
+     "types": [
+      "street_number"
+     ],
+     "long_name": "50",
+     "short_name": "50"
+    },
+    {
+     "types": [
+      "route"
+     ],
+     "long_name": "Dizengoff Street",
+     "short_name": "Dizengoff St"
+    },
+    {
+     "types": [
+      "locality",
+      "political"
+     ],
+     "long_name": "Tel Aviv-Yafo",
+     "short_name": "Tel Aviv-Yafo"
+    },
+    {
+     "types": [
+      "administrative_area_level_1",
+      "political"
+     ],
+     "long_name": "Tel Aviv District",
+     "short_name": "Tel Aviv District"
+    },
+    {
+     "types": [
+      "country",
+      "political"
+     ],
+     "long_name": "Israel",
+     "short_name": "IL"
+    }
+   ]
+  }
+ ]
+}

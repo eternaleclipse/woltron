@@ -1,0 +1,488 @@
+{
+ "venue": "roll-n-roll",
+ "item_id": "00ae8d202f4210ceda466ddf",
+ "request": {
+  "purchase_plan": {
+   "venue": {
+    "id": "5d88cd349222b3ddd01eab57",
+    "country": "ISR",
+    "currency": "ILS"
+   },
+   "delivery_method": "homedelivery",
+   "menu_items": [
+    {
+     "id": "00ae8d202f4210ceda466ddf",
+     "count": 2,
+     "base_price": 300,
+     "end_amount": 600,
+     "options": [],
+     "category_id": "3e862fd6229edc18a3d281c7",
+     "category_ids": [
+      "3e862fd6229edc18a3d281c7"
+     ],
+     "exclude_from_credits": false,
+     "exclude_from_discounts": false,
+     "exclude_from_discounts_min_basket": false,
+     "alcohol_permille": 0,
+     "restrictions": [],
+     "venue_id": "5d88cd349222b3ddd01eab57",
+     "is_weighted_item": false,
+     "age_limit": null
+    }
+   ],
+   "use_promo_discount_ids": [],
+   "courier_tip": 0,
+   "use_cash": false,
+   "use_credits_and_tokens": false,
+   "use_loyalty_points_amount": 0,
+   "use_promo_surcharge_ids": [],
+   "payment_methods": [],
+   "is_priority_delivery": false,
+   "delivery": {
+    "delivery_coordinates": {
+     "latitude": 32.0853,
+     "longitude": 34.7818
+    }
+   }
+  }
+ },
+ "response": {
+  "is_age_verification_required": false,
+  "use_address_matching_for_age_verification": false,
+  "is_drone_delivery_supported": false,
+  "is_robot_delivery_supported": false,
+  "payable_amount": 6500,
+  "checkout_rows": [
+   {
+    "template": "fees_explanation_row",
+    "headline": "How fees work",
+    "sections": [
+     {
+      "template": "section",
+      "title": "Delivery fee",
+      "body": "We calculate delivery fees based on the venue you order from and your location. The delivery fee for this venue is ₪14.00."
+     },
+     {
+      "template": "section",
+      "title": "Small order fee",
+      "body": "We only add a small order surcharge if your order subtotal is less than the ₪50.00 minimum."
+     },
+     {
+      "template": "section",
+      "title": "Service fee",
+      "body": "The service fee helps to maintain and improve our platform and develop new features to provide you with an amazing Wolt experience. The service fee is 5% of item subtotal based on the order as originally placed, maximum ₪5.90. A reduced service fee of ₪1.00 applies when the item subtotal of such order is less than ₪60.00. Discounts and promotions will not be taken into account when calculating the service fee."
+     }
+    ]
+   },
+   {
+    "template": "amount_row",
+    "label": "Item subtotal",
+    "amount": {
+     "amount": 600,
+     "formatted_amount": "₪6.00",
+     "reason": null
+    },
+    "original_amount": null,
+    "description": null,
+    "info_bubble": null,
+    "discount": null,
+    "display_as_free": false,
+    "style": "default",
+    "icon": null,
+    "has_animation": false
+   },
+   {
+    "template": "amount_row",
+    "label": "Small order fee",
+    "amount": {
+     "amount": 4400,
+     "formatted_amount": "₪44.00",
+     "reason": null
+    },
+    "original_amount": null,
+    "description": null,
+    "info_bubble": null,
+    "discount": null,
+    "display_as_free": false,
+    "style": "default",
+    "icon": null,
+    "has_animation": false
+   },
+   {
+    "template": "amount_row",
+    "label": "Service fee",
+    "amount": {
+     "amount": 100,
+     "formatted_amount": "₪1.00",
+     "reason": null
+    },
+    "original_amount": null,
+    "description": null,
+    "info_bubble": null,
+    "discount": null,
+    "display_as_free": false,
+    "style": "default",
+    "icon": null,
+    "has_animation": false
+   },
+   {
+    "template": "amount_row",
+    "label": "Delivery (1.8 km)",
+    "amount": {
+     "amount": 1400,
+     "formatted_amount": "₪14.00",
+     "reason": null
+    },
+    "original_amount": null,
+    "description": null,
+    "info_bubble": null,
+    "discount": null,
+    "display_as_free": false,
+    "style": "default",
+    "icon": null,
+    "has_animation": false
+   },
+   {
+    "template": "price_total_amount_row",
+    "price_total_amount": {
+     "amount": 6500,
+     "formatted_amount": "₪65.00",
+     "reason": null
+    },
+    "label": "Total",
+    "description": null,
+    "info_article": null,
+    "show_in_shelf": false,
+    "icon": null
+   }
+  ],
+  "telemetry": {
+   "delivery_price": 1400,
+   "service_fee": 100,
+   "small_order_fee": 4400,
+   "delivery_price_before_user_promotions": 1400,
+   "service_fee_before_user_promotions": 100,
+   "is_free_wolt_plus_delivery": false
+  },
+  "purchase_validation": {
+   "end_amount": 6500,
+   "delivery_price": 5700,
+   "credits_amount": null,
+   "use_token": null,
+   "bag_fee": null,
+   "end_amount_rounding": null,
+   "wolt_loyalty_currency_amount_converted": null,
+   "discounts": [],
+   "surcharges": [],
+   "priority_delivery_fee": null,
+   "time_slot_order_discount": null,
+   "offers": []
+  },
+  "purchasing_disabled": null,
+  "wolt_loyalty_program": null,
+  "use_backend_pricing_for_shadowing_only": false,
+  "toast": null,
+  "toasts": [
+   {
+    "text": "Orders below ₪50.00 include a small order fee",
+    "type": "SMALL_ORDER_FEE"
+   }
+  ],
+  "wolt_plus": {
+   "cart": null,
+   "is_free_trial_eligible": null,
+   "banner_variant": null
+  },
+  "payment_breakdown": {
+   "total": {
+    "amount": 6500,
+    "formatted_amount": "₪65.00",
+    "reason": null
+   },
+   "unallocated": {
+    "amount": 6500,
+    "formatted_amount": "₪65.00",
+    "reason": null
+   },
+   "parts": []
+  },
+  "payment_method_banner": null,
+  "tip_config": {
+   "allow_custom_tip": true,
+   "min_amount": 500,
+   "max_amount": 15000,
+   "tip_amounts": [
+    500,
+    1000,
+    1500
+   ],
+   "tip_options": [
+    {
+     "amount": 0,
+     "amount_label": "₪0",
+     "percentage": null,
+     "percentage_label": null,
+     "is_popular": false
+    },
+    {
+     "amount": 500,
+     "amount_label": "₪5",
+     "percentage": null,
+     "percentage_label": null,
+     "is_popular": false
+    },
+    {
+     "amount": 1000,
+     "amount_label": "₪10",
+     "percentage": null,
+     "percentage_label": null,
+     "is_popular": false
+    },
+    {
+     "amount": 1500,
+     "amount_label": "₪15",
+     "percentage": null,
+     "percentage_label": null,
+     "is_popular": false
+    }
+   ]
+  },
+  "delivery_configs": [
+   {
+    "label": "Standard",
+    "description": null,
+    "tag": null,
+    "method": "homedelivery",
+    "schedule": "standard",
+    "estimate": {
+     "label": "25-35 min",
+     "min": 25,
+     "mean": 30,
+     "max": 35
+    },
+    "price": null,
+    "tso_schedule": null,
+    "info_banner": null,
+    "info_modal_body": null
+   },
+   {
+    "label": "Standard",
+    "description": null,
+    "tag": null,
+    "method": "takeaway",
+    "schedule": "standard",
+    "estimate": {
+     "label": "10-15 min",
+     "min": 10,
+     "mean": 15,
+     "max": 15
+    },
+    "price": null,
+    "tso_schedule": null,
+    "info_banner": null,
+    "info_modal_body": null
+   }
+  ],
+  "offers": {
+   "selectable": [],
+   "applied": [],
+   "split_payments_credits_disclaimer_text": null
+  },
+  "stackable_credits": null,
+  "gifting_config": {
+   "greeting_cards": [
+    {
+     "id": "1._giftingcard_genericgift1",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/1._giftingcard_genericgift1.png",
+     "blurhash": "jap9Lc7LhIRkX:fchmNB7fV3pkiY",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "2._giftingcard_valentine1",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/2._giftingcard_valentine1.png",
+     "blurhash": "j6LkKg3KQYfc;th5oRmSgA8Ph3pl",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "3._giftingcard_valentine2",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/3._giftingcard_valentine2.png",
+     "blurhash": "jazCTaGk8BF5f;qFgRpmcWpHP9qW",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "4._giftingcard_valentine3",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/4._giftingcard_valentine3.png",
+     "blurhash": "jbIRkVNqJAFn;sxnl4KF8CKTh5KT",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "5._giftingcard_food",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/5._giftingcard_food.png",
+     "blurhash": "j9q9HdjrpDRQX:mRtlpC2LJIh6iI",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "6._giftingcard_drinks",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/6._giftingcard_drinks.png",
+     "blurhash": "jbXF5KKRFlpFX;GSFlpFOYqrFlqF",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "7._giftingcard_birthday",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/7._giftingcard_birthday.png",
+     "blurhash": "j9nVPhntdbSQT;GSlmqC1vNRKRds",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "8._giftingcard_genericgift2",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/8._giftingcard_genericgift2.png",
+     "blurhash": "jbWFtVqYR3lmX;OCJkllV3NleYBC",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "9._giftingcard_courierbag",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/9._giftingcard_courierbag.png",
+     "blurhash": "jahW3mrs8YuXX:uFhruGcYCGL5tl",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "10._giftingcard_valentine4",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/10._giftingcard_valentine4.png",
+     "blurhash": "jaE6b4hj8YJGvLhBh7lC2ZOYRkhB",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "01_giftingcard_baby",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/01_giftingcard_baby.png",
+     "blurhash": "jctnW:gQdapkX;l6lmKBaZJQKRKX",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "012_giftingcard_housewarming",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/012_giftingcard_housewarming.png",
+     "blurhash": "jiTaO6h4lmlk;;GqplpCLbKGKBKX",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "013_giftingcard_wedding",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/013_giftingcard_wedding.png",
+     "blurhash": "jiLmmkhmlqlI;ylDplyqOYGHFAGk",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "014_giftingcard_getwellsoon",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/014_giftingcard_getwellsoon.png",
+     "blurhash": "jlD8j0Gnhahl;;FWlqClltpGKTOS",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "015_giftingcard_yuhoapple",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/015_giftingcard_yuhoapple.png",
+     "blurhash": "j8y6W;N2chmXn;FAgQpC8:mZruFl",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    },
+    {
+     "id": "016_giftingcard_yuhohoney",
+     "url": "https://imageproxy.wolt.com/static-assets/gifting/016_giftingcard_yuhohoney.png",
+     "blurhash": "jaj9HbHs4zmIT;qXh4CG9;mHTsKC",
+     "animation": {
+      "wide": "https://consumer-static-assets.wolt.com/gifting/animation-wide.json",
+      "default": "https://consumer-static-assets.wolt.com/gifting/animation.json",
+      "asset": "https://consumer-static-assets.wolt.com/gifting/heart_animation_image.png"
+     },
+     "tags": []
+    }
+   ],
+   "default_message": "Here's something special, just for you. Hope you enjoy it!",
+   "disclaimer": "This number will get a tracking link and may also be contacted by the courier.",
+   "state": "enabled",
+   "disabled_reason": null
+  },
+  "id": null,
+  "autonomous_delivery": null,
+  "b2b_details": null,
+  "mosaic_checkout_rows_page": null,
+  "call_to_action": {
+   "value": "Go to checkout",
+   "style": "DEFAULT",
+   "enabled": true,
+   "link": "GO_TO_CHECKOUT",
+   "variant": "PRIMARY"
+  }
+ }
+}

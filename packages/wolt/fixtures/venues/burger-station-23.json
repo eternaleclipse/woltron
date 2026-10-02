@@ -1,0 +1,4172 @@
+{
+ "captured_at": "2026-10-02T21:59:13.531Z",
+ "location": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "static": {
+  "venue": {
+   "id": "5e25c88c4d1fb8984cc10a7c",
+   "slug": "burger-station-23",
+   "name": "Burger Station 23",
+   "description": "Burgers With A Special Flavour ",
+   "image_url": "https://imageproxy.wolt.com/assets/67332fbdc59f3326de543350",
+   "image_blurhash": "j2sBwX0k8j0j0RT58QOW12;D8n;c",
+   "brand_logo_image_url": null,
+   "address": "שארית ישראל 23",
+   "rating": {
+    "rating": 4,
+    "score": "9.0",
+    "score_raw": 9,
+    "volume": 500
+   },
+   "share_url": "https://wolt.com/he/isr/tel-aviv/restaurant/burger-station-23",
+   "currency": "ILS",
+   "country": "ISR",
+   "delivery_methods": [
+    "homedelivery",
+    "takeaway"
+   ],
+   "timezone": "Asia/Jerusalem",
+   "product_line": "restaurant",
+   "delivery_base_price": 1000,
+   "service_fee_estimate": {
+    "min": 100,
+    "max": 590,
+    "percentage": 5
+   },
+   "zero_distance_fees": {
+    "delivery_price": 1200
+   },
+   "opening_times_schedule": [
+    {
+     "day": "Monday",
+     "formatted_times": "10:00–02:00"
+    },
+    {
+     "day": "Tuesday",
+     "formatted_times": "10:00–02:00"
+    },
+    {
+     "day": "Wednesday",
+     "formatted_times": "10:00–02:00"
+    },
+    {
+     "day": "Thursday",
+     "formatted_times": "10:00–06:00"
+    },
+    {
+     "day": "Friday",
+     "formatted_times": "10:00–06:00"
+    },
+    {
+     "day": "Saturday",
+     "formatted_times": "10:00–04:00"
+    },
+    {
+     "day": "Sunday",
+     "formatted_times": "10:00–02:00"
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "5e25c88c4d1fb8984cc10a7c",
+   "location": {
+    "bbox": null,
+    "type": "Point",
+    "coordinates": [
+     34.7626177,
+     32.0523968
+    ]
+   },
+   "price_range": 2,
+   "food_tags": [
+    "burger",
+    "Late_night_offers_isr",
+    "sandwich",
+    "street food",
+    "isr_tag_night",
+    "hamburger",
+    "Wolt Benefits",
+    "isr_deals_tlv",
+    "shawarma"
+   ],
+   "short_description": "100% Fresh selected Meat By Burger Station 23 Tel Aviv"
+  },
+  "order_minimum": 5000
+ },
+ "dynamic": {
+  "venue": {
+   "id": "5e25c88c4d1fb8984cc10a7c",
+   "online": true,
+   "open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:13.414426+03:00",
+    "previous_open": "2026-10-02T10:00:00+03:00",
+    "next_open": "2026-10-03T10:00:00+03:00",
+    "next_close": "2026-10-03T06:00:00+03:00",
+    "next_close_time_localized": "06:00"
+   },
+   "delivery_open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:13.414426+03:00",
+    "previous_open": "2026-10-02T10:00:00+03:00",
+    "next_open": "2026-10-03T10:00:00+03:00",
+    "next_close": "2026-10-03T06:00:00+03:00",
+    "next_close_time_localized": "06:00"
+   },
+   "delivery_configs": [
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "homedelivery",
+     "schedule": "standard",
+     "estimate": {
+      "label": "50-60 min",
+      "min": 50,
+      "mean": 55,
+      "max": 60
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    },
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "takeaway",
+     "schedule": "standard",
+     "estimate": {
+      "label": "15-20 min",
+      "min": 15,
+      "mean": 15,
+      "max": 20
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "5e25c88c4d1fb8984cc10a7c",
+   "alive": true,
+   "preestimate_total": {
+    "min": 50,
+    "max": 60,
+    "mean": 55
+   },
+   "discounts": [
+    {
+     "id": "venue_campaign:6a7c2457b94bcc6db711da4c",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee"
+     }
+    }
+   ],
+   "delivery_specs": {
+    "delivery_enabled": true,
+    "original_delivery_price": 2000,
+    "order_minimum_no_surcharge": 5000,
+    "delivery_pricing": {
+     "base_price": 1000,
+     "price_ranges": [
+      {
+       "min": 0,
+       "max": 5000,
+       "a": 5100,
+       "b": -1,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 5000,
+       "max": 6000,
+       "a": 100,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 6000,
+       "max": 11800,
+       "a": 0,
+       "b": 0.05,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 11800,
+       "max": 0,
+       "a": 590,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      }
+     ]
+    }
+   }
+  },
+  "order_minimum": 5000
+ },
+ "assortment": {
+  "assortment_id": "5e25cb665fdfc07da89ccde8",
+  "loading_strategy": "full",
+  "primary_language": "he",
+  "selected_language": "en",
+  "categories": [
+   {
+    "id": "1f0f7c95019a2979b4eb752a",
+    "name": "Put 💙",
+    "slug": "put-2",
+    "item_ids": [
+     "395cc263117863a980a303ca"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "74c5bf558837ee312753e02c",
+    "name": "Green selection 🌿",
+    "slug": "green-selection-3",
+    "item_ids": [
+     "60bc8b9451bee66571d64069",
+     "d036a335778a9d4eef7ab421",
+     "63f337f9f29e0263e8aa7bb9",
+     "63f337fa4307107f7fec7db9"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "dad479c1da9a6c7effefd8f1",
+    "name": "meals",
+    "description": " כל הארוחות כוללות פוטטוס ושתיה",
+    "slug": "meals-4",
+    "item_ids": [
+     "60211857b1fc7c472f6cddad",
+     "6021196e3f6f75d048f5932f",
+     "f3f58ca74927c12342e08567",
+     "7ac86614f68145378c4e63f5"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "7cf8f9d677ad67dd74404842",
+    "name": "Home-cooked meal",
+    "slug": "home-cooked-meal-5",
+    "item_ids": [
+     "19d486c24d06bf15da667553",
+     "937e742c427092d996d1d962",
+     "49ac1feea22d0e5d3e707da7",
+     "6c82aa982478dd2f4b303326"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "3b8352c178965595bf51d3bd",
+    "name": "Shawarma",
+    "description": "Comes with tahini and amba",
+    "slug": "shawarma-6",
+    "item_ids": [
+     "61afe9afa7df33574e02015b",
+     "87273580bf088edec7489766",
+     "4c8d6d7b03eb569957bcaa1c",
+     "a2fff51a89800e15b119b02e",
+     "31c02295bc5d23f5347daf02",
+     "7708cf86efbf99a249c14548"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "656d73ac690112f1a40748f6",
+    "name": "Hamburgers ",
+    "slug": "hamburgers-7",
+    "item_ids": [
+     "49c58bbfb5a1d83acfd4e820",
+     "614c57272483a315d60c9ec4",
+     "5e25cceb312d3640e1a16491",
+     "5e26b7aebb4e77f90f90e1ca",
+     "5e26b7e0000baeaeced7eab7",
+     "5e26b7f9e77cd42ef68e7f73",
+     "5eddfc3b8e43e8a6c3db8a96",
+     "5ee8a0b97eabbd1697045657",
+     "5f8e95d2196318c3920ad8c1",
+     "62a720884459c31f2a81ec88",
+     "e67edfd9ea0d031bf0d95a52",
+     "60211857b1fc7c472f6cddad"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "920f2977ec5137ab3e8481eb",
+    "name": "NOT ONLY BURGERS  ",
+    "slug": "not-only-burgers-8",
+    "item_ids": [
+     "5e26b839880688975645eb83",
+     "5e26b905880688975645ecfd",
+     "ceae43dbfef166dda7905087",
+     "41a0bb0303699e62fa4c147a",
+     "98788c6874b24a92cb370353",
+     "caa621a87f1c33b1bf037652",
+     "8da9bdb05e189d9e686ce47f",
+     "92107476a4a22902ccea6155",
+     "391f91e7fe0b71fec724f8ce",
+     "bcf2ceeee88057bc0eaf1631",
+     "620cd2b1a44750c013e7367f",
+     "b76c744dfffbf1eaf307115c",
+     "c4a7a5fcaee82218993eacce"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "fe882ca8b813898ca54888f6",
+    "name": "SIDES ",
+    "slug": "sides-9",
+    "item_ids": [
+     "5e26d73b0a1142eac9546f44",
+     "5e26d7f24764e50b3ba311bc",
+     "5ef208c54113a7a6f623f0b2",
+     "5e26d816a33a053ceb29ad4c",
+     "5e26d83fd6eb243598642d9d",
+     "5e26d8516246bcad9d22c3c3",
+     "d5ded03dae41d6acc331d258"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "aa81cd18535c0951a5ccdeb3",
+    "name": "DESSERTS ",
+    "slug": "desserts-10",
+    "item_ids": [
+     "5e43fc0c1d7e485639fd47b4",
+     "5e43fc223b5e5efe8f93b46f",
+     "5e43fc4f5c2e13c255db6ad5",
+     "5e43fc9ed261800a609ebbfb"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "671c795ab915b6d6c4260e57",
+    "name": "DRINKS ",
+    "slug": "drinks-11",
+    "item_ids": [
+     "5e26d9043a17e12b67f7a442",
+     "5e26d90f4cccd7cc94e12453",
+     "5e26d9a8a91ef0d71faac8ae",
+     "5e26d9b2ea55348a13f7a518",
+     "60a0debfc6fedcdd45ca2e7e",
+     "5e26d9c6db70170a69a19044",
+     "5e26d9db3cdd99be098042ba",
+     "5e26da06e2581a19b17fd2e1",
+     "5e26d9fc1411117d56de8e28",
+     "5e26d9ecdfbb4d02b684cc59"
+    ],
+    "subcategories": []
+   }
+  ],
+  "items": [
+   {
+    "id": "19d486c24d06bf15da667553",
+    "name": "Golden Schnitzel - Pita",
+    "description": "",
+    "price": 4100,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/699abae0017a1a25739f9935",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "421b8ab226202484476d271b",
+      "option_id": "3972055d3c57854ad45eb45a",
+      "name": "Toppings",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d94f649cc7438783d4fec05fd6c25849",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "31c02295bc5d23f5347daf02",
+    "name": "Shawarma Angus Sas Premium (fresh)",
+    "description": "Homemade garlic cream, amba and tahini",
+    "price": 7500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6996eef7b353386403c2e05e",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "32a241aa5c234a76be35ca3a38134835",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "391f91e7fe0b71fec724f8ce",
+    "name": "4-roller Black Angus & Baldy Lamb Cart Kneader",
+    "description": "Masha 4 rolls Black Angus & Baldy lamb cart plus mini vegetable salad including drink and potato",
+    "price": 9000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a0ed18965ce8a5df492c123",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ad68dbad74b57b1d30acb23b",
+      "option_id": "602118d2d6ec9abd7d7c05b1",
+      "name": "Choose a drink",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "55b7332ebdf814475952aabf26e15e85",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "395cc263117863a980a303ca",
+    "name": "The colorful rolls are no longer available.",
+    "description": "Dear customers, today all burgers are served in a brioche bun with olive oil. Sorry and thank you for your understanding.",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a74518afcc9c1a69bb809ae",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fa0379da0922b681f7985309d1f1769e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "41a0bb0303699e62fa4c147a",
+    "name": "Areas",
+    "description": "Angus & Lamb with special seasoning. 4 halves of handmade pita served with vegetable salad with tahini and amba.",
+    "price": 6000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/69cb9f0293f1ad3bc359b632",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3384627a94c96216fc37c0e063f0cf73",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "49ac1feea22d0e5d3e707da7",
+    "name": "Marinated chicken breast pita with winning seasoning",
+    "description": "A winning recipe for juicy chicken breast marinated for 24 hours....",
+    "price": 4100,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/699abb09017a1a25739f9938",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "d351e79364b099aaffa58005",
+      "option_id": "3972055d3c57854ad45eb45a",
+      "name": "Toppings",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bdef161726a06230c43d65ee3697f6f1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "49c58bbfb5a1d83acfd4e820",
+    "name": "Beef Burger ",
+    "description": "220 gram burger made from fresh beef and served in a brioche bun with lettuce, tomato, pickle, onion, station sauce",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/689de8123b13bfd3a588a501",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2794eec20aa989d37645a5f2",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8509f5739878da658e526f0e",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "82b518dcfe870b98a8e59d5d",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6cd0320779c4176209b2ea28",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "81460306b9dccc0d3b1ce140",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "243e32ea5cba89f25da886a0",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "593ab2ea6eb7a7be2079f11e",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a9335e2ec212ea8dbdb5db1e980fdaa3",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "4c8d6d7b03eb569957bcaa1c",
+    "name": "New New! Shawarma Mix Premium (Fresh)",
+    "description": "Shawarma mix of chicken and Angus beef together comes with sauces on the side to choose from. An old-fashioned recipe made from 100% fresh premium meats that melts in your mouth.",
+    "price": 6500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/695957f776bbce8d0046bcf5",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "29d270b5ff89c8b046385c9d",
+      "option_id": "011ba7d58a162df32f9a4919",
+      "name": "Choose bread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6a6ba5a7bdbbbac91639b76f",
+      "option_id": "3972055d3c57854ad45eb45a",
+      "name": "Toppings",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7956b1594145189836b4b448",
+      "option_id": "6bc37c7350e07259a78da25e",
+      "name": "Sauce on the side",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d9385ca327271184dc586a965cd75f74",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e25cceb312d3640e1a16491",
+    "name": "Beef Burger ",
+    "description": "220 gram burger made from fresh beef and served in a brioche bun with lettuce, tomato, pickle, onion, station sauce",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/391a247e-4114-11ea-acb6-0a586472f08a_burger4155.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "2794eec20aa989d37645a5f2",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8509f5739878da658e526f0e",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "82b518dcfe870b98a8e59d5d",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6cd0320779c4176209b2ea28",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "81460306b9dccc0d3b1ce140",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "243e32ea5cba89f25da886a0",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "593ab2ea6eb7a7be2079f11e",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c06ff3611e6e54990948ac1b96ca2143",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26b7aebb4e77f90f90e1ca",
+    "name": "Double Beef Burger ",
+    "description": "440 gram burger made from fresh beef and served in  a brioche bun with lettuce, tomato, pickle, onion, station sauce\nChoose a side of fries for a fee",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/1357bffa-15b2-11ee-8167-96edb4638eca_img_5355.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "f2e2719fcc49c85c7ecaafb2",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9248be40095fdec4b915dcce",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2b9135b27a72c3ca04bce9bd",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6bfb48f18d15335a453738cf",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a6d6170dc182c8f6e8d99d41",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2abc0c5207ef71f7884eb54c",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d673437d0b8d04659081c1f9",
+      "option_id": "5e2f06c64d0a9832a98ba15d",
+      "name": "Extra Patty - 200 Gram",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8fc32d06ea6684058df6264e",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e0e7a70ffabf04426e9de6eabdf6db75",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26b7e0000baeaeced7eab7",
+    "name": "Lamb Burger ",
+    "description": "220 gram burger made from fresh lamb and served in a brioche bun with lettuce, tomato, pickle, onion, station sauce\nChoose a side of fries for a fee",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/329e3688-0535-11ee-b183-d2fdbedf0ee2_image0.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "e4d4b91ea850ec72d532dcb7",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e40b4e23c3b2b9c92cd61e2a",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7c2bdc80a8f7e8e9c6a994fe",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "03eeb238e5c80b53928ed1c8",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a16c851c4ff8ccb1a76068ba",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a912faa0499927f48886bd42",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f49de951410a3de62a24780e",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "bb7609975c3c97b5a892bf02ba029b16",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26b7f9e77cd42ef68e7f73",
+    "name": "Double Lamb Burger ",
+    "description": "440 gram burger made from fresh lamb and served in a brioche bun with lettuce, tomato, onion, station sauce\nChoose a side of fries for a fee",
+    "price": 9100,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/1ed16778-15b2-11ee-b7fc-628499070467_img_5355.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "239888216b130cb587354421",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cc4642f4d1f1705f25678d1e",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7d2dae7f3aace515b4aafb2f",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "aabd0306e518200073f43c6c",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "87cb8a7efa592aa0d8abf923",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d4cddd5d09b92ec0b1c589fa",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ee44c24b1381ef36efd163ee",
+      "option_id": "5e2f06c64d0a9832a98ba15d",
+      "name": "Extra Patty - 200 Gram",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "cf7fe449f95007832a888d27",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3781700703d584aa05a24bd2556d8fb0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26b839880688975645eb83",
+    "name": "Kentucky Crispy Chicken",
+    "description": "Served in brioche bun with garlic lettuce, tomato,  pickle and station sauce",
+    "price": 6400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/ccc18648-10f2-11ee-9af6-de2d4b79f0aa_large_img_5240.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "d8ed5b9714141f3d0ad44b00",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "34b342e9ebc864a8724a3f35",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d3225a707457206236dff7e8",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "84847ceea4cc7228e16f9a1d3050fe61",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26b905880688975645ecfd",
+    "name": "The Vegan 🌱",
+    "description": "Served in a brioche bun with beyond pattie, lettuce, tomato, pickled cucumber, red onion, and station sauce",
+    "price": 6500,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/26c5bcea-2a72-11ec-8ac5-3e7baba3f7e1_fae6b840_eb5a_4caa_a4e2_641c21558386.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "d05dfd8b93fd32bf74cbd418",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "463fe0b514e059a72359bd39",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "70f5c8c82d8932b8f133c71d",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 7
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a8801ed024d16c1964e85efb",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "aebfba847e9cadeb94928b4d",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "44b4b9fc711bc06a26be68b8",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "91b4493ee92c0f3edf14770b9b9dadc2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d73b0a1142eac9546f44",
+    "name": "Mix",
+    "description": "House Onion rings, mashed potatoes and station potatoes ",
+    "price": 4200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/7cdec778-2998-11ec-9dde-e61aefaf179e_image__11_.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f8ff74814a785b1244705824a6756253",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d7f24764e50b3ba311bc",
+    "name": "Small Fries ",
+    "description": "Dutch fries with sweet Paprika and salt - small portion",
+    "price": 1900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/866b6968-2998-11ec-bd9d-8e56900271e1_image__8_.jpeg",
+      "blurhash": "j6CC8VGn0Ida0CpGh5KW0qFT;lOW"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "17dbe849ff38831bc8f144d67a9f78b9",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d816a33a053ceb29ad4c",
+    "name": "House Onion Rings ",
+    "description": "",
+    "price": 4000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/6249f4be-2998-11ec-be63-0645b81b5302_image__9_.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "de790449270481c882172e3a777cb7a4",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d83fd6eb243598642d9d",
+    "name": "House Potatoes ",
+    "description": "",
+    "price": 1900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/2b57a08c-2998-11ec-aab0-8e56900271e1_image__5_.jpeg",
+      "blurhash": "j3yRM:Tc0Y8A0:KW8Apl0ccW;kXq"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b29086564efb2a4b3c52eeb9aa0dceca",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d8516246bcad9d22c3c3",
+    "name": "Mashed Potato Balls ",
+    "description": "",
+    "price": 1900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/6be85b64-2998-11ec-bab5-dec9f78f7b42_image__10_.jpeg",
+      "blurhash": "j2xB4S;50Y4R0Khrd4Jl0c9c;kWQ"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "99508006fd489a03ba291a4014000219",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d9043a17e12b67f7a442",
+    "name": "Coke ",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/a552a668-21e4-11ec-8d2f-b26f44d1b186_coca_cola_can_330ml.jpeg",
+      "blurhash": "jgZK;LBS;;CXOXupllBTPcuph4BT"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b6171f87765c5b644440a4185bb3cc1c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d90f4cccd7cc94e12453",
+    "name": "Coke Zero ",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/ab852862-21e4-11ec-afe5-fedc00cc60b9_coca_cola_zero_can_330ml_.jpeg",
+      "blurhash": "jgZu;LxT;;GXqXupFlBTLcupl4BT"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "08ea7ca56d2876430442740a73fc03f2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d9a8a91ef0d71faac8ae",
+    "name": "Fanta ",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/af7003c0-21e4-11ec-afca-8e29745a526e_52272_wolt_8500x4800_sleek_can_orenge.jpeg",
+      "blurhash": "jh:f7KCHX;FlCGC7GntWNBCpiHpT"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "2eeca1c56160de38870c26946ae91c98",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d9b2ea55348a13f7a518",
+    "name": "Sprite ",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/b6747408-21e4-11ec-80d7-8223c46dced2_53003_wolt_8500x4800_sprite_can_lime.jpeg",
+      "blurhash": "jhXLfKFW;;qSGXGntlpFtDupCFBD"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cf4bf45e00970662e3066c898f91304a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d9c6db70170a69a19044",
+    "name": "Soda Water ",
+    "description": "0,25",
+    "price": 1000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/25ca4ea4-21e5-11ec-9537-0aed3074b858__________________.jpeg",
+      "blurhash": "j4:;LXGG;;KXJACpuYtTh5CpPbtS"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4843b253bb07cd9a098a88afc707b9d8",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d9db3cdd99be098042ba",
+    "name": "Mineral Water ",
+    "description": "0,5",
+    "price": 1000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/37e5dd74-21e5-11ec-b769-9a17540b7814________________.jpeg",
+      "blurhash": "j7:fHYpG;:OXTctTd5CqtBCpCHpD"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "723c18e7fb69fe9477989bea13425c09",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d9ecdfbb4d02b684cc59",
+    "name": "Grape Juice ",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6893425a6fd67a5cf6b2107c",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b9e296fc5442789d38c75f46018cdc7d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26d9fc1411117d56de8e28",
+    "name": "Orange Juice ",
+    "description": "0,33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/8317d4e8-9a4b-11ed-8c73-2eb3886ca604_rsz_whatsapp_image_2023_01_08_at_1501_photoroom.jpeg",
+      "blurhash": "jjYuXHCp;;GGPcxTh5ypGHCppBtT"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "5df7935f1e88ee09776a719864f05fb2",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e26da06e2581a19b17fd2e1",
+    "name": "Nestea ",
+    "description": "0,33",
+    "price": 1400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/bc9c9940-21e5-11ec-8e6c-de88f4be0d6c_ft_peach_500ml.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "dc85dcd2fd96a00614830792d84a9b31",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e43fc0c1d7e485639fd47b4",
+    "name": "White Chocolate Cassette With a Truffle Ball",
+    "description": "",
+    "price": 2800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/11238aba-6206-11ea-9d45-0a586475cf58_Untitled-34.jpeg",
+      "blurhash": "j1nAgW;K03X;;J4z01Vj0jPK;:h5"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "fe3ef57d189383887158d1f395b68979",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e43fc223b5e5efe8f93b46f",
+    "name": "Biscuit Cake Jar  ",
+    "description": "",
+    "price": 2800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/1e33a492-6206-11ea-882d-0a58647bac68_Untitled-33.jpeg",
+      "blurhash": "j1o4Z8;L1eOWjK010zT701Xq;IXJ"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "abdd2fa83b36c70b2c477b66608f98c5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e43fc4f5c2e13c255db6ad5",
+    "name": "White Chocolate and Passionfruit Jar",
+    "description": "",
+    "price": 2800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/d9a1dfc4-6205-11ea-be9a-0a58647c8108_Untitled-35.jpeg",
+      "blurhash": "j3nQwV;:0J0D;qF44A9a0jd6;mXs"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c1f13524f91842f247ef4917c075ebc5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5e43fc9ed261800a609ebbfb",
+    "name": "Crack Pie ",
+    "description": "Oatmeal cake with whipped cream. Recommended to preheat in oven is - 3 minutes",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/05da1c28-6206-11ea-a0b6-0a58646e9b41_Untitled-36.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b0605ac533594a69c75550ee35246cdb",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5eddfc3b8e43e8a6c3db8a96",
+    "name": "Juicy Sirloin Burger 220 g",
+    "description": "The burger contains white onion, salt, black pepper, secret spice, onion and tomato on fire, curly lettuce, pickle, onion, house garlic sauce and home station sauce. Served with sirloin and entrecote with caramelized onions on top (ingredients can not be changed) \nChoose a side of fries for a fee",
+    "price": 7800,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/34dd75d4-2a72-11ec-ab93-766205340ba6_b1333521_75ff_4b55_aa9a_da442e10b81a.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "d7c620619ed670001a35cabd",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9a18d26f3e6e09581d0a7805",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9a291c10c1b9dc171036dd36",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8b3be1ba1b1f865f7cc346ec",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "059794a095c4619f2dd6e79f",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1c60e9a94847a30fbf5c8d3e",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c8f0ff2cd726f4f8df12d397",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f296c9d5bbd1b2199d3fd519",
+      "option_id": "625e6d50e7785a9b806d31dd",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9ca36d9a77bca3079b8873d546e2fe64",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5ee8a0b97eabbd1697045657",
+    "name": "Juicy Lamb Burger 220 g",
+    "description": "The burger contains white onion, salt, black pepper, secret spice, onion and tomato on fire, curly lettuce, pickle, onion house garlic sauce and home station sauce. Served with sirloin and entrecote with caramelized onions on top (ingredients can not be changed) \nChoose a side of fries for a fee",
+    "price": 8200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/3d410e5c-2a72-11ec-8269-42eafe2eb32e_b1333521_75ff_4b55_aa9a_da442e10b81a.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "de4933fbd3ed378302ff06f2",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "af4a5a5d4e9106f54f53286b",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2f8bed20098aa8c0b2649f61",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8e87bf066ef0029c6b195689",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ab353e537241a0ab69c9d3cf",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "db70d1d17326f777bcfc55c5",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d3ae8b19eeddbcdff9cb2bc1",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "840f91cf4661d4447759726f",
+      "option_id": "625e6d50e7785a9b806d31dd",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "04b824d59c47b0ad2c2d8bf1941c8217",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5ef208c54113a7a6f623f0b2",
+    "name": "Large Fries ",
+    "description": "Dutch fries with sweet Paprika and salt - large portion",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/5565266a-2998-11ec-b2e3-46aaf678fd27_image__8_.jpeg",
+      "blurhash": "j6CC8VGn0Ida0CpGh5KW0qFT;lOW"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "072a0b5dedb69f6798ce5ceb4487697d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5f8e95d2196318c3920ad8c1",
+    "name": "320 gr - Burger 70 ",
+    "description": "⚡️New ⚡️\nJuicy Beef burger 320 grams with 100 grams of minced mixed meat with onions, spicy pepper and cheddar cheese. Served in a bun with tomato, purple onion, iceberg lettuce, pickle, house sauce and house garlic sauce\nChoose a side of fries for a fee",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/a4b85ab6-2998-11ec-aaf4-a681591be374_image__13_.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "25ddbb44a92b46bf8ae9e0a8",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "1ef6b582feaba0707c54fa72",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a1f00b6f09c6272a35f21313",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "9e0e498b17a048bbeb7e64ac",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "f05f4ce525fdf6dc107cdc74",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "0519a133a78f67bf0c278257",
+      "option_id": "625e6d50e7785a9b806d31dd",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b6698ecdc00a000b7c1cadbe7efaf435",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "60211857b1fc7c472f6cddad",
+    "name": "Beef burger meal",
+    "description": "Burgerini 200 g consists of fresh meat served in a natural brioche bun with curly lettuce, tomato, pickle, onion and station sauce. Served with potatoes and a drink",
+    "price": 10000,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/4a561086-2998-11ec-8cb8-ee4efad77ffa_image__7_.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a3d0c272ae212031ba488222",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2f87c9f418ba7e16db6995a9",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7ad5f59b7b4ddccccd76304b",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3c613cb56534ed96c3ced285",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "c0858f4cc98e3d18ce6b2e15",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "976ae11b18ed0210593d4b5d",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5f55b9804d3c6bb1d8640fcc",
+      "option_id": "602118d2d6ec9abd7d7c05b1",
+      "name": "Choose a drink",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "66aef2cb69e4dbb24390056d",
+      "option_id": "625e6d50e7785a9b806d31dd",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "26610e2e50d0dc238f1bde5735e746c5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6021196e3f6f75d048f5932f",
+    "name": "New! ⭐️ Kentucky Crispy Chicken Meal",
+    "description": "Juicy chicken served in a natural brioche bun with curly lettuce, tomato, pickle, onion, station sauce. Served with potatoes and a drink.",
+    "price": 9300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/171c7478-14cc-11ee-8343-92bb7d254e3e_img_5349.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "187d678b796a90a63b6d0ed0",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "160ac27063a4fe1a65836631",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4c4e7c6dc495654adf43b549",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4cca5fc8a286de20d59fa1e6",
+      "option_id": "602118d2d6ec9abd7d7c05b1",
+      "name": "Choose a drink",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "028d9b37a35f230a3145948e",
+      "option_id": "625e6d50e7785a9b806d31dd",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c540e9236d7084d37e9610a8c8820d20",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "60a0debfc6fedcdd45ca2e7e",
+    "name": "Sprite Zero",
+    "description": "0.33",
+    "price": 1300,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/bc1ce228-21e4-11ec-b393-92ac5ff93450_53003_wolt_8500x4800_sprite_can_zero.jpeg",
+      "blurhash": "jfX;fMBD;;GXmBGGJHlBGruopRFD"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "03dc8a061a215ad58a975ca48cf4bfc8",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "60bc8b9451bee66571d64069",
+    "name": "Disposable Cutlery 🍴",
+    "description": "Please choose this item as many times as there are diners in need of disposable cutlery",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ce7d19fe48da83010022327/24a3017a-2f0f-11eb-bc53-fedda11353e4__________.jpeg",
+      "blurhash": "j2;fPYll;;TtTttTcPCpTuGXcPl4"
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c4a8559034b512b66f7ea8d60194b2b9",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "614c57272483a315d60c9ec4",
+    "name": "Animal Jungle",
+    "description": "* This dish can not be changed * Mix meat 22 hours in a smokehouse Served in a brioche bun, station wagon sauce and garlic, pickles, tomato and spicy \"not hot\" pepper and onion on the fire",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/95823b84-2998-11ec-b4f3-a23e6f4dfb45_image__12_.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a2a4a93739f681862e9c8643",
+      "option_id": "618786e02e7745e81544e589",
+      "name": "Select changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "272a8ac52cdcaed283fa31f0",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "48412c0e51c4024d04466281",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "a528ef28ad49359061cbc58e",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "aec5372000f87cf203a815f5",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bd1620cf90dba0aef6c7bfc6",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d990146f4f673fb06e1553ab",
+      "option_id": "625e6d50e7785a9b806d31dd",
+      "name": "Paid sauces",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "feec776ed35adf80a248d7409389b321",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "61afe9afa7df33574e02015b",
+    "name": "Premium (Fresh) New! Juicy Chicken & Female Turkey Shawarma",
+    "description": "Chicken shawarma, optional extra for free, tahini and amba, including potatoes",
+    "price": 6200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6955ad3f976df0f9b909c45c",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "7e9a8e6da8fc2df33f09ba2f",
+      "option_id": "011ba7d58a162df32f9a4919",
+      "name": "Choose bread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "daca1a5e81272463fb3375f9",
+      "option_id": "3972055d3c57854ad45eb45a",
+      "name": "Toppings",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d99483763bf81891221c08ca",
+      "option_id": "6bc37c7350e07259a78da25e",
+      "name": "Sauce on the side",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "c73cb75369f1e7fb4fcf024fa794fd45",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "620cd2b1a44750c013e7367f",
+    "name": "4-roll Black Angus & Lamb Beldi Cart with Cheddar",
+    "description": "4 Black Angus & Baldy Lamb Rolls with Cheddar Cheese plus Mini Vegetable Salad including Drink and Potatoes",
+    "price": 10000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a0ed18965ce8a5df492c123",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ad68dbad74b57b1d30acb23b",
+      "option_id": "602118d2d6ec9abd7d7c05b1",
+      "name": "Choose a drink",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7b58b161ccfd61599c0a88b07a8b72f0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "62a720884459c31f2a81ec88",
+    "name": "Cheeseburger Beef Juicy Entrecote",
+    "description": "Cheeseburger 200 g consists of fresh meat served in a natural brioche bun with curly lettuce, tomato, pickle, onion and station sauce. Choose additional fries for a fee *The image is for illustration only and the bun varies depending on the customer's choice",
+    "price": 7400,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/a3c7b79c-eb0c-11ec-bb3a-22191b13a58a_87d1f71a_5706_473e_be2f_57e9c73dd110.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "9fa3a7978d8282f699d3c4e1",
+      "option_id": "5e2f4878d78dfcf966f90bc6",
+      "name": "Choose Cooking Level",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e1838b7339a63053acd2482e",
+      "option_id": "5e663bf85eb5bf1586d257f8",
+      "name": "Choose Bun ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "665793649146970751347faa",
+      "option_id": "5e26b630ff16dcbece45f7eb",
+      "name": "Changes?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "6c01c23fcc6cb50d7f9cb0e5",
+      "option_id": "5e26b668e77cd42ef68e7caa",
+      "name": "Choose Your Chnages ",
+      "prerequisite_values": [
+       "88052ff7ceb9e3baf30bec2a"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4e8d59ea9860cc4ef26c07dd",
+      "option_id": "5e26b7510729e99282d7dad0",
+      "name": "Toppings For Burger?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e2e820300383a30416a15e33",
+      "option_id": "5e26b735000baeaeced7e946",
+      "name": "Choose Toppings For Burger ",
+      "prerequisite_values": [
+       "313a3bed42246325eaf50054"
+      ],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 6
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "bc53180ba2a36c9b564da036",
+      "option_id": "5e3005657927cc9ad5824c42",
+      "name": "Fries ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e17a89e6d806589c9a8c7ea4715d9cb5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f337f9f29e0263e8aa7bb9",
+    "name": "No Sauce Please! 🥫",
+    "description": "",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/685a4588fde5cbbcef53b16c",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b7de0bda4025172ad57bd85353b66074",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "63f337fa4307107f7fec7db9",
+    "name": "Extra Set of Sauces",
+    "description": "add this if you want more sauces than we're already sending",
+    "price": 200,
+    "images": [
+     {
+      "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e25cb665fdfc07da89ccde8/40fee8be-2998-11ec-ba2b-dec9f78f7b42_image__6_.jpeg",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "0d69f11f27ab951526ab42b055042ddd",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6c82aa982478dd2f4b303326",
+    "name": "Chicken breast baguette marinated in winning seasoning",
+    "description": "A winning recipe for juicy chicken breast marinated for 24 hours....",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/699abb1d017a1a25739f9939",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "fca31231ae16cc721e0952ab",
+      "option_id": "3972055d3c57854ad45eb45a",
+      "name": "Toppings",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 9
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "dbe6cc79546e00c6036e0684d602f561",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7708cf86efbf99a249c14548",
+    "name": "Premium Chicken Shawarma Saz (fresh)",
+    "description": "Homemade garlic cream, amba and tahini",
+    "price": 7500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/69984dd1017a1a25739f505b",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6a8e530979ecddee6ad3b1a154d54677",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "7ac86614f68145378c4e63f5",
+    "name": "Premium Chicken & Female Turkey Shawarma Meal (Fresh)",
+    "description": "Premium chicken shawarma includes potatoes and a drink of your choice",
+    "price": 9200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a2aba1f11515485c953df4f",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "be8eea51256c326ce1b28192",
+      "option_id": "011ba7d58a162df32f9a4919",
+      "name": "Choose bread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "31180cad023c440fa6570f46",
+      "option_id": "3972055d3c57854ad45eb45a",
+      "name": "Toppings",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d8df6444148f719b80d167c7",
+      "option_id": "6bc37c7350e07259a78da25e",
+      "name": "Sauce on the side",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8edf0f257741aa4542c2a945",
+      "option_id": "602118d2d6ec9abd7d7c05b1",
+      "name": "Choose a drink",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a667730f27ab23ab999dcda6a5106608",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "87273580bf088edec7489766",
+    "name": "Black Angus Premium Veal Shawarma (Fresh)",
+    "description": "Angus Veal & Lamb Baldi Shawarma comes with a choice of side sauces. Includes mini potatoes. An old-fashioned recipe made from 100% fresh premium meats that melts in your mouth.",
+    "price": 6500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6955b0e25d2b0d2b7187c6b8",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "962b2acc7a5d1cd6c526041b",
+      "option_id": "011ba7d58a162df32f9a4919",
+      "name": "Choose bread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "31180cad023c440fa6570f46",
+      "option_id": "3972055d3c57854ad45eb45a",
+      "name": "Toppings",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d8df6444148f719b80d167c7",
+      "option_id": "6bc37c7350e07259a78da25e",
+      "name": "Sauce on the side",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "dff394d87e021c27327a3965b094d1a6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8da9bdb05e189d9e686ce47f",
+    "name": "2 Crispy Masahan Shawarma Rolls Premium Veal & Lamb Baldi",
+    "description": "2 Crispy Masahan Shawarma Rolls Premium Veal & Lamb Baladi Juicy Fresh 100% Including Potatoes",
+    "price": 6500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a7446d1284ac410bdde14a4",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "74f503566dd67b3f110e506c18788ebb",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "92107476a4a22902ccea6155",
+    "name": "2 Crispy Rolls from Sakhan Shawarma Premium Chicken & Turkey",
+    "description": "2 Crispy Masahan Shawarma Premium Chicken & Turkey Rolls, Including Potatoes",
+    "price": 6500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a7446d1284ac410bdde14a4",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b68dfcd4d78ee83f110dc0605d83a681",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "937e742c427092d996d1d962",
+    "name": "Golden Schnitzel - Baguette",
+    "description": "",
+    "price": 5200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/699abaf3017a1a25739f9937",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "421b8ab226202484476d271b",
+      "option_id": "3972055d3c57854ad45eb45a",
+      "name": "Toppings",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 10
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "de6315dcd1349e746b35cb85d8c3e20f",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "98788c6874b24a92cb370353",
+    "name": "Black Angus & Baldi Lamb Shawarma Cart",
+    "description": "Shawarma Mashan Black Angus & Lamb Baladi Pita Tabun Handmade on Stones Over Coals. Consists of - Onion, Sumach, Olive Oil, Parsley. Includes Drink and Potatoes",
+    "price": 9000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a0ed07a8cbf13ed0c104643",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ad68dbad74b57b1d30acb23b",
+      "option_id": "602118d2d6ec9abd7d7c05b1",
+      "name": "Choose a drink",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "1cd5e0c7c46da676ee2016306bcc1c35",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "a2fff51a89800e15b119b02e",
+    "name": "New New! Premium Shawarma Personal Tray (Fresh)",
+    "description": "Personal juicy shawarma comes with 2 toppings to choose from: tahini, pickles, juicy chicken",
+    "price": 8500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/695957f776bbce8d0046bcf5",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "149595198a80e81d119b9a39",
+      "option_id": "2147bbf4c2d24e03099d76cf",
+      "name": "Meat selection ",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7ad83de4dd95a0dd42872a75",
+      "option_id": "57a4031ab765fc6767d93203",
+      "name": "Toppings for the Hamchashit",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 2,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "eb8970852308e3d60388b43d",
+      "option_id": "5cf172f6ae71fc016e31ae8d",
+      "name": "Extra bread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9fd0c7e05814fa8697bc236ca10f5968",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b76c744dfffbf1eaf307115c",
+    "name": "Hummus Shawarma Black Angus Veal & Lamb Baldi",
+    "description": "Hummus Shawarma Black Angus Veal & Lamb Baldi",
+    "price": 7500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a0ed2938cbf13ed0c1046d4",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "6fd6a5534f1f7b5b16db17a92b579018",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "bcf2ceeee88057bc0eaf1631",
+    "name": "Kneading 4 chicken rolls",
+    "description": "Mash 4 chicken rolls plus mini vegetable salad including drink and potato",
+    "price": 9000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a0ed1c88cbf13ed0c1046ad",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ad68dbad74b57b1d30acb23b",
+      "option_id": "602118d2d6ec9abd7d7c05b1",
+      "name": "Choose a drink",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f5bfd8ddeb47032143d2a21a5f1d57f6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c4a7a5fcaee82218993eacce",
+    "name": "Chicken shawarma chickpeas",
+    "description": "Chicken shawarma chickpeas",
+    "price": 7500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a0ed2fc65ce8a5df492c19a",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4630d16238de6948f1104e1f78767e0a",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "caa621a87f1c33b1bf037652",
+    "name": "Chicken & Turkey Shawarma Mixer",
+    "description": "Shawarma chicken pita bread, handmade on stones over coals. Consists of - onion, sumac, olive oil, parsley. Includes drink and potatoes.",
+    "price": 9000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a0ed0e66b53c7a863059f63",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "ad68dbad74b57b1d30acb23b",
+      "option_id": "602118d2d6ec9abd7d7c05b1",
+      "name": "Choose a drink",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "9d38338b575686083f1f7bab08dcb46d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "ceae43dbfef166dda7905087",
+    "name": "Crispy Chicken Nuggets",
+    "description": "Chicken nuggets in house seasoning 24 hours!",
+    "price": 5000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68a40ce1f52a4fe9d4d1a7bc",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7617d0de108244502797ab291d4e8cb5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d036a335778a9d4eef7ab421",
+    "name": "sum",
+    "description": "",
+    "price": 0,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6a0ecf6365ce8a5df492c06e",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "266ea065e0930508f29d2ce802b095b6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d5ded03dae41d6acc331d258",
+    "name": "Additional sauce set",
+    "description": "",
+    "price": 200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/692f28d91f847ea89875e968",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "aa8d308959587cccbcc6c6d816f1379e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e67edfd9ea0d031bf0d95a52",
+    "name": "Angus Shawarma Burger",
+    "description": "Beef burger with a special Angus shawarma addition",
+    "price": 7500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6998505fb353386403c32fcb",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "64a5aae404fbfc63c39966f188b919be",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "f3f58ca74927c12342e08567",
+    "name": "Black Angus Premium Veal Shawarma Meal (Fresh)",
+    "description": "Premium Shawarma Veal (fresh) Black Angus & Lamb Baldi including potatoes and a drink of your choice",
+    "price": 9700,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6955b0e25d2b0d2b7187c6b8",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "254ab0de62b11ba9e2804c31",
+      "option_id": "011ba7d58a162df32f9a4919",
+      "name": "Choose bread",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "31180cad023c440fa6570f46",
+      "option_id": "3972055d3c57854ad45eb45a",
+      "name": "Toppings",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d8df6444148f719b80d167c7",
+      "option_id": "6bc37c7350e07259a78da25e",
+      "name": "Sauce on the side",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "8edf0f257741aa4542c2a945",
+      "option_id": "602118d2d6ec9abd7d7c05b1",
+      "name": "Choose a drink",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b4c6c94f642b23910988f51c42c58c60",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   }
+  ],
+  "options": [
+   {
+    "id": "011ba7d58a162df32f9a4919",
+    "name": "Choose bread",
+    "type": "choice",
+    "default_value": "a613389681bcbc34a530c03e",
+    "values": [
+     {
+      "id": "a613389681bcbc34a530c03e",
+      "name": "Handmade pita",
+      "price": 0
+     },
+     {
+      "id": "bfa7769dffff93fd4cf7a61d",
+      "name": "To the nose",
+      "price": 1000
+     },
+     {
+      "id": "4f1837fb85b83937761f041b",
+      "name": "Baggt",
+      "price": 1000
+     }
+    ]
+   },
+   {
+    "id": "2147bbf4c2d24e03099d76cf",
+    "name": "Meat selection ",
+    "type": "choice",
+    "default_value": "bb1da11d962701f246fa6e5a",
+    "values": [
+     {
+      "id": "bb1da11d962701f246fa6e5a",
+      "name": "India ",
+      "price": 0
+     },
+     {
+      "id": "55bdcbe2e2af4c0f811d104d",
+      "name": "lamb calf",
+      "price": 1000
+     },
+     {
+      "id": "c74bbd9ad7f2a2c17e427262",
+      "name": "Mix meats",
+      "price": 1000
+     }
+    ]
+   },
+   {
+    "id": "3972055d3c57854ad45eb45a",
+    "name": "Toppings",
+    "type": "multi_choice",
+    "default_value": "6cbcc78fe660f082bbc52bfb",
+    "values": [
+     {
+      "id": "6cbcc78fe660f082bbc52bfb",
+      "name": "Hummus",
+      "price": 0
+     },
+     {
+      "id": "d60d0aba45a1494ae1cff5c9",
+      "name": "Red cabbage",
+      "price": 0
+     },
+     {
+      "id": "0081199eb1bbea60ac80f633",
+      "name": "White cabbage",
+      "price": 0
+     },
+     {
+      "id": "2d412fe866c1f71792739756",
+      "name": "Tehina",
+      "price": 0
+     },
+     {
+      "id": "eb2ba3651a6845cee0044a6a",
+      "name": "Amaba",
+      "price": 0
+     },
+     {
+      "id": "270aafbe5699ee04a3801d57",
+      "name": "parsley",
+      "price": 0
+     },
+     {
+      "id": "c0d53cfe2a3aaf40713eafc1",
+      "name": "Onion",
+      "price": 0
+     },
+     {
+      "id": "f44ee4d90439e5a9a0231f64",
+      "name": "Vegetable Salad",
+      "price": 0
+     },
+     {
+      "id": "d3f5a42c10beed79fb8ab5d9",
+      "name": "sharp",
+      "price": 0
+     },
+     {
+      "id": "9b15b7ad12f5143835b7b592",
+      "name": "Preserved lemon",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "57a4031ab765fc6767d93203",
+    "name": "Toppings for the Hamchashit",
+    "type": "multi_choice",
+    "default_value": "3f3fda6e9dc06f2846858a72",
+    "values": [
+     {
+      "id": "3f3fda6e9dc06f2846858a72",
+      "name": "Hummus",
+      "price": 0
+     },
+     {
+      "id": "884476b6d9b9211ffd96badd",
+      "name": "White cabbage",
+      "price": 0
+     },
+     {
+      "id": "0f580446f80a44b51aaf0693",
+      "name": "Red cabbage",
+      "price": 0
+     },
+     {
+      "id": "ee809a7b2fb5627668eb0dba",
+      "name": "Tehina",
+      "price": 0
+     },
+     {
+      "id": "79d41fa487a86b7d1956a06a",
+      "name": "Amaba",
+      "price": 0
+     },
+     {
+      "id": "16a1d7e16ed609d35e8eaaff",
+      "name": "parsley",
+      "price": 0
+     },
+     {
+      "id": "16d0e54cdf8c434c12dac709",
+      "name": "Onion",
+      "price": 0
+     },
+     {
+      "id": "6526a31785f72c691df49e1b",
+      "name": "Vegetable Salad",
+      "price": 0
+     },
+     {
+      "id": "44dd847efd795091a062412d",
+      "name": "sharp",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5cf172f6ae71fc016e31ae8d",
+    "name": "Extra bread",
+    "type": "multi_choice",
+    "default_value": "4c0d298636aca52a87b47bef",
+    "values": [
+     {
+      "id": "4c0d298636aca52a87b47bef",
+      "name": "Seduced",
+      "price": 300
+     },
+     {
+      "id": "2f1ebfd8b8e47380aec1626e",
+      "name": "To the nose",
+      "price": 600
+     }
+    ]
+   },
+   {
+    "id": "5e26b630ff16dcbece45f7eb",
+    "name": "Changes?",
+    "type": "choice",
+    "default_value": "88052ff7ceb9e3baf30bec2a",
+    "values": [
+     {
+      "id": "88052ff7ceb9e3baf30bec2a",
+      "name": "Yes ",
+      "price": 0
+     },
+     {
+      "id": "634514ecf18919938ecce6d9",
+      "name": "No ",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5e26b668e77cd42ef68e7caa",
+    "name": "Choose Your Chnages ",
+    "type": "multi_choice",
+    "default_value": "81217f0ef109c11f4e5b235d",
+    "values": [
+     {
+      "id": "81217f0ef109c11f4e5b235d",
+      "name": "No Tomato ",
+      "price": 0
+     },
+     {
+      "id": "cfe95b3df179b20c81060746",
+      "name": "No Pickled Cucumber ",
+      "price": 0
+     },
+     {
+      "id": "7c27afbe5d870f74bb18b9f9",
+      "name": "No Onion",
+      "price": 0
+     },
+     {
+      "id": "25657f03e430b3a33a26b762",
+      "name": "Without lettuce",
+      "price": 0
+     },
+     {
+      "id": "2e9d32861c08f7f7da96efdf",
+      "name": "No Station Sauce ",
+      "price": 0
+     },
+     {
+      "id": "41d4d59dae9a66835c7a8090",
+      "name": "No vegetables at all",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5e26b735000baeaeced7e946",
+    "name": "Choose Toppings For Burger ",
+    "type": "multi_choice",
+    "default_value": "73d343fa500566265a75f431",
+    "values": [
+     {
+      "id": "73d343fa500566265a75f431",
+      "name": "Caramelised Onions",
+      "price": 700
+     },
+     {
+      "id": "699c74971830c86da9a79c63",
+      "name": "Entrecote ",
+      "price": 1400
+     },
+     {
+      "id": "b20146ad9badd400026b4eaa",
+      "name": "Assado ",
+      "price": 1400
+     },
+     {
+      "id": "6350cb42b7ed9ca7838d2d6a",
+      "name": "Mushrooms ",
+      "price": 800
+     },
+     {
+      "id": "37d760cebe0f80d23fa1fd54",
+      "name": "Cheddar Cheese ",
+      "price": 1000
+     },
+     {
+      "id": "4aea5cad6362e47e26eab889",
+      "name": "Spicy Peppers ",
+      "price": 800
+     },
+     {
+      "id": "f57792340d6c40e217a1ed95",
+      "name": "Fried Egg ",
+      "price": 800
+     },
+     {
+      "id": "7867d8d7c71cf7a8b633f09f",
+      "name": "pineapple",
+      "price": 800
+     }
+    ]
+   },
+   {
+    "id": "5e26b7510729e99282d7dad0",
+    "name": "Toppings For Burger?",
+    "type": "choice",
+    "default_value": "313a3bed42246325eaf50054",
+    "values": [
+     {
+      "id": "313a3bed42246325eaf50054",
+      "name": "Yes ",
+      "price": 0
+     },
+     {
+      "id": "0616ba3628aab096f853c48a",
+      "name": "No ",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5e2f06c64d0a9832a98ba15d",
+    "name": "Extra Patty - 200 Gram",
+    "type": "choice",
+    "default_value": "85b05c7425afdfe6321add44",
+    "values": [
+     {
+      "id": "85b05c7425afdfe6321add44",
+      "name": "No ",
+      "price": 0
+     },
+     {
+      "id": "9ea0efb10b707b5ed0aebfe1",
+      "name": "Yes",
+      "price": 2500
+     }
+    ]
+   },
+   {
+    "id": "5e2f4878d78dfcf966f90bc6",
+    "name": "Choose Cooking Level",
+    "type": "choice",
+    "default_value": "d8f79ba16cf5984804dd25a7",
+    "values": [
+     {
+      "id": "0fe5253f82784a2438d2f28a",
+      "name": "M",
+      "price": 0
+     },
+     {
+      "id": "d8f79ba16cf5984804dd25a7",
+      "name": "MW",
+      "price": 0
+     },
+     {
+      "id": "412de2da6afd814da7a92c18",
+      "name": "WD",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "5e3005657927cc9ad5824c42",
+    "name": "Fries ",
+    "type": "choice",
+    "default_value": "1cbb974164e90a1b1f188cbf",
+    "values": [
+     {
+      "id": "1cbb974164e90a1b1f188cbf",
+      "name": "No",
+      "price": 0
+     },
+     {
+      "id": "7e93159abb62dcd21caeb99d",
+      "name": "Small Fries ",
+      "price": 1900
+     },
+     {
+      "id": "6b0326653a2fd2bfcb5385a9",
+      "name": "Large Fries ",
+      "price": 3600
+     }
+    ]
+   },
+   {
+    "id": "5e663bf85eb5bf1586d257f8",
+    "name": "Choose Bun ",
+    "type": "choice",
+    "default_value": "5aeb04ca19c7d28e71e89d19",
+    "values": [
+     {
+      "id": "897fa1d09eaa7b80d5f85937",
+      "name": "Regular Bun ",
+      "price": 0
+     },
+     {
+      "id": "a3fb5ad49067e2f0a9eb127e",
+      "name": "Brioche Butter Bun ",
+      "price": 300
+     }
+    ]
+   },
+   {
+    "id": "602118d2d6ec9abd7d7c05b1",
+    "name": "Choose a drink",
+    "type": "multi_choice",
+    "default_value": "9a8f54308b15a38e41c4b531",
+    "values": [
+     {
+      "id": "9a8f54308b15a38e41c4b531",
+      "name": "Her voice",
+      "price": 0
+     },
+     {
+      "id": "50bd146ad489b46e9742e6ed",
+      "name": "Cola Zero",
+      "price": 0
+     },
+     {
+      "id": "3aa64f5f7189477dcaf258af",
+      "name": "Fanta",
+      "price": 0
+     },
+     {
+      "id": "2e071451508cc2fff0499032",
+      "name": "Sprite",
+      "price": 0
+     },
+     {
+      "id": "6c144c2867f48afc7f23ab7f",
+      "name": "soda",
+      "price": 0
+     },
+     {
+      "id": "6ae14f48a2a26edc8419948c",
+      "name": "mineral water",
+      "price": 0
+     },
+     {
+      "id": "1390535a888b000166a42f77",
+      "name": "Grapes",
+      "price": 0
+     },
+     {
+      "id": "ac39b49d28128db936e2f10b",
+      "name": "Oranges",
+      "price": 0
+     },
+     {
+      "id": "eb287a8a2cbd5153e3d53d7b",
+      "name": "נסטי",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "618786e02e7745e81544e589",
+    "name": "Select changes",
+    "type": "multi_choice",
+    "default_value": "445e9620f248f42b93d3960b",
+    "values": [
+     {
+      "id": "445e9620f248f42b93d3960b",
+      "name": "No tomato",
+      "price": 0
+     },
+     {
+      "id": "b07867e8e08e401ed3c8b39f",
+      "name": "No pickles",
+      "price": 0
+     },
+     {
+      "id": "ec6d189093418f00c9e61d53",
+      "name": "Without onion",
+      "price": 0
+     },
+     {
+      "id": "920045d96e93e7eb07c09969",
+      "name": "Without lettuce",
+      "price": 0
+     },
+     {
+      "id": "8d64d3f6dd7becc51f017a67",
+      "name": "Without sauce",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "625e6d50e7785a9b806d31dd",
+    "name": "Paid sauces",
+    "type": "multi_choice",
+    "default_value": "d36ca178412eac28014dab64",
+    "values": [
+     {
+      "id": "d36ca178412eac28014dab64",
+      "name": "Station sauce",
+      "price": 200
+     },
+     {
+      "id": "55eeeb26fa49eb74baf9bfd9",
+      "name": "barbecue sauce",
+      "price": 200
+     },
+     {
+      "id": "119b3379fa9fae848e7d1688",
+      "name": "Sriracha sauce ",
+      "price": 200
+     },
+     {
+      "id": "9637f4004fa63c6b79506beb",
+      "name": "Sweet chili sauce",
+      "price": 200
+     },
+     {
+      "id": "d1466ad3e8a191caf8a155ce",
+      "name": "Garlic sauce",
+      "price": 200
+     }
+    ]
+   },
+   {
+    "id": "6bc37c7350e07259a78da25e",
+    "name": "Sauce on the side",
+    "type": "multi_choice",
+    "default_value": "a657c8e3ae9415053f69e12d",
+    "values": [
+     {
+      "id": "a657c8e3ae9415053f69e12d",
+      "name": "Grinding on the side",
+      "price": 0
+     },
+     {
+      "id": "d5c4a7371dab54aade295854",
+      "name": "Amaba aside",
+      "price": 0
+     }
+    ]
+   }
+  ]
+ }
+}

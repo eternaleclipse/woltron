@@ -1,0 +1,1495 @@
+{
+ "captured_at": "2026-10-02T21:59:09.783Z",
+ "location": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "static": {
+  "venue": {
+   "id": "670ce672c2a0ca72720cd841",
+   "slug": "koko-neko",
+   "name": "Koko Neko",
+   "description": "The Ramen in Florentin",
+   "image_url": "https://imageproxy.wolt.com/assets/6773e64aa6a85f526b4748ba",
+   "image_blurhash": "j5HFlZJljdcyPJMQTHlWTLcy;ZXJ",
+   "brand_logo_image_url": "https://imageproxy.wolt.com/assets/6947b5c988a4d8a18717d729",
+   "address": "פלורנטין 5, תל אביב",
+   "rating": {
+    "rating": 4,
+    "score": "9.2",
+    "score_raw": 9.2,
+    "volume": 500
+   },
+   "share_url": "https://wolt.com/he/isr/tel-aviv/restaurant/koko-neko",
+   "currency": "ILS",
+   "country": "ISR",
+   "delivery_methods": [
+    "takeaway",
+    "homedelivery"
+   ],
+   "timezone": "Asia/Jerusalem",
+   "product_line": "restaurant",
+   "delivery_base_price": 1000,
+   "service_fee_estimate": {
+    "min": 100,
+    "max": 590,
+    "percentage": 5
+   },
+   "zero_distance_fees": {
+    "delivery_price": 1200
+   },
+   "opening_times_schedule": [
+    {
+     "day": "Monday",
+     "formatted_times": "11:30–23:30"
+    },
+    {
+     "day": "Tuesday",
+     "formatted_times": "11:30–23:30"
+    },
+    {
+     "day": "Wednesday",
+     "formatted_times": "11:30–23:30"
+    },
+    {
+     "day": "Thursday",
+     "formatted_times": "11:30–23:30"
+    },
+    {
+     "day": "Friday",
+     "formatted_times": "12:00–23:30"
+    },
+    {
+     "day": "Saturday",
+     "formatted_times": "12:00–23:30"
+    },
+    {
+     "day": "Sunday",
+     "formatted_times": "Closed"
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "670ce672c2a0ca72720cd841",
+   "location": {
+    "bbox": null,
+    "type": "Point",
+    "coordinates": [
+     34.767565,
+     32.056249
+    ]
+   },
+   "price_range": 2,
+   "food_tags": [
+    "asian",
+    "ramen",
+    "japanese"
+   ],
+   "short_description": "The Ramen in Florentin"
+  },
+  "order_minimum": 5000
+ },
+ "dynamic": {
+  "venue": {
+   "id": "670ce672c2a0ca72720cd841",
+   "online": true,
+   "open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:09.655931+03:00",
+    "previous_open": "2026-10-02T12:00:00+03:00",
+    "next_open": "2026-10-03T12:00:00+03:00",
+    "next_close": "2026-10-03T23:30:00+03:00",
+    "next_close_time_localized": "23:30"
+   },
+   "delivery_open_status": {
+    "value": "Open",
+    "style": {
+     "type": "OPEN"
+    },
+    "is_open": true,
+    "now": "2026-10-03T00:59:09.655931+03:00",
+    "previous_open": "2026-10-02T12:00:00+03:00",
+    "next_open": "2026-10-03T12:00:00+03:00",
+    "next_close": "2026-10-03T23:30:00+03:00",
+    "next_close_time_localized": "23:30"
+   },
+   "delivery_configs": [
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "homedelivery",
+     "schedule": "standard",
+     "estimate": {
+      "label": "55-65 min",
+      "min": 55,
+      "mean": 60,
+      "max": 65
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    },
+    {
+     "label": "Standard",
+     "description": null,
+     "tag": null,
+     "method": "takeaway",
+     "schedule": "standard",
+     "estimate": {
+      "label": "10-30 min",
+      "min": 10,
+      "mean": 20,
+      "max": 30
+     },
+     "price": null,
+     "tso_schedule": null,
+     "info_banner": null,
+     "info_modal_body": null
+    }
+   ]
+  },
+  "venue_raw": {
+   "id": "670ce672c2a0ca72720cd841",
+   "alive": true,
+   "preestimate_total": {
+    "min": 55,
+    "max": 65,
+    "mean": 60
+   },
+   "discounts": [
+    {
+     "id": "venue_campaign:6a7c2457b94bcc6db711da4c",
+     "effects": {
+      "basket_discount": null,
+      "delivery_discount": {
+       "amount": 0,
+       "fraction": 1,
+       "min_amount": null,
+       "max_amount": null
+      },
+      "free_items": null,
+      "item_discount": null
+     },
+     "conditions": {
+      "basket_contains": [],
+      "preorder": null,
+      "delivery_methods": null,
+      "min_distance": null,
+      "max_distance": null,
+      "weekly_time_restrictions": null,
+      "delivery_area": null,
+      "has_wolt_plus": null,
+      "payment_method": null,
+      "group_order_eligibility": null
+     },
+     "optional": false,
+     "tap_to_apply": false,
+     "description": {
+      "title": "₪0 delivery fee"
+     }
+    }
+   ],
+   "delivery_specs": {
+    "delivery_enabled": true,
+    "original_delivery_price": 1800,
+    "order_minimum_no_surcharge": 5000,
+    "delivery_pricing": {
+     "base_price": 1000,
+     "price_ranges": [
+      {
+       "min": 0,
+       "max": 5000,
+       "a": 5100,
+       "b": -1,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 5000,
+       "max": 6000,
+       "a": 100,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 6000,
+       "max": 11800,
+       "a": 0,
+       "b": 0.05,
+       "flag": null,
+       "custom_distance_ranges": null
+      },
+      {
+       "min": 11800,
+       "max": 0,
+       "a": 590,
+       "b": 0,
+       "flag": null,
+       "custom_distance_ranges": null
+      }
+     ]
+    }
+   }
+  },
+  "order_minimum": 5000
+ },
+ "assortment": {
+  "assortment_id": "6760325a274b76d73c7078b9",
+  "loading_strategy": "full",
+  "primary_language": "he",
+  "selected_language": "en",
+  "categories": [
+   {
+    "id": "75b906af223cdcb952ea4588",
+    "name": "Ramen",
+    "description": "מגיע עם כף, צ׳ופסטיקס צ׳ילי וג׳ינג׳ר \n",
+    "slug": "ramen-1",
+    "item_ids": [
+     "5b13613c51840f56cfbff1b9",
+     "d7e63a918a56edf3a4f753d9",
+     "47505c6b60bf95a36af37558",
+     "0455e80f11dfdb5acd0afc7d"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "6583768609dfb9b0238d8293",
+    "name": "Gyozos",
+    "slug": "gyozos-2",
+    "item_ids": [
+     "595da6e1a48cf7710bf84a9a",
+     "8e7524952ce621dd2f852bd6",
+     "c878148bc1c80bac9db3c8dc",
+     "609dec0583dd3fe8f775d436"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "de380080e21bed2e1d26a54f",
+    "name": "Cold dishes and salads",
+    "slug": "cold-dishes-and-salads-3",
+    "item_ids": [
+     "b79ebe298edbc2767d6963e7",
+     "3a101bba5f305507088e3a46",
+     "72a76abe393a43248542eb36"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "48a1f79672565a65bceefe02",
+    "name": "Pancakes",
+    "slug": "pancakes-4",
+    "item_ids": [
+     "f704eea0006c63c5e70dfe61",
+     "fea5e6620cbd50ca5cdd1ec6",
+     "e5d4dce519460d234fc840ce",
+     "c5aee51ac609b0f46c732759"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "fc33f97de2f68bed263d881f",
+    "name": "Mochi",
+    "slug": "mochi-5",
+    "item_ids": [
+     "f468bab9214772567a22e2dc",
+     "4857594ba445d7abeaede4fe"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "8a525ef42c1dbd9f2e098c58",
+    "name": "Additional surprises and innovations",
+    "slug": "additional-surprises-and-innovations-6",
+    "item_ids": [
+     "0010195e055251bdd851aa58",
+     "e928c5f12be16e947e29a252",
+     "331e22d123b537a8d4ba5480",
+     "d27340ca694809d019071697",
+     "301b407ddb5e2f0ca293e38c",
+     "b51102d940585a500e305b8d",
+     "b75b2215d88418ffd5a8d419"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "643eafa63095f44b15c1ba64",
+    "name": "Merchandise",
+    "slug": "merchandise-7",
+    "item_ids": [
+     "dded4490b98a3e8d5320870f",
+     "d8e967c8476c1b6974457001",
+     "d46ca5ef169075cc8ad0bef9"
+    ],
+    "subcategories": []
+   },
+   {
+    "id": "a855d238705545247b3084b5",
+    "name": "soft drink",
+    "slug": "soft-drink-8",
+    "item_ids": [
+     "de6e5900b20686ff169e24ec",
+     "e2042b740692054e59c77161",
+     "0d9d8c55f0c37ed79c45c130",
+     "6e1fc845b0e998977bf5cf76"
+    ],
+    "subcategories": []
+   }
+  ],
+  "items": [
+   {
+    "id": "0010195e055251bdd851aa58",
+    "name": "Chicken bone broth | 200 ml",
+    "description": "",
+    "price": 2800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68c913fc7c0016f395977039",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b14441d084d252b50a0768e4e127abd1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0455e80f11dfdb5acd0afc7d",
+    "name": "Sapporo Miso Ramen",
+    "description": "Miso-based vegetarian stock with tofu, corn, sprouts, egg, shimigi mushrooms, green onions and butter.",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/69f1dcc8fe9dd4335f74c446",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "dbd329fe8705a2ba3b463148",
+      "option_id": "c4e62ede9d255b9fe0e1cd23",
+      "name": "Would you like butter?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "4390d44a439a359c1dc86a7e",
+      "option_id": "79390aa44f209221e0696741",
+      "name": "Protein selection",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "5b4377c72a7249c54c684db2",
+      "option_id": "22adbc953ef396fb48013dc3",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "3b99b81f7d5ccd7965f5286a",
+      "option_id": "b6ffcb038baa899a90ad89fd",
+      "name": "Extras for ramen",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 5
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "e3b34975219ca9e9122a4326",
+      "option_id": "f5c0ef2f4901511ae4944ae5",
+      "name": "What drink would you like?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f845268f796623c79dfdba59a767e784",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "0d9d8c55f0c37ed79c45c130",
+    "name": "Pink Yuzu",
+    "description": "",
+    "price": 1500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68c918dd7c0016f395977c7d",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "95557e1a8ab2c31b0e594af8799d2b6c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "301b407ddb5e2f0ca293e38c",
+    "name": "Chili Tombanjan",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68c9146a3de29bd666c50103",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "f83fbe5ab61a796b3252df0d6bd93dbc",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "331e22d123b537a8d4ba5480",
+    "name": "3-pack | 200 ml bone broth",
+    "description": "",
+    "price": 7900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6943a93fd07ddbce97c72e22",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "240741a8c6406db2ecaa8f4041620e47",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "3a101bba5f305507088e3a46",
+    "name": "Choka salad",
+    "description": "Noodles, daikon, cucumber and roasted sesame seeds",
+    "price": 2600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6773e662d0f4bf3205127a67",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a3dbe54dd1f44f271b501f55d9581947",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "47505c6b60bf95a36af37558",
+    "name": "Gluten-free Tori Paiten Ramen 🌾",
+    "description": "Gluten-free noodles - chicken chashu, bok choy, cabbage, sprouts, egg and seaweed served with fresh crushed ginger and garlic cocotte and homemade fermented chili cocotte tumbanjan",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/69e0bf50488442231bbb6a0e",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "4b32108508e63bf03895c774",
+      "option_id": "068aabc21613c483da6da9e0",
+      "name": "Changes to gluten-free ramen",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 3
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "2f04d884291dc8dcd0638f11",
+      "option_id": "f5c0ef2f4901511ae4944ae5",
+      "name": "What drink would you like?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "a4f4f918693dd4e9b7782f66535889b1",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "4857594ba445d7abeaede4fe",
+    "name": "Mochi box 10 pcs.",
+    "description": "",
+    "price": 11000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68fa1df6f070793ad1fe257d",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "28197fb85f1292178c3f1a44",
+      "option_id": "b87a0e4a66b8c837eeec715b",
+      "name": "Choose Mochi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 10,
+        "max": 10
+       },
+       "max_single_selections": 10,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "66369c7cc800c7c02cc890cf07bc5ae0",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "595da6e1a48cf7710bf84a9a",
+    "name": "Pork Gyoza | 3 pcs.",
+    "description": "With soy sauce and sesame seeds",
+    "price": 3400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68c133ddc199e410be33b982",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "cfbb6a5d40d93eaa2356e7c31ec478ea",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "5b13613c51840f56cfbff1b9",
+    "name": "Shoyu Ramen 🌱",
+    "description": "Vegetarian ramen (you can order vegan without egg), chashu tofu, bamboo shoot, corn, egg, green onion, seaweed and aromatic oil served with fresh crushed ginger and garlic cocotte and homemade fermented chili cocotte tumbanjan",
+    "price": 6800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6773e73038fe440fb19ba4b6",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "25a3059b743a8d24346cdff8",
+      "option_id": "9b3ac7dbd04cbfa52d873dbc",
+      "name": "Possible changes - Show",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "7c149e87693d51f6fd5261e8",
+      "option_id": "b6ffcb038baa899a90ad89fd",
+      "name": "Extras for ramen",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "d66650c596f2b83bf40d95ec",
+      "option_id": "f5c0ef2f4901511ae4944ae5",
+      "name": "What drink would you like?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "db3262512a71743b2968745f0c0546df",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "609dec0583dd3fe8f775d436",
+    "name": "Vegetable Gyoza 🌱 | 3 pcs",
+    "description": "With soy sauce and sesame seeds",
+    "price": 3400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6773e677d0f4bf3205127a69",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "7d6c6d39361483bb9f56e4ed412171a7",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "6e1fc845b0e998977bf5cf76",
+    "name": "Bancha",
+    "description": "Iced tea infusion with yuzu and peach",
+    "price": 1500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/69bd35b55839bdefeb8ee947",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "d47f16e1a7205a3f205cf3e9285baec6",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "72a76abe393a43248542eb36",
+    "name": "Soba salad",
+    "description": "Chashu tofu, broccoli, sprouts, green beans, cucumbers, cilantro, walnuts and edamame",
+    "price": 6900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6773e67ed0f4bf3205127a6a",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "d4d5f1f20f86d5a58b251f82",
+      "option_id": "73024e7f81eae68bd95d1957",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "01181056176f44b82b3aab73",
+      "option_id": "f5c0ef2f4901511ae4944ae5",
+      "name": "What drink would you like?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "71dcb48e638f4c35ada868a299168858",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "8e7524952ce621dd2f852bd6",
+    "name": "Beef Gyoza | 3 pcs.",
+    "description": "Japanese curry sauce on the side",
+    "price": 3600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/684fe50fdbd9c0cb4a5b6daa",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4844577d19b153691050618e5c8f49fe",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b51102d940585a500e305b8d",
+    "name": "Ginger with fresh garlic",
+    "description": "",
+    "price": 400,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68c9145b3de29bd666c50100",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "77c4e965c8b25830984b32e725ce69cb",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b75b2215d88418ffd5a8d419",
+    "name": "Extra egg",
+    "description": "",
+    "price": 700,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3616e0959678f84ae424f480b92642e5",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "b79ebe298edbc2767d6963e7",
+    "name": "Pickled shiitake mushrooms",
+    "description": "Pickled shiitake mushrooms",
+    "price": 1800,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6773e65dd0f4bf3205127a66",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "e651f423e98359d20452e204e957346d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c5aee51ac609b0f46c732759",
+    "name": "Milk chocolate crumble pancakes with cookies and peanuts",
+    "description": "",
+    "price": 5600,
+    "images": [],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "b85ca3a0dc894d903c526b0f0a013b92",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "c878148bc1c80bac9db3c8dc",
+    "name": "Chicken Gyoza | 3 pcs.",
+    "description": "With soy sauce and sesame seeds",
+    "price": 3500,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6773e675d0f4bf3205127a68",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "71c04e5e462c7faa0af599c43b76eb97",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d27340ca694809d019071697",
+    "name": "3-pack | 200 ml spicy chicken bone broth",
+    "description": "",
+    "price": 8900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6943a982d07ddbce97c72e28",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "3ed3fc39c6fd8c38dd0ae9b4d1919395",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d46ca5ef169075cc8ad0bef9",
+    "name": "Pack of 2 pairs of reusable chopsticks",
+    "description": "",
+    "price": 2600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6926ee16bdb7711ba3d35d88",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "983824e9d859bed73f4ec35b25d7f067",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d7e63a918a56edf3a4f753d9",
+    "name": "Tori Payton Ramen",
+    "description": "Chicken chashu, bok choy, cabbage, sprouts, egg and seaweed served with fresh crushed ginger and garlic cocotte and homemade fermented chili cocotte tumbanjan",
+    "price": 7200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6773e73638fe440fb19ba4b7",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "a688a69ce4c1af9c1565462e",
+      "option_id": "22adbc953ef396fb48013dc3",
+      "name": "Possible changes",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "263510edef29b41cbb0979bf",
+      "option_id": "b6ffcb038baa899a90ad89fd",
+      "name": "Extras for ramen",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 0,
+        "max": 2
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     },
+     {
+      "id": "ea19b09104a63c2f9da75641",
+      "option_id": "f5c0ef2f4901511ae4944ae5",
+      "name": "What drink would you like?",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 1,
+        "max": 1
+       },
+       "max_single_selections": 1,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [
+     {
+      "id": "popular",
+      "label": "Popular"
+     }
+    ],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "8d5516b9f2ae62121ec8b38cbdc13133",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "d8e967c8476c1b6974457001",
+    "name": "Branded porcelain ramen bowl",
+    "description": "",
+    "price": 5900,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/6909d81eff98801ac6a4a05a",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "75524deb7de97574e68cc348adbe834e",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "dded4490b98a3e8d5320870f",
+    "name": "A pair of reusable soup spoons",
+    "description": "",
+    "price": 2200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68fa39049d11305f233d0f4f",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "740d04b295da6bdc1e969edd797a485f",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "de6e5900b20686ff169e24ec",
+    "name": "Mineral water springs",
+    "description": "0.5",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/691c3c3e765a8ef53e40d35c",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "56b4d4556e1d0058a457f9fbe9b22210",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e2042b740692054e59c77161",
+    "name": "soda",
+    "description": "",
+    "price": 1200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68176b6ca4611b98fa0410ed",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "05b2e34614ed01a8b1ab2ace937f492d",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e5d4dce519460d234fc840ce",
+    "name": "White chocolate and matcha pancakes",
+    "description": "White chocolate and matcha, whipped cream and dried raspberries",
+    "price": 5600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/69a00b1fdb1a4f1910c315e3",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "35fb5c2ce55a883bf6939046f53658dd",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "e928c5f12be16e947e29a252",
+    "name": "Seasoned chicken bone broth | 200 ml",
+    "description": "",
+    "price": 3200,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68c9140c3de29bd666c500ea",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "74d79c8aec3fae989122f27aa96848ac",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "f468bab9214772567a22e2dc",
+    "name": "Mochi box 5 pcs.",
+    "description": "",
+    "price": 6000,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/68fb976cca898685544cb5a5",
+      "blurhash": null
+     }
+    ],
+    "options": [
+     {
+      "id": "32d0d7d2d3501f8ddc0257e3",
+      "option_id": "b87a0e4a66b8c837eeec715b",
+      "name": "Choose Mochi",
+      "prerequisite_values": [],
+      "multi_choice_config": {
+       "total_range": {
+        "min": 5,
+        "max": 5
+       },
+       "max_single_selections": 5,
+       "free_selections": 0
+      }
+     }
+    ],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "93b1158f649bf4ae9d617f5e0ff750be",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "f704eea0006c63c5e70dfe61",
+    "name": "Banana caramel pancakes",
+    "description": "Caramel bananas, whipped cream and pecans",
+    "price": 5600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/69a00b1bdb1a4f1910c315e2",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "4eacedad004baa64d416598ed415e48c",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   },
+   {
+    "id": "fea5e6620cbd50ca5cdd1ec6",
+    "name": "פנקייק אוסקה ואמרנה",
+    "description": "קרם אוסקה דובדבני אמרנה ופיסטוק",
+    "price": 5600,
+    "images": [
+     {
+      "url": "https://imageproxy.wolt.com/assets/69a00b61b163fea0d378cb89",
+      "blurhash": null
+     }
+    ],
+    "options": [],
+    "dietary_preferences": [],
+    "disabled_info": null,
+    "tags": [],
+    "alcohol_permille": 0,
+    "restrictions": [],
+    "checksum": "631c6559721d93ff8d902c85029f4629",
+    "vat_category_code": "ISR-1",
+    "vat_percentage": 18,
+    "is_wolt_plus_only": false
+   }
+  ],
+  "options": [
+   {
+    "id": "068aabc21613c483da6da9e0",
+    "name": "Changes to gluten-free ramen",
+    "type": "multi_choice",
+    "default_value": "ab8627fbad9857d40c46b787",
+    "values": [
+     {
+      "id": "ab8627fbad9857d40c46b787",
+      "name": "Without egg",
+      "price": 0
+     },
+     {
+      "id": "005683d40844cac72cddff3e",
+      "name": "Egg on the side",
+      "price": 0
+     },
+     {
+      "id": "22ff877cea0f0dfd5a655896",
+      "name": "No sprouts",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "22adbc953ef396fb48013dc3",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "05bd528d2f626299786e10e6",
+    "values": [
+     {
+      "id": "05bd528d2f626299786e10e6",
+      "name": "No sprouts",
+      "price": 0
+     },
+     {
+      "id": "8e0a4619359a75cb28386981",
+      "name": "Without egg",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "73024e7f81eae68bd95d1957",
+    "name": "Possible changes",
+    "type": "multi_choice",
+    "default_value": "999c465bdd858a7bd22730c3",
+    "values": [
+     {
+      "id": "999c465bdd858a7bd22730c3",
+      "name": "No walnuts",
+      "price": 0
+     },
+     {
+      "id": "a17999db4d647b233700e928",
+      "name": "Without coriander",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "79390aa44f209221e0696741",
+    "name": "Protein selection",
+    "type": "choice",
+    "default_value": "703c53181a46fd294b5b857c",
+    "values": [
+     {
+      "id": "703c53181a46fd294b5b857c",
+      "name": "Tofu",
+      "price": 0
+     },
+     {
+      "id": "f58a3e220f99578ea85a1841",
+      "name": "chicken",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "9b3ac7dbd04cbfa52d873dbc",
+    "name": "Possible changes - Show",
+    "type": "multi_choice",
+    "default_value": "a3293a77afb60a149099ef3c",
+    "values": [
+     {
+      "id": "a3293a77afb60a149099ef3c",
+      "name": "Without bamboo whip",
+      "price": 0
+     },
+     {
+      "id": "f17f8fcdba46bcaccc13bcc7",
+      "name": "Without egg",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "b6ffcb038baa899a90ad89fd",
+    "name": "Extras for ramen",
+    "type": "multi_choice",
+    "default_value": "6d9d0b50ca002e0034eaed3d",
+    "values": [
+     {
+      "id": "6d9d0b50ca002e0034eaed3d",
+      "name": "Extra egg",
+      "price": 700
+     },
+     {
+      "id": "f3a40a1b689ac5f57aa16096",
+      "name": "Roasted pumpkin side dish",
+      "price": 1200
+     },
+     {
+      "id": "064950e7a5496d0ec43fb65f",
+      "name": "Extra noodles",
+      "price": 1200
+     },
+     {
+      "id": "61d6ea20bc82eb1fab5584eb",
+      "name": "Chicken Chashu side dish",
+      "price": 1500
+     }
+    ]
+   },
+   {
+    "id": "b87a0e4a66b8c837eeec715b",
+    "name": "Choose Mochi",
+    "type": "multi_choice",
+    "default_value": "b9f43023d71a334cab064b6a",
+    "values": [
+     {
+      "id": "b9f43023d71a334cab064b6a",
+      "name": "Mango mochi",
+      "price": 0
+     },
+     {
+      "id": "ff71732f11775910b61b920f",
+      "name": "Strawberry mochi",
+      "price": 0
+     },
+     {
+      "id": "7bced64d59d65390ee3b5056",
+      "name": "Vanilla mochi",
+      "price": 0
+     },
+     {
+      "id": "be24f9d022e840d25d64a31f",
+      "name": "Pistachio mochi",
+      "price": 0
+     },
+     {
+      "id": "f1b0f60ae663d2f7f41d121c",
+      "name": "Hazelnut mochi",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "c4e62ede9d255b9fe0e1cd23",
+    "name": "Would you like butter?",
+    "type": "choice",
+    "default_value": "11314c6fa8c71edc1b2dde63",
+    "values": [
+     {
+      "id": "11314c6fa8c71edc1b2dde63",
+      "name": "butter",
+      "price": 0
+     },
+     {
+      "id": "ec1d842331f907ce3557071a",
+      "name": "Without butter",
+      "price": 0
+     }
+    ]
+   },
+   {
+    "id": "f5c0ef2f4901511ae4944ae5",
+    "name": "What drink would you like?",
+    "type": "multi_choice",
+    "default_value": "2c2aaeed433f5775fb46fc56",
+    "values": [
+     {
+      "id": "f591746de934aa0b509e6b68",
+      "name": "Minerals",
+      "price": 1000
+     },
+     {
+      "id": "13a8bcc7945ec42f632ef5ac",
+      "name": "Peach Bancha Iced Tea",
+      "price": 1000
+     },
+     {
+      "id": "864707c7276ee141d17fead7",
+      "name": "soda",
+      "price": 1000
+     },
+     {
+      "id": "2c2aaeed433f5775fb46fc56",
+      "name": "No need, thanks",
+      "price": 0
+     }
+    ]
+   }
+  ]
+ }
+}

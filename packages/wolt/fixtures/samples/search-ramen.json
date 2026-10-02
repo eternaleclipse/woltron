@@ -1,0 +1,1554 @@
+{
+ "venues": {
+  "city": "tel-aviv",
+  "sections": [
+   {
+    "name": "venues",
+    "items": [
+     {
+      "filtering": {
+       "filters": []
+      },
+      "image": {
+       "blurhash": "j4Op5S00;;RamBX;X:4z;sXtWYhl",
+       "url": "https://imageproxy.wolt.com/assets/699ae683172015cdb069fc64"
+      },
+      "link": {
+       "target": "https://wolt.com/en/isr/tel-aviv/restaurant/mententen",
+       "target_sort": "delivers-to",
+       "target_title": "",
+       "title": "",
+       "type": "url"
+      },
+      "sorting": {
+       "sortables": []
+      },
+      "telemetry_object_id": "",
+      "telemetry_venue_badges": [],
+      "template": "venue",
+      "title": "Mententen",
+      "track_id": "venue-mententen",
+      "venue": {
+       "address": "נחלת בנימין 57",
+       "badges": [],
+       "badges_v2": [],
+       "categories": [],
+       "city": "",
+       "country": "ISR",
+       "currency": "ILS",
+       "delivers": true,
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price_highlight": true,
+       "delivery_price_int": 0,
+       "delivery_within_time_range": false,
+       "estimate": 45,
+       "estimate_box": {
+        "subtitle": "min",
+        "template": "estimate",
+        "title": "40-50"
+       },
+       "estimate_range": "40-50",
+       "favourite": false,
+       "franchise": "",
+       "icon": "bike",
+       "id": "5ea560e240310c80dd5302cc",
+       "location": [
+        34.77142391,
+        32.06410381
+       ],
+       "name": "Mententen",
+       "online": true,
+       "price_range": 3,
+       "product_line": "restaurant",
+       "promotions": [
+        {
+         "campaign_id": "6a7c75d0039b63201717cf95",
+         "icon": "coupon-fill",
+         "is_offer_stackable": false,
+         "text": "2x20 ₪",
+         "variant": "discount"
+        }
+       ],
+       "promotions_for_telemetry": [
+        {
+         "campaign_id": "6a7c2457b94bcc6db711da4c",
+         "icon": "coupon-fill",
+         "is_offer_stackable": true,
+         "text": "0 ₪ delivery fee",
+         "variant": "discount"
+        }
+       ],
+       "rating": {
+        "rating": 3,
+        "score": 8.4,
+        "volume": 0
+       },
+       "short_description": "Japanese Izakaya & Ramen Bar",
+       "short_description_v2": {
+        "lang": "en",
+        "value": "Japanese Izakaya & Ramen Bar"
+       },
+       "show_best_of_wolt": false,
+       "show_wolt_plus": false,
+       "show_zero_markup": false,
+       "slug": "mententen",
+       "tags": [
+        "soup",
+        "sushi",
+        "asian"
+       ],
+       "venue_preview_items": []
+      }
+     },
+     {
+      "filtering": {
+       "filters": []
+      },
+      "image": {
+       "blurhash": "j3KFC8XuHK;rbtTscyKKciwO54h5",
+       "url": "https://imageproxy.wolt.com/assets/67332fb518f45c3236a65da0"
+      },
+      "link": {
+       "target": "https://wolt.com/en/isr/tel-aviv/restaurant/yokozuna",
+       "target_sort": "delivers-to",
+       "target_title": "",
+       "title": "",
+       "type": "url"
+      },
+      "sorting": {
+       "sortables": []
+      },
+      "telemetry_object_id": "",
+      "telemetry_venue_badges": [],
+      "template": "venue",
+      "title": "Yokozuna - Shuk Hapishpeshim",
+      "track_id": "venue-yokozuna",
+      "venue": {
+       "address": "עולי ציון 22",
+       "badges": [],
+       "badges_v2": [],
+       "categories": [],
+       "city": "",
+       "country": "ISR",
+       "currency": "ILS",
+       "delivers": true,
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price_highlight": true,
+       "delivery_price_int": 0,
+       "delivery_within_time_range": false,
+       "estimate": 55,
+       "estimate_box": {
+        "subtitle": "min",
+        "template": "estimate",
+        "title": "50-60"
+       },
+       "estimate_range": "50-60",
+       "favourite": false,
+       "franchise": "",
+       "icon": "bike",
+       "id": "5caf320f61ee1d000dfe6d9b",
+       "location": [
+        34.7573787,
+        32.05233863
+       ],
+       "name": "Yokozuna - Shuk Hapishpeshim",
+       "online": true,
+       "price_range": 1,
+       "product_line": "restaurant",
+       "promotions": [
+        {
+         "campaign_id": "6a7c2457b94bcc6db711da4c",
+         "icon": "coupon-fill",
+         "is_offer_stackable": true,
+         "text": "0 ₪ delivery fee",
+         "variant": "discount"
+        }
+       ],
+       "promotions_for_telemetry": [
+        {
+         "campaign_id": "6a7c75d0039b63201717cf95",
+         "icon": "coupon-fill",
+         "is_offer_stackable": false,
+         "text": "2x20 ₪",
+         "variant": "discount"
+        }
+       ],
+       "rating": {
+        "rating": 3,
+        "score": 7.8,
+        "volume": 0
+       },
+       "short_description": "Asian Food in Jaffa's Flea- Market",
+       "short_description_v2": {
+        "lang": "en",
+        "value": "Asian Food in Jaffa's Flea- Market"
+       },
+       "show_best_of_wolt": false,
+       "show_wolt_plus": false,
+       "show_zero_markup": false,
+       "slug": "yokozuna",
+       "tags": [
+        "japanese",
+        "noodles",
+        "ramen"
+       ],
+       "venue_preview_items": []
+      }
+     },
+     {
+      "filtering": {
+       "filters": []
+      },
+      "image": {
+       "blurhash": "j2;fPYH6;;IYrdqpJkKmX;Fr8yr5",
+       "url": "https://imageproxy.wolt.com/assets/67c9739f5eb90561a4deae43"
+      },
+      "link": {
+       "target": "https://wolt.com/en/isr/tel-aviv/venue/kiosk-kundel",
+       "target_sort": "delivers-to",
+       "target_title": "",
+       "title": "",
+       "type": "url"
+      },
+      "sorting": {
+       "sortables": []
+      },
+      "telemetry_object_id": "",
+      "telemetry_venue_badges": [],
+      "template": "venue",
+      "title": "Kiosk Kundel",
+      "track_id": "venue-kiosk-kundel",
+      "venue": {
+       "address": "המלך ג'ורג' 46 תל אביב -יפו",
+       "badges": [],
+       "badges_v2": [],
+       "categories": [],
+       "city": "",
+       "country": "ISR",
+       "currency": "ILS",
+       "delivers": true,
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price_highlight": true,
+       "delivery_price_int": 0,
+       "delivery_within_time_range": false,
+       "estimate": 15,
+       "estimate_box": {
+        "subtitle": "min",
+        "template": "estimate",
+        "title": "10-20"
+       },
+       "estimate_range": "10-20",
+       "favourite": false,
+       "franchise": "",
+       "icon": "bike",
+       "id": "667953e62a7a0e1bf5bec53c",
+       "location": [
+        34.7752639,
+        32.0735072
+       ],
+       "name": "Kiosk Kundel",
+       "online": true,
+       "price_range": 2,
+       "product_line": "general_merchandise",
+       "promotions": [
+        {
+         "campaign_id": "6a7c75d0039b63201717cf95",
+         "icon": "coupon-fill",
+         "is_offer_stackable": false,
+         "text": "2x20 ₪",
+         "variant": "discount"
+        }
+       ],
+       "promotions_for_telemetry": [
+        {
+         "campaign_id": "6a8c02b543f14aa71aeed3be",
+         "icon": "coupon-fill",
+         "is_offer_stackable": false,
+         "text": "₪15 Off over ₪149",
+         "variant": "discount"
+        },
+        {
+         "campaign_id": "6a7c2457b94bcc6db711da4c",
+         "icon": "coupon-fill",
+         "is_offer_stackable": true,
+         "text": "0 ₪ delivery fee",
+         "variant": "discount"
+        },
+        {
+         "campaign_id": "6a8c01971a222b7d4c6bbcad",
+         "icon": "coupon-fill",
+         "is_offer_stackable": false,
+         "text": "₪0 Delivery fee over ₪129",
+         "variant": "discount"
+        }
+       ],
+       "rating": {
+        "rating": 3,
+        "score": 9,
+        "volume": 0
+       },
+       "short_description": "Tobacco, cigarettes, vape, sweets and smoking products",
+       "short_description_v2": {
+        "lang": "en",
+        "value": "Tobacco, cigarettes, vape, sweets and smoking products"
+       },
+       "show_best_of_wolt": false,
+       "show_wolt_plus": false,
+       "show_zero_markup": false,
+       "slug": "kiosk-kundel",
+       "tags": [
+        "groceries",
+        "grocery"
+       ],
+       "venue_preview_items": []
+      }
+     },
+     {
+      "filtering": {
+       "filters": []
+      },
+      "image": {
+       "blurhash": "j3MH2q80;tb40rX:4QS:4000cIFO",
+       "url": "https://imageproxy.wolt.com/assets/6807d40df0a751602f142794"
+      },
+      "link": {
+       "target": "https://wolt.com/en/isr/tel-aviv/venue/gingiz",
+       "target_sort": "delivers-to",
+       "target_title": "",
+       "title": "",
+       "type": "url"
+      },
+      "sorting": {
+       "sortables": []
+      },
+      "telemetry_object_id": "",
+      "telemetry_venue_badges": [],
+      "template": "venue",
+      "title": "Gingiz | Carlebach",
+      "track_id": "venue-gingiz",
+      "venue": {
+       "address": "קרליבך 14 תל אביב",
+       "badges": [],
+       "badges_v2": [],
+       "categories": [],
+       "city": "",
+       "country": "ISR",
+       "currency": "ILS",
+       "delivers": true,
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price_highlight": true,
+       "delivery_price_int": 0,
+       "delivery_within_time_range": false,
+       "estimate": 25,
+       "estimate_box": {
+        "subtitle": "min",
+        "template": "estimate",
+        "title": "20-30"
+       },
+       "estimate_range": "20-30",
+       "favourite": false,
+       "franchise": "",
+       "icon": "bike",
+       "id": "679f6f8aefac5e3f364a0f88",
+       "location": [
+        34.782848,
+        32.070102
+       ],
+       "name": "Gingiz | Carlebach",
+       "online": true,
+       "price_range": 2,
+       "product_line": "grocery",
+       "promotions": [
+        {
+         "campaign_id": "6a7c75d0039b63201717cf95",
+         "icon": "coupon-fill",
+         "is_offer_stackable": false,
+         "text": "2x20 ₪",
+         "variant": "discount"
+        }
+       ],
+       "promotions_for_telemetry": [
+        {
+         "campaign_id": "6a7c2457b94bcc6db711da4c",
+         "icon": "coupon-fill",
+         "is_offer_stackable": true,
+         "text": "0 ₪ delivery fee",
+         "variant": "discount"
+        }
+       ],
+       "rating": {
+        "rating": 3,
+        "score": 8.8,
+        "volume": 0
+       },
+       "short_description": "Supermarket",
+       "short_description_v2": {
+        "lang": "en",
+        "value": "Supermarket"
+       },
+       "show_best_of_wolt": false,
+       "show_wolt_plus": false,
+       "show_zero_markup": false,
+       "slug": "gingiz",
+       "tags": [
+        "fruit",
+        "groceries",
+        "grocery"
+       ],
+       "venue_preview_items": []
+      }
+     },
+     {
+      "filtering": {
+       "filters": []
+      },
+      "image": {
+       "blurhash": "j4GE12;:04d58yVBiZTs0tdk;zd4",
+       "url": "https://imageproxy.wolt.com/assets/6a0d8b4190937b9675cad981"
+      },
+      "link": {
+       "target": "https://wolt.com/en/isr/tel-aviv/venue/alma-market-dizengoff",
+       "target_sort": "delivers-to",
+       "target_title": "",
+       "title": "",
+       "type": "url"
+      },
+      "sorting": {
+       "sortables": []
+      },
+      "telemetry_object_id": "",
+      "telemetry_venue_badges": [],
+      "template": "venue",
+      "title": "Alma Market | Dizengoff",
+      "track_id": "venue-alma-market-dizengoff",
+      "venue": {
+       "address": "Dizengoff Street 191, תל אביב-יפו",
+       "badges": [],
+       "badges_v2": [],
+       "categories": [],
+       "city": "",
+       "country": "ISR",
+       "currency": "ILS",
+       "delivers": true,
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price_highlight": true,
+       "delivery_price_int": 0,
+       "delivery_within_time_range": false,
+       "estimate": 20,
+       "estimate_box": {
+        "subtitle": "min",
+        "template": "estimate",
+        "title": "15-25"
+       },
+       "estimate_range": "15-25",
+       "favourite": false,
+       "franchise": "",
+       "icon": "bike",
+       "id": "69fc3e7cc66aa5ec5fb2864d",
+       "location": [
+        34.7747152,
+        32.086556
+       ],
+       "name": "Alma Market | Dizengoff",
+       "online": true,
+       "price_range": 2,
+       "product_line": "grocery",
+       "promotions": [
+        {
+         "campaign_id": "6a7c75d0039b63201717cf95",
+         "icon": "coupon-fill",
+         "is_offer_stackable": false,
+         "text": "2x20 ₪",
+         "variant": "discount"
+        }
+       ],
+       "promotions_for_telemetry": [
+        {
+         "campaign_id": "6a7c2457b94bcc6db711da4c",
+         "icon": "coupon-fill",
+         "is_offer_stackable": true,
+         "text": "0 ₪ delivery fee",
+         "variant": "discount"
+        }
+       ],
+       "rating": {
+        "rating": 3,
+        "score": 8.2,
+        "volume": 0
+       },
+       "short_description": "Supermarket",
+       "short_description_v2": {
+        "lang": "en",
+        "value": "Supermarket"
+       },
+       "show_best_of_wolt": false,
+       "show_wolt_plus": false,
+       "show_zero_markup": false,
+       "slug": "alma-market-dizengoff",
+       "tags": [
+        "grocery",
+        "Supermarket",
+        "groceries"
+       ],
+       "venue_preview_items": []
+      }
+     },
+     {
+      "filtering": {
+       "filters": []
+      },
+      "image": {
+       "blurhash": "j4EaqN;AYMbLne4kWy9dMgczgOcA",
+       "url": "https://imageproxy.wolt.com/assets/67f3e78f7d42b3b1b8579af8"
+      },
+      "link": {
+       "target": "https://wolt.com/en/isr/tel-aviv/venue/super-yuda-ibn-gabirol",
+       "target_sort": "delivers-to",
+       "target_title": "",
+       "title": "",
+       "type": "url"
+      },
+      "sorting": {
+       "sortables": []
+      },
+      "telemetry_object_id": "",
+      "telemetry_venue_badges": [],
+      "template": "venue",
+      "title": "Super Yuda | Ibn Gabirol",
+      "track_id": "venue-super-yuda-ibn-gabirol",
+      "venue": {
+       "address": "אבן גבירול 73 תל אביב",
+       "badges": [
+        {
+         "text": "24/7",
+         "variant": "secondary"
+        }
+       ],
+       "badges_v2": [],
+       "categories": [],
+       "city": "",
+       "country": "ISR",
+       "currency": "ILS",
+       "delivers": true,
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price_highlight": true,
+       "delivery_price_int": 0,
+       "delivery_within_time_range": false,
+       "estimate": 15,
+       "estimate_box": {
+        "subtitle": "min",
+        "template": "estimate",
+        "title": "10-20"
+       },
+       "estimate_range": "10-20",
+       "favourite": false,
+       "franchise": "",
+       "icon": "bike",
+       "id": "60fd8c3e926f37a321d1c6ad",
+       "location": [
+        34.7811405,
+        32.0833944
+       ],
+       "name": "Super Yuda | Ibn Gabirol",
+       "online": true,
+       "price_range": 2,
+       "product_line": "grocery",
+       "promotions": [
+        {
+         "campaign_id": "6a7c75d0039b63201717cf95",
+         "icon": "coupon-fill",
+         "is_offer_stackable": false,
+         "text": "2x20 ₪",
+         "variant": "discount"
+        }
+       ],
+       "promotions_for_telemetry": [
+        {
+         "campaign_id": "6a7c2457b94bcc6db711da4c",
+         "icon": "coupon-fill",
+         "is_offer_stackable": true,
+         "text": "0 ₪ delivery fee",
+         "variant": "discount"
+        }
+       ],
+       "rating": {
+        "rating": 3,
+        "score": 8.6,
+        "volume": 0
+       },
+       "short_description": "The Heart of Tel Aviv",
+       "short_description_v2": {
+        "lang": "en",
+        "value": "The Heart of Tel Aviv"
+       },
+       "show_best_of_wolt": false,
+       "show_wolt_plus": false,
+       "show_zero_markup": false,
+       "slug": "super-yuda-ibn-gabirol",
+       "tags": [
+        "Supermarket",
+        "grocery",
+        "groceries"
+       ],
+       "venue_preview_items": []
+      }
+     },
+     {
+      "filtering": {
+       "filters": []
+      },
+      "image": {
+       "blurhash": "jeREWPcykhPt;;h4QQHcYWVbfcdk",
+       "url": "https://imageproxy.wolt.com/mes-image/f075c9bf-d8ac-4256-9895-46d7db1ef9dd/e7186000-4501-4f83-a509-91051bb984ad"
+      },
+      "link": {
+       "target": "https://wolt.com/en/isr/tel-aviv/venue/am-pm-hakastel",
+       "target_sort": "delivers-to",
+       "target_title": "",
+       "title": "",
+       "type": "url"
+      },
+      "sorting": {
+       "sortables": []
+      },
+      "telemetry_object_id": "",
+      "telemetry_venue_badges": [],
+      "template": "venue",
+      "title": "am:pm | Hakastel Old North",
+      "track_id": "venue-am-pm-hakastel",
+      "venue": {
+       "address": "אבן גבירול 161, ת“א",
+       "badges": [
+        {
+         "text": "24/7",
+         "variant": "secondary"
+        }
+       ],
+       "badges_v2": [],
+       "categories": [],
+       "city": "",
+       "country": "ISR",
+       "currency": "ILS",
+       "delivers": true,
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price_highlight": true,
+       "delivery_price_int": 0,
+       "delivery_within_time_range": false,
+       "estimate": 20,
+       "estimate_box": {
+        "subtitle": "min",
+        "template": "estimate",
+        "title": "15-25"
+       },
+       "estimate_range": "15-25",
+       "favourite": false,
+       "franchise": "",
+       "icon": "bike",
+       "id": "6697ac522438efe6e3ff9818",
+       "location": [
+        34.7828125,
+        32.0919612
+       ],
+       "name": "am:pm | Hakastel Old North",
+       "online": true,
+       "price_range": 2,
+       "product_line": "grocery",
+       "promotions": [
+        {
+         "campaign_id": "6a7c75d0039b63201717cf95",
+         "icon": "coupon-fill",
+         "is_offer_stackable": false,
+         "text": "2x20 ₪",
+         "variant": "discount"
+        }
+       ],
+       "promotions_for_telemetry": [
+        {
+         "campaign_id": "6a7c2457b94bcc6db711da4c",
+         "icon": "coupon-fill",
+         "is_offer_stackable": true,
+         "text": "0 ₪ delivery fee",
+         "variant": "discount"
+        }
+       ],
+       "rating": {
+        "rating": 3,
+        "score": 8.6,
+        "volume": 0
+       },
+       "short_description": "City Market",
+       "short_description_v2": {
+        "lang": "en",
+        "value": "City Market"
+       },
+       "show_best_of_wolt": false,
+       "show_wolt_plus": false,
+       "show_zero_markup": false,
+       "slug": "am-pm-hakastel",
+       "tags": [
+        "groceries",
+        "Supermarket",
+        "grocery"
+       ],
+       "venue_preview_items": []
+      }
+     },
+     {
+      "filtering": {
+       "filters": []
+      },
+      "image": {
+       "blurhash": "j4EaqN;AYMbLne4kWy9dMgczgOcA",
+       "url": "https://imageproxy.wolt.com/assets/67f3e7947d42b3b1b8579afe"
+      },
+      "link": {
+       "target": "https://wolt.com/en/isr/tel-aviv/venue/super-yuda-yehuda-hamacabi",
+       "target_sort": "delivers-to",
+       "target_title": "",
+       "title": "",
+       "type": "url"
+      },
+      "sorting": {
+       "sortables": []
+      },
+      "telemetry_object_id": "",
+      "telemetry_venue_badges": [],
+      "template": "venue",
+      "title": "Super Yuda | Yehuda HaMacabi",
+      "track_id": "venue-super-yuda-yehuda-hamacabi",
+      "venue": {
+       "address": "יהודה מכבי 72",
+       "badges": [],
+       "badges_v2": [],
+       "categories": [],
+       "city": "",
+       "country": "ISR",
+       "currency": "ILS",
+       "delivers": true,
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price_highlight": true,
+       "delivery_price_int": 0,
+       "delivery_within_time_range": false,
+       "estimate": 20,
+       "estimate_box": {
+        "subtitle": "min",
+        "template": "estimate",
+        "title": "15-25"
+       },
+       "estimate_range": "15-25",
+       "favourite": false,
+       "franchise": "",
+       "icon": "bike",
+       "id": "60a12231ef68eb53e1f73b3c",
+       "location": [
+        34.7941808,
+        32.0943112
+       ],
+       "name": "Super Yuda | Yehuda HaMacabi",
+       "online": true,
+       "price_range": 2,
+       "product_line": "grocery",
+       "promotions": [
+        {
+         "campaign_id": "6a7c75d0039b63201717cf95",
+         "icon": "coupon-fill",
+         "is_offer_stackable": false,
+         "text": "2x20 ₪",
+         "variant": "discount"
+        }
+       ],
+       "promotions_for_telemetry": [
+        {
+         "campaign_id": "6a7c2457b94bcc6db711da4c",
+         "icon": "coupon-fill",
+         "is_offer_stackable": true,
+         "text": "0 ₪ delivery fee",
+         "variant": "discount"
+        }
+       ],
+       "rating": {
+        "rating": 3,
+        "score": 8.4,
+        "volume": 0
+       },
+       "short_description": "The Heart of Tel Aviv",
+       "short_description_v2": {
+        "lang": "en",
+        "value": "The Heart of Tel Aviv"
+       },
+       "show_best_of_wolt": false,
+       "show_wolt_plus": false,
+       "show_zero_markup": false,
+       "slug": "super-yuda-yehuda-hamacabi",
+       "tags": [
+        "groceries",
+        "grocery",
+        "milk"
+       ],
+       "venue_preview_items": []
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "items": {
+  "city": "tel-aviv",
+  "sections": [
+   {
+    "name": "items",
+    "items": [
+     {
+      "link": {
+       "menu_item_details": {
+        "action_link": {
+         "target": "",
+         "target_sort": "delivers-to",
+         "target_title": "",
+         "title": "",
+         "type": "menu-item"
+        },
+        "city_slug": "tel-aviv",
+        "country": "ISR",
+        "currency": "ILS",
+        "delivery_highlight": true,
+        "delivery_icon": "bike",
+        "delivery_price": 0,
+        "delivery_price_highlight": true,
+        "delivery_within_time_range": false,
+        "description": "ציר עוף בבישול ארוך, מוגש עם אטריות ראמן, במבו-שוט, צ'אשו עוף, בצל ירוק וחצי ביצה רכה\n🍜\nהמנה נשלחת מפורקת ומצריכה בישול בבית, הוראות נשלחות עם המנה.",
+        "estimate_box": {
+         "subtitle": "min",
+         "template": "estimate",
+         "title": "40-50"
+        },
+        "estimate_range": "40-50",
+        "id": "47ca1f20fc6dd7ff2cbf7775",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699add60172015cdb069fa4a"
+        },
+        "is_sold_by_weight": false,
+        "name": "טורי ראמן עוף",
+        "price": 6800,
+        "price_excludes_deposit": false,
+        "price_type": "simple-price",
+        "product_line": "restaurant",
+        "show_wolt_plus": false,
+        "show_zero_markup": false,
+        "tags": [],
+        "unit_size": 0,
+        "venue_id": "5ea560e240310c80dd5302cc",
+        "venue_image": {
+         "blurhash": "j4Op5S00;;RamBX;X:4z;sXtWYhl",
+         "url": "https://imageproxy.wolt.com/assets/699ae683172015cdb069fc64"
+        },
+        "venue_name": "Mententen",
+        "venue_rating": {
+         "rating": 3,
+         "score": 8.4,
+         "volume": 1107
+        },
+        "venue_slug": "mententen"
+       },
+       "target_sort": "default",
+       "target_title": "",
+       "type": "menu-item-details"
+      },
+      "menu_item": {
+       "country": "ISR",
+       "currency": "ILS",
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price": 0,
+       "delivery_price_highlight": true,
+       "delivery_within_time_range": false,
+       "estimate_range": "40-50",
+       "id": "47ca1f20fc6dd7ff2cbf7775",
+       "image": {
+        "blurhash": "",
+        "url": "https://imageproxy.wolt.com/assets/699add60172015cdb069fa4a"
+       },
+       "is_available": true,
+       "name": "טורי ראמן עוף",
+       "price": 6800,
+       "price_type": "simple-price",
+       "product_hierarchy_level_id": "9f32e7b4-9b01-4208-b277-8aeb378526f7",
+       "show_wolt_plus": false,
+       "tags": [],
+       "venue_id": "5ea560e240310c80dd5302cc",
+       "venue_name": "Mententen",
+       "venue_rating": {
+        "rating": 3,
+        "score": 8.4,
+        "volume": 1107
+       }
+      },
+      "template": "search-menu-item",
+      "title": "טורי ראמן עוף",
+      "track_id": "search_menu_item-47ca1f20fc6dd7ff2cbf7775"
+     },
+     {
+      "link": {
+       "menu_item_details": {
+        "action_link": {
+         "target": "",
+         "target_sort": "delivers-to",
+         "target_title": "",
+         "title": "",
+         "type": "menu-item"
+        },
+        "city_slug": "tel-aviv",
+        "country": "ISR",
+        "currency": "ILS",
+        "delivery_highlight": true,
+        "delivery_icon": "bike",
+        "delivery_price": 0,
+        "delivery_price_highlight": true,
+        "delivery_within_time_range": false,
+        "description": "ציר בשר חזיר בבישול ארוך, מוגש עם אטריות ראמן, במבו-שוט, צ'אשו חזיר, בצל ירוק וחצי ביצה רכה\n🍜\n‫המנה נשלחת מפורקת ומצריכה בישול בבית, הוראות נשלחות עם המנה.",
+        "estimate_box": {
+         "subtitle": "min",
+         "template": "estimate",
+         "title": "40-50"
+        },
+        "estimate_range": "40-50",
+        "id": "b30bd419474a0b771e18457f",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699add45017a1a25739f9e13"
+        },
+        "is_sold_by_weight": false,
+        "name": "טונגרה ראמן חזיר",
+        "price": 6800,
+        "price_excludes_deposit": false,
+        "price_type": "simple-price",
+        "product_line": "restaurant",
+        "show_wolt_plus": false,
+        "show_zero_markup": false,
+        "tags": [],
+        "unit_size": 0,
+        "venue_id": "5ea560e240310c80dd5302cc",
+        "venue_image": {
+         "blurhash": "j4Op5S00;;RamBX;X:4z;sXtWYhl",
+         "url": "https://imageproxy.wolt.com/assets/699ae683172015cdb069fc64"
+        },
+        "venue_name": "Mententen",
+        "venue_rating": {
+         "rating": 3,
+         "score": 8.4,
+         "volume": 1107
+        },
+        "venue_slug": "mententen"
+       },
+       "target_sort": "default",
+       "target_title": "",
+       "type": "menu-item-details"
+      },
+      "menu_item": {
+       "country": "ISR",
+       "currency": "ILS",
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price": 0,
+       "delivery_price_highlight": true,
+       "delivery_within_time_range": false,
+       "estimate_range": "40-50",
+       "id": "b30bd419474a0b771e18457f",
+       "image": {
+        "blurhash": "",
+        "url": "https://imageproxy.wolt.com/assets/699add45017a1a25739f9e13"
+       },
+       "is_available": true,
+       "name": "טונגרה ראמן חזיר",
+       "price": 6800,
+       "price_type": "simple-price",
+       "product_hierarchy_level_id": "e921b9cb-f5da-49ba-a27e-74468edaf170",
+       "show_wolt_plus": false,
+       "tags": [],
+       "venue_id": "5ea560e240310c80dd5302cc",
+       "venue_name": "Mententen",
+       "venue_rating": {
+        "rating": 3,
+        "score": 8.4,
+        "volume": 1107
+       }
+      },
+      "template": "search-menu-item",
+      "title": "טונגרה ראמן חזיר",
+      "track_id": "search_menu_item-b30bd419474a0b771e18457f"
+     },
+     {
+      "link": {
+       "menu_item_details": {
+        "action_link": {
+         "target": "",
+         "target_sort": "delivers-to",
+         "target_title": "",
+         "title": "",
+         "type": "menu-item"
+        },
+        "city_slug": "tel-aviv",
+        "country": "ISR",
+        "currency": "ILS",
+        "delivery_highlight": true,
+        "delivery_icon": "bike",
+        "delivery_price": 0,
+        "delivery_price_highlight": true,
+        "delivery_within_time_range": false,
+        "description": "ציר אצות קומבו ופטריות נמקו יפניות מוגש עם אטריות ראמן, טופו מטוגן, גזר, דייקון (צנון יפני), ג'ינג'ר כתוש ובצל ירוק.\n🍜\nהמנה נשלחת מפורקת ומצריכה בישול בבית, הוראות נשלחות עם המנה.",
+        "estimate_box": {
+         "subtitle": "min",
+         "template": "estimate",
+         "title": "40-50"
+        },
+        "estimate_range": "40-50",
+        "id": "a675a68b973fe5d8718b6c44",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699add9c017a1a25739f9e5d"
+        },
+        "is_sold_by_weight": false,
+        "name": "🌱 אגאדשי טופו ראמן",
+        "price": 6800,
+        "price_excludes_deposit": false,
+        "price_type": "simple-price",
+        "product_line": "restaurant",
+        "show_wolt_plus": false,
+        "show_zero_markup": false,
+        "tags": [],
+        "unit_size": 0,
+        "venue_id": "5ea560e240310c80dd5302cc",
+        "venue_image": {
+         "blurhash": "j4Op5S00;;RamBX;X:4z;sXtWYhl",
+         "url": "https://imageproxy.wolt.com/assets/699ae683172015cdb069fc64"
+        },
+        "venue_name": "Mententen",
+        "venue_rating": {
+         "rating": 3,
+         "score": 8.4,
+         "volume": 1107
+        },
+        "venue_slug": "mententen"
+       },
+       "target_sort": "default",
+       "target_title": "",
+       "type": "menu-item-details"
+      },
+      "menu_item": {
+       "country": "ISR",
+       "currency": "ILS",
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price": 0,
+       "delivery_price_highlight": true,
+       "delivery_within_time_range": false,
+       "estimate_range": "40-50",
+       "id": "a675a68b973fe5d8718b6c44",
+       "image": {
+        "blurhash": "",
+        "url": "https://imageproxy.wolt.com/assets/699add9c017a1a25739f9e5d"
+       },
+       "is_available": true,
+       "name": "🌱 אגאדשי טופו ראמן",
+       "price": 6800,
+       "price_type": "simple-price",
+       "product_hierarchy_level_id": "c785d68c-eb4d-44b1-956a-dbc04353b860",
+       "show_wolt_plus": false,
+       "tags": [],
+       "venue_id": "5ea560e240310c80dd5302cc",
+       "venue_name": "Mententen",
+       "venue_rating": {
+        "rating": 3,
+        "score": 8.4,
+        "volume": 1107
+       }
+      },
+      "template": "search-menu-item",
+      "title": "🌱 אגאדשי טופו ראמן",
+      "track_id": "search_menu_item-a675a68b973fe5d8718b6c44"
+     },
+     {
+      "link": {
+       "menu_item_details": {
+        "action_link": {
+         "target": "",
+         "target_sort": "delivers-to",
+         "target_title": "",
+         "title": "",
+         "type": "menu-item"
+        },
+        "city_slug": "tel-aviv",
+        "country": "ISR",
+        "currency": "ILS",
+        "delivery_highlight": true,
+        "delivery_icon": "bike",
+        "delivery_price": 0,
+        "delivery_price_highlight": true,
+        "delivery_within_time_range": false,
+        "description": "קארי יפני וירקות, מוגש עם אטריות ראמן, תפו״א, בצל לבן, גזר ודייקון (צנון יפני)\n 🍜\nהמנה נשלחת מפורקת ומצריכה בישול בבית, הוראות נשלחות עם המנה.",
+        "estimate_box": {
+         "subtitle": "min",
+         "template": "estimate",
+         "title": "40-50"
+        },
+        "estimate_range": "40-50",
+        "id": "2ddbd18fe008e02ae7091043",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/699addb9017a1a25739f9f24"
+        },
+        "is_sold_by_weight": false,
+        "name": "קארה ראמן",
+        "price": 6700,
+        "price_excludes_deposit": false,
+        "price_type": "simple-price",
+        "product_line": "restaurant",
+        "show_wolt_plus": false,
+        "show_zero_markup": false,
+        "tags": [],
+        "unit_size": 0,
+        "venue_id": "5ea560e240310c80dd5302cc",
+        "venue_image": {
+         "blurhash": "j4Op5S00;;RamBX;X:4z;sXtWYhl",
+         "url": "https://imageproxy.wolt.com/assets/699ae683172015cdb069fc64"
+        },
+        "venue_name": "Mententen",
+        "venue_rating": {
+         "rating": 3,
+         "score": 8.4,
+         "volume": 1107
+        },
+        "venue_slug": "mententen"
+       },
+       "target_sort": "default",
+       "target_title": "",
+       "type": "menu-item-details"
+      },
+      "menu_item": {
+       "country": "ISR",
+       "currency": "ILS",
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price": 0,
+       "delivery_price_highlight": true,
+       "delivery_within_time_range": false,
+       "estimate_range": "40-50",
+       "id": "2ddbd18fe008e02ae7091043",
+       "image": {
+        "blurhash": "",
+        "url": "https://imageproxy.wolt.com/assets/699addb9017a1a25739f9f24"
+       },
+       "is_available": true,
+       "name": "קארה ראמן",
+       "price": 6700,
+       "price_type": "simple-price",
+       "product_hierarchy_level_id": "ca1f4b36-4a78-44c4-8892-8446581cd12f",
+       "show_wolt_plus": false,
+       "tags": [],
+       "venue_id": "5ea560e240310c80dd5302cc",
+       "venue_name": "Mententen",
+       "venue_rating": {
+        "rating": 3,
+        "score": 8.4,
+        "volume": 1107
+       }
+      },
+      "template": "search-menu-item",
+      "title": "קארה ראמן",
+      "track_id": "search_menu_item-2ddbd18fe008e02ae7091043"
+     },
+     {
+      "link": {
+       "menu_item_details": {
+        "action_link": {
+         "target": "",
+         "target_sort": "delivers-to",
+         "target_title": "",
+         "title": "",
+         "type": "menu-item"
+        },
+        "city_slug": "tel-aviv",
+        "country": "ISR",
+        "currency": "ILS",
+        "delivery_highlight": true,
+        "delivery_icon": "bike",
+        "delivery_price": 0,
+        "delivery_price_highlight": true,
+        "delivery_within_time_range": false,
+        "description": "",
+        "estimate_box": {
+         "subtitle": "min",
+         "template": "estimate",
+         "title": "40-50"
+        },
+        "estimate_range": "40-50",
+        "id": "0dfae3e38bf84967001ee9fe",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/697b4e4cf6ee27217dc10493"
+        },
+        "is_sold_by_weight": false,
+        "name": "מנות הראמן מצריכות בישול בבית 🍜❤️",
+        "price": 0,
+        "price_excludes_deposit": false,
+        "price_type": "simple-price",
+        "product_line": "restaurant",
+        "show_wolt_plus": false,
+        "show_zero_markup": false,
+        "tags": [],
+        "unit_size": 0,
+        "venue_id": "5ea560e240310c80dd5302cc",
+        "venue_image": {
+         "blurhash": "j4Op5S00;;RamBX;X:4z;sXtWYhl",
+         "url": "https://imageproxy.wolt.com/assets/699ae683172015cdb069fc64"
+        },
+        "venue_name": "Mententen",
+        "venue_rating": {
+         "rating": 3,
+         "score": 8.4,
+         "volume": 1107
+        },
+        "venue_slug": "mententen"
+       },
+       "target_sort": "default",
+       "target_title": "",
+       "type": "menu-item-details"
+      },
+      "menu_item": {
+       "country": "ISR",
+       "currency": "ILS",
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price": 0,
+       "delivery_price_highlight": true,
+       "delivery_within_time_range": false,
+       "estimate_range": "40-50",
+       "id": "0dfae3e38bf84967001ee9fe",
+       "image": {
+        "blurhash": "",
+        "url": "https://imageproxy.wolt.com/assets/697b4e4cf6ee27217dc10493"
+       },
+       "is_available": true,
+       "name": "מנות הראמן מצריכות בישול בבית 🍜❤️",
+       "price": 0,
+       "price_type": "simple-price",
+       "product_hierarchy_level_id": "ca1f4b36-4a78-44c4-8892-8446581cd12f",
+       "show_wolt_plus": false,
+       "tags": [],
+       "venue_id": "5ea560e240310c80dd5302cc",
+       "venue_name": "Mententen",
+       "venue_rating": {
+        "rating": 3,
+        "score": 8.4,
+        "volume": 1107
+       }
+      },
+      "template": "search-menu-item",
+      "title": "מנות הראמן מצריכות בישול בבית 🍜❤️",
+      "track_id": "search_menu_item-0dfae3e38bf84967001ee9fe"
+     },
+     {
+      "link": {
+       "menu_item_details": {
+        "action_link": {
+         "target": "",
+         "target_sort": "delivers-to",
+         "target_title": "",
+         "title": "",
+         "type": "menu-item"
+        },
+        "city_slug": "tel-aviv",
+        "country": "ISR",
+        "currency": "ILS",
+        "delivery_highlight": true,
+        "delivery_icon": "bike",
+        "delivery_price": 0,
+        "delivery_price_highlight": true,
+        "delivery_within_time_range": false,
+        "description": "",
+        "estimate_box": {
+         "subtitle": "min",
+         "template": "estimate",
+         "title": "10-20"
+        },
+        "estimate_range": "10-20",
+        "id": "025399e953fb96fc54ce3ce6",
+        "image": {
+         "blurhash": "LfSYjlay.mofjGfQbGbG%hjuMda{",
+         "url": "https://imageproxy.wolt.com/assets/667944b9024f5e6c296ed1be"
+        },
+        "is_sold_by_weight": false,
+        "name": "Samyang Ramen Carbo Big Bowl - עוף חריף להכנה מהירה 105 גרם בקערה(ורודה)",
+        "price": 1690,
+        "price_excludes_deposit": false,
+        "price_type": "simple-price",
+        "product_line": "grocery",
+        "show_wolt_plus": false,
+        "show_zero_markup": false,
+        "tags": [],
+        "unit_price": 1610,
+        "unit_price_type": "per-100g",
+        "unit_price_v2": "₪16.10/100g",
+        "unit_size": 105,
+        "unit_size_type": "weight-in-grams",
+        "unit_size_v2": "105 g",
+        "venue_id": "60fd8c3e926f37a321d1c6ad",
+        "venue_image": {
+         "blurhash": "j4EaqN;AYMbLne4kWy9dMgczgOcA",
+         "url": "https://imageproxy.wolt.com/assets/67f3e78f7d42b3b1b8579af8"
+        },
+        "venue_name": "Super Yuda | Ibn Gabirol",
+        "venue_rating": {
+         "rating": 3,
+         "score": 8.6,
+         "volume": 2062
+        },
+        "venue_slug": "super-yuda-ibn-gabirol"
+       },
+       "target_sort": "default",
+       "target_title": "",
+       "type": "menu-item-details"
+      },
+      "menu_item": {
+       "country": "ISR",
+       "currency": "ILS",
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price": 0,
+       "delivery_price_highlight": true,
+       "delivery_within_time_range": false,
+       "estimate_range": "10-20",
+       "id": "025399e953fb96fc54ce3ce6",
+       "image": {
+        "blurhash": "LfSYjlay.mofjGfQbGbG%hjuMda{",
+        "url": "https://imageproxy.wolt.com/assets/667944b9024f5e6c296ed1be"
+       },
+       "is_available": true,
+       "name": "Samyang Ramen Carbo Big Bowl - עוף חריף להכנה מהירה 105 גרם בקערה(ורודה)",
+       "price": 1690,
+       "price_type": "simple-price",
+       "product_hierarchy_level_id": "7cf1e709-0fa2-4d71-908a-a52ca6c5424a",
+       "show_wolt_plus": false,
+       "tags": [],
+       "unit_price_v2": "₪16.10/100g",
+       "unit_size_v2": "105 g",
+       "venue_id": "60fd8c3e926f37a321d1c6ad",
+       "venue_name": "Super Yuda | Ibn Gabirol",
+       "venue_rating": {
+        "rating": 3,
+        "score": 8.6,
+        "volume": 2062
+       }
+      },
+      "template": "search-menu-item",
+      "title": "Samyang Ramen Carbo Big Bowl - עוף חריף להכנה מהירה 105 גרם בקערה(ורודה)",
+      "track_id": "search_menu_item-025399e953fb96fc54ce3ce6"
+     },
+     {
+      "link": {
+       "menu_item_details": {
+        "action_link": {
+         "target": "",
+         "target_sort": "delivers-to",
+         "target_title": "",
+         "title": "",
+         "type": "menu-item"
+        },
+        "city_slug": "tel-aviv",
+        "country": "ISR",
+        "currency": "ILS",
+        "delivery_highlight": true,
+        "delivery_icon": "bike",
+        "delivery_price": 0,
+        "delivery_price_highlight": true,
+        "delivery_within_time_range": false,
+        "description": "",
+        "estimate_box": {
+         "subtitle": "min",
+         "template": "estimate",
+         "title": "15-25"
+        },
+        "estimate_range": "15-25",
+        "id": "a277f11733af7c7ef5189cf8",
+        "image": {
+         "blurhash": "LdRp2qof_NaykCazf5j[x^ayM_j[",
+         "url": "https://imageproxy.wolt.com/assets/6926f7a5d40d543329715a09"
+        },
+        "is_sold_by_weight": false,
+        "name": "Asian flavors - ready ramen noodles - 180 grams",
+        "price": 700,
+        "price_excludes_deposit": false,
+        "price_type": "simple-price",
+        "product_line": "grocery",
+        "show_wolt_plus": false,
+        "show_zero_markup": false,
+        "tags": [],
+        "unit_price": 350,
+        "unit_price_type": "per-100g",
+        "unit_price_v2": "₪3.50/100g",
+        "unit_size": 200,
+        "unit_size_type": "weight-in-grams",
+        "unit_size_v2": "200 g",
+        "venue_id": "69fc3e7cc66aa5ec5fb2864d",
+        "venue_image": {
+         "blurhash": "j4GE12;:04d58yVBiZTs0tdk;zd4",
+         "url": "https://imageproxy.wolt.com/assets/6a0d8b4190937b9675cad981"
+        },
+        "venue_name": "Alma Market | Dizengoff",
+        "venue_rating": {
+         "rating": 3,
+         "score": 8.2,
+         "volume": 142
+        },
+        "venue_slug": "alma-market-dizengoff"
+       },
+       "target_sort": "default",
+       "target_title": "",
+       "type": "menu-item-details"
+      },
+      "menu_item": {
+       "country": "ISR",
+       "currency": "ILS",
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price": 0,
+       "delivery_price_highlight": true,
+       "delivery_within_time_range": false,
+       "estimate_range": "15-25",
+       "id": "a277f11733af7c7ef5189cf8",
+       "image": {
+        "blurhash": "LdRp2qof_NaykCazf5j[x^ayM_j[",
+        "url": "https://imageproxy.wolt.com/assets/6926f7a5d40d543329715a09"
+       },
+       "is_available": true,
+       "name": "Asian flavors - ready ramen noodles - 180 grams",
+       "price": 700,
+       "price_type": "simple-price",
+       "product_hierarchy_level_id": "e3670b1f-9858-4f16-8669-10d4add63cdc",
+       "show_wolt_plus": false,
+       "tags": [],
+       "unit_price_v2": "₪3.50/100g",
+       "unit_size_v2": "200 g",
+       "venue_id": "69fc3e7cc66aa5ec5fb2864d",
+       "venue_name": "Alma Market | Dizengoff",
+       "venue_rating": {
+        "rating": 3,
+        "score": 8.2,
+        "volume": 142
+       }
+      },
+      "template": "search-menu-item",
+      "title": "Asian flavors - ready ramen noodles - 180 grams",
+      "track_id": "search_menu_item-a277f11733af7c7ef5189cf8"
+     },
+     {
+      "link": {
+       "menu_item_details": {
+        "action_link": {
+         "target": "",
+         "target_sort": "delivers-to",
+         "target_title": "",
+         "title": "",
+         "type": "menu-item"
+        },
+        "city_slug": "tel-aviv",
+        "country": "ISR",
+        "currency": "ILS",
+        "delivery_highlight": true,
+        "delivery_icon": "bike",
+        "delivery_price": 0,
+        "delivery_price_highlight": true,
+        "delivery_within_time_range": false,
+        "description": "",
+        "estimate_box": {
+         "subtitle": "min",
+         "template": "estimate",
+         "title": "20-30"
+        },
+        "estimate_range": "20-30",
+        "id": "768d68511e301d658713aa9a",
+        "image": {
+         "blurhash": "",
+         "url": "https://imageproxy.wolt.com/assets/6926f7a5d40d543329715a09"
+        },
+        "is_sold_by_weight": false,
+        "name": "Asian flavors - ready ramen noodles - 180 grams",
+        "price": 690,
+        "price_excludes_deposit": false,
+        "price_type": "simple-price",
+        "product_line": "grocery",
+        "show_wolt_plus": false,
+        "show_zero_markup": false,
+        "tags": [],
+        "unit_price": 345,
+        "unit_price_type": "per-100g",
+        "unit_price_v2": "₪3.45/100g",
+        "unit_size": 200,
+        "unit_size_type": "weight-in-grams",
+        "unit_size_v2": "200 g",
+        "venue_id": "679f6f8aefac5e3f364a0f88",
+        "venue_image": {
+         "blurhash": "j3MH2q80;tb40rX:4QS:4000cIFO",
+         "url": "https://imageproxy.wolt.com/assets/6807d40df0a751602f142794"
+        },
+        "venue_name": "Gingiz | Carlebach",
+        "venue_rating": {
+         "rating": 3,
+         "score": 8.8,
+         "volume": 714
+        },
+        "venue_slug": "gingiz"
+       },
+       "target_sort": "default",
+       "target_title": "",
+       "type": "menu-item-details"
+      },
+      "menu_item": {
+       "country": "ISR",
+       "currency": "ILS",
+       "delivery_highlight": true,
+       "delivery_icon": "bike",
+       "delivery_price": 0,
+       "delivery_price_highlight": true,
+       "delivery_within_time_range": false,
+       "estimate_range": "20-30",
+       "id": "768d68511e301d658713aa9a",
+       "image": {
+        "blurhash": "",
+        "url": "https://imageproxy.wolt.com/assets/6926f7a5d40d543329715a09"
+       },
+       "is_available": true,
+       "name": "Asian flavors - ready ramen noodles - 180 grams",
+       "price": 690,
+       "price_type": "simple-price",
+       "product_hierarchy_level_id": "e3670b1f-9858-4f16-8669-10d4add63cdc",
+       "show_wolt_plus": false,
+       "tags": [],
+       "unit_price_v2": "₪3.45/100g",
+       "unit_size_v2": "200 g",
+       "venue_id": "679f6f8aefac5e3f364a0f88",
+       "venue_name": "Gingiz | Carlebach",
+       "venue_rating": {
+        "rating": 3,
+        "score": 8.8,
+        "volume": 714
+       }
+      },
+      "template": "search-menu-item",
+      "title": "Asian flavors - ready ramen noodles - 180 grams",
+      "track_id": "search_menu_item-768d68511e301d658713aa9a"
+     }
+    ]
+   }
+  ]
+ }
+}
