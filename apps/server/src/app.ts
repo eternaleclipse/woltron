@@ -19,7 +19,7 @@ import type {
 import { DEFAULT_LOCATION, VERSION } from './config.js';
 import { describeCron, nextRuns, validateCron, validateTimezone } from './cron.js';
 import type { RunEngine } from './engine.js';
-import { badRequest, errorMessage, HttpError, notFound, toHttpError } from './errors.js';
+import { badRequest, errorMessage, HttpError, isWoltError, notFound, toHttpError } from './errors.js';
 import type { EventHub } from './events.js';
 import { runFetch } from './fetch.js';
 import { previewPack } from './packs.js';
@@ -252,7 +252,17 @@ export function createApp(ctx: AppContext) {
     if (typeof b.email !== 'string' || !b.email.includes('@')) throw badRequest('Enter a valid email');
     const w = ctx.wolt();
     if (!w.requestMagicLink) throw new HttpError(501, 'unsupported', 'Email login isn’t supported yet — paste a refresh token instead');
-    await w.requestMagicLink(b.email.trim());
+    try {
+      await w.requestMagicLink(b.email.trim());
+    } catch (e) {
+      if (isWoltError(e) && e.code === 'unsupported')
+        throw new HttpError(
+          501,
+          'wolt_unsupported',
+          'Wolt wants a captcha before it emails a login link, so I can’t ask for one. Request the link on wolt.com, then paste the link from the email here (or paste a refresh token).',
+        );
+      throw e;
+    }
     return c.json({ sent: true });
   });
   app.post('/api/wolt/auth/verify', async (c) => {

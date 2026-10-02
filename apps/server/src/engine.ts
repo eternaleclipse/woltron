@@ -58,6 +58,15 @@ interface VenueContext {
   venue?: Venue;
   menu?: Menu;
   items: PresetItem[];
+  /** The whole quote object as returned by the client (may carry extra fields placeOrder needs). */
+  quote?: BasketQuote;
+}
+
+const QUOTE_MAX_AGE_MS = 10 * 60_000;
+
+function ctxsQuotedAt(store: Store, runId: ID): number {
+  const at = store.data.meta.quotes?.[runId]?.at;
+  return at ? new Date(at).getTime() : 0;
 }
 
 export class RunEngine {
@@ -91,6 +100,7 @@ export class RunEngine {
 
   private commit(run: Run) {
     run.updatedAt = this.iso();
+    if (isTerminal(run.status) && this.store.data.meta.quotes?.[run.id]) delete this.store.data.meta.quotes[run.id];
     this.store.upsertRun(run);
     this.deps.events.publish({ type: 'run.updated', run: structuredClone(run) });
   }
@@ -177,10 +187,17 @@ export class RunEngine {
     }
     if (ready.length === 0) return this.finishFailed(run, '😢 Nothing could be fetched — every place was closed or out of stock');
 
-    // 3. Guards
+    // 3. Exact pricing from Wolt (fees, small-order surcharge) so guards see the real total
+    await this.quoteAll(run, contexts);
+    const priced = contexts.filter((c) => c.vo.status === 'ready');
+    if (priced.length === 0) return this.finishFailed(run, '😢 Wolt couldn’t price any of the baskets');
+    run.total = this.sumTotal(priced.map((c) => c.vo.total), run.total.currency);
+    this.commit(run);
+
+    // 4. Guards
     const guard = this.checkGuards(run, automation);
     if (guard) return this.finishSkipped(run, guard);
-    this.log(run, 'info', `🧾 Food + delivery comes to ${fmt(run.total)}${ready.length > 1 ? ` across ${plural(ready.length, 'order')}` : ''} — within your limits ✓`);
+    this.log(run, 'info', `🧾 ${fmt(run.total)} all-in${priced.length > 1 ? ` across ${plural(priced.length, 'order')}` : ''} — within your limits ✓`);
 
     // 4. Confirmation policy
     const confirm = req.confirm ?? (automation ? automation.confirm : 'auto');
@@ -210,14 +227,16 @@ export class RunEngine {
     let contexts = this.pending.get(id);
     this.pending.delete(id);
     this.log(run, 'success', '👍 Confirmed — here we go!');
-    if (!contexts || !preset) {
-      // Server restarted while waiting: re-validate from the preset.
-      if (!preset) return this.finishFailed(run, '😕 The preset was deleted while waiting for confirmation');
-      run.venueOrders = [];
-      contexts = await this.validate(run, preset.items);
-      const ready = contexts.filter((c) => c.vo.status === 'ready');
-      run.total = this.sumTotal(ready.map((c) => c.vo.total), ready[0]?.vo.total.currency ?? run.total.currency);
-      if (ready.length === 0) return this.finishFailed(run, '😢 Nothing could be fetched — every place was closed or out of stock');
+    if (!preset) return this.finishFailed(run, '😕 The preset was deleted while waiting for confirmation');
+    if (!contexts) {
+      // Server restarted while waiting: rebuild from the persisted run + the stored quotes.
+      const stored = this.store.data.meta.quotes?.[id]?.byVenue ?? {};
+      contexts = run.venueOrders.map((vo) => ({
+        vo,
+        items: preset.items.filter((pi) => pi.venueId === vo.venueId),
+        quote: stored[vo.venueSlug],
+      }));
+      if (!contexts.some((c) => c.vo.status === 'ready')) return this.finishFailed(run, '😢 Nothing left to fetch');
     }
     this.commit(run);
     return this.execute(run, contexts, preset);
@@ -438,6 +457,56 @@ export class RunEngine {
     return undefined;
   }
 
+  /**
+   * Ask Wolt for an exact price (delivery, service and small-order fees). Returns false if the
+   * venue had to be marked failed. Quote errors that mean "no session / not possible" are not
+   * fatal: dry-runs fall back to a local estimate and live runs to handoff.
+   */
+  private async quoteVenue(run: Run, ctx: VenueContext, loc: GeoLocation): Promise<boolean> {
+    const { vo } = ctx;
+    const lines: BasketLineInput[] = ctx.items
+      .filter((pi) => vo.lines.some((l) => l.itemId === pi.itemId && l.available))
+      .map((pi) => ({ itemId: pi.itemId, quantity: pi.quantity, options: pi.options }));
+    try {
+      const quote = await this.wolt.quoteBasket(vo.venueSlug, lines, loc);
+      ctx.quote = quote;
+      this.applyQuote(vo, quote);
+      // "Not connected" is explained once by the handoff step instead of per venue.
+      for (const w of quote.warnings) if (!/not connected/i.test(w)) this.log(run, 'warn', `⚠️ ${vo.venueName}: ${w}`);
+      return true;
+    } catch (e) {
+      ctx.quote = undefined;
+      const soft = isWoltError(e) && ['unsupported', 'unauthorized'].includes(e.code);
+      if (run.mode === 'dry-run' || soft) {
+        this.log(run, 'info', `🧮 Estimated fees for ${vo.venueName} myself (Wolt’s price check said: ${errorMessage(e)})`);
+        return true;
+      }
+      vo.status = 'failed';
+      vo.error = errorMessage(e);
+      this.log(run, 'error', `💥 Couldn’t price the basket at ${vo.venueName}: ${errorMessage(e)}`);
+      return false;
+    }
+  }
+
+  private async quoteAll(run: Run, contexts: VenueContext[]): Promise<void> {
+    const loc = this.location();
+    const ready = contexts.filter((c) => c.vo.status === 'ready');
+    await Promise.all(ready.map((c) => this.quoteVenue(run, c, loc)));
+    const quoted = ready.filter((c) => c.quote);
+    const byVenue: Record<string, BasketQuote> = {};
+    for (const c of quoted) byVenue[c.vo.venueSlug] = c.quote!;
+    const quotes = (this.store.data.meta.quotes ??= {});
+    quotes[run.id] = { at: this.iso(), byVenue };
+    for (const c of quoted) {
+      const { vo } = c;
+      const parts = [`food ${fmt(vo.subtotal)}`];
+      if (vo.deliveryFee) parts.push(vo.deliveryFee.amount ? `delivery ${fmt(vo.deliveryFee)}` : 'free delivery 🎉');
+      if (vo.serviceFee?.amount) parts.push(`service ${fmt(vo.serviceFee)}`);
+      this.log(run, 'info', `💰 Wolt’s price for ${vo.venueName}: ${fmt(vo.total)} (${parts.join(' + ')})`);
+    }
+    this.store.save();
+  }
+
   private async execute(run: Run, contexts: VenueContext[], preset: Preset): Promise<Run> {
     const ready = contexts.filter((c) => c.vo.status === 'ready');
     run.status = 'placing';
@@ -445,26 +514,16 @@ export class RunEngine {
     this.commit(run);
     const loc = this.location();
 
+    // Quotes older than this (e.g. after a long confirmation wait) are refreshed before placing.
+    const stale = ctxsQuotedAt(this.store, run.id) < this.now().getTime() - QUOTE_MAX_AGE_MS;
     for (const [i, ctx] of ready.entries()) {
       const { vo } = ctx;
       vo.status = 'placing';
-      const lines: BasketLineInput[] = ctx.items
-        .filter((pi) => vo.lines.some((l) => l.itemId === pi.itemId && l.available))
-        .map((pi) => ({ itemId: pi.itemId, quantity: pi.quantity, options: pi.options }));
-      let quote: BasketQuote | undefined;
-      try {
-        quote = await this.wolt.quoteBasket(vo.venueSlug, lines, loc);
-        this.applyQuote(vo, quote);
-        for (const w of quote.warnings) this.log(run, 'warn', `⚠️ ${vo.venueName}: ${w}`);
-      } catch (e) {
-        if (run.mode === 'live' && !(isWoltError(e) && ['unsupported', 'unauthorized'].includes(e.code))) {
-          vo.status = 'failed';
-          vo.error = errorMessage(e);
-          this.log(run, 'error', `💥 Couldn’t build the basket at ${vo.venueName}: ${errorMessage(e)}`);
-          continue;
-        }
-        if (run.mode === 'dry-run') this.log(run, 'info', `🧮 Estimated fees for ${vo.venueName} locally (Wolt quote unavailable: ${errorMessage(e)})`);
+      if (run.mode !== 'dry-run' && (!ctx.quote || stale)) {
+        const ok = await this.quoteVenue(run, ctx, loc);
+        if (!ok) continue;
       }
+      const quote = ctx.quote;
 
       if (run.mode === 'dry-run') {
         vo.status = 'simulated';

@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { nanoid } from 'nanoid';
-import type { Automation, Pack, Preset, Run, Settings, WoltTokens } from '@woltron/shared';
+import type { Automation, BasketQuote, Pack, Preset, Run, Settings, WoltTokens } from '@woltron/shared';
 import { DEFAULT_LOCATION, DEFAULT_MODEL, DEFAULT_PORT, RUNS_CAP } from './config.js';
 
 /** Settings as persisted: the derived/read-only parts (`llm.hasApiKey`, `wolt`) are not stored. */
@@ -18,6 +18,11 @@ export interface DbData {
     seededAt?: string;
     /** venue-online trigger state, per automation id */
     venueOnline: Record<string, { lastOnline?: boolean; lastFiredDay?: string; checkedAt?: string }>;
+    /**
+     * Whole BasketQuote objects (incl. client extras like lines/venueId) for runs waiting for
+     * confirmation, keyed by run id → venue slug, so placeOrder works after a restart.
+     */
+    quotes?: Record<string, { at: string; byVenue: Record<string, BasketQuote> }>;
   };
 }
 

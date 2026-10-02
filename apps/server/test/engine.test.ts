@@ -123,7 +123,7 @@ describe('guards', () => {
     const run = await engine.start({ target: { kind: 'preset', id: 'p1' }, automationId: 'a1', source: 'schedule' });
     expect(run.status).toBe('skipped');
     expect(messages(run)).toMatch(/over this automation’s ₪100 limit/);
-    expect(wolt.calls.some((c) => c.startsWith('quote:'))).toBe(false);
+    expect(wolt.calls.some((c) => c.startsWith('place:'))).toBe(false);
   });
 
   it('settings maxPerRun skips the run', async () => {
@@ -185,6 +185,34 @@ describe('confirmation', () => {
     const done = await engine.confirm(run.id);
     expect(done.status).toBe('simulated');
     expect(done.confirmBy).toBeUndefined();
+  });
+
+  it('persists the whole quote so a live order can be placed after a restart', async () => {
+    const origQuote = wolt.quoteBasket.bind(wolt);
+    wolt.quoteBasket = async (...args) => ({ ...(await origQuote(...args)), extra: 'keep-me' }) as never;
+    const placedWith: unknown[] = [];
+    wolt.placeOrder = async (q) => {
+      placedWith.push(q);
+      return { orderId: `o-${q.venueSlug}`, status: 'received' };
+    };
+    const run = await engine.start({ target: { kind: 'preset', id: 'p1' }, mode: 'live', confirm: 'ask' });
+    expect(run.status).toBe('awaiting-confirmation');
+    expect(run.total.amount).toBe(15400 + 1000 + 6000 + 1000); // exact quote before asking
+    store.flush();
+    engine.stop();
+
+    // "Restart": fresh store + engine from disk
+    const store2 = new Store(store.dataDir, 0);
+    const engine2 = new RunEngine({ store: store2, events, wolt: () => wolt });
+    engine2.resume();
+    const quoteCallsBefore = wolt.calls.filter((c) => c.startsWith('quote:')).length;
+    const done = await engine2.confirm(run.id);
+    engine2.stop();
+    expect(done.status).toBe('placed');
+    expect(wolt.calls.filter((c) => c.startsWith('quote:')).length).toBe(quoteCallsBefore); // reused, not re-quoted
+    expect(placedWith).toHaveLength(2);
+    expect(placedWith.every((q) => (q as { extra?: string }).extra === 'keep-me')).toBe(true);
+    expect(store2.data.meta.quotes?.[run.id]).toBeUndefined(); // cleaned up
   });
 
   it('cancel while waiting', async () => {

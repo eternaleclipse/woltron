@@ -20,6 +20,10 @@ export interface FetchDeps {
 const MAX_CANDIDATES = 60;
 const SEARCH_CONCURRENCY = 4;
 const MAX_TERMS = 6;
+const MAX_PER_VENUE = 4;
+const RETAIL_TAGS = new Set(['grocery', 'groceries', 'convenience', 'kiosk', 'pharmacy', 'alcohol', 'flowers', 'retail', 'pet', 'electronics', 'beauty', 'milk']);
+const RETAIL_WORDS = /grocer|supermarket|kiosk|snack|drinks|beer|wine|pharmacy/i;
+const isRetail = (v: Venue) => v.tags.some((t) => RETAIL_TAGS.has(t.toLowerCase()));
 
 type Candidate = { item: MenuItem; venue: Venue; terms: Set<string> };
 
@@ -118,6 +122,9 @@ export async function gatherCandidates(wolt: WoltClient, loc: GeoLocation, inten
   });
   const excluded = intent.excluded.map(norm).filter(Boolean);
   const byId = new Map<string, Candidate>();
+  const perVenue = new Map<string, number>();
+  // Supermarkets and kiosks match every dish name with packaged goods; skip them unless asked.
+  const wantsRetail = [...intent.searchTerms, ...intent.cuisines].some((t) => RETAIL_WORDS.test(t));
   // Interleave results across terms so every term gets representation before the cap.
   const lists = results.map((r) => r.res.items.map((x) => ({ ...x, term: r.term })));
   const maxLen = Math.max(0, ...lists.map((l) => l.length));
@@ -132,6 +139,10 @@ export async function gatherCandidates(wolt: WoltClient, loc: GeoLocation, inten
         continue;
       }
       if (!x.item.available || !x.venue.online) continue;
+      if (!wantsRetail && isRetail(x.venue)) continue;
+      const n = perVenue.get(x.venue.id) ?? 0;
+      if (n >= MAX_PER_VENUE) continue;
+      perVenue.set(x.venue.id, n + 1);
       if (intent.maxPrice && x.item.price.amount > intent.maxPrice.amount) continue;
       const text = norm(`${x.item.name} ${x.item.description ?? ''}`);
       if (excluded.some((ex) => text.includes(ex))) continue;
@@ -180,9 +191,10 @@ export function normalizeIntent(raw: RawIntent, query: string, currency: string)
 }
 
 const RERANK_SYSTEM = `You are Woltron, a food-delivery helper dog with great taste. Pick the best dishes for the user's request from the numbered candidates.
-Rules: respect dietary needs, exclusions and budget; prefer a variety of restaurants; prefer good ratings and short delivery times when otherwise equal; never invent ids.
+Rules: respect dietary needs, exclusions and budget; prefer real restaurant dishes over packaged/grocery products; prefer a variety of restaurants; prefer good ratings and short delivery times when otherwise equal; never invent ids.
+Many dish names are in Hebrew (or another local language) — read them, but always write in English.
 Reply with ONLY a JSON object: {"picks":[{"id":"c3","score":0.92,"reason":"..."}]} ordered best first.
-"score" is 0-1 fit. "reason" is a punchy one-liner (max 80 chars) shown on the result card, e.g. "Spicy, vegan, ₪48, 25 min" or "Rich tonkotsu broth — cosy and under budget".`;
+"score" is 0-1 fit. "reason" is a punchy English one-liner (max 90 chars) shown on the result card under the original dish name. If the name isn't English, start with what the dish is. E.g. "Spicy pad thai, vegan-friendly · ₪48 · 25 min" or "Rich tonkotsu ramen — cosy and under budget".`;
 
 function candidateLine(id: string, c: Candidate): string {
   const diet = itemDietary(c.item);
