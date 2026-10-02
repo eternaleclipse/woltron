@@ -25,6 +25,8 @@ export interface ChatOptions {
 export interface ChatResult {
   content: string;
   model: string;
+  /** finish_reason was "length" (reasoning models can burn the budget before answering) */
+  truncated?: boolean;
 }
 
 /** Pull the first JSON object/array out of an LLM reply (handles ```json fences and chatter). */
@@ -105,11 +107,15 @@ async function callOnce(opts: ChatOptions, model: string): Promise<ChatResult> {
       const code = res.status === 401 || res.status === 403 ? 'llm_unauthorized' : res.status === 429 ? 'llm_rate_limited' : 'llm_error';
       throw new HttpError(res.status === 401 || res.status === 403 ? 401 : 502, code, `OpenRouter: ${msg}`);
     }
-    const body = JSON.parse(text) as { model?: string; choices?: Array<{ message?: { content?: string } }>; error?: { message?: string } };
+    const body = JSON.parse(text) as {
+      model?: string;
+      choices?: Array<{ message?: { content?: string }; finish_reason?: string }>;
+      error?: { message?: string };
+    };
     if (body.error) throw new HttpError(502, 'llm_error', `OpenRouter: ${body.error.message}`);
     const content = body.choices?.[0]?.message?.content;
     if (!content) throw new HttpError(502, 'llm_error', 'OpenRouter returned an empty reply');
-    return { content, model: body.model ?? model };
+    return { content, model: body.model ?? model, truncated: body.choices?.[0]?.finish_reason === 'length' };
   } catch (e) {
     if ((e as Error).name === 'AbortError') throw new HttpError(504, 'llm_timeout', `The LLM took longer than ${Math.round((opts.timeoutMs ?? 30_000) / 1000)}s`);
     throw e;
@@ -131,5 +137,12 @@ export async function chat(opts: ChatOptions): Promise<ChatResult> {
 
 export async function chatJson<T>(opts: ChatOptions): Promise<{ data: T; model: string }> {
   const r = await chat({ ...opts, json: true });
-  return { data: extractJson<T>(r.content), model: r.model };
+  try {
+    return { data: extractJson<T>(r.content), model: r.model };
+  } catch (e) {
+    if (!r.truncated) throw e;
+    // Ran out of tokens (often hidden reasoning) — retry once with a much bigger budget.
+    const again = await chat({ ...opts, json: true, maxTokens: (opts.maxTokens ?? 1500) * 3 });
+    return { data: extractJson<T>(again.content), model: again.model };
+  }
 }

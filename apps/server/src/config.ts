@@ -6,7 +6,7 @@ export const VERSION = '0.1.0';
 export const DEFAULT_PORT = 4321;
 export const DEFAULT_MODEL = 'anthropic/claude-sonnet-4.5';
 /** Used if the configured model is rejected by OpenRouter. */
-export const FALLBACK_MODEL = 'google/gemini-2.5-flash';
+export const FALLBACK_MODEL = 'anthropic/claude-haiku-4.5';
 export const DEFAULT_LOCATION: GeoLocation = { lat: 32.0853, lon: 34.7818, address: 'Tel Aviv', label: 'Tel Aviv' };
 export const RUNS_CAP = 500;
 export const PACK_HISTORY_CAP = 50;

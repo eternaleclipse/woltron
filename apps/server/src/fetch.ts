@@ -25,7 +25,7 @@ type Candidate = { item: MenuItem; venue: Venue; terms: Set<string> };
 
 const DIETARY_WORDS = ['vegan', 'vegetarian', 'gluten-free', 'gluten free', 'spicy', 'kosher', 'dairy-free', 'halal', 'keto', 'healthy', 'low-carb'];
 const STOPWORDS = new Set(
-  'a an the and or for with without some something somethin anything me i im i\'m want wanna would like to of in on at my please get order food meal dinner lunch breakfast tonight today now under below less than max cheap around about craving feel feeling eat hungry really very good nice that is not no but'.split(' '),
+  'a an the and or for with without some something somethin anything me i im i\'m want wanna would like to of in on at my please get order food meal dinner lunch breakfast tonight today now under below less than max cheap around about craving feel feeling eat hungry really very good nice that is not no but two three four five six people person us guys quick fast delivery cosy cozy tasty yummy light'.split(' '),
 );
 
 const norm = (s: string) => s.toLowerCase();
@@ -53,11 +53,11 @@ export function heuristicIntent(query: string, currency = 'ILS'): FetchIntent {
   const price = q.match(/(?:under|below|less than|max|up to|<)\s*[₪$€£]?\s*(\d+(?:\.\d+)?)/) ?? q.match(/[₪$€£]\s*(\d+(?:\.\d+)?)/);
   if (price) maxPrice = { amount: Math.round(Number(price[1]) * 100), currency };
   const dietary = DIETARY_WORDS.filter((d) => q.includes(d)).map((d) => d.replace(' ', '-'));
-  const excluded = [...q.matchAll(/\b(?:no|without|not)\s+([\p{L}-]+)/gu)].map((m) => m[1]!);
+  const excluded = [...q.matchAll(/\b(?:no|without|not|nothing|avoid)\s+([\p{L}-]+)/gu)].map((m) => m[1]!);
   const cleaned = q
     .replace(/(?:under|below|less than|max|up to|<)\s*[₪$€£]?\s*\d+(?:\.\d+)?/g, ' ')
     .replace(/[₪$€£]\s*\d+(?:\.\d+)?/g, ' ')
-    .replace(/\b(?:no|without|not)\s+[\p{L}-]+/gu, ' ');
+    .replace(/\b(?:no|without|not|nothing|avoid)\s+[\p{L}-]+/gu, ' ');
   const words = tokens(cleaned).filter((w) => !STOPWORDS.has(w) && !/^\d+$/.test(w) && !DIETARY_WORDS.includes(w));
   const searchTerms = [...new Set(words)].slice(0, 4);
   if (searchTerms.length === 0) searchTerms.push(...(dietary.length ? dietary.slice(0, 2) : [query.trim()]));
@@ -220,7 +220,7 @@ export async function runFetch(query: string, limit: number, deps: FetchDeps): P
       const r = await chatJson<RawIntent>({
         ...llmOpts,
         timeoutMs: 20_000,
-        maxTokens: 400,
+        maxTokens: 1000,
         messages: [
           { role: 'system', content: INTENT_SYSTEM },
           { role: 'user', content: `Currency: ${currency}.\nRequest: ${q}` },
@@ -258,7 +258,7 @@ export async function runFetch(query: string, limit: number, deps: FetchDeps): P
       const r = await chatJson<{ picks?: Array<{ id?: string; score?: number; reason?: string }> }>({
         ...llmOpts,
         timeoutMs: 30_000,
-        maxTokens: 1200,
+        maxTokens: 2500,
         messages: [
           { role: 'system', content: RERANK_SYSTEM },
           {
