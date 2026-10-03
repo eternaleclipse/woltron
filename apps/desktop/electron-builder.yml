@@ -67,7 +67,7 @@ linux:
   executableName: woltron
   desktop:
     entry:
-      StartupWMClass: Woltron
+      StartupWMClass: woltron-desktop
 deb:
   artifactName: woltron_${version}_${arch}.deb
 appImage:

@@ -46,7 +46,7 @@ Terminal=false
 Categories=Utility;
 Keywords=wolt;food;order;delivery;
 MimeType=x-scheme-handler/woltron;
-StartupWMClass=Woltron
+StartupWMClass=woltron-desktop
 EOF
 
 touch "$ICONS"
