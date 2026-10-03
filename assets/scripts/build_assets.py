@@ -216,10 +216,11 @@ def tray_template(size):
 
 
 # ── brand: logo + banner + stickers ────────────────────────────────────────
-def logo_svg():
+def logo_svg(fill=INK):
+    """Horizontal lockup: robo-dog head + wordmark. `fill` colours the letters (light variant for dark UIs)."""
     H = 140
     head = 132
-    word, adv = wordmark(head + 18, 104, 100)
+    word, adv = wordmark(head + 18, 104, 100, fill=fill)
     d, _ = robodog.head_icon()
     inner = icon_head(0, (H - head) / 2, head) + word
     return svg_doc(round(head + 18 + adv + 8), H, inner, d)
@@ -313,6 +314,9 @@ def main():
     write(out('assets', 'brand', 'logo.svg'), logo)
     w = int(re.search(r'width="(\d+)"', logo).group(1))
     save_png(render(logo, w * 4, 140 * 4), 'assets', 'brand', 'logo.png')
+    logo_dark = logo_svg(fill='#f8efe9')  # for dark backgrounds (e.g. GitHub dark theme)
+    write(out('assets', 'brand', 'logo-dark.svg'), logo_dark)
+    save_png(render(logo_dark, w * 4, 140 * 4), 'assets', 'brand', 'logo-dark.png')
     banner = banner_svg()
     write(out('assets', 'brand', 'banner.svg'), banner)
     save_png(render(banner, 1280, 400), 'assets', 'brand', 'banner.png')
