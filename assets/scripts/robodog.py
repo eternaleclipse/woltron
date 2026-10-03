@@ -176,14 +176,30 @@ def bolt(x, y, r=4.5):
             f'<circle cx="{x - r * 0.25:.1f}" cy="{y - r * 0.25:.1f}" r="{r * 0.55:.1f}" fill="#a597a8"/>')
 
 
+_ORB_N = [0]
+
+
 def tennis_ball(cx, cy, r, p):
+    """The fetch orb (sci-fi tennis ball): chrome shell, black seam channels carrying cyan light.
+    Same 40x40 geometry as <TennisBall/> in apps/web/src/components/brand.tsx. Self-contained defs."""
+    _ORB_N[0] += 1
+    u = f'{p}orb{_ORB_N[0]}'
     k = r / 19
-    return (f'<g transform="translate({cx - 20 * k:.1f} {cy - 20 * k:.1f}) scale({k:.3f})">'
-            f'<circle cx="20" cy="20" r="19" fill="url(#{p}ball)"/>'
-            f'<circle cx="20" cy="20" r="18.4" fill="none" stroke="{PLUM}" stroke-opacity="0.25" stroke-width="1.2"/>'
-            + stroke('M6.5 6.8 C13 12 13 28 6.5 33.2', '#ffffff', 2.4, 0.95)
-            + stroke('M33.5 6.8 C27 12 27 28 33.5 33.2', '#ffffff', 2.4, 0.95)
-            + '</g>')
+    seams = ('M6.5 6.8 C13 12 13 28 6.5 33.2', 'M33.5 6.8 C27 12 27 28 33.5 33.2')
+    g = [f'<g transform="translate({cx - 20 * k:.1f} {cy - 20 * k:.1f}) scale({k:.3f})">',
+         f'<defs><radialGradient id="{u}s" cx="0.34" cy="0.28" r="0.85">'
+         '<stop offset="0" stop-color="#ffffff"/><stop offset="0.3" stop-color="#e6eaee"/><stop offset="0.62" stop-color="#9aa4af"/>'
+         '<stop offset="0.88" stop-color="#2d333c"/><stop offset="1" stop-color="#14181d"/></radialGradient>'
+         f'<clipPath id="{u}c"><circle cx="20" cy="20" r="19"/></clipPath></defs>',
+         f'<circle cx="20" cy="20" r="19" fill="url(#{u}s)"/>',
+         f'<g clip-path="url(#{u}c)">']
+    for d in seams:
+        g.append(stroke(d, '#22d3ee', 7.5, 0.22) + stroke(d, '#0d1014', 4.2) + stroke(d, '#22d3ee', 2) + stroke(d, '#cffafe', 0.7))
+    g.append('</g>')
+    g.append('<ellipse cx="13.5" cy="10.5" rx="6" ry="3.2" fill="#ffffff" fill-opacity="0.55" transform="rotate(-35 13.5 10.5)"/>'
+             '<circle cx="20" cy="20" r="18.5" fill="none" stroke="#0b0e12" stroke-opacity="0.55" stroke-width="1.1"/>')
+    g.append('</g>')
+    return ''.join(g)
 
 
 # ── parts ─────────────────────────────────────────────────────────────────
