@@ -34,12 +34,13 @@
   <a href="docs/README.md"><b>Documentation</b></a> ·
   <a href="#-features">Features</a> ·
   <a href="#-screenshots">Screenshots</a> ·
+  <a href="#-dark-mode">Dark mode</a> ·
   <a href="docs/api.md">API</a> ·
   <a href="docs/architecture.md">Architecture</a>
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/home-desktop.png" alt="Woltron home screen" width="92%">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/home-desktop-dark.png"><img src="docs/screenshots/home-desktop.png" alt="Woltron home screen" width="92%"></picture>
 </p>
 
 ## ✨ Features
@@ -115,28 +116,51 @@ confirmation; per-run and per-day spending caps.
 
 ## 📸 Screenshots
 
+<sub>Screenshots follow your GitHub theme: switch GitHub to dark to see Woltron's dark mode.</sub>
+
 <table>
   <tr>
-    <td width="50%"><img src="docs/screenshots/fetch-desktop.png" alt="Fetch"><br><sub><b>Fetch</b>: plain-language search over live menus</sub></td>
-    <td width="50%"><img src="docs/screenshots/pack-editor-desktop.png" alt="Pack editor"><br><sub><b>Packs</b>: strategy, weights, odds and a spin preview</sub></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/fetch-desktop-dark.png"><img src="docs/screenshots/fetch-desktop.png" alt="Fetch"></picture><br><sub><b>Fetch</b>: plain-language search over live menus</sub></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/pack-editor-desktop-dark.png"><img src="docs/screenshots/pack-editor-desktop.png" alt="Pack editor"></picture><br><sub><b>Packs</b>: strategy, weights, odds and a spin preview</sub></td>
   </tr>
   <tr>
-    <td><img src="docs/screenshots/automation-editor-desktop.png" alt="Automation editor"><br><sub><b>Automations</b>: schedules, webhooks, guards</sub></td>
-    <td><img src="docs/screenshots/run-detail-desktop.png" alt="Run detail"><br><sub><b>Runs</b>: per-venue breakdown and a live log</sub></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/automation-editor-desktop-dark.png"><img src="docs/screenshots/automation-editor-desktop.png" alt="Automation editor"></picture><br><sub><b>Automations</b>: schedules, webhooks, guards</sub></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/run-detail-desktop-dark.png"><img src="docs/screenshots/run-detail-desktop.png" alt="Run detail"></picture><br><sub><b>Runs</b>: per-venue breakdown and a live log</sub></td>
   </tr>
   <tr>
-    <td><img src="docs/screenshots/preset-editor-desktop.png" alt="Preset editor"><br><sub><b>Presets</b>: multi-restaurant baskets</sub></td>
-    <td><img src="docs/screenshots/home-desktop-dark.png" alt="Dark mode"><br><sub><b>Dark mode</b></sub></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/preset-editor-desktop-dark.png"><img src="docs/screenshots/preset-editor-desktop.png" alt="Preset editor"></picture><br><sub><b>Presets</b>: multi-restaurant baskets</sub></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/venue-desktop-dark.png"><img src="docs/screenshots/venue-desktop.png" alt="Venue menu"></picture><br><sub><b>Explore</b>: real menus and photos from Wolt</sub></td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="docs/screenshots/home-mobile.png" width="23%" alt="Mobile home">
-  <img src="docs/screenshots/fetch-mobile.png" width="23%" alt="Mobile fetch">
-  <img src="docs/screenshots/item-sheet-mobile.png" width="23%" alt="Mobile item sheet">
-  <img src="docs/screenshots/run-detail-mobile.png" width="23%" alt="Mobile run detail">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/home-mobile-dark.png"><img src="docs/screenshots/home-mobile.png" alt="Mobile home" width="23%"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/fetch-mobile-dark.png"><img src="docs/screenshots/fetch-mobile.png" alt="Mobile fetch" width="23%"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/explore-mobile-dark.png"><img src="docs/screenshots/explore-mobile.png" alt="Mobile explore" width="23%"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/run-detail-mobile-dark.png"><img src="docs/screenshots/run-detail-mobile.png" alt="Mobile run detail" width="23%"></picture>
   <br><sub>On your phone</sub>
 </p>
+
+### 🌙 Dark mode
+
+Plum, not black. Every screen ships in both themes and follows your system setting (or pick one in **Settings → Look & feel**).
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/home-desktop-dark.png" alt="Home in dark mode"></td>
+    <td width="50%"><img src="docs/screenshots/fetch-desktop-dark.png" alt="Fetch in dark mode"></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/run-detail-desktop-dark.png" alt="Run detail in dark mode"></td>
+    <td><img src="docs/screenshots/pack-editor-desktop-dark.png" alt="Pack editor in dark mode"></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="docs/screenshots/home-mobile-dark.png" width="23%" alt="Mobile home, dark">
+  <img src="docs/screenshots/fetch-mobile-dark.png" width="23%" alt="Mobile fetch, dark">
+  <img src="docs/screenshots/explore-mobile-dark.png" width="23%" alt="Mobile explore, dark">
+  <img src="docs/screenshots/run-detail-mobile-dark.png" width="23%" alt="Mobile run, dark">
+</p>
+
+More in [`docs/screenshots/`](docs/screenshots/).
 
 ## 🚀 Quick start
 

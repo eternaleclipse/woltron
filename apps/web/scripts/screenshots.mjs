@@ -19,7 +19,21 @@ const venues = await j('/api/wolt/venues');
 const venue = venues.venues.find((v) => v.online) ?? venues.venues[0];
 const multi = presets.find((p) => new Set(p.items.map((i) => i.venueId)).size > 1) ?? presets[0];
 const sched = autos.find((a) => a.trigger.type === 'schedule') ?? autos[0];
-const run = runs.find((r) => r.venueOrders.length > 1) ?? runs[0];
+let run = runs.find((r) => r.venueOrders.length > 1 && r.status === 'simulated');
+if (!run && multi) {
+  // Fresh data dir: make a real (dry-run) multi-restaurant run so run-detail isn't empty.
+  const created = await fetch(base + '/api/runs', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ target: { kind: 'preset', id: multi.id }, mode: 'dry-run' }),
+  }).then((r) => r.json());
+  for (let i = 0; i < 60; i++) {
+    run = await j(`/api/runs/${created.id}`);
+    if (!['pending', 'placing', 'awaiting-confirmation'].includes(run.status)) break;
+    await new Promise((r) => setTimeout(r, 500));
+  }
+}
+const FETCH_QUERY = 'something spicy & vegan under ₪60';
 
 const shots = [
   ['home', '/'],
@@ -49,6 +63,12 @@ for (const [vpName, vp] of Object.entries(vps)) {
       const file = `${name}-${vpName}${theme === 'dark' ? '-dark' : ''}.png`;
       if (filter && !file.includes(filter)) continue;
       await page.goto(base + path, { waitUntil: 'networkidle' });
+      if (name === 'fetch') {
+        // Show real results, not the empty search page.
+        await page.getByRole('textbox').first().fill(FETCH_QUERY);
+        await page.keyboard.press('Enter');
+        await page.getByText('Open now').first().waitFor({ timeout: 120_000 }).catch(() => console.warn('fetch: no results'));
+      }
       await page.waitForTimeout(1200);
       await page.screenshot({ path: `${out}/${file}`, fullPage: full });
       console.log('✓', file);

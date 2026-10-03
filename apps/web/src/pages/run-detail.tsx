@@ -170,7 +170,7 @@ export function RunDetailPage() {
                     {v.checkoutUrl && (
                       <Button variant="ball" size="md" asChild className="ml-auto">
                         <a href={v.checkoutUrl} target="_blank" rel="noreferrer">
-                          {v.status === 'handed-off' ? 'Finish in Wolt' : 'Track in Wolt'} <ExternalLink />
+                          {v.status === 'handed-off' ? 'Finish in Wolt' : v.status === 'simulated' ? 'Open in Wolt' : 'Track in Wolt'} <ExternalLink />
                         </a>
                       </Button>
                     )}
