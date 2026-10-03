@@ -97,6 +97,7 @@ npm run build && npm start
 # Desktop app (Electron)
 npm run desktop           # add `-- --no-sandbox` on some Linux setups
 npm -w @woltron/desktop run dist   # AppImage / deb / dmg / nsis installers
+scripts/install-linux.sh           # per-user Linux install (no root): launcher, icon, woltron:// links
 ```
 
 ### Configuration
