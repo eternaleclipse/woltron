@@ -1,6 +1,7 @@
 {
   "name": "@woltron/wolt",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "description": "Unofficial Wolt API client (live + mock) implementing the WoltClient contract from @woltron/shared.",
   "type": "module",

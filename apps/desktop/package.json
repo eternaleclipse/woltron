@@ -1,6 +1,7 @@
 {
   "name": "@woltron/desktop",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "description": "Woltron desktop app \u2014 your very good food-fetching dog, in the tray.",
   "author": "Woltron contributors",

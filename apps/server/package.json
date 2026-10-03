@@ -1,6 +1,7 @@
 {
   "name": "@woltron/server",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "description": "Woltron local server: REST API, SSE, scheduler, ordering engine and LLM fetch.",
   "type": "module",

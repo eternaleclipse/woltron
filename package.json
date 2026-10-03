@@ -2,6 +2,7 @@
   "name": "woltron",
   "private": true,
   "version": "0.1.0",
+  "license": "MIT",
   "description": "Your very good food-fetching dog — automate Wolt orders with presets, packs, schedules, triggers and LLM search.",
   "type": "module",
   "workspaces": ["packages/*", "apps/*"],

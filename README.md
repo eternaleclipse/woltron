@@ -17,6 +17,7 @@
   <img alt="Node" src="https://img.shields.io/badge/node-%E2%89%A522-5fa04e?style=flat-square&logo=nodedotjs&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-strict-3178c6?style=flat-square&logo=typescript&logoColor=white">
   <img alt="Tests" src="https://img.shields.io/badge/tests-vitest-6e9f18?style=flat-square&logo=vitest&logoColor=white">
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/github/license/eternaleclipse/woltron?style=flat-square&color=cadb72&labelColor=2b1a33"></a>
   <img alt="Safe by default" src="https://img.shields.io/badge/safe%20by%20default-dry--run-cadb72?style=flat-square&labelColor=2b1a33">
 </p>
 <p align="center">
@@ -195,6 +196,10 @@ See [Architecture](docs/architecture.md).
 
 Woltron uses **unofficial** Wolt endpoints that can change without notice, and automated ordering may be
 against Wolt's terms of service. Use it responsibly and at your own risk. Not affiliated with Wolt or DoorDash.
+
+## 📄 License
+
+[MIT](LICENSE) © eternaleclipse. Third-party assets keep their own licences; see [CREDITS.md](CREDITS.md).
 
 ## 💛 Credits
 
