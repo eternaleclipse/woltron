@@ -21,6 +21,7 @@
 | [Phone & other devices](devices.md) | LAN pairing with a QR code, install as an app |
 | [Configuration](configuration.md) | Environment variables, data folder, settings |
 | [Troubleshooting](troubleshooting.md) | Common problems and fixes |
+| [Screenshots](screenshots.md) | Every screen, light and dark, desktop and phone |
 
 ### Building on Woltron
 
